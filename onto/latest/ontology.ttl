@@ -1,0 +1,3333 @@
+@prefix : <https://knowledge.c-innovationhub.com/khub-onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://knowledge.c-innovationhub.com/khub-onto/> .
+
+<https://knowledge.c-innovationhub.com/khub-onto/> rdf:type owl:Ontology ;
+                                                    owl:versionIRI <https://knowledge.c-innovationhub.com/khub-onto/1.0.0> ;
+                                                    <http://purl.org/dc/elements/1.1/contributor> "Marposs" ,
+                                                                                                  "Whirlpool EMEA" ;
+                                                    <http://purl.org/dc/elements/1.1/creator> "Antonia Azzini (Cefriel)" ,
+                                                                                              "Gloria Re Calegari (Cefriel)" ,
+                                                                                              "Irene Celino (Cefriel)" ;
+                                                    <http://purl.org/dc/elements/1.1/publisher> "Cefriel" ;
+                                                    <http://purl.org/dc/elements/1.1/title> "The Manufacturing Knowledge Hub Ontology" ;
+                                                    <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                    <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh" ;
+                                                    <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/khub-onto#" ;
+                                                    owl:versionInfo "1.0.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3.org/ns/prov#wasAttributedTo
+<http://www.w3.org/ns/prov#wasAttributedTo> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain :TopicAnnotation ;
+                                            rdfs:range <http://www.w3.org/ns/prov#Agent> ;
+                                            rdfs:label "was attributed to" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hasTopic
+:hasTopic rdf:type owl:ObjectProperty ;
+          rdfs:domain :TopicAnnotation ;
+          rdfs:range :Topic ;
+          rdfs:label "has topic" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hasTopicAnnotation
+:hasTopicAnnotation rdf:type owl:ObjectProperty ;
+                    rdfs:domain <http://xmlns.com/foaf/0.1/Document> ;
+                    rdfs:range :TopicAnnotation ;
+                    rdfs:label "has topic annotation" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain :TopicAnnotation ;
+                                   rdfs:range xsd:date ;
+                                   rdfs:label "created" .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain :Document ;
+                                   rdfs:range xsd:string ;
+                                   rdfs:label "creator" .
+
+
+###  http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain :Document ;
+                                  rdfs:range xsd:string ;
+                                  rdfs:label "format" .
+
+
+###  http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain :Document ;
+                                    rdfs:range xsd:string ;
+                                    rdfs:label "language" .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain :Document ;
+                                    rdfs:range xsd:date ;
+                                    rdfs:label "modified" .
+
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain :Document ;
+                                  rdfs:range xsd:string ;
+                                  rdfs:label "source" .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain :Document ;
+                                 rdfs:range xsd:string ;
+                                 rdfs:label "title" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hasConfidenceScore
+:hasConfidenceScore rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :TopicAnnotation ;
+                    rdfs:range xsd:float ;
+                    rdfs:label "has confidence score" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hasPage
+:hasPage rdf:type owl:DatatypeProperty ;
+         rdfs:domain :TopicAnnotation ;
+         rdfs:range xsd:integer ;
+         rdfs:label "has page" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hasSnippet
+:hasSnippet rdf:type owl:DatatypeProperty ;
+            rdfs:domain :TopicAnnotation ;
+            rdfs:range xsd:string ;
+            rdfs:label "has snippet" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hasTotalNumberOfPages
+:hasTotalNumberOfPages rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Document ;
+                       rdfs:range xsd:integer ;
+                       rdfs:label "has total number of pages" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/prov#Agent
+<http://www.w3.org/ns/prov#Agent> rdf:type owl:Class ;
+                                  rdfs:label "Agent" .
+
+
+###  http://xmlns.com/foaf/0.1/Document
+<http://xmlns.com/foaf/0.1/Document> rdf:type owl:Class ;
+                                     rdfs:label "Document" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Action
+:Action rdf:type owl:Class ;
+        rdfs:subClassOf :Topic ;
+        rdfs:comment "An activity performed during the maintenace process" ;
+        rdfs:label "Action" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Component
+:Component rdf:type owl:Class ;
+           rdfs:subClassOf :Topic ;
+           rdfs:comment "One of the parts of a Product or Machine" ;
+           rdfs:label "Component" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Configuration
+:Configuration rdf:type owl:Class ;
+               rdfs:subClassOf :Topic ;
+               rdfs:comment "A parameter or mode which can be set or configured on a Product" ;
+               rdfs:label "Configuration" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Document
+:Document rdf:type owl:Class ;
+          rdfs:label "Document" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/DocumentType
+:DocumentType rdf:type owl:Class ;
+              rdfs:subClassOf :Topic ;
+              rdfs:comment "The type of the document, for example: service manual, user manual, schema, drawings..." ;
+              rdfs:label "Document Type" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Error
+:Error rdf:type owl:Class ;
+       rdfs:subClassOf :Topic ;
+       rdfs:comment "A code or description of errors that may occour on a Product or Machine" ;
+       rdfs:label "Error" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Machine
+:Machine rdf:type owl:Class ;
+         rdfs:subClassOf :Topic ;
+         rdfs:comment "A production line composed of one or more Workstations" ;
+         rdfs:label "Machine" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Product
+:Product rdf:type owl:Class ;
+         rdfs:subClassOf :Topic ;
+         rdfs:comment "Something that is produced by an industrial process" ;
+         rdfs:label "Product" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/SparePart
+:SparePart rdf:type owl:Class ;
+           rdfs:subClassOf :Topic ;
+           rdfs:comment "An extra piece that can be used to replace a piece that breaks in a Machine, Workstation or Product" ;
+           rdfs:label "Spare Part" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Supplier
+:Supplier rdf:type owl:Class ;
+          rdfs:subClassOf :Topic ;
+          rdfs:comment "The name of a company, person, etc. that provides Machines or Components to a manufacturing company" ;
+          rdfs:label "Supplier" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Topic
+:Topic rdf:type owl:Class ;
+       rdfs:label "Topic" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/TopicAnnotation
+:TopicAnnotation rdf:type owl:Class ;
+                 rdfs:label "Topic Annotation" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Trouble
+:Trouble rdf:type owl:Class ;
+         rdfs:subClassOf :Topic ;
+         rdfs:comment "A situation in which a shopfloor worker experiences problems that may occour on a Product or Machine" ;
+         rdfs:label "Trouble" .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/Workstation
+:Workstation rdf:type owl:Class ;
+             rdfs:subClassOf :Topic ;
+             rdfs:comment "A part of a production line that execute a specific task" ;
+             rdfs:label "Workstation" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/khub-onto/alarm
+:alarm rdf:type owl:NamedIndividual ,
+                :Error ;
+       rdfs:label "alarm"@en ,
+                  "allarme"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "alarm"@en ,
+                                                       "allarme"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/align
+:align rdf:type owl:NamedIndividual ,
+                :Action ;
+       rdfs:label "align"@en ,
+                  "allineare"@it ;
+       <http://www.w3.org/2004/02/skos/core#altLabel> "adjust"@en ,
+                                                      "match"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "align"@en ,
+                                                       "allineare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/ampere-meter
+:ampere-meter rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "AMPERE METER"@en ,
+                         "AMPEROMETRO"@it ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "AMPERE METER"@en ,
+                                                              "AMPEROMETRO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/analog-module
+:analog-module rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "ANALOG MODULE"@en ,
+                          "MODULO ANALOGICO"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "ANALOG MODULE"@en ,
+                                                               "MODULO ANALOGICO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/asi-module
+:asi-module rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "ASI MODULE"@en ,
+                       "MODULO ASI"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "ASI MODULE"@en ,
+                                                            "MODULO ASI"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/auxiliary-contact
+:auxiliary-contact rdf:type owl:NamedIndividual ,
+                            :Component ;
+                   rdfs:label "AUXILIARY CONTACT"@en ,
+                              "CONTATTO AUSILIARIO"@it ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "AUXILIARY CONTACT"@en ,
+                                                                   "CONTATTO AUSILIARIO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/back-end
+:back-end rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "back-end"@en ,
+                     "back-end"@it ;
+          <http://www.w3.org/2004/02/skos/core#altLabel> "backend"@en ,
+                                                         "backend"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "back-end"@en ,
+                                                          "back-end"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/ball-shut-off-valve
+:ball-shut-off-valve rdf:type owl:NamedIndividual ,
+                              :Component ;
+                     rdfs:label "BALL SHUT-OFF VALVE"@en ,
+                                "VALVOLA A SFERA"@it ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "BALL SHUT-OFF VALVE"@en ,
+                                                                     "VALVOLA A SFERA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/base
+:base rdf:type owl:NamedIndividual ,
+               :Component ;
+      rdfs:label "BASE"@en ,
+                 "BASE"@it ,
+                 "base"@en ,
+                 "base"@it ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "BASE"@en ,
+                                                      "BASE"@it ,
+                                                      "base"@en ,
+                                                      "base"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/battery
+:battery rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "BATTERIA"@it ,
+                    "BATTERY"@en ,
+                    "batteria"@it ,
+                    "battery"@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "BATTERIA"@it ,
+                                                         "BATTERY"@en ,
+                                                         "batteria"@it ,
+                                                         "battery"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/bearing
+:bearing rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "BEARING"@en ,
+                    "CUSCINETTO"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "BEARING"@en ,
+                                                         "CUSCINETTO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/bending
+:bending rdf:type owl:NamedIndividual ,
+                  :Workstation ;
+         rdfs:label "bending"@en ,
+                    "piega"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "bending"@en ,
+                                                         "piega"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/board
+:board rdf:type owl:NamedIndividual ,
+                :SparePart ;
+       rdfs:label "BOARD"@en ,
+                  "scheda "@it ;
+       <http://www.w3.org/2004/02/skos/core#altLabel> "electronic board"@en ,
+                                                      "scheda elettronica"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "BOARD"@en ,
+                                                       "scheda "@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/boards
+:boards rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "boards"@en ,
+                   "circuito"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "boards"@en ,
+                                                        "circuito"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/bridge-rectifier
+:bridge-rectifier rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "BRIDGE-RECTIFIER"@en ,
+                             "RADDRIZZATORE A PONTE"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "BRIDGE-RECTIFIER"@en ,
+                                                                  "RADDRIZZATORE A PONTE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/bubbling
+:bubbling rdf:type owl:NamedIndividual ,
+                   :Workstation ;
+          rdfs:label "bubbling"@en ,
+                     "campana"@it ;
+          <http://www.w3.org/2004/02/skos/core#altLabel> "stazione di termoformatura"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "bubbling"@en ,
+                                                          "campana"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/bus-fault
+:bus-fault rdf:type owl:NamedIndividual ,
+                    :Error ;
+           rdfs:label "bus fault"@en ,
+                      "errore di bus"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "bus fault"@en ,
+                                                           "errore di bus"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/bush
+:bush rdf:type owl:NamedIndividual ,
+               :Component ;
+      rdfs:label "BOCCOLA"@it ,
+                 "BUSH"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "BOCCOLA"@it ,
+                                                      "BUSH"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cabinet-foaming
+:cabinet-foaming rdf:type owl:NamedIndividual ,
+                          :Machine ;
+                 rdfs:label "cabinet foaming"@en ,
+                            "espanso mobili"@it ;
+                 <http://www.w3.org/2004/02/skos/core#altLabel> "cabinet foaming"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "cabinet foaming"@en ,
+                                                                 "espanso mobili"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cable
+:cable rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "CABLE"@en ,
+                  "CAVO"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "CABLE"@en ,
+                                                       "CAVO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cable-accessories
+:cable-accessories rdf:type owl:NamedIndividual ,
+                            :Component ;
+                   rdfs:label "ACCESSORI PER CAVI"@it ,
+                              "CABLE ACCESSORIES"@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "ACCESSORI PER CAVI"@it ,
+                                                                   "CABLE ACCESSORIES"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cable-guide
+:cable-guide rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "CABLE GUIDE"@en ,
+                        "GUIDA CAVO"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "CABLE GUIDE"@en ,
+                                                             "GUIDA CAVO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cables
+:cables rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "cables"@en ,
+                   "cavi"@it ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "prolunghe"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "cables"@en ,
+                                                        "cavi"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cage
+:cage rdf:type owl:NamedIndividual ,
+               :Component ;
+      rdfs:label "CAGE"@en ,
+                 "GABBIA"@it ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "CAGE"@en ,
+                                                      "GABBIA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/capacitive-sensor
+:capacitive-sensor rdf:type owl:NamedIndividual ,
+                            :Component ;
+                   rdfs:label "CAPACITIVE SENSOR"@en ,
+                              "SENSORE CAPACITIVO"@it ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "CAPACITIVE SENSOR"@en ,
+                                                                   "SENSORE CAPACITIVO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/capacitor
+:capacitor rdf:type owl:NamedIndividual ,
+                    :Component ;
+           rdfs:label "CAPACITOR"@en ,
+                      "CONDENSATORE"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "CAPACITOR"@en ,
+                                                           "CONDENSATORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cart
+:cart rdf:type owl:NamedIndividual ,
+               :Workstation ;
+      rdfs:label "carro"@it ,
+                 "cart"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "carro"@it ,
+                                                      "cart"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/ce-certification
+:ce-certification rdf:type owl:NamedIndividual ,
+                           :DocumentType ;
+                  rdfs:label "CE certification"@en ,
+                             "certificazione CE"@it ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "certificazione"@it ,
+                                                                 "machine certification"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "CE certification"@en ,
+                                                                  "certificazione CE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/chain
+:chain rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "CATENA"@it ,
+                  "CHAIN"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "CATENA"@it ,
+                                                       "CHAIN"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/chain-wheel
+:chain-wheel rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "CATENA RUOTA"@it ,
+                        "CHAIN WHEEL"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "CATENA RUOTA"@it ,
+                                                             "CHAIN WHEEL"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/check
+:check rdf:type owl:NamedIndividual ,
+                :Action ;
+       rdfs:label "check"@en ,
+                  "ispezionare"@it ,
+                  "verificare"@it ;
+       <http://www.w3.org/2004/02/skos/core#altLabel> "controllare"@it ,
+                                                      "inspect"@en ,
+                                                      "verify"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "check"@en ,
+                                                       "ispezionare"@it ,
+                                                       "verificare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/chiller
+:chiller rdf:type owl:NamedIndividual ,
+                  :Machine ,
+                  :Workstation ;
+         rdfs:label "chiller"@en ,
+                    "chiller"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "chiller"@en ,
+                                                         "chiller"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/circuit-breaker
+:circuit-breaker rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "CIRCUIT BREAKER"@en ,
+                            "INTERRUTTORE"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "CIRCUIT BREAKER"@en ,
+                                                                 "INTERRUTTORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/clean
+:clean rdf:type owl:NamedIndividual ,
+                :Action ;
+       rdfs:label "clean"@en ,
+                  "pulire"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "clean"@en ,
+                                                       "pulire"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/close
+:close rdf:type owl:NamedIndividual ,
+                :Action ;
+       rdfs:label "chiudere"@it ,
+                  "close"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "chiudere"@it ,
+                                                       "close"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/closing-ring
+:closing-ring rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "ANELLO DI CHIUSURA"@it ,
+                         "CLOSING RING"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "ANELLO DI CHIUSURA"@it ,
+                                                              "CLOSING RING"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/column
+:column rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "COLONNA"@it ,
+                   "COLUMN"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "COLONNA"@it ,
+                                                        "COLUMN"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/communication-module
+:communication-module rdf:type owl:NamedIndividual ,
+                               :Component ;
+                      rdfs:label "COMMUNICATION MODULE"@en ,
+                                 "MODULO DI COMUNICAZIONE"@it ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "COMMUNICATION MODULE"@en ,
+                                                                      "MODULO DI COMUNICAZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/compensator-suction-nozzle
+:compensator-suction-nozzle rdf:type owl:NamedIndividual ,
+                                     :Component ;
+                            rdfs:label "COMPENSATOR SUCTION NOZZLE"@en ,
+                                       "COMPENSATORE ASPIRAZIONE"@it ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "COMPENSATOR SUCTION NOZZLE"@en ,
+                                                                            "COMPENSATORE ASPIRAZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/compressor
+:compressor rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "COMPRESSOR"@en ,
+                       "COMPRESSORE"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "COMPRESSOR"@en ,
+                                                            "COMPRESSORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/connect
+:connect rdf:type owl:NamedIndividual ,
+                  :Action ;
+         rdfs:label "collegare"@it ,
+                    "connect"@en ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "connettere"@it ,
+                                                        "plug"@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "collegare"@it ,
+                                                         "connect"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/connecting-cables
+:connecting-cables rdf:type owl:NamedIndividual ,
+                            :Component ;
+                   rdfs:label "CAVI DI COLLEGAMENTO"@it ,
+                              "CONNECTING CABLES"@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "CAVI DI COLLEGAMENTO"@it ,
+                                                                   "CONNECTING CABLES"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/connecting-module
+:connecting-module rdf:type owl:NamedIndividual ,
+                            :Component ;
+                   rdfs:label "CONNECTING MODULE"@en ,
+                              "MODULO DI COLLEGAMENTO"@it ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "CONNECTING MODULE"@en ,
+                                                                   "MODULO DI COLLEGAMENTO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/connector
+:connector rdf:type owl:NamedIndividual ,
+                    :Component ;
+           rdfs:label "CONNECTOR"@en ,
+                      "CONNETTORE"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "CONNECTOR"@en ,
+                                                           "CONNETTORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/contactor
+:contactor rdf:type owl:NamedIndividual ,
+                    :Component ,
+                    :SparePart ;
+           rdfs:label "CONTACTOR"@en ,
+                      "CONTATTORE"@it ,
+                      "teleruttore"@it ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "REMOTE CONTROL SWITCH"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "CONTACTOR"@en ,
+                                                           "CONTATTORE"@it ,
+                                                           "teleruttore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/converter
+:converter rdf:type owl:NamedIndividual ,
+                    :Component ;
+           rdfs:label "CONVERTER"@en ,
+                      "CONVERTER"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "CONVERTER"@en ,
+                                                           "CONVERTER"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/conveyer-belt
+:conveyer-belt rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "CONVEYER BELT"@en ,
+                          "NASTRO TRASPORTATORE"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "CONVEYER BELT"@en ,
+                                                               "NASTRO TRASPORTATORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cooling-fan
+:cooling-fan rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "COOLING FAN"@en ,
+                        "VENTILATORE"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "COOLING FAN"@en ,
+                                                             "VENTILATORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/counter
+:counter rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "CONTATORE"@it ,
+                    "COUNTER"@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "CONTATORE"@it ,
+                                                         "COUNTER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/coupling
+:coupling rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "ATTACCO"@it ,
+                     "COUPLING"@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "ATTACCO"@it ,
+                                                          "COUPLING"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cup
+:cup rdf:type owl:NamedIndividual ,
+              :SparePart ;
+     rdfs:label "CUP"@en ,
+                "ventosa"@it ;
+     <http://www.w3.org/2004/02/skos/core#altLabel> "SUCTION CUP"@en ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "CUP"@en ,
+                                                     "ventosa"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cutting
+:cutting rdf:type owl:NamedIndividual ,
+                  :Workstation ;
+         rdfs:label "cutting"@en ,
+                    "taglio"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "cutting"@en ,
+                                                         "taglio"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/cylinder
+:cylinder rdf:type owl:NamedIndividual ,
+                   :Component ,
+                   :SparePart ;
+          rdfs:label "CILINDRO"@it ,
+                     "CYLINDER"@en ,
+                     "cilindro"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "CILINDRO"@it ,
+                                                          "CYLINDER"@en ,
+                                                          "cilindro"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/de-energize
+:de-energize rdf:type owl:NamedIndividual ,
+                      :Action ;
+             rdfs:label "de-energize"@en ,
+                        "de-energizzare"@it ;
+             <http://www.w3.org/2004/02/skos/core#altLabel> "de-energise"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "de-energize"@en ,
+                                                             "de-energizzare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/decoiler
+:decoiler rdf:type owl:NamedIndividual ,
+                   :Workstation ;
+          rdfs:label "decoiler"@en ,
+                     "svolgitore"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "decoiler"@en ,
+                                                          "svolgitore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/diagnosys
+:diagnosys rdf:type owl:NamedIndividual ,
+                    :Action ;
+           rdfs:label "diagnosticare"@it ,
+                      "diagnosys"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "diagnosticare"@it ,
+                                                           "diagnosys"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/die-plate
+:die-plate rdf:type owl:NamedIndividual ,
+                    :Workstation ;
+           rdfs:label "die plate"@en ,
+                      "piano stampo"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "die plate"@en ,
+                                                           "piano stampo"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/digital-i-o-module
+:digital-i-o-module rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "DIGITAL I/O MODULE"@en ,
+                               "MODULO DIGITALE I/O"@it ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "DIGITAL I/O MODULE"@en ,
+                                                                    "MODULO DIGITALE I/O"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/diode
+:diode rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "DIODE"@en ,
+                  "DIODO"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "DIODE"@en ,
+                                                       "DIODO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/disable
+:disable rdf:type owl:NamedIndividual ,
+                  :Action ;
+         rdfs:label "disable"@en ,
+                    "disattivare"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "disable"@en ,
+                                                         "disattivare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/disconnect
+:disconnect rdf:type owl:NamedIndividual ,
+                     :Action ;
+            rdfs:label "disconnect"@en ,
+                       "scollegare"@it ;
+            <http://www.w3.org/2004/02/skos/core#altLabel> "disconnettere"@it ,
+                                                           "sconnettere"@it ,
+                                                           "unplug"@en ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "disconnect"@en ,
+                                                            "scollegare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/discovery-mode
+:discovery-mode rdf:type owl:NamedIndividual ,
+                         :Configuration ;
+                rdfs:label "discovery mode"@en ,
+                           "modalità visibile"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "discovery mode"@en ,
+                                                                "modalità visibile"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/display
+:display rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "DISPLAY"@en ,
+                    "DISPLAY"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "DISPLAY"@en ,
+                                                         "DISPLAY"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/door-foaming
+:door-foaming rdf:type owl:NamedIndividual ,
+                       :Machine ;
+              rdfs:label "door foaming"@en ,
+                         "espanso porte"@it ;
+              <http://www.w3.org/2004/02/skos/core#altLabel> "door foaming"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "door foaming"@en ,
+                                                              "espanso porte"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/door-switch
+:door-switch rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "DOOR SWITCH"@en ,
+                        "INTERRUTTORE PORTA"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "DOOR SWITCH"@en ,
+                                                             "INTERRUTTORE PORTA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/downgrade
+:downgrade rdf:type owl:NamedIndividual ,
+                    :Action ;
+           rdfs:label "downgrade"@en ,
+                      "downgrade"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "downgrade"@en ,
+                                                           "downgrade"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/download
+:download rdf:type owl:NamedIndividual ,
+                   :Action ;
+          rdfs:label "download"@en ,
+                     "scaricare"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "download"@en ,
+                                                          "scaricare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/drawing
+:drawing rdf:type owl:NamedIndividual ,
+                  :DocumentType ;
+         rdfs:label "disegno"@it ,
+                    "drawing"@en ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "disegno tecnico"@it ,
+                                                        "schema"@en ,
+                                                        "schema"@it ,
+                                                        "schema tecnico"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "disegno"@it ,
+                                                         "drawing"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/dress
+:dress rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "DIVISA"@it ,
+                  "DRESS"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "DIVISA"@it ,
+                                                       "DRESS"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/driver-manual
+:driver-manual rdf:type owl:NamedIndividual ,
+                        :DocumentType ;
+               rdfs:label "driver manual"@en ,
+                          "manuale del driver"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "driver manual"@en ,
+                                                               "manuale del driver"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e001
+:e001 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E001"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E001"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e002
+:e002 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E002"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E002"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e003
+:e003 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E003"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E003"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e004
+:e004 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E004"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E004"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e005
+:e005 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E005"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E005"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e006
+:e006 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E006"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E006"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e009
+:e009 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E009"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E009"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e016
+:e016 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E016"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E016"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e033
+:e033 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E033"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E033"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e034
+:e034 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E034"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E034"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e035
+:e035 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E035"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E035"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e036
+:e036 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E036"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E036"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e037
+:e037 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E037"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E037"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e038
+:e038 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E038"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E038"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e040
+:e040 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E040"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E040"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e041
+:e041 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E041"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E041"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e901
+:e901 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E901"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E901"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e902
+:e902 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E902"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E902"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/e999
+:e999 rdf:type owl:NamedIndividual ,
+               :Error ;
+      rdfs:label "E999"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "E999"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/ejector
+:ejector rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "EJECTOR"@en ,
+                    "ESPULSORE"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "EJECTOR"@en ,
+                                                         "ESPULSORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/electical-schema
+:electical-schema rdf:type owl:NamedIndividual ,
+                           :DocumentType ;
+                  rdfs:label "electical schema"@en ,
+                             "schema elettrico"@it ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "disegno elettrico"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "electical schema"@en ,
+                                                                  "schema elettrico"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/electric-case
+:electric-case rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "CASE ELETTRICO"@it ,
+                          "ELECTRIC CASE"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "CASE ELETTRICO"@it ,
+                                                               "ELECTRIC CASE"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/electric-motor
+:electric-motor rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "ELECTRIC MOTOR"@en ,
+                           "MOTORE ELETTRICO"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "ELECTRIC MOTOR"@en ,
+                                                                "MOTORE ELETTRICO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/electric-pump
+:electric-pump rdf:type owl:NamedIndividual ,
+                        :SparePart ;
+               rdfs:label "ELECTRIC PUMP"@en ,
+                          "elettropompa"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "ELECTRIC PUMP"@en ,
+                                                               "elettropompa"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/electrical-interface
+:electrical-interface rdf:type owl:NamedIndividual ,
+                               :Component ;
+                      rdfs:label "ELECTRICAL INTERFACE"@en ,
+                                 "INTERFACCIA ELETTRICCA"@it ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ELECTRICAL INTERFACE"@en ,
+                                                                      "INTERFACCIA ELETTRICCA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/electrical-motor
+:electrical-motor rdf:type owl:NamedIndividual ,
+                           :SparePart ;
+                  rdfs:label "ELECTRICAL MOTOR"@en ,
+                             "elettromotore"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ELECTRICAL MOTOR"@en ,
+                                                                  "elettromotore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/electronics
+:electronics rdf:type owl:NamedIndividual ,
+                      :Configuration ;
+             rdfs:label "electronics"@en ,
+                        "elettronica"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "electronics"@en ,
+                                                             "elettronica"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/eletrical-valve
+:eletrical-valve rdf:type owl:NamedIndividual ,
+                          :SparePart ;
+                 rdfs:label "ELETRICAL VALVE"@en ,
+                            "elettrovalvola"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "ELETRICAL VALVE"@en ,
+                                                                 "elettrovalvola"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/enable
+:enable rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "attivare"@it ,
+                   "enable"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "attivare"@it ,
+                                                        "enable"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/encoder
+:encoder rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "ENCODER"@en ,
+                    "ENCODER"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "ENCODER"@en ,
+                                                         "ENCODER"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/end-of-line
+:end-of-line rdf:type owl:NamedIndividual ,
+                      :Machine ;
+             rdfs:label "EOL"@it ,
+                        "end of line"@en ;
+             <http://www.w3.org/2004/02/skos/core#altLabel> "end of line"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "EOL"@it ,
+                                                             "end of line"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/energize
+:energize rdf:type owl:NamedIndividual ,
+                   :Action ;
+          rdfs:label "energize"@en ,
+                     "energizzare"@it ;
+          <http://www.w3.org/2004/02/skos/core#altLabel> "energise"@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "energize"@en ,
+                                                          "energizzare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/error
+:error rdf:type owl:NamedIndividual ,
+                :Error ;
+       rdfs:label "error"@en ,
+                  "errore"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "error"@en ,
+                                                       "errore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/exit
+:exit rdf:type owl:NamedIndividual ,
+               :Action ;
+      rdfs:label "exit"@en ,
+                 "uscire"@it ;
+      <http://www.w3.org/2004/02/skos/core#altLabel> "abbandon"@en ,
+                                                     "abbandonare"@it ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "exit"@en ,
+                                                      "uscire"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/extract
+:extract rdf:type owl:NamedIndividual ,
+                  :Action ;
+         rdfs:label "estrarre"@it ,
+                    "extract"@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "estrarre"@it ,
+                                                         "extract"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/face
+:face rdf:type owl:NamedIndividual ,
+               :Action ;
+      rdfs:label ""@it ,
+                 "face"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> ""@it ,
+                                                      "face"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/failure
+:failure rdf:type owl:NamedIndividual ,
+                  :Trouble ;
+         rdfs:label "failure"@en ,
+                    "malfunzionamento"@it ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "mulfunction"@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "failure"@en ,
+                                                         "malfunzionamento"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/fast-switching-valve
+:fast-switching-valve rdf:type owl:NamedIndividual ,
+                               :Component ;
+                      rdfs:label "FAST-SWITCHING VALVE"@en ,
+                                 "VALVOLA DI COMMUTAZIONE"@it ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "FAST-SWITCHING VALVE"@en ,
+                                                                      "VALVOLA DI COMMUTAZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/fasten
+:fasten rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "fasten"@en ,
+                   "fissare"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "fasten"@en ,
+                                                        "fissare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/fault
+:fault rdf:type owl:NamedIndividual ,
+                :Error ;
+       rdfs:label "anomalia"@it ,
+                  "fault"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "anomalia"@it ,
+                                                       "fault"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/filter
+:filter rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "FILTER"@en ,
+                   "FILTRO"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "FILTER"@en ,
+                                                        "FILTRO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/filter-regulator
+:filter-regulator rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "FILTER REGULATOR"@en ,
+                             "FILTRO REGOLATORE"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "FILTER REGULATOR"@en ,
+                                                                  "FILTRO REGOLATORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/find
+:find rdf:type owl:NamedIndividual ,
+               :Action ;
+      rdfs:label "find"@en ,
+                 "trovare"@it ;
+      <http://www.w3.org/2004/02/skos/core#altLabel> "accedere"@it ,
+                                                     "access"@en ,
+                                                     "get"@en ,
+                                                     "ottenere"@it ,
+                                                     "recuperare"@it ,
+                                                     "retrieve"@en ,
+                                                     "richiamare"@it ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "find"@en ,
+                                                      "trovare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/firmware
+:firmware rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "firmware"@en ,
+                     "firmware"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "firmware"@en ,
+                                                          "firmware"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/fix
+:fix rdf:type owl:NamedIndividual ,
+              :Action ;
+     rdfs:label "fix"@en ,
+                "riparare"@it ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "fix"@en ,
+                                                     "riparare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/flashing
+:flashing rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "flashing"@en ,
+                     "lampeggiante"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "flashing"@en ,
+                                                          "lampeggiante"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/flashing-leds
+:flashing-leds rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "LED lampeggianti"@it ,
+                          "flashing leds"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "LED lampeggianti"@it ,
+                                                               "flashing leds"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/flat-cables
+:flat-cables rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "flat"@it ,
+                        "flat cables"@en ;
+             <http://www.w3.org/2004/02/skos/core#altLabel> "cavi flat"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "flat"@it ,
+                                                             "flat cables"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/flow-meter
+:flow-meter rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "FLOW-METER"@en ,
+                       "FLUSSOMETRO"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "FLOW-METER"@en ,
+                                                            "FLUSSOMETRO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/frequency-inverter
+:frequency-inverter rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "FREQUENCY INVERTER"@en ,
+                               "INVERTER DI FREQUENZA"@it ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "FREQUENCY INVERTER"@en ,
+                                                                    "INVERTER DI FREQUENZA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/fuse
+:fuse rdf:type owl:NamedIndividual ,
+               :Component ;
+      rdfs:label "FUSE"@en ,
+                 "FUSIBILE"@it ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "FUSE"@en ,
+                                                      "FUSIBILE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/fuse-holder
+:fuse-holder rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "FUSE HOLDER"@en ,
+                        "PORTAFUSIBILE"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "FUSE HOLDER"@en ,
+                                                             "PORTAFUSIBILE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/gas-detector
+:gas-detector rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "GAS DETECTOR"@en ,
+                         "RILEVATORE DI GAS"@it ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "GAS DETECTOR"@en ,
+                                                              "RILEVATORE DI GAS"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/gasket
+:gasket rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "GASKET"@en ,
+                   "GUARNIZIONE"@it ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "GOMMA"@it ,
+                                                       "RUBBER"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "GASKET"@en ,
+                                                        "GUARNIZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/glasses
+:glasses rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "GLASSES"@en ,
+                    "OCCHIALI"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "GLASSES"@en ,
+                                                         "OCCHIALI"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/glove
+:glove rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "GLOVE"@en ,
+                  "GUANTO"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "GLOVE"@en ,
+                                                       "GUANTO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/glue
+:glue rdf:type owl:NamedIndividual ,
+               :Component ;
+      rdfs:label "COLLA"@it ,
+                 "GLUE"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "COLLA"@it ,
+                                                      "GLUE"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/grasper
+:grasper rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "GRASPER"@en ,
+                    "PINZA"@it ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "GRIPPER"@en ,
+                                                        "MANO"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "GRASPER"@en ,
+                                                         "PINZA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/guide
+:guide rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "GUIDA"@it ,
+                  "GUIDE"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "GUIDA"@it ,
+                                                       "GUIDE"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/handle
+:handle rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "handle"@en ,
+                   "manico"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "handle"@en ,
+                                                        "manico"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/handler
+:handler rdf:type owl:NamedIndividual ,
+                  :Workstation ;
+         rdfs:label "handler"@en ,
+                    "manipolatore"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "handler"@en ,
+                                                         "manipolatore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hard-disk
+:hard-disk rdf:type owl:NamedIndividual ,
+                    :Component ;
+           rdfs:label "DISCO RIGIDO"@it ,
+                      "HARD DISK"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "DISCO RIGIDO"@it ,
+                                                           "HARD DISK"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/heat-exchanger
+:heat-exchanger rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "HEAT EXCHANGER"@en ,
+                           "SCAMBIATORE DI CALORE"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "HEAT EXCHANGER"@en ,
+                                                                "SCAMBIATORE DI CALORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/heater
+:heater rdf:type owl:NamedIndividual ,
+                 :Component ,
+                 :Workstation ;
+        rdfs:label "HEATER"@en ,
+                   "SCALDATORE"@it ,
+                   "forno "@it ,
+                   "heater"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "HEATER"@en ,
+                                                        "SCALDATORE"@it ,
+                                                        "forno "@it ,
+                                                        "heater"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/helmet
+:helmet rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "CASCO"@it ,
+                   "HELMET"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "CASCO"@it ,
+                                                        "HELMET"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hydraulic-cylinder
+:hydraulic-cylinder rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "CILINDRO IDRAULICO"@it ,
+                               "HYDRAULIC CYLINDER"@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "CILINDRO IDRAULICO"@it ,
+                                                                    "HYDRAULIC CYLINDER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hydraulic-electrovalve
+:hydraulic-electrovalve rdf:type owl:NamedIndividual ,
+                                 :Component ;
+                        rdfs:label "HYDRAULIC ELECTROVALVE"@en ,
+                                   "IDRAULICO ELETTROVALVOLA"@it ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "HYDRAULIC ELECTROVALVE"@en ,
+                                                                        "IDRAULICO ELETTROVALVOLA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hydraulic-motor
+:hydraulic-motor rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "HYDRAULIC MOTOR"@en ,
+                            "MOTORE IDRAULICO"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "HYDRAULIC MOTOR"@en ,
+                                                                 "MOTORE IDRAULICO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/hydraulic-valve
+:hydraulic-valve rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "HYDRAULIC VALVE"@en ,
+                            "VALVOLA IDRAULICA"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "HYDRAULIC VALVE"@en ,
+                                                                 "VALVOLA IDRAULICA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/identification-label
+:identification-label rdf:type owl:NamedIndividual ,
+                               :Component ;
+                      rdfs:label "etichetta identificativa"@it ,
+                                 "identification label"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "etichetta identificativa"@it ,
+                                                                      "identification label"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/idraulic-schema
+:idraulic-schema rdf:type owl:NamedIndividual ,
+                          :DocumentType ;
+                 rdfs:label "idraulic schema"@en ,
+                            "schema idraulico"@it ;
+                 <http://www.w3.org/2004/02/skos/core#altLabel> "disegno idraulico"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "idraulic schema"@en ,
+                                                                 "schema idraulico"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/inductive-sensor
+:inductive-sensor rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "INDUCTIVE SENSOR"@en ,
+                             "SENSORE INDUTTIVO"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "INDUCTIVE SENSOR"@en ,
+                                                                  "SENSORE INDUTTIVO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/infrared-sensor
+:infrared-sensor rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "INFRARED SENSOR"@en ,
+                            "SENSORE A INFRAROSSI"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "INFRARED SENSOR"@en ,
+                                                                 "SENSORE A INFRAROSSI"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/insert
+:insert rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "inserire"@it ,
+                   "insert"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "inserire"@it ,
+                                                        "insert"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/install
+:install rdf:type owl:NamedIndividual ,
+                  :Action ;
+         rdfs:label "install"@en ,
+                    "installare"@it ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "assemblare"@it ,
+                                                        "assemble"@en ,
+                                                        "fit"@en ,
+                                                        "inserire"@it ,
+                                                        "insert"@en ,
+                                                        "montare"@it ,
+                                                        "place"@en ,
+                                                        "put"@en ,
+                                                        "put back"@en ,
+                                                        "reassemble"@en ,
+                                                        "riassemblare"@it ,
+                                                        "rimettere"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "install"@en ,
+                                                         "installare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/interface-module
+:interface-module rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "INTERFACE MODULE"@en ,
+                             "MODULO DI INTERFACCIA"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "INTERFACE MODULE"@en ,
+                                                                  "MODULO DI INTERFACCIA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/jig
+:jig rdf:type owl:NamedIndividual ,
+              :Component ;
+     rdfs:label "JIG"@en ,
+                "JIG"@it ;
+     <http://www.w3.org/2004/02/skos/core#altLabel> "DIMA"@it ,
+                                                    "MECHANICAL TEMPLATE"@en ,
+                                                    "MODELLO"@it ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "JIG"@en ,
+                                                     "JIG"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/joint
+:joint rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "GIUNTO"@it ,
+                  "JOINT"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "GIUNTO"@it ,
+                                                       "JOINT"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/key-switch
+:key-switch rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "INTERRUTTORE A CHIAVE"@it ,
+                       "KEY SWITCH"@en ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "INTERRUTTORE A CHIAVE"@it ,
+                                                            "KEY SWITCH"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lack-of-connectivity
+:lack-of-connectivity rdf:type owl:NamedIndividual ,
+                               :Trouble ;
+                      rdfs:label "lack of connectivity"@en ,
+                                 "mancanza connessione"@it ;
+                      <http://www.w3.org/2004/02/skos/core#altLabel> "assenza connessione"@it ,
+                                                                     "connectivity missing"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "lack of connectivity"@en ,
+                                                                      "mancanza connessione"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lack-of-energy
+:lack-of-energy rdf:type owl:NamedIndividual ,
+                         :Trouble ;
+                rdfs:label "lack of energy"@en ,
+                           "mancanza alimentazione"@it ;
+                <http://www.w3.org/2004/02/skos/core#altLabel> "blocco elettrico"@it ,
+                                                               "energy missing"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "lack of energy"@en ,
+                                                                "mancanza alimentazione"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lack-of-pressure
+:lack-of-pressure rdf:type owl:NamedIndividual ,
+                           :Trouble ;
+                  rdfs:label "lack of pressure"@en ,
+                             "mancanza pressione"@it ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "pressure missing"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "lack of pressure"@en ,
+                                                                  "mancanza pressione"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lack-of-signal
+:lack-of-signal rdf:type owl:NamedIndividual ,
+                         :Trouble ;
+                rdfs:label "lack of signal"@en ,
+                           "mancanza segnale"@it ;
+                <http://www.w3.org/2004/02/skos/core#altLabel> "assenza segnale"@it ,
+                                                               "signal missing"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "lack of signal"@en ,
+                                                                "mancanza segnale"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/laser-sensor
+:laser-sensor rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "LASER"@it ,
+                         "LASER SENSOR"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "LASER"@it ,
+                                                              "LASER SENSOR"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/led
+:led rdf:type owl:NamedIndividual ,
+              :Component ;
+     rdfs:label "LED"@en ,
+                "LED"@it ;
+     <http://www.w3.org/2004/02/skos/core#altLabel> "LCD DISPLAY"@en ,
+                                                    "LCD DISPLAY"@it ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "LED"@en ,
+                                                     "LED"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/level-failure
+:level-failure rdf:type owl:NamedIndividual ,
+                        :Trouble ;
+               rdfs:label "errore livello"@it ,
+                          "level failure"@en ;
+               <http://www.w3.org/2004/02/skos/core#altLabel> "level error"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "errore livello"@it ,
+                                                               "level failure"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/level-sensors
+:level-sensors rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "LEVEL SENSORS"@en ,
+                          "SENSORI DI LIVELLO"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "LEVEL SENSORS"@en ,
+                                                               "SENSORI DI LIVELLO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lighting-fittings
+:lighting-fittings rdf:type owl:NamedIndividual ,
+                            :Component ;
+                   rdfs:label "ILLUMINAZIONE"@it ,
+                              "LIGHTING FITTINGS"@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "ILLUMINAZIONE"@it ,
+                                                                   "LIGHTING FITTINGS"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/limit-switch
+:limit-switch rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "FINE CORSA"@it ,
+                         "LIMIT SWITCH"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "FINE CORSA"@it ,
+                                                              "LIMIT SWITCH"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/linear-bearing
+:linear-bearing rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "CUSCINETTO LINEARE"@it ,
+                           "LINEAR BEARING"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "CUSCINETTO LINEARE"@it ,
+                                                                "LINEAR BEARING"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/liquid-pump
+:liquid-pump rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "LIQUID PUMP"@en ,
+                        "POMPA LIQUID"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "LIQUID PUMP"@en ,
+                                                             "POMPA LIQUID"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/loading
+:loading rdf:type owl:NamedIndividual ,
+                  :Workstation ;
+         rdfs:label "loading"@en ,
+                    "scarico"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "loading"@en ,
+                                                         "scarico"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/loading-block
+:loading-block rdf:type owl:NamedIndividual ,
+                        :Trouble ;
+               rdfs:label "blocco carico"@it ,
+                          "loading block"@en ;
+               <http://www.w3.org/2004/02/skos/core#altLabel> "mancanza prelievo"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "blocco carico"@it ,
+                                                               "loading block"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/loading-screw
+:loading-screw rdf:type owl:NamedIndividual ,
+                        :Workstation ;
+               rdfs:label "loading screw"@en ,
+                          "vite di carico"@it ;
+               <http://www.w3.org/2004/02/skos/core#altLabel> "auger"@en ,
+                                                              "coclea"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "loading screw"@en ,
+                                                               "vite di carico"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lock
+:lock rdf:type owl:NamedIndividual ,
+               :Action ,
+               :Component ;
+      rdfs:label "LOCK"@en ,
+                 "SERRATURA"@it ,
+                 "bloccare"@it ,
+                 "lock"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCK"@en ,
+                                                      "SERRATURA"@it ,
+                                                      "bloccare"@it ,
+                                                      "lock"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lubricate
+:lubricate rdf:type owl:NamedIndividual ,
+                    :Action ;
+           rdfs:label "lubricate"@en ,
+                      "lubrificare"@it ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "grease"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "lubricate"@en ,
+                                                           "lubrificare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lubricator
+:lubricator rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "LUBRICATOR"@en ,
+                       "LUBRIFICATORE"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "LUBRICATOR"@en ,
+                                                            "LUBRIFICATORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/lubrificant
+:lubrificant rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "LUBRIFICANT"@en ,
+                        "LUBRIFICANTE"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "LUBRIFICANT"@en ,
+                                                             "LUBRIFICANTE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/machine-ledger
+:machine-ledger rdf:type owl:NamedIndividual ,
+                         :DocumentType ;
+                rdfs:label "machine ledger"@en ,
+                           "machine ledger"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "machine ledger"@en ,
+                                                                "machine ledger"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/magnetic-sensor
+:magnetic-sensor rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "MAGNETIC SENSOR"@en ,
+                            "SENSORE MAGNETICO"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "MAGNETIC SENSOR"@en ,
+                                                                 "SENSORE MAGNETICO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/main-switch
+:main-switch rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "INTERRUTTORE PRINCIPALE"@it ,
+                        "MAIN SWITCH"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "INTERRUTTORE PRINCIPALE"@it ,
+                                                             "MAIN SWITCH"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/maintenance-manual
+:maintenance-manual rdf:type owl:NamedIndividual ,
+                             :DocumentType ;
+                    rdfs:label "maintenance manual"@en ,
+                               "manuale di manutenzione"@it ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "maintenance manual"@en ,
+                                                                    "manuale di manutenzione"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/manage
+:manage rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "gestire"@it ,
+                   "manage"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "gestire"@it ,
+                                                        "manage"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/manifold
+:manifold rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "COLLETTORE"@it ,
+                     "MANIFOLD"@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "COLLETTORE"@it ,
+                                                          "MANIFOLD"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/manometer
+:manometer rdf:type owl:NamedIndividual ,
+                    :Component ;
+           rdfs:label "MANOMETER"@en ,
+                      "MANOMETRO"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "MANOMETER"@en ,
+                                                           "MANOMETRO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/manual-valves
+:manual-valves rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "MANUAL VALVES"@en ,
+                          "VALVOLE MANUALI"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "MANUAL VALVES"@en ,
+                                                               "VALVOLE MANUALI"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/measurement-device
+:measurement-device rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "DISPOSITIVO DI MISURAZIONE"@it ,
+                               "MEASUREMENT DEVICE"@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "DISPOSITIVO DI MISURAZIONE"@it ,
+                                                                    "MEASUREMENT DEVICE"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/mechanical-block
+:mechanical-block rdf:type owl:NamedIndividual ,
+                           :Trouble ;
+                  rdfs:label "blocco meccanico"@it ,
+                             "mechanical block"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "blocco meccanico"@it ,
+                                                                  "mechanical block"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/memory-card
+:memory-card rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "MEMORY CARD"@en ,
+                        "SCHEDA DI MEMORIA"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "MEMORY CARD"@en ,
+                                                             "SCHEDA DI MEMORIA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/microswitch
+:microswitch rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "MICROINTERRUTTORE"@it ,
+                        "MICROSWITCH"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "MICROINTERRUTTORE"@it ,
+                                                             "MICROSWITCH"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/monometer
+:monometer rdf:type owl:NamedIndividual ,
+                    :SparePart ;
+           rdfs:label "MONOMETER"@en ,
+                      "manometro"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "MONOMETER"@en ,
+                                                           "manometro"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/motor
+:motor rdf:type owl:NamedIndividual ,
+                :SparePart ;
+       rdfs:label "MOTOR"@en ,
+                  "motore"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "MOTOR"@en ,
+                                                       "motore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/motor-switch
+:motor-switch rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "MOTOR SWITCH"@en ,
+                         "MOTORE INTERRUTTORE"@it ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "MOTOR SWITCH"@en ,
+                                                              "MOTORE INTERRUTTORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/motoreducer
+:motoreducer rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "MOTOREDUCER"@en ,
+                        "MOTORIDUTTORE"@it ;
+             <http://www.w3.org/2004/02/skos/core#altLabel> "GEARBOX"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "MOTOREDUCER"@en ,
+                                                             "MOTORIDUTTORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/mounting-element
+:mounting-element rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "MONTAGGIO ELEMENTO"@it ,
+                             "MOUNTING ELEMENT"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "MONTAGGIO ELEMENTO"@it ,
+                                                                  "MOUNTING ELEMENT"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/nose-down-stand
+:nose-down-stand rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "base nose-down"@it ,
+                            "nose-down stand"@en ;
+                 <http://www.w3.org/2004/02/skos/core#altLabel> "staivo nose-down"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "base nose-down"@it ,
+                                                                 "nose-down stand"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/nose-up-stand
+:nose-up-stand rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "base nose-up"@it ,
+                          "nose-up stand"@en ;
+               <http://www.w3.org/2004/02/skos/core#altLabel> "stativo nose-up"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "base nose-up"@it ,
+                                                               "nose-up stand"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/nozzle
+:nozzle rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "NOZZLE"@en ,
+                   "UGELLO"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "NOZZLE"@en ,
+                                                        "UGELLO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/o-ring
+:o-ring rdf:type owl:NamedIndividual ,
+                 :SparePart ;
+        rdfs:label "O-RING"@en ,
+                   "o-ring"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "O-RING"@en ,
+                                                        "o-ring"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/off-track
+:off-track rdf:type owl:NamedIndividual ,
+                    :Trouble ;
+           rdfs:label "assi extra corsa"@it ,
+                      "off track"@en ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "fuori corsa"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "assi extra corsa"@it ,
+                                                           "off track"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/oil
+:oil rdf:type owl:NamedIndividual ,
+              :Component ;
+     rdfs:label "OIL"@en ,
+                "OLIO"@it ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "OIL"@en ,
+                                                     "OLIO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/oil-pump
+:oil-pump rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "OIL PUMP"@en ,
+                     "POMPA DELL'OLIO"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "OIL PUMP"@en ,
+                                                          "POMPA DELL'OLIO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/open
+:open rdf:type owl:NamedIndividual ,
+               :Action ;
+      rdfs:label "aprire"@it ,
+                 "open"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "aprire"@it ,
+                                                      "open"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/operating-mode
+:operating-mode rdf:type owl:NamedIndividual ,
+                         :Configuration ;
+                rdfs:label "modalità operativa"@it ,
+                           "operating mode"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "modalità operativa"@it ,
+                                                                "operating mode"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/operating-panel-hmi
+:operating-panel-hmi rdf:type owl:NamedIndividual ,
+                              :Component ;
+                     rdfs:label "OPERATING PANEL-HMI"@en ,
+                                "PANNELLO OPERATIVO DI INTERFACCIA"@it ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "OPERATING PANEL-HMI"@en ,
+                                                                     "PANNELLO OPERATIVO DI INTERFACCIA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/other-assortment
+:other-assortment rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "ALTRE ASSORTIMENTO"@it ,
+                             "OTHER ASSORTMENT"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ALTRE ASSORTIMENTO"@it ,
+                                                                  "OTHER ASSORTMENT"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/overheating
+:overheating rdf:type owl:NamedIndividual ,
+                      :Trouble ;
+             rdfs:label "overheating"@en ,
+                        "surriscaldamento"@it ;
+             <http://www.w3.org/2004/02/skos/core#altLabel> "alta temperatura"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "overheating"@en ,
+                                                             "surriscaldamento"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/overload-release-clutch
+:overload-release-clutch rdf:type owl:NamedIndividual ,
+                                  :Component ;
+                         rdfs:label "FRIZIONE DI RILASCIO"@it ,
+                                    "OVERLOAD RELEASE CLUTCH"@en ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "FRIZIONE DI RILASCIO"@it ,
+                                                                         "OVERLOAD RELEASE CLUTCH"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pair
+:pair rdf:type owl:NamedIndividual ,
+               :Action ;
+      rdfs:label "accoppiare"@it ,
+                 "pair"@en ;
+      <http://www.w3.org/2004/02/skos/core#altLabel> "collegare"@it ,
+                                                     "connect"@en ,
+                                                     "coupling"@en ,
+                                                     "do the pairing"@en ,
+                                                     "effettuare l'accoppiamento"@it ,
+                                                     "fare l'accoppiamento"@it ,
+                                                     "link "@en ,
+                                                     "make the pairing"@en ,
+                                                     "perform the pairing"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "accoppiare"@it ,
+                                                      "pair"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/parameters
+:parameters rdf:type owl:NamedIndividual ,
+                     :Configuration ;
+            rdfs:label "parameters"@en ,
+                       "parametri"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "parameters"@en ,
+                                                            "parametri"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/part-breakege
+:part-breakege rdf:type owl:NamedIndividual ,
+                        :Trouble ;
+               rdfs:label "part breakege"@en ,
+                          "rottura componente"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "part breakege"@en ,
+                                                               "rottura componente"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/photoelectric
+:photoelectric rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "PHOTOELECTRIC"@en ,
+                          "SENSORE FOTOELETTRICO"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "PHOTOELECTRIC"@en ,
+                                                               "SENSORE FOTOELETTRICO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pick-and-place
+:pick-and-place rdf:type owl:NamedIndividual ,
+                         :Workstation ;
+                rdfs:label "pick and place"@en ,
+                           "prelevatore"@it ;
+                <http://www.w3.org/2004/02/skos/core#altLabel> "prelievo lastra"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "pick and place"@en ,
+                                                                "prelevatore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/piece-missing
+:piece-missing rdf:type owl:NamedIndividual ,
+                        :Trouble ;
+               rdfs:label "assenza pezzo"@it ,
+                          "piece missing"@en ;
+               <http://www.w3.org/2004/02/skos/core#altLabel> "mancanza pezzo"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "assenza pezzo"@it ,
+                                                               "piece missing"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pipe
+:pipe rdf:type owl:NamedIndividual ,
+               :Component ;
+      rdfs:label "PIPE"@en ,
+                 "TUBAZIONE"@it ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "PIPE"@en ,
+                                                      "TUBAZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/piston-rod
+:piston-rod rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "PISTON ROD"@en ,
+                       "STELO"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "PISTON ROD"@en ,
+                                                            "STELO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/planetary-gear
+:planetary-gear rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "PLANETARIO"@it ,
+                           "PLANETARY GEAR"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "PLANETARIO"@it ,
+                                                                "PLANETARY GEAR"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/plastic-hand-grip-body
+:plastic-hand-grip-body rdf:type owl:NamedIndividual ,
+                                 :Component ;
+                        rdfs:label "corpo plastico"@it ,
+                                   "plastic hand-grip body"@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "corpo plastico"@it ,
+                                                                        "plastic hand-grip body"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/plastic-injection
+:plastic-injection rdf:type owl:NamedIndividual ,
+                            :Machine ;
+                   rdfs:label "iniezione"@it ,
+                              "plastic injection"@en ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "iniezione plastica "@it ,
+                                                                  "stampaggio plastica"@it ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "iniezione"@it ,
+                                                                   "plastic injection"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/plc-cpu
+:plc-cpu rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "PLC-CPU"@en ,
+                    "PLC-CPU"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "PLC-CPU"@en ,
+                                                         "PLC-CPU"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pneumatic-block
+:pneumatic-block rdf:type owl:NamedIndividual ,
+                          :Trouble ;
+                 rdfs:label "blocco pneumatico"@it ,
+                            "pneumatic block"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "blocco pneumatico"@it ,
+                                                                 "pneumatic block"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pneumatic-cylinder
+:pneumatic-cylinder rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "CILINDRO PNEUMATICO"@it ,
+                               "PNEUMATIC CYLINDER"@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "CILINDRO PNEUMATICO"@it ,
+                                                                    "PNEUMATIC CYLINDER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pneumatic-pump
+:pneumatic-pump rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "PNEUMATIC PUMP"@en ,
+                           "POMPA PNEUMATICA"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "PNEUMATIC PUMP"@en ,
+                                                                "POMPA PNEUMATICA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pneumatic-schema
+:pneumatic-schema rdf:type owl:NamedIndividual ,
+                           :DocumentType ;
+                  rdfs:label "pneumatic schema"@en ,
+                             "schema pneumatico"@it ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "disegno preumatico"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "pneumatic schema"@en ,
+                                                                  "schema pneumatico"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pneumatic-valve
+:pneumatic-valve rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "PNEUMATIC VALVE"@en ,
+                            "PNEUMATICO VALVOLA"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "PNEUMATIC VALVE"@en ,
+                                                                 "PNEUMATICO VALVOLA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/posizioning-error
+:posizioning-error rdf:type owl:NamedIndividual ,
+                            :Trouble ;
+                   rdfs:label "posizioning error"@en ,
+                              "quota errata"@it ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "errato posizionamento"@it ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "posizioning error"@en ,
+                                                                   "quota errata"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/potentiometer
+:potentiometer rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "POTENTIOMETER"@en ,
+                          "POTENZIOMETRO"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "POTENTIOMETER"@en ,
+                                                               "POTENZIOMETRO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/power-supply
+:power-supply rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "ALIMENTAZIONE ELETTRICA"@it ,
+                         "POWER SUPPLY"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "ALIMENTAZIONE ELETTRICA"@it ,
+                                                              "POWER SUPPLY"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pressure-booster
+:pressure-booster rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "PRESSIONE BOOSTER"@it ,
+                             "PRESSURE BOOSTER"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PRESSIONE BOOSTER"@it ,
+                                                                  "PRESSURE BOOSTER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pressure-regulator
+:pressure-regulator rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "PRESSURE REGULATOR"@en ,
+                               "REGOLATORE DI PRESSIONE"@it ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "PRESSURE REGULATOR"@en ,
+                                                                    "REGOLATORE DI PRESSIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pressure-sensor
+:pressure-sensor rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "PRESSURE SENSOR"@en ,
+                            "SENSORE DI PRESSIONE"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "PRESSURE SENSOR"@en ,
+                                                                 "SENSORE DI PRESSIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pressure-sensor-oil
+:pressure-sensor-oil rdf:type owl:NamedIndividual ,
+                              :Component ;
+                     rdfs:label "OLIO SENSORE DI PRESSIONE"@it ,
+                                "PRESSURE SENSOR OIL"@en ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "OLIO SENSORE DI PRESSIONE"@it ,
+                                                                     "PRESSURE SENSOR OIL"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pressure-switch
+:pressure-switch rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "PRESSOSTATO"@it ,
+                            "PRESSURE SWITCH"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "PRESSOSTATO"@it ,
+                                                                 "PRESSURE SWITCH"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/printing-head
+:printing-head rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "PRINTING HEAD"@en ,
+                          "TESTA DI STAMPA"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "PRINTING HEAD"@en ,
+                                                               "TESTA DI STAMPA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/production-tools
+:production-tools rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "PRODUCTION TOOLS"@en ,
+                             "STRUMENTI DI PRODUZIONE"@it ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PRODUCTION TOOLS"@en ,
+                                                                  "STRUMENTI DI PRODUZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/protection-device
+:protection-device rdf:type owl:NamedIndividual ,
+                            :Component ;
+                   rdfs:label "PROTECTION DEVICE"@en ,
+                              "PROTEZIONE"@it ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "PROTECTION DEVICE"@en ,
+                                                                   "PROTEZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pulley
+:pulley rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "PULEGGIA"@it ,
+                   "PULLEY"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "PULEGGIA"@it ,
+                                                        "PULLEY"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pump
+:pump rdf:type owl:NamedIndividual ,
+               :SparePart ;
+      rdfs:label "PUMP"@en ,
+                 "pompa"@it ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "PUMP"@en ,
+                                                      "pompa"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pump-cenrifughe
+:pump-cenrifughe rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "POMPA CENTRIFUGA"@it ,
+                            "PUMP CENRIFUGHE"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "POMPA CENTRIFUGA"@it ,
+                                                                 "PUMP CENRIFUGHE"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/pump-hydraulic
+:pump-hydraulic rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "POMPA IDRAULICA"@it ,
+                           "PUMP HYDRAULIC"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "POMPA IDRAULICA"@it ,
+                                                                "PUMP HYDRAULIC"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/punch
+:punch rdf:type owl:NamedIndividual ,
+                :Component ,
+                :SparePart ;
+       rdfs:label "PUNCH"@en ,
+                  "PUNZONE"@it ,
+                  "punzone"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "PUNCH"@en ,
+                                                       "PUNZONE"@it ,
+                                                       "punzone"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/push-button
+:push-button rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "PREMI IL BOTTONE"@it ,
+                        "PUSH-BUTTON"@en ,
+                        "pulsante"@it ,
+                        "push button"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "PREMI IL BOTTONE"@it ,
+                                                             "PUSH-BUTTON"@en ,
+                                                             "pulsante"@it ,
+                                                             "push button"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/put
+:put rdf:type owl:NamedIndividual ,
+              :Action ;
+     rdfs:label "inserire"@it ,
+                "put"@en ;
+     <http://www.w3.org/2004/02/skos/core#altLabel> "set"@en ,
+                                                    "settare"@it ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "inserire"@it ,
+                                                     "put"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/rear-cover
+:rear-cover rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "coperchio posteriore"@it ,
+                       "rear cover"@en ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "coperchio posteriore"@it ,
+                                                            "rear cover"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/reboot
+:reboot rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "reboot"@en ,
+                   "riavviare"@it ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "inizializzare"@it ,
+                                                       "riaccendere"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "reboot"@en ,
+                                                        "riavviare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/relay
+:relay rdf:type owl:NamedIndividual ,
+                :Component ,
+                :SparePart ;
+       rdfs:label "RELAY"@en ,
+                  "RELAY"@it ,
+                  "relé"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "RELAY"@en ,
+                                                       "RELAY"@it ,
+                                                       "relé"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/remove
+:remove rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "remove"@en ,
+                   "rimuovere"@it ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "allentare"@it ,
+                                                       "disassemblare"@it ,
+                                                       "disassemble"@en ,
+                                                       "estrarre"@it ,
+                                                       "extract"@en ,
+                                                       "loosen"@en ,
+                                                       "pull out"@en ,
+                                                       "svitare"@it ,
+                                                       "take out"@en ,
+                                                       "togliere"@it ,
+                                                       "unfasten"@en ,
+                                                       "unscrew"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "remove"@en ,
+                                                        "rimuovere"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/repair
+:repair rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "repair"@en ,
+                   "riparare"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "repair"@en ,
+                                                        "riparare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/replace
+:replace rdf:type owl:NamedIndividual ,
+                  :Action ;
+         rdfs:label "replace"@en ,
+                    "sostituire"@it ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "cambiare"@it ,
+                                                        "change"@en ,
+                                                        "exchange"@en ,
+                                                        "rimpiazzare"@it ,
+                                                        "scambiare"@it ,
+                                                        "substitute"@en ,
+                                                        "swap"@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "replace"@en ,
+                                                         "sostituire"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/report
+:report rdf:type owl:NamedIndividual ,
+                 :Error ;
+        rdfs:label "report"@en ,
+                   "segnalazione"@it ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "signaling"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "report"@en ,
+                                                        "segnalazione"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/reset
+:reset rdf:type owl:NamedIndividual ,
+                :Action ;
+       rdfs:label "azzerare"@it ,
+                  "reset"@en ;
+       <http://www.w3.org/2004/02/skos/core#altLabel> "resettare"@it ,
+                                                      "ripristinare"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "azzerare"@it ,
+                                                       "reset"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/resistor
+:resistor rdf:type owl:NamedIndividual ,
+                   :Component ,
+                   :SparePart ;
+          rdfs:label "RESISTOR"@en ,
+                     "RESISTORE"@it ,
+                     "resistenza"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "RESISTOR"@en ,
+                                                          "RESISTORE"@it ,
+                                                          "resistenza"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/resolution
+:resolution rdf:type owl:NamedIndividual ,
+                     :Configuration ;
+            rdfs:label "resolution"@en ,
+                       "risoluzione"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "resolution"@en ,
+                                                            "risoluzione"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/ring-gear
+:ring-gear rdf:type owl:NamedIndividual ,
+                    :Component ;
+           rdfs:label "CORONA DENTATA"@it ,
+                      "RING GEAR"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "CORONA DENTATA"@it ,
+                                                           "RING GEAR"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/robot
+:robot rdf:type owl:NamedIndividual ,
+                :Workstation ;
+       rdfs:label "robot"@en ,
+                  "robot"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "robot"@en ,
+                                                       "robot"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/roller
+:roller rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "ROLLER"@en ,
+                   "RULLO"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "ROLLER"@en ,
+                                                        "RULLO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/safety-barrier
+:safety-barrier rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "BARRIERA DI SICUREZZA"@it ,
+                           "SAFETY BARRIER"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "BARRIERA DI SICUREZZA"@it ,
+                                                                "SAFETY BARRIER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/safety-relay
+:safety-relay rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "RELE DI SICUREZZA"@it ,
+                         "SAFETY RELAY"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "RELE DI SICUREZZA"@it ,
+                                                              "SAFETY RELAY"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/scanner
+:scanner rdf:type owl:NamedIndividual ,
+                  :Component ;
+         rdfs:label "LETTORE SCANNER"@it ,
+                    "SCANNER"@en ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "BARCODE READER"@en ,
+                                                        "LETTORE BARCODE"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "LETTORE SCANNER"@it ,
+                                                         "SCANNER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/screen-brightness
+:screen-brightness rdf:type owl:NamedIndividual ,
+                            :Configuration ;
+                   rdfs:label "luminosità schermo"@it ,
+                              "screen brightness"@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "luminosità schermo"@it ,
+                                                                   "screen brightness"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/screwing
+:screwing rdf:type owl:NamedIndividual ,
+                   :Workstation ;
+          rdfs:label "avvitatura"@it ,
+                     "screwing"@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "avvitatura"@it ,
+                                                          "screwing"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/seal
+:seal rdf:type owl:NamedIndividual ,
+               :Component ,
+               :SparePart ;
+      rdfs:label "GUARNIZIONE STRISCIANTE"@it ,
+                 "SEAL"@en ,
+                 "guarnizione"@it ;
+      <http://www.w3.org/2004/02/skos/core#altLabel> "GASKET"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "GUARNIZIONE STRISCIANTE"@it ,
+                                                      "SEAL"@en ,
+                                                      "guarnizione"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/select
+:select rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "select"@en ,
+                   "selezionare"@it ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "scegliere"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "select"@en ,
+                                                        "selezionare"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/self-aligning-bearing
+:self-aligning-bearing rdf:type owl:NamedIndividual ,
+                                :Component ;
+                       rdfs:label "AUTOALLINEANTI"@it ,
+                                  "SELF-ALIGNING BEARING"@en ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "AUTOALLINEANTI"@it ,
+                                                                       "SELF-ALIGNING BEARING"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/sensor
+:sensor rdf:type owl:NamedIndividual ,
+                 :SparePart ;
+        rdfs:label "SENSOR"@en ,
+                   "sensore"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "SENSOR"@en ,
+                                                        "sensore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/service-manual
+:service-manual rdf:type owl:NamedIndividual ,
+                         :DocumentType ;
+                rdfs:label "manuale di servizio"@it ,
+                           "service manual"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "manuale di servizio"@it ,
+                                                                "service manual"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/servomotor
+:servomotor rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "SERVOMOTOR"@en ,
+                       "SERVOMOTORE"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "SERVOMOTOR"@en ,
+                                                            "SERVOMOTORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/set-of-wearing-parts
+:set-of-wearing-parts rdf:type owl:NamedIndividual ,
+                               :Component ;
+                      rdfs:label "SET DI PARTI USURANTI"@it ,
+                                 "SET OF WEARING PARTS"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SET DI PARTI USURANTI"@it ,
+                                                                      "SET OF WEARING PARTS"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/set-up
+:set-up rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "programmare"@it ,
+                   "set-up"@en ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "configurare"@it ,
+                                                       "configure"@en ,
+                                                       "make the configuration"@en ,
+                                                       "parametrizzare"@it ,
+                                                       "program"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "programmare"@it ,
+                                                        "set-up"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/shock-absorber-brake-cylinder
+:shock-absorber-brake-cylinder rdf:type owl:NamedIndividual ,
+                                        :Component ;
+                               rdfs:label "AMMORTIZZATORE FRENO"@it ,
+                                          "SHOCK-ABSORBER BRAKE CYLINDER"@en ;
+                               <http://www.w3.org/2004/02/skos/core#prefLabel> "AMMORTIZZATORE FRENO"@it ,
+                                                                               "SHOCK-ABSORBER BRAKE CYLINDER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/shoes
+:shoes rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "CALZATURE"@it ,
+                  "SHOES"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "CALZATURE"@it ,
+                                                       "SHOES"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/silencer
+:silencer rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "SILENCER"@en ,
+                     "SILENZIATORE"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "SILENCER"@en ,
+                                                          "SILENZIATORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/sleep-mode
+:sleep-mode rdf:type owl:NamedIndividual ,
+                     :Configuration ;
+            rdfs:label "sleep mode"@en ,
+                       "sleep mode"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "sleep mode"@en ,
+                                                            "sleep mode"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/socket-mounting
+:socket-mounting rdf:type owl:NamedIndividual ,
+                          :Component ;
+                 rdfs:label "ATTACCO DI MONTAGGIO"@it ,
+                            "SOCKET MOUNTING"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "ATTACCO DI MONTAGGIO"@it ,
+                                                                 "SOCKET MOUNTING"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/softstarter
+:softstarter rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "MOTORE TRIFASE"@it ,
+                        "SOFTSTARTER"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "MOTORE TRIFASE"@it ,
+                                                             "SOFTSTARTER"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/solenoid-coil
+:solenoid-coil rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "SOLENIODE"@it ,
+                          "SOLENOID COIL"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "SOLENIODE"@it ,
+                                                               "SOLENOID COIL"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/solenoid-valve
+:solenoid-valve rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "SOLENOID VALVE"@en ,
+                           "VALVOLA SOLENOIDE"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "SOLENOID VALVE"@en ,
+                                                                "VALVOLA SOLENOIDE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/sound-level
+:sound-level rdf:type owl:NamedIndividual ,
+                      :Configuration ;
+             rdfs:label "livello audio"@it ,
+                        "sound level"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "livello audio"@it ,
+                                                             "sound level"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/special-material
+:special-material rdf:type owl:NamedIndividual ,
+                           :Component ;
+                  rdfs:label "MATERIALI SPECIALI"@it ,
+                             "SPECIAL MATERIAL"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "MATERIALI SPECIALI"@it ,
+                                                                  "SPECIAL MATERIAL"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/special-screw
+:special-screw rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "SPECIAL SCREW"@en ,
+                          "VITE SPECIALE"@it ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "SPECIAL SCREW"@en ,
+                                                               "VITE SPECIALE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/spring
+:spring rdf:type owl:NamedIndividual ,
+                 :Component ;
+        rdfs:label "MOLLA"@it ,
+                   "SPRING"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "MOLLA"@it ,
+                                                        "SPRING"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/sprocket
+:sprocket rdf:type owl:NamedIndividual ,
+                   :Component ;
+          rdfs:label "PIGNONE"@it ,
+                     "SPROCKET"@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "PIGNONE"@it ,
+                                                          "SPROCKET"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/sprue-bushing
+:sprue-bushing rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "BUSSOLA DI INIEZIONE"@it ,
+                          "SPRUE BUSHING"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "BUSSOLA DI INIEZIONE"@it ,
+                                                               "SPRUE BUSHING"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/stamping
+:stamping rdf:type owl:NamedIndividual ,
+                   :Machine ;
+          rdfs:label "pressa"@it ,
+                     "stamping"@en ;
+          <http://www.w3.org/2004/02/skos/core#altLabel> "press"@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "pressa"@it ,
+                                                          "stamping"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/stand
+:stand rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "caricatore"@it ,
+                  "stand"@en ;
+       <http://www.w3.org/2004/02/skos/core#altLabel> "caricabatterie"@it ,
+                                                      "stativo"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "caricatore"@it ,
+                                                       "stand"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/stand-alone-mode
+:stand-alone-mode rdf:type owl:NamedIndividual ,
+                           :Configuration ;
+                  rdfs:label "modalità stand-alone"@it ,
+                             "stand alone mode"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "modalità stand-alone"@it ,
+                                                                  "stand alone mode"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/stop-valve
+:stop-valve rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "STOP VALVE"@en ,
+                       "VALVOLA D'INTERRUZIONE"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "STOP VALVE"@en ,
+                                                            "VALVOLA D'INTERRUZIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/suction-cup
+:suction-cup rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "SUCTION CUP"@en ,
+                        "VENTOSA"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "SUCTION CUP"@en ,
+                                                             "VENTOSA"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/switch
+:switch rdf:type owl:NamedIndividual ,
+                 :SparePart ;
+        rdfs:label "SWITCH"@en ,
+                   "interruttore"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "SWITCH"@en ,
+                                                        "interruttore"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/switch-accessories
+:switch-accessories rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "ACCESSORI INTERRUTTORE"@it ,
+                               "SWITCH ACCESSORIES"@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "ACCESSORI INTERRUTTORE"@it ,
+                                                                    "SWITCH ACCESSORIES"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/switch-off
+:switch-off rdf:type owl:NamedIndividual ,
+                     :Action ;
+            rdfs:label "spegnere"@it ,
+                       "switch off"@en ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "spegnere"@it ,
+                                                            "switch off"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/switch-on
+:switch-on rdf:type owl:NamedIndividual ,
+                    :Action ;
+           rdfs:label "accendere"@it ,
+                      "switch on"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "accendere"@it ,
+                                                           "switch on"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/sylicon-pump
+:sylicon-pump rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "POMPA DI SILICONE"@it ,
+                         "SYLICON PUMP"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "POMPA DI SILICONE"@it ,
+                                                              "SYLICON PUMP"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/system-fault
+:system-fault rdf:type owl:NamedIndividual ,
+                       :Error ;
+              rdfs:label "errore di sistema"@it ,
+                         "system fault"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "errore di sistema"@it ,
+                                                              "system fault"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/tank
+:tank rdf:type owl:NamedIndividual ,
+               :Component ;
+      rdfs:label "CARRO ARMATO"@it ,
+                 "TANK"@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "CARRO ARMATO"@it ,
+                                                      "TANK"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/temperature
+:temperature rdf:type owl:NamedIndividual ,
+                      :Configuration ;
+             rdfs:label "temperatura"@it ,
+                        "temperature"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "temperatura"@it ,
+                                                             "temperature"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/temperature-sensor
+:temperature-sensor rdf:type owl:NamedIndividual ,
+                             :Component ;
+                    rdfs:label "TEMPERATURE SENSOR"@en ,
+                               "TERMOMETRO"@it ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "TEMPERATURE SENSOR"@en ,
+                                                                    "TERMOMETRO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/terminal-block
+:terminal-block rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "MORSETTIERA"@it ,
+                           "TERMINAL BLOCK"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "MORSETTIERA"@it ,
+                                                                "TERMINAL BLOCK"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/testing
+:testing rdf:type owl:NamedIndividual ,
+                  :Workstation ;
+         rdfs:label "collaudo"@it ,
+                    "testing"@en ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "controllo fine linea"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "collaudo"@it ,
+                                                         "testing"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/thermocouple
+:thermocouple rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "TERMOCOPPIA"@it ,
+                         "THERMOCOUPLE"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "TERMOCOPPIA"@it ,
+                                                              "THERMOCOUPLE"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/thermoforming
+:thermoforming rdf:type owl:NamedIndividual ,
+                        :Machine ;
+               rdfs:label "thermoforming"@en ,
+                          "vacumatrice"@it ;
+               <http://www.w3.org/2004/02/skos/core#altLabel> "termoformatrice"@it ,
+                                                              "vacuum forming"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "thermoforming"@en ,
+                                                               "vacumatrice"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/thermostat
+:thermostat rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "TERMOSTATO"@it ,
+                       "THERMOSTAT"@en ;
+            <http://www.w3.org/2004/02/skos/core#altLabel> "TERMOREGOLATORE"@it ,
+                                                           "THERMO-REGULATOR"@en ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "TERMOSTATO"@it ,
+                                                            "THERMOSTAT"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/timer
+:timer rdf:type owl:NamedIndividual ,
+                :Component ;
+       rdfs:label "TIMER"@en ,
+                  "TIMER"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "TIMER"@en ,
+                                                       "TIMER"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/tipper
+:tipper rdf:type owl:NamedIndividual ,
+                 :Workstation ;
+        rdfs:label "ribaltatore"@it ,
+                   "tipper"@en ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "botte"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "ribaltatore"@it ,
+                                                        "tipper"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/toothed-belt
+:toothed-belt rdf:type owl:NamedIndividual ,
+                       :Component ;
+              rdfs:label "CINGHIA DENTATA"@it ,
+                         "TOOTHED BELT"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "CINGHIA DENTATA"@it ,
+                                                              "TOOTHED BELT"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/toothed-wheel
+:toothed-wheel rdf:type owl:NamedIndividual ,
+                        :Component ;
+               rdfs:label "RUOTA DENTATA"@it ,
+                          "TOOTHED WHEEL"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "RUOTA DENTATA"@it ,
+                                                               "TOOTHED WHEEL"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/toxing
+:toxing rdf:type owl:NamedIndividual ,
+                 :Workstation ;
+        rdfs:label "punzonatrice"@it ,
+                   "toxing"@en ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "toxatrice"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "punzonatrice"@it ,
+                                                        "toxing"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/transfer
+:transfer rdf:type owl:NamedIndividual ,
+                   :Workstation ;
+          rdfs:label "transfer"@en ,
+                     "trasferitore"@it ,
+                     "trasporto"@it ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "transfer"@en ,
+                                                          "trasferitore"@it ,
+                                                          "trasporto"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/transformer
+:transformer rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "TRANSFORMER"@en ,
+                        "TRASFORMATORE"@it ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "TRANSFORMER"@en ,
+                                                             "TRASFORMATORE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/transport-tape-belt
+:transport-tape-belt rdf:type owl:NamedIndividual ,
+                              :Component ;
+                     rdfs:label "TRANSPORT TAPE (BELT)"@en ,
+                                "TRASPORTO DEL NASTRO (CINGHIA)"@it ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "TRANSPORT TAPE (BELT)"@en ,
+                                                                     "TRASPORTO DEL NASTRO (CINGHIA)"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/underheating
+:underheating rdf:type owl:NamedIndividual ,
+                       :Trouble ;
+              rdfs:label "bassa temperatura"@it ,
+                         "underheating"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "bassa temperatura"@it ,
+                                                              "underheating"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/uninstall
+:uninstall rdf:type owl:NamedIndividual ,
+                    :Action ;
+           rdfs:label "disinstallare"@it ,
+                      "uninstall"@en ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "disassemblare"@it ,
+                                                          "disinserire"@it ,
+                                                          "smontare"@it ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "disinstallare"@it ,
+                                                           "uninstall"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/unit-of-measure
+:unit-of-measure rdf:type owl:NamedIndividual ,
+                          :Configuration ;
+                 rdfs:label "unit of measure"@en ,
+                            "unità di misura"@it ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "unit of measure"@en ,
+                                                                 "unità di misura"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/unloading
+:unloading rdf:type owl:NamedIndividual ,
+                    :Workstation ;
+           rdfs:label "carico"@it ,
+                      "unloading"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "carico"@it ,
+                                                           "unloading"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/unloading-block
+:unloading-block rdf:type owl:NamedIndividual ,
+                          :Trouble ;
+                 rdfs:label "blocco scarico"@it ,
+                            "unloading block"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "blocco scarico"@it ,
+                                                                 "unloading block"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/unlock
+:unlock rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "sbloccare"@it ,
+                   "unlock"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "sbloccare"@it ,
+                                                        "unlock"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/update
+:update rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "aggiornare"@it ,
+                   "update"@en ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "upgrade"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "aggiornare"@it ,
+                                                        "update"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/upload
+:upload rdf:type owl:NamedIndividual ,
+                 :Action ;
+        rdfs:label "caricare"@it ,
+                   "upload"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "caricare"@it ,
+                                                        "upload"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/use-manual
+:use-manual rdf:type owl:NamedIndividual ,
+                     :DocumentType ;
+            rdfs:label "manuale d'uso"@it ,
+                       "use manual"@en ;
+            <http://www.w3.org/2004/02/skos/core#altLabel> "manuale utente"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "manuale d'uso"@it ,
+                                                            "use manual"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/user-manual
+:user-manual rdf:type owl:NamedIndividual ,
+                      :DocumentType ;
+             rdfs:label "manuale utente"@it ,
+                        "user manual"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "manuale utente"@it ,
+                                                             "user manual"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/vaccum-error
+:vaccum-error rdf:type owl:NamedIndividual ,
+                       :Trouble ;
+              rdfs:label "mancanza di vuoto"@it ,
+                         "vaccum error"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "mancanza di vuoto"@it ,
+                                                              "vaccum error"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/vacuum-cup-error
+:vacuum-cup-error rdf:type owl:NamedIndividual ,
+                           :Trouble ;
+                  rdfs:label "blocco sistemi di presa"@it ,
+                             "vacuum cup error"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "blocco sistemi di presa"@it ,
+                                                                  "vacuum cup error"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/vacuum-pump
+:vacuum-pump rdf:type owl:NamedIndividual ,
+                      :Component ;
+             rdfs:label "POMPA A VUOTO"@it ,
+                        "VACUUM PUMP"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "POMPA A VUOTO"@it ,
+                                                             "VACUUM PUMP"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/valve
+:valve rdf:type owl:NamedIndividual ,
+                :Component ,
+                :SparePart ;
+       rdfs:label "VALVE"@en ,
+                  "VALVOLA"@it ,
+                  "valvola"@it ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "VALVE"@en ,
+                                                       "VALVOLA"@it ,
+                                                       "valvola"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/valve-pressure
+:valve-pressure rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "VALVE PRESSURE"@en ,
+                           "VALVOLA DI PRESSIONE"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "VALVE PRESSURE"@en ,
+                                                                "VALVOLA DI PRESSIONE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/valve-terminal
+:valve-terminal rdf:type owl:NamedIndividual ,
+                         :Component ;
+                rdfs:label "VALVE TERMINAL"@en ,
+                           "VALVOLA TERMINALE"@it ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "VALVE TERMINAL"@en ,
+                                                                "VALVOLA TERMINALE"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/voltmeters
+:voltmeters rdf:type owl:NamedIndividual ,
+                     :Component ;
+            rdfs:label "VOLTMETERS"@en ,
+                       "VOLTMETRO"@it ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "VOLTMETERS"@en ,
+                                                            "VOLTMETRO"@it .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/warning
+:warning rdf:type owl:NamedIndividual ,
+                  :Error ;
+         rdfs:label "attenzione"@it ,
+                    "warning"@en ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "warning"@it ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "attenzione"@it ,
+                                                         "warning"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/welding
+:welding rdf:type owl:NamedIndividual ,
+                  :Workstation ;
+         rdfs:label "saldatura"@it ,
+                    "welding"@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "saldatura"@it ,
+                                                         "welding"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/winder
+:winder rdf:type owl:NamedIndividual ,
+                 :Machine ;
+        rdfs:label "avvolgitore"@it ,
+                   "winder"@en ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "avvolto"@it ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "avvolgitore"@it ,
+                                                        "winder"@en .
+
+
+###  https://knowledge.c-innovationhub.com/khub-onto/workplace
+:workplace rdf:type owl:NamedIndividual ,
+                    :Workstation ;
+           rdfs:label "stazione"@it ,
+                      "workplace"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "stazione"@it ,
+                                                           "workplace"@en .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
