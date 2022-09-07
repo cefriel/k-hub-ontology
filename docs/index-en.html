@@ -6,13 +6,13 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://knowledge.c-innovationhub.com/khub-onto#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://knowledge.c-innovationhub.com/khub-onto#","name":"The Manufacturing Knowledge Hub Ontology", "headline":"Document describing the ontology https://knowledge.c-innovationhub.com/khub-onto#", "datePublished":"Tue Aug 23 10:25:24 CEST 2022", "version":"1.0.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Antonia Azzini"},{"@type":"Person","name":"Gloria Re Calegari"},{"@type":"Person","name":"Irene Celino"}], "contributor":[{"@type":"Person","name":"Marposs"},{"@type":"Person","name":"Whirlpool EMEA"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://knowledge.c-innovationhub.com/khub-onto#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://knowledge.c-innovationhub.com/khub-onto#","name":"The Manufacturing Knowledge Hub Ontology", "headline":"Document describing the ontology https://knowledge.c-innovationhub.com/khub-onto#", "datePublished":"Wed Sep 07 10:08:04 CEST 2022", "version":"1.0.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Antonia Azzini"},{"@type":"Person","name":"Gloria Re Calegari"},{"@type":"Person","name":"Irene Celino"}], "contributor":[{"@type":"Person","name":"Marposs"},{"@type":"Person","name":"Whirlpool EMEA"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
     <script> 
 function loadHash() {
-  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
 	var hash = location.hash;
 	if($(hash).offset()!=null){
 	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
@@ -70,15 +70,15 @@ function loadTOC(){
 <dt>Revision:</dt>
 <dd>1.0.0</dd>
 <dt>Authors:</dt>
-<dd>Gloria Re Calegari, (<a href="https://www.cefriel.com">Cefriel</a>)</dd><dd>Antonia Azzini, (<a href="https://www.cefriel.com">Cefriel</a>)</dd><dd>Irene Celino, (<a href="https://www.cefriel.com">Cefriel</a>)</dd>
+<dd>Antonia Azzini, (<a href="https://www.cefriel.com">Cefriel</a>)</dd><dd>Gloria Re Calegari, (<a href="https://www.cefriel.com">Cefriel</a>)</dd><dd>Irene Celino, (<a href="https://www.cefriel.com">Cefriel</a>)</dd>
 
 <dt>Contributors:</dt>
 <dd>Marposs, (<a href="https://www.marposs.com/ita/">Marposs</a>)</dd><dd>Whirlpool EMEA, (<a href="https://www.whirlpool.eu/">Whirlpool EMEA</a>)</dd>
 
 <dt>Publisher:</dt>
 <dd>Cefriel, (<a href="https://www.cefriel.com">Cefriel</a>)</dd>
-<dt>Download serialization:</dt><dd><span><a href="./../onto/latest/ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="./../onto/latest/ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="./../onto/latest/ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="./../onto/latest/ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
-</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
 <dd>Gloria Re Calegari (Cefriel), Antonia Azzini (Cefriel), Irene Celino (Cefriel). The Manufacturing Knowledge Hub Ontology. Revision: 1.0.0. Retrieved from: https://knowledge.c-innovationhub.com/khub-onto/1.0.0</dd>
 </dl>
 
@@ -93,7 +93,7 @@ function loadTOC(){
      <div id="overview"></div>
      <div id="description"></div>
      <div id="crossref"></div>
-    <!-- <div id="references"></div> -->
+     <div id="references"></div>
 <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>
