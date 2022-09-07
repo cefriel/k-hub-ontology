@@ -1,4 +1,142 @@
+<html>
 <h2 id="desc" class="list">The Manufacturing Knowledge Hub Ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+This section describes the classes and properties in detail through a textual description and a diagram of the ontology,  the named individuals defined for some specific classes and the expected usage methods. </span>
 
+<h3 id="examples" class="list">Diagram</h3>
+
+<span class="markdown">
+The diagram in this section is modeled using the notation presented below.
+</span>
+
+<p align="center"><img src="img/kh-legend.png" alt="Legend" height="150"></p>
+
+<span class="markdown">
+The Manufacturing Knowledge Hub Ontology consists of 3 main classes: _Document_, _Topic_ and _TopicAnnotation_. 
+
+The _Document_ class is modelled by the [foaf:Document](http://xmlns.com/foaf/0.1/#term_Document) class and it describes the document’s general information (title of the document, author, format, language, url, total numebr of pages and edit date) reusing some properties of the [Dublin Core  ontology](https://www.dublincore.org/resources/glossary/ontology/). 
+
+The _Topic_ class represents the topics that the final user is interested to search in the documents. The specific topics are represented as subclasses of the _Topic_ class and they are: _Action_, _Component_, _Product_, _Machine_, _Workstation_, _Configuration_, _Supplier_, _SparePart_, _DocumentTyper_, _Error_ and _Trouble_. 
+
+The _TopicAnnotation_ class describes the semantic annotations created on the documents starting from the list of topics defined in the ontology; the information associated to an annotation are the page of the document containing the annotation, the full text of the page, the creator of the annotation, the creation date, and, if present, the annotation’s confidence score. The provenance information about the annotations is modelled by the [prov:Agent](https://www.w3.org/TR/prov-o/#Agent) class.  
+
+</span>
+
+<p align="center"><img src="img/kh-diagram.png" alt="Core" height="600"></p>
+
+
+<h3 id="examples" class="list">Named individuals</h3>
+
+<span class="markdown">
+ 
+The Manufacturing Knowledge Hub Ontology includes a vocabulary of instances for the sub-classes of _Topic_ (_Component_, _Product_, _Supplier_, etc…), that can be considered general instances for the maintenance domain in manufacturing companies. 
+
+The terms of this volcabulary are translated in English and Italian and, for some terms, a list of possible synonyms is also provided. This vocabulary was modelled using [SKOS](https://www.w3.org/2004/02/skos/).
+
+Here is the list of terms defined for each sub-class of *Topic*:
+- *Action*: replace, remove, install, update, upload, reboot, download, uninstall, downgrade, pair, align, set-up, switch-on, switch-off, find, check, connect, disconnect, put, fasten, reset, face, select, manage, exit, repair, check,  clean,   lubricate,  replace, diagnosys,  fix,  switch-off,  switch-on,  open,  close,  energize,  de-energize, enable,  disable, lock,  unlock,  extract,  insert.
+- *Component*: push-button, handle, identification-label, rear-cover, back-end, battery, plastic-hand-grip-body, stand, base, nose-up-stand, nose-down-stand, firmware, flashing-leds, flashing, boards, flat-cables, cables,  analog-module, asi-module, battery, communication-module, connecting-cables, counter, capacitive-sensor, connecting-module, digital-i/o-module, encoder, frequency-inverter, gas-detector, infrared-sensor, interface-module, inductive-sensor, memory-card, magnetic-sensor, operating-panel-hmi, pressure-sensor, photoelectric, laser-sensor, plc-cpu, power-supply, safety-barrier, scanner, safety-relay, softstarter, terminal-block, bridge-rectifier, capacitor, converter, diode, hard-disk, led, printing-head, potentiometer, display, special-material, glue, other-assortment, oil, lubrificant, special-material, auxiliary-contact, ampere-meter, cable, cooling-fan, cable-guide, circuit-breaker, solenoid-coil, connector, contactor, cable-accessories, door-switch, electric-case, electric-motor, fuse-holder, fuse, heater, key-switch, linear-bearing, lighting-fittings, level-sensors, microswitch, motor-switch, main-switch, push-button, relay, resistor, switch-accessories, servomotor, socket-mounting, solenoid-valve, terminal-block, thermostat, timer, temperature-sensor, transformer, voltmeters, limit-switch, special-material, base, connecting-cables, connector, filter, flow-meter, hydraulic-cylinder, hydraulic-electrovalve, hydraulic-valve, heat-exchanger, liquid-pump, manometer, hydraulic-motor, manometer, manual-valves, oil-pump, pump-cenrifughe, pressure-switch, pump-hydraulic, pipe, pressure-sensor-oil, manifold, production-tools, pressure-regulator, seal, tank, valve-pressure, stop-valve, set-of-wearing-parts, special-material, bearing, shock-absorber-brake-cylinder, conveyer-belt, chain, coupling, closing-ring, chain-wheel, ring-gear, joint, motoreducer, planetary-gear, pulley, overload-release-clutch, roller, self-aligning-bearing, seal, toothed-belt, transport-tape-(belt), toothed-wheel, filter, sprocket, special-material, ball-shut-off-valve, connecting-cables, solenoid-coil, compensator-suction-nozzle, compressor, connector, cylinder, electrical-interface, filter, filter-regulator, fast-switching-valve, grasper, lubricator, mounting-element, manometer, pressure-booster, pneumatic-cylinder, pressure-switch, piston-rod, pneumatic-valve, pneumatic-pump, pressure-regulator, suction-cup, silencer, sylicon-pump, valve, vacuum-pump, valve-terminal, special-material, bush, cage, column, jig, ejector, guide, lock, nozzle, punch, sprue-bushing, spring, special-screw, thermocouple, measurement-device, gasket, special-material, shoes, dress, glove, helmet, glasses, protection-device.
+- *DocumentType*: user-manual, service-manual, driver-manual, electical-schema, pneumatic-schema, idraulic-schema, drawing, maintenance-manual, use-manual, ce-certification, machine-ledger.
+- *Configuration*: parameters, electronics, screen-brightness, sound-level, unit-of-measure, resolution, temperature, operating-mode, stand-alone-mode, discovery-mode, sleep-mode.
+- *Error*: e001, e002, e003, e004, e005, e006, e009, e016, e033, e034, e035, e036, e037, e038, e040, e041, e901, e902, e999, fault, error, report, warning, alarm, system-fault, bus-fault.
+- *Machine*: stamping, thermoforming, plastic-injection, door-foaming, cabinet-foaming, winder, end-of-line, chiller.
+- *Workstation*: pick-and-place, heater, bubbling, loading, unloading, cutting, decoiler, bending, toxing, robot, handler, tipper, transfer, welding, screwing, testing, workplace, chiller, cart, loading-screw, die-plate, transfer.
+- *SparePart*: motor, electrical-motor, eletrical-valve, valve, punch, cylinder, o-ring, seal, cup, resistor, switch, contactor, board, pump, electric-pump, monometer, relay, sensor.
+- *Trouble*: part-breakege, pneumatic-block, mechanical-block, vaccum-error, vacuum-cup-error, lack-of-signal, lack-of-connectivity, loading-block, unloading-block, posizioning-error, failure, off-track, lack-of-pressure, overheating, underheating, level-failure, lack-of-energy, piece-missing.
+
+</span>
+
+
+<h3 id="examples" class="list">Usage example</h3>
+<span class="markdown">
+The example of use of the Manufacturing Knowledge Hub Ontology is provided in [JSON-LD](https://json-ld.org/) format. This example shows how the ontology is used to describe a document and the topic annotations associated to it. 
+
+```
+{
+	"@graph": [
+		{
+			"@id": "kh-anno:Service%20Manual",
+			"@type": "foaf:Document",
+			"dc:format": "pdf",
+			"dc:language": "en",
+			"dc:title": "Service Manual",
+			"dc:source": "http://example.org/Service%20Manual.pdf",
+			"kh:hasTotalNumberOfPages": 20,
+			"dc:modified" : "2022-02-01",
+			"kh:hasTopicAnnotation": [ 
+			    "kh-anno:annotation50",
+			    "kh-anno:annotation51"
+			]
+		},		
+		{
+			"@id": "kh-anno:spixIndexerAgent",
+			"@type": "provo:Agent"
+		},
+		{
+			"@id": "kh-anno:annotation51",
+			"@type": "kh:TopicAnnotation",
+			"dc:created": "2022-06-01",
+			"kh:hasPage": 1,
+			"provo:wasAttributedTo": "kh-anno:spixIndexerAgent",
+			"kh:hasTopic": [
+				"kh:push-button",
+				"kh:identification-label",
+				"kh:rear-cover",
+				"kh:battery",
+				"kh:base",
+				"kh:update"
+			]
+		}
+	],
+	"@context": {
+		"kh": "https://knowledge.c-innovationhub.com/khub-onto#",
+		"kh:hasPage": {
+			"@id": "https://knowledge.c-innovationhub.com/khub-onto#hasPage",
+			"@type": "http://www.w3.org/2001/XMLSchema#integer"
+		},
+		"kh:hasTopic": {
+			"@id": "https://knowledge.c-innovationhub.com/khub-onto#hasTopic",
+			"@type": "@id"
+		},
+		"kh:hasTotalNumberOfPages" : {
+			"@id": "https://knowledge.c-innovationhub.com/khub-onto#hasTotalNumberOfPages",
+			"@type": "http://www.w3.org/2001/XMLSchema#integer"
+		},
+		"kh:hasTopicAnnotation": {
+			"@id": "https://knowledge.c-innovationhub.com/khub-onto#hasTopicAnnotation",
+			"@type": "@id"
+		},
+		"kh-anno": "https://knowledge.c-innovationhub.com/annotation/",
+		"kh": "https://knowledge.c-innovationhub.com/khub-onto/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+      	"dc": "http://purl.org/dc/terms/",
+		"dc:title": {
+			"@id": "http://purl.org/dc/terms/title"
+		},
+		"dc:format": {
+			"@id": "http://purl.org/dc/terms/format"
+		},
+		"dc:language": {
+			"@id": "http://purl.org/dc/terms/language"
+		},
+		"dc:source": {
+			"@id": "http://purl.org/dc/terms/source",
+			"@type": "@id"
+		},
+		"dc:created": {
+			"@id": "http://purl.org/dc/terms/created"
+		},
+		"dc:modified": {
+			"@id": "http://purl.org/dc/terms/modified"
+		},
+      	"provo": "http://www.w3.org/ns/prov#",
+		"provo:wasAttributedTo" : {
+			"@id": "http://www.w3.org/ns/prov#wasAttributedTo",
+			"@type": "@id"
+		}		
+	}
+}
+```
+</span>
+
+</html>
