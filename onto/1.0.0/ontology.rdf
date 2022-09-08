@@ -95,6 +95,13 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#altlabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altlabel"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
 
@@ -522,10 +529,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/ampere-meter">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">AMPERE METER</rdfs:label>
-        <rdfs:label xml:lang="it">AMPEROMETRO</rdfs:label>
-        <skos:prefLabel xml:lang="en">AMPERE METER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">AMPEROMETRO</skos:prefLabel>
+        <rdfs:label xml:lang="en">ampere meter</rdfs:label>
+        <rdfs:label xml:lang="it">amperometro</rdfs:label>
+        <skos:prefLabel xml:lang="en">ampere meter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">amperometro</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -535,10 +542,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/analog-module">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">ANALOG MODULE</rdfs:label>
-        <rdfs:label xml:lang="it">MODULO ANALOGICO</rdfs:label>
-        <skos:prefLabel xml:lang="en">ANALOG MODULE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MODULO ANALOGICO</skos:prefLabel>
+        <rdfs:label xml:lang="en">analog module</rdfs:label>
+        <rdfs:label xml:lang="it">modulo analogico</rdfs:label>
+        <skos:prefLabel xml:lang="en">analog module</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">modulo analogico</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -548,10 +555,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/asi-module">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">ASI MODULE</rdfs:label>
-        <rdfs:label xml:lang="it">MODULO ASI</rdfs:label>
-        <skos:prefLabel xml:lang="en">ASI MODULE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MODULO ASI</skos:prefLabel>
+        <rdfs:label xml:lang="en">asi module</rdfs:label>
+        <rdfs:label xml:lang="it">modulo asi</rdfs:label>
+        <skos:prefLabel xml:lang="en">asi module</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">modulo asi</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -561,10 +568,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/auxiliary-contact">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">AUXILIARY CONTACT</rdfs:label>
-        <rdfs:label xml:lang="it">CONTATTO AUSILIARIO</rdfs:label>
-        <skos:prefLabel xml:lang="en">AUXILIARY CONTACT</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">CONTATTO AUSILIARIO</skos:prefLabel>
+        <rdfs:label xml:lang="en">auxiliary contact</rdfs:label>
+        <rdfs:label xml:lang="it">contatto ausiliario</rdfs:label>
+        <skos:prefLabel xml:lang="en">auxiliary contact</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">contatto ausiliario</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -589,10 +596,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/ball-shut-off-valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">BALL SHUT-OFF VALVE</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA A SFERA</rdfs:label>
-        <skos:prefLabel xml:lang="en">BALL SHUT-OFF VALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA A SFERA</skos:prefLabel>
+        <rdfs:label xml:lang="en">ball shut-off valve</rdfs:label>
+        <rdfs:label xml:lang="it">valvola a sfera</rdfs:label>
+        <skos:prefLabel xml:lang="en">ball shut-off valve</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvola a sfera</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -602,12 +609,8 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/base">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">BASE</rdfs:label>
-        <rdfs:label xml:lang="it">BASE</rdfs:label>
         <rdfs:label xml:lang="en">base</rdfs:label>
         <rdfs:label xml:lang="it">base</rdfs:label>
-        <skos:prefLabel xml:lang="en">BASE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">BASE</skos:prefLabel>
         <skos:prefLabel xml:lang="en">base</skos:prefLabel>
         <skos:prefLabel xml:lang="it">base</skos:prefLabel>
     </owl:NamedIndividual>
@@ -619,12 +622,8 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/battery">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">BATTERIA</rdfs:label>
-        <rdfs:label xml:lang="en">BATTERY</rdfs:label>
         <rdfs:label xml:lang="it">batteria</rdfs:label>
         <rdfs:label xml:lang="en">battery</rdfs:label>
-        <skos:prefLabel xml:lang="it">BATTERIA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">BATTERY</skos:prefLabel>
         <skos:prefLabel xml:lang="it">batteria</skos:prefLabel>
         <skos:prefLabel xml:lang="en">battery</skos:prefLabel>
     </owl:NamedIndividual>
@@ -636,10 +635,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/bearing">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">BEARING</rdfs:label>
-        <rdfs:label xml:lang="it">CUSCINETTO</rdfs:label>
-        <skos:prefLabel xml:lang="en">BEARING</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">CUSCINETTO</skos:prefLabel>
+        <rdfs:label xml:lang="en">bearing</rdfs:label>
+        <rdfs:label xml:lang="it">cuscinetto</rdfs:label>
+        <skos:prefLabel xml:lang="en">bearing</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">cuscinetto</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -662,11 +661,11 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/board">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">BOARD</rdfs:label>
+        <rdfs:label xml:lang="en">board</rdfs:label>
         <rdfs:label xml:lang="it">scheda </rdfs:label>
-        <skos:altLabel xml:lang="en">electronic board</skos:altLabel>
-        <skos:altLabel xml:lang="it">scheda elettronica</skos:altLabel>
-        <skos:prefLabel xml:lang="en">BOARD</skos:prefLabel>
+        <skos:altlabel xml:lang="en">electronic board</skos:altlabel>
+        <skos:altlabel xml:lang="it">scheda elettronica</skos:altlabel>
+        <skos:prefLabel xml:lang="en">board</skos:prefLabel>
         <skos:prefLabel xml:lang="it">scheda </skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -690,10 +689,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/bridge-rectifier">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">BRIDGE-RECTIFIER</rdfs:label>
-        <rdfs:label xml:lang="it">RADDRIZZATORE A PONTE</rdfs:label>
-        <skos:prefLabel xml:lang="en">BRIDGE-RECTIFIER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">RADDRIZZATORE A PONTE</skos:prefLabel>
+        <rdfs:label xml:lang="en">bridge-rectifier</rdfs:label>
+        <rdfs:label xml:lang="it">raddrizzatore a ponte</rdfs:label>
+        <skos:prefLabel xml:lang="en">bridge-rectifier</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">raddrizzatore a ponte</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -730,10 +729,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/bush">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">BOCCOLA</rdfs:label>
-        <rdfs:label xml:lang="en">BUSH</rdfs:label>
-        <skos:prefLabel xml:lang="it">BOCCOLA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">BUSH</skos:prefLabel>
+        <rdfs:label xml:lang="it">boccola</rdfs:label>
+        <rdfs:label xml:lang="en">bush</rdfs:label>
+        <skos:prefLabel xml:lang="it">boccola</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">bush</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -757,10 +756,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/cable">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CABLE</rdfs:label>
-        <rdfs:label xml:lang="it">CAVO</rdfs:label>
-        <skos:prefLabel xml:lang="en">CABLE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">CAVO</skos:prefLabel>
+        <rdfs:label xml:lang="en">cable</rdfs:label>
+        <rdfs:label xml:lang="it">cavo</rdfs:label>
+        <skos:prefLabel xml:lang="en">cable</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">cavo</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -770,10 +769,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/cable-accessories">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ACCESSORI PER CAVI</rdfs:label>
-        <rdfs:label xml:lang="en">CABLE ACCESSORIES</rdfs:label>
-        <skos:prefLabel xml:lang="it">ACCESSORI PER CAVI</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">CABLE ACCESSORIES</skos:prefLabel>
+        <rdfs:label xml:lang="it">accessori per cavi</rdfs:label>
+        <rdfs:label xml:lang="en">cable accessories</rdfs:label>
+        <skos:prefLabel xml:lang="it">accessori per cavi</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">cable accessories</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -783,10 +782,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/cable-guide">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CABLE GUIDE</rdfs:label>
-        <rdfs:label xml:lang="it">GUIDA CAVO</rdfs:label>
-        <skos:prefLabel xml:lang="en">CABLE GUIDE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">GUIDA CAVO</skos:prefLabel>
+        <rdfs:label xml:lang="en">cable guide</rdfs:label>
+        <rdfs:label xml:lang="it">guida cavo</rdfs:label>
+        <skos:prefLabel xml:lang="en">cable guide</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">guida cavo</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -810,10 +809,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/cage">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CAGE</rdfs:label>
-        <rdfs:label xml:lang="it">GABBIA</rdfs:label>
-        <skos:prefLabel xml:lang="en">CAGE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">GABBIA</skos:prefLabel>
+        <rdfs:label xml:lang="en">cage</rdfs:label>
+        <rdfs:label xml:lang="it">gabbia</rdfs:label>
+        <skos:prefLabel xml:lang="en">cage</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">gabbia</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -823,10 +822,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/capacitive-sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CAPACITIVE SENSOR</rdfs:label>
-        <rdfs:label xml:lang="it">SENSORE CAPACITIVO</rdfs:label>
-        <skos:prefLabel xml:lang="en">CAPACITIVE SENSOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SENSORE CAPACITIVO</skos:prefLabel>
+        <rdfs:label xml:lang="en">capacitive sensor</rdfs:label>
+        <rdfs:label xml:lang="it">sensore capacitivo</rdfs:label>
+        <skos:prefLabel xml:lang="en">capacitive sensor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">sensore capacitivo</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -836,10 +835,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/capacitor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CAPACITOR</rdfs:label>
-        <rdfs:label xml:lang="it">CONDENSATORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">CAPACITOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">CONDENSATORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">capacitor</rdfs:label>
+        <rdfs:label xml:lang="it">condensatore</rdfs:label>
+        <skos:prefLabel xml:lang="en">capacitor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">condensatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -877,10 +876,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/chain">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CATENA</rdfs:label>
-        <rdfs:label xml:lang="en">CHAIN</rdfs:label>
-        <skos:prefLabel xml:lang="it">CATENA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">CHAIN</skos:prefLabel>
+        <rdfs:label xml:lang="it">catena</rdfs:label>
+        <rdfs:label xml:lang="en">chain</rdfs:label>
+        <skos:prefLabel xml:lang="it">catena</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">chain</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -890,10 +889,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/chain-wheel">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CATENA RUOTA</rdfs:label>
-        <rdfs:label xml:lang="en">CHAIN WHEEL</rdfs:label>
-        <skos:prefLabel xml:lang="it">CATENA RUOTA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">CHAIN WHEEL</skos:prefLabel>
+        <rdfs:label xml:lang="it">catena ruota</rdfs:label>
+        <rdfs:label xml:lang="en">chain wheel</rdfs:label>
+        <skos:prefLabel xml:lang="it">catena ruota</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">chain wheel</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -935,10 +934,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/circuit-breaker">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CIRCUIT BREAKER</rdfs:label>
-        <rdfs:label xml:lang="it">INTERRUTTORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">CIRCUIT BREAKER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">INTERRUTTORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">circuit breaker</rdfs:label>
+        <rdfs:label xml:lang="it">interruttore</rdfs:label>
+        <skos:prefLabel xml:lang="en">circuit breaker</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">interruttore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -974,10 +973,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/closing-ring">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ANELLO DI CHIUSURA</rdfs:label>
-        <rdfs:label xml:lang="en">CLOSING RING</rdfs:label>
-        <skos:prefLabel xml:lang="it">ANELLO DI CHIUSURA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">CLOSING RING</skos:prefLabel>
+        <rdfs:label xml:lang="it">anello di chiusura</rdfs:label>
+        <rdfs:label xml:lang="en">closing ring</rdfs:label>
+        <skos:prefLabel xml:lang="it">anello di chiusura</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">closing ring</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -987,10 +986,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/column">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">COLONNA</rdfs:label>
-        <rdfs:label xml:lang="en">COLUMN</rdfs:label>
-        <skos:prefLabel xml:lang="it">COLONNA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">COLUMN</skos:prefLabel>
+        <rdfs:label xml:lang="it">colonna</rdfs:label>
+        <rdfs:label xml:lang="en">column</rdfs:label>
+        <skos:prefLabel xml:lang="it">colonna</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">column</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1000,10 +999,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/communication-module">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">COMMUNICATION MODULE</rdfs:label>
-        <rdfs:label xml:lang="it">MODULO DI COMUNICAZIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">COMMUNICATION MODULE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MODULO DI COMUNICAZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">communication module</rdfs:label>
+        <rdfs:label xml:lang="it">modulo di comunicazione</rdfs:label>
+        <skos:prefLabel xml:lang="en">communication module</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">modulo di comunicazione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1013,10 +1012,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/compensator-suction-nozzle">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">COMPENSATOR SUCTION NOZZLE</rdfs:label>
-        <rdfs:label xml:lang="it">COMPENSATORE ASPIRAZIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">COMPENSATOR SUCTION NOZZLE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">COMPENSATORE ASPIRAZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">compensator suction nozzle</rdfs:label>
+        <rdfs:label xml:lang="it">compensatore aspirazione</rdfs:label>
+        <skos:prefLabel xml:lang="en">compensator suction nozzle</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">compensatore aspirazione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1026,10 +1025,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/compressor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">COMPRESSOR</rdfs:label>
-        <rdfs:label xml:lang="it">COMPRESSORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">COMPRESSOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">COMPRESSORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">compressor</rdfs:label>
+        <rdfs:label xml:lang="it">compressore</rdfs:label>
+        <skos:prefLabel xml:lang="en">compressor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">compressore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1054,10 +1053,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/connecting-cables">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CAVI DI COLLEGAMENTO</rdfs:label>
-        <rdfs:label xml:lang="en">CONNECTING CABLES</rdfs:label>
-        <skos:prefLabel xml:lang="it">CAVI DI COLLEGAMENTO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">CONNECTING CABLES</skos:prefLabel>
+        <rdfs:label xml:lang="it">cavi di collegamento</rdfs:label>
+        <rdfs:label xml:lang="en">connecting cables</rdfs:label>
+        <skos:prefLabel xml:lang="it">cavi di collegamento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">connecting cables</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1067,10 +1066,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/connecting-module">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CONNECTING MODULE</rdfs:label>
-        <rdfs:label xml:lang="it">MODULO DI COLLEGAMENTO</rdfs:label>
-        <skos:prefLabel xml:lang="en">CONNECTING MODULE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MODULO DI COLLEGAMENTO</skos:prefLabel>
+        <rdfs:label xml:lang="en">connecting module</rdfs:label>
+        <rdfs:label xml:lang="it">modulo di collegamento</rdfs:label>
+        <skos:prefLabel xml:lang="en">connecting module</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">modulo di collegamento</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1080,10 +1079,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/connector">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CONNECTOR</rdfs:label>
-        <rdfs:label xml:lang="it">CONNETTORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">CONNECTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">CONNETTORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">connector</rdfs:label>
+        <rdfs:label xml:lang="it">connettore</rdfs:label>
+        <skos:prefLabel xml:lang="en">connector</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">connettore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1094,12 +1093,12 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/contactor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">CONTACTOR</rdfs:label>
-        <rdfs:label xml:lang="it">CONTATTORE</rdfs:label>
+        <rdfs:label xml:lang="en">contactor</rdfs:label>
+        <rdfs:label xml:lang="it">contattore</rdfs:label>
         <rdfs:label xml:lang="it">teleruttore</rdfs:label>
-        <skos:altLabel xml:lang="en">REMOTE CONTROL SWITCH</skos:altLabel>
-        <skos:prefLabel xml:lang="en">CONTACTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">CONTATTORE</skos:prefLabel>
+        <skos:altlabel xml:lang="en">remote control switch</skos:altlabel>
+        <skos:prefLabel xml:lang="en">contactor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">contattore</skos:prefLabel>
         <skos:prefLabel xml:lang="it">teleruttore</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -1110,10 +1109,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/converter">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CONVERTER</rdfs:label>
-        <rdfs:label xml:lang="it">CONVERTER</rdfs:label>
-        <skos:prefLabel xml:lang="en">CONVERTER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">CONVERTER</skos:prefLabel>
+        <rdfs:label xml:lang="en">converter</rdfs:label>
+        <rdfs:label xml:lang="it">converter</rdfs:label>
+        <skos:prefLabel xml:lang="en">converter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">converter</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1123,10 +1122,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/conveyer-belt">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">CONVEYER BELT</rdfs:label>
-        <rdfs:label xml:lang="it">NASTRO TRASPORTATORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">CONVEYER BELT</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">NASTRO TRASPORTATORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">conveyer belt</rdfs:label>
+        <rdfs:label xml:lang="it">nastro trasportatore</rdfs:label>
+        <skos:prefLabel xml:lang="en">conveyer belt</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">nastro trasportatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1136,10 +1135,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/cooling-fan">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">COOLING FAN</rdfs:label>
-        <rdfs:label xml:lang="it">VENTILATORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">COOLING FAN</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VENTILATORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">cooling fan</rdfs:label>
+        <rdfs:label xml:lang="it">ventilatore</rdfs:label>
+        <skos:prefLabel xml:lang="en">cooling fan</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">ventilatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1149,10 +1148,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/counter">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CONTATORE</rdfs:label>
-        <rdfs:label xml:lang="en">COUNTER</rdfs:label>
-        <skos:prefLabel xml:lang="it">CONTATORE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">COUNTER</skos:prefLabel>
+        <rdfs:label xml:lang="it">contatore</rdfs:label>
+        <rdfs:label xml:lang="en">counter</rdfs:label>
+        <skos:prefLabel xml:lang="it">contatore</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">counter</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1162,10 +1161,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/coupling">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ATTACCO</rdfs:label>
-        <rdfs:label xml:lang="en">COUPLING</rdfs:label>
-        <skos:prefLabel xml:lang="it">ATTACCO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">COUPLING</skos:prefLabel>
+        <rdfs:label xml:lang="it">attacco</rdfs:label>
+        <rdfs:label xml:lang="en">coupling</rdfs:label>
+        <skos:prefLabel xml:lang="it">attacco</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">coupling</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1175,10 +1174,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/cup">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">CUP</rdfs:label>
+        <rdfs:label xml:lang="en">cup</rdfs:label>
         <rdfs:label xml:lang="it">ventosa</rdfs:label>
-        <skos:altLabel xml:lang="en">SUCTION CUP</skos:altLabel>
-        <skos:prefLabel xml:lang="en">CUP</skos:prefLabel>
+        <skos:altlabel xml:lang="en">suction cup</skos:altlabel>
+        <skos:prefLabel xml:lang="en">cup</skos:prefLabel>
         <skos:prefLabel xml:lang="it">ventosa</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -1203,12 +1202,10 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/cylinder">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="it">CILINDRO</rdfs:label>
-        <rdfs:label xml:lang="en">CYLINDER</rdfs:label>
         <rdfs:label xml:lang="it">cilindro</rdfs:label>
-        <skos:prefLabel xml:lang="it">CILINDRO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">CYLINDER</skos:prefLabel>
+        <rdfs:label xml:lang="en">cylinder</rdfs:label>
         <skos:prefLabel xml:lang="it">cilindro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">cylinder</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1271,10 +1268,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/digital-i-o-module">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">DIGITAL I/O MODULE</rdfs:label>
-        <rdfs:label xml:lang="it">MODULO DIGITALE I/O</rdfs:label>
-        <skos:prefLabel xml:lang="en">DIGITAL I/O MODULE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MODULO DIGITALE I/O</skos:prefLabel>
+        <rdfs:label xml:lang="en">digital i/o module</rdfs:label>
+        <rdfs:label xml:lang="it">modulo digitale i/o</rdfs:label>
+        <skos:prefLabel xml:lang="en">digital i/o module</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">modulo digitale i/o</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1284,10 +1281,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/diode">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">DIODE</rdfs:label>
-        <rdfs:label xml:lang="it">DIODO</rdfs:label>
-        <skos:prefLabel xml:lang="en">DIODE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">DIODO</skos:prefLabel>
+        <rdfs:label xml:lang="en">diode</rdfs:label>
+        <rdfs:label xml:lang="it">diodo</rdfs:label>
+        <skos:prefLabel xml:lang="en">diode</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">diodo</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1339,10 +1336,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/display">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">DISPLAY</rdfs:label>
-        <rdfs:label xml:lang="it">DISPLAY</rdfs:label>
-        <skos:prefLabel xml:lang="en">DISPLAY</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">DISPLAY</skos:prefLabel>
+        <rdfs:label xml:lang="en">display</rdfs:label>
+        <rdfs:label xml:lang="it">display</rdfs:label>
+        <skos:prefLabel xml:lang="en">display</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">display</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1366,10 +1363,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/door-switch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">DOOR SWITCH</rdfs:label>
-        <rdfs:label xml:lang="it">INTERRUTTORE PORTA</rdfs:label>
-        <skos:prefLabel xml:lang="en">DOOR SWITCH</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">INTERRUTTORE PORTA</skos:prefLabel>
+        <rdfs:label xml:lang="en">door switch</rdfs:label>
+        <rdfs:label xml:lang="it">interruttore porta</rdfs:label>
+        <skos:prefLabel xml:lang="en">door switch</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">interruttore porta</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1422,10 +1419,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/dress">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">DIVISA</rdfs:label>
-        <rdfs:label xml:lang="en">DRESS</rdfs:label>
-        <skos:prefLabel xml:lang="it">DIVISA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">DRESS</skos:prefLabel>
+        <rdfs:label xml:lang="it">divisa</rdfs:label>
+        <rdfs:label xml:lang="en">dress</rdfs:label>
+        <skos:prefLabel xml:lang="it">divisa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">dress</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1657,10 +1654,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/ejector">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">EJECTOR</rdfs:label>
-        <rdfs:label xml:lang="it">ESPULSORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">EJECTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">ESPULSORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">ejector</rdfs:label>
+        <rdfs:label xml:lang="it">espulsore</rdfs:label>
+        <skos:prefLabel xml:lang="en">ejector</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">espulsore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1684,10 +1681,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/electric-case">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CASE ELETTRICO</rdfs:label>
-        <rdfs:label xml:lang="en">ELECTRIC CASE</rdfs:label>
-        <skos:prefLabel xml:lang="it">CASE ELETTRICO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">ELECTRIC CASE</skos:prefLabel>
+        <rdfs:label xml:lang="it">case elettrico</rdfs:label>
+        <rdfs:label xml:lang="en">electric case</rdfs:label>
+        <skos:prefLabel xml:lang="it">case elettrico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">electric case</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1697,10 +1694,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/electric-motor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">ELECTRIC MOTOR</rdfs:label>
-        <rdfs:label xml:lang="it">MOTORE ELETTRICO</rdfs:label>
-        <skos:prefLabel xml:lang="en">ELECTRIC MOTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MOTORE ELETTRICO</skos:prefLabel>
+        <rdfs:label xml:lang="en">electric motor</rdfs:label>
+        <rdfs:label xml:lang="it">motore elettrico</rdfs:label>
+        <skos:prefLabel xml:lang="en">electric motor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">motore elettrico</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1710,9 +1707,9 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/electric-pump">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">ELECTRIC PUMP</rdfs:label>
+        <rdfs:label xml:lang="en">electric pump</rdfs:label>
         <rdfs:label xml:lang="it">elettropompa</rdfs:label>
-        <skos:prefLabel xml:lang="en">ELECTRIC PUMP</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">electric pump</skos:prefLabel>
         <skos:prefLabel xml:lang="it">elettropompa</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -1723,10 +1720,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/electrical-interface">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">ELECTRICAL INTERFACE</rdfs:label>
-        <rdfs:label xml:lang="it">INTERFACCIA ELETTRICCA</rdfs:label>
-        <skos:prefLabel xml:lang="en">ELECTRICAL INTERFACE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">INTERFACCIA ELETTRICCA</skos:prefLabel>
+        <rdfs:label xml:lang="en">electrical interface</rdfs:label>
+        <rdfs:label xml:lang="it">interfaccia elettricca</rdfs:label>
+        <skos:prefLabel xml:lang="en">electrical interface</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">interfaccia elettricca</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1736,9 +1733,9 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/electrical-motor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">ELECTRICAL MOTOR</rdfs:label>
+        <rdfs:label xml:lang="en">electrical motor</rdfs:label>
         <rdfs:label xml:lang="it">elettromotore</rdfs:label>
-        <skos:prefLabel xml:lang="en">ELECTRICAL MOTOR</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">electrical motor</skos:prefLabel>
         <skos:prefLabel xml:lang="it">elettromotore</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -1762,9 +1759,9 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/eletrical-valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">ELETRICAL VALVE</rdfs:label>
+        <rdfs:label xml:lang="en">eletrical valve</rdfs:label>
         <rdfs:label xml:lang="it">elettrovalvola</rdfs:label>
-        <skos:prefLabel xml:lang="en">ELETRICAL VALVE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">eletrical valve</skos:prefLabel>
         <skos:prefLabel xml:lang="it">elettrovalvola</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -1788,10 +1785,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/encoder">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">ENCODER</rdfs:label>
-        <rdfs:label xml:lang="it">ENCODER</rdfs:label>
-        <skos:prefLabel xml:lang="en">ENCODER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">ENCODER</skos:prefLabel>
+        <rdfs:label xml:lang="en">encoder</rdfs:label>
+        <rdfs:label xml:lang="it">encoder</rdfs:label>
+        <skos:prefLabel xml:lang="en">encoder</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">encoder</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1897,10 +1894,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/fast-switching-valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">FAST-SWITCHING VALVE</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA DI COMMUTAZIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">FAST-SWITCHING VALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA DI COMMUTAZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">fast-switching valve</rdfs:label>
+        <rdfs:label xml:lang="it">valvola di commutazione</rdfs:label>
+        <skos:prefLabel xml:lang="en">fast-switching valve</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvola di commutazione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1936,10 +1933,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/filter">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">FILTER</rdfs:label>
-        <rdfs:label xml:lang="it">FILTRO</rdfs:label>
-        <skos:prefLabel xml:lang="en">FILTER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">FILTRO</skos:prefLabel>
+        <rdfs:label xml:lang="en">filter</rdfs:label>
+        <rdfs:label xml:lang="it">filtro</rdfs:label>
+        <skos:prefLabel xml:lang="en">filter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">filtro</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1949,10 +1946,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/filter-regulator">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">FILTER REGULATOR</rdfs:label>
-        <rdfs:label xml:lang="it">FILTRO REGOLATORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">FILTER REGULATOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">FILTRO REGOLATORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">filter regulator</rdfs:label>
+        <rdfs:label xml:lang="it">filtro regolatore</rdfs:label>
+        <skos:prefLabel xml:lang="en">filter regulator</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">filtro regolatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2048,10 +2045,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/flow-meter">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">FLOW-METER</rdfs:label>
-        <rdfs:label xml:lang="it">FLUSSOMETRO</rdfs:label>
-        <skos:prefLabel xml:lang="en">FLOW-METER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">FLUSSOMETRO</skos:prefLabel>
+        <rdfs:label xml:lang="en">flow-meter</rdfs:label>
+        <rdfs:label xml:lang="it">flussometro</rdfs:label>
+        <skos:prefLabel xml:lang="en">flow-meter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">flussometro</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2061,10 +2058,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/frequency-inverter">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">FREQUENCY INVERTER</rdfs:label>
-        <rdfs:label xml:lang="it">INVERTER DI FREQUENZA</rdfs:label>
-        <skos:prefLabel xml:lang="en">FREQUENCY INVERTER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">INVERTER DI FREQUENZA</skos:prefLabel>
+        <rdfs:label xml:lang="en">frequency inverter</rdfs:label>
+        <rdfs:label xml:lang="it">inverter di frequenza</rdfs:label>
+        <skos:prefLabel xml:lang="en">frequency inverter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">inverter di frequenza</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2074,10 +2071,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/fuse">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">FUSE</rdfs:label>
-        <rdfs:label xml:lang="it">FUSIBILE</rdfs:label>
-        <skos:prefLabel xml:lang="en">FUSE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">FUSIBILE</skos:prefLabel>
+        <rdfs:label xml:lang="en">fuse</rdfs:label>
+        <rdfs:label xml:lang="it">fusibile</rdfs:label>
+        <skos:prefLabel xml:lang="en">fuse</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">fusibile</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2087,10 +2084,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/fuse-holder">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">FUSE HOLDER</rdfs:label>
-        <rdfs:label xml:lang="it">PORTAFUSIBILE</rdfs:label>
-        <skos:prefLabel xml:lang="en">FUSE HOLDER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">PORTAFUSIBILE</skos:prefLabel>
+        <rdfs:label xml:lang="en">fuse holder</rdfs:label>
+        <rdfs:label xml:lang="it">portafusibile</rdfs:label>
+        <skos:prefLabel xml:lang="en">fuse holder</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">portafusibile</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2100,10 +2097,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/gas-detector">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">GAS DETECTOR</rdfs:label>
-        <rdfs:label xml:lang="it">RILEVATORE DI GAS</rdfs:label>
-        <skos:prefLabel xml:lang="en">GAS DETECTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">RILEVATORE DI GAS</skos:prefLabel>
+        <rdfs:label xml:lang="en">gas detector</rdfs:label>
+        <rdfs:label xml:lang="it">rilevatore di gas</rdfs:label>
+        <skos:prefLabel xml:lang="en">gas detector</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">rilevatore di gas</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2113,12 +2110,12 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/gasket">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">GASKET</rdfs:label>
-        <rdfs:label xml:lang="it">GUARNIZIONE</rdfs:label>
-        <skos:altLabel xml:lang="it">GOMMA</skos:altLabel>
-        <skos:altLabel xml:lang="en">RUBBER</skos:altLabel>
-        <skos:prefLabel xml:lang="en">GASKET</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">GUARNIZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">gasket</rdfs:label>
+        <rdfs:label xml:lang="it">guarnizione</rdfs:label>
+        <skos:altlabel xml:lang="it">gomma</skos:altlabel>
+        <skos:altlabel xml:lang="en">rubber</skos:altlabel>
+        <skos:prefLabel xml:lang="en">gasket</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">guarnizione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2128,10 +2125,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/glasses">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">GLASSES</rdfs:label>
-        <rdfs:label xml:lang="it">OCCHIALI</rdfs:label>
-        <skos:prefLabel xml:lang="en">GLASSES</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">OCCHIALI</skos:prefLabel>
+        <rdfs:label xml:lang="en">glasses</rdfs:label>
+        <rdfs:label xml:lang="it">occhiali</rdfs:label>
+        <skos:prefLabel xml:lang="en">glasses</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">occhiali</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2141,10 +2138,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/glove">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">GLOVE</rdfs:label>
-        <rdfs:label xml:lang="it">GUANTO</rdfs:label>
-        <skos:prefLabel xml:lang="en">GLOVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">GUANTO</skos:prefLabel>
+        <rdfs:label xml:lang="en">glove</rdfs:label>
+        <rdfs:label xml:lang="it">guanto</rdfs:label>
+        <skos:prefLabel xml:lang="en">glove</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">guanto</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2154,10 +2151,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/glue">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">COLLA</rdfs:label>
-        <rdfs:label xml:lang="en">GLUE</rdfs:label>
-        <skos:prefLabel xml:lang="it">COLLA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">GLUE</skos:prefLabel>
+        <rdfs:label xml:lang="it">colla</rdfs:label>
+        <rdfs:label xml:lang="en">glue</rdfs:label>
+        <skos:prefLabel xml:lang="it">colla</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">glue</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2167,12 +2164,12 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/grasper">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">GRASPER</rdfs:label>
-        <rdfs:label xml:lang="it">PINZA</rdfs:label>
-        <skos:altLabel xml:lang="en">GRIPPER</skos:altLabel>
-        <skos:altLabel xml:lang="it">MANO</skos:altLabel>
-        <skos:prefLabel xml:lang="en">GRASPER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">PINZA</skos:prefLabel>
+        <rdfs:label xml:lang="en">grasper</rdfs:label>
+        <rdfs:label xml:lang="it">pinza</rdfs:label>
+        <skos:altlabel xml:lang="en">gripper</skos:altlabel>
+        <skos:altlabel xml:lang="it">mano</skos:altlabel>
+        <skos:prefLabel xml:lang="en">grasper</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">pinza</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2182,10 +2179,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/guide">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">GUIDA</rdfs:label>
-        <rdfs:label xml:lang="en">GUIDE</rdfs:label>
-        <skos:prefLabel xml:lang="it">GUIDA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">GUIDE</skos:prefLabel>
+        <rdfs:label xml:lang="it">guida</rdfs:label>
+        <rdfs:label xml:lang="en">guide</rdfs:label>
+        <skos:prefLabel xml:lang="it">guida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">guide</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2221,10 +2218,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/hard-disk">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">DISCO RIGIDO</rdfs:label>
-        <rdfs:label xml:lang="en">HARD DISK</rdfs:label>
-        <skos:prefLabel xml:lang="it">DISCO RIGIDO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">HARD DISK</skos:prefLabel>
+        <rdfs:label xml:lang="it">disco rigido</rdfs:label>
+        <rdfs:label xml:lang="en">hard disk</rdfs:label>
+        <skos:prefLabel xml:lang="it">disco rigido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">hard disk</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2234,10 +2231,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/heat-exchanger">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">HEAT EXCHANGER</rdfs:label>
-        <rdfs:label xml:lang="it">SCAMBIATORE DI CALORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">HEAT EXCHANGER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SCAMBIATORE DI CALORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">heat exchanger</rdfs:label>
+        <rdfs:label xml:lang="it">scambiatore di calore</rdfs:label>
+        <skos:prefLabel xml:lang="en">heat exchanger</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">scambiatore di calore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2248,14 +2245,12 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/heater">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Workstation"/>
-        <rdfs:label xml:lang="en">HEATER</rdfs:label>
-        <rdfs:label xml:lang="it">SCALDATORE</rdfs:label>
         <rdfs:label xml:lang="it">forno </rdfs:label>
         <rdfs:label xml:lang="en">heater</rdfs:label>
-        <skos:prefLabel xml:lang="en">HEATER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SCALDATORE</skos:prefLabel>
+        <rdfs:label xml:lang="it">scaldatore</rdfs:label>
         <skos:prefLabel xml:lang="it">forno </skos:prefLabel>
         <skos:prefLabel xml:lang="en">heater</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">scaldatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2265,10 +2260,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/helmet">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CASCO</rdfs:label>
-        <rdfs:label xml:lang="en">HELMET</rdfs:label>
-        <skos:prefLabel xml:lang="it">CASCO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">HELMET</skos:prefLabel>
+        <rdfs:label xml:lang="it">casco</rdfs:label>
+        <rdfs:label xml:lang="en">helmet</rdfs:label>
+        <skos:prefLabel xml:lang="it">casco</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">helmet</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2278,10 +2273,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/hydraulic-cylinder">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CILINDRO IDRAULICO</rdfs:label>
-        <rdfs:label xml:lang="en">HYDRAULIC CYLINDER</rdfs:label>
-        <skos:prefLabel xml:lang="it">CILINDRO IDRAULICO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">HYDRAULIC CYLINDER</skos:prefLabel>
+        <rdfs:label xml:lang="it">cilindro idraulico</rdfs:label>
+        <rdfs:label xml:lang="en">hydraulic cylinder</rdfs:label>
+        <skos:prefLabel xml:lang="it">cilindro idraulico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">hydraulic cylinder</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2291,10 +2286,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/hydraulic-electrovalve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">HYDRAULIC ELECTROVALVE</rdfs:label>
-        <rdfs:label xml:lang="it">IDRAULICO ELETTROVALVOLA</rdfs:label>
-        <skos:prefLabel xml:lang="en">HYDRAULIC ELECTROVALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">IDRAULICO ELETTROVALVOLA</skos:prefLabel>
+        <rdfs:label xml:lang="en">hydraulic electrovalve</rdfs:label>
+        <rdfs:label xml:lang="it">idraulico elettrovalvola</rdfs:label>
+        <skos:prefLabel xml:lang="en">hydraulic electrovalve</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">idraulico elettrovalvola</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2304,10 +2299,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/hydraulic-motor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">HYDRAULIC MOTOR</rdfs:label>
-        <rdfs:label xml:lang="it">MOTORE IDRAULICO</rdfs:label>
-        <skos:prefLabel xml:lang="en">HYDRAULIC MOTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MOTORE IDRAULICO</skos:prefLabel>
+        <rdfs:label xml:lang="en">hydraulic motor</rdfs:label>
+        <rdfs:label xml:lang="it">motore idraulico</rdfs:label>
+        <skos:prefLabel xml:lang="en">hydraulic motor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">motore idraulico</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2317,10 +2312,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/hydraulic-valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">HYDRAULIC VALVE</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA IDRAULICA</rdfs:label>
-        <skos:prefLabel xml:lang="en">HYDRAULIC VALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA IDRAULICA</skos:prefLabel>
+        <rdfs:label xml:lang="en">hydraulic valve</rdfs:label>
+        <rdfs:label xml:lang="it">valvola idraulica</rdfs:label>
+        <skos:prefLabel xml:lang="en">hydraulic valve</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvola idraulica</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2357,10 +2352,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/inductive-sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">INDUCTIVE SENSOR</rdfs:label>
-        <rdfs:label xml:lang="it">SENSORE INDUTTIVO</rdfs:label>
-        <skos:prefLabel xml:lang="en">INDUCTIVE SENSOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SENSORE INDUTTIVO</skos:prefLabel>
+        <rdfs:label xml:lang="en">inductive sensor</rdfs:label>
+        <rdfs:label xml:lang="it">sensore induttivo</rdfs:label>
+        <skos:prefLabel xml:lang="en">inductive sensor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">sensore induttivo</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2370,10 +2365,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/infrared-sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">INFRARED SENSOR</rdfs:label>
-        <rdfs:label xml:lang="it">SENSORE A INFRAROSSI</rdfs:label>
-        <skos:prefLabel xml:lang="en">INFRARED SENSOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SENSORE A INFRAROSSI</skos:prefLabel>
+        <rdfs:label xml:lang="en">infrared sensor</rdfs:label>
+        <rdfs:label xml:lang="it">sensore a infrarossi</rdfs:label>
+        <skos:prefLabel xml:lang="en">infrared sensor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">sensore a infrarossi</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2421,10 +2416,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/interface-module">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">INTERFACE MODULE</rdfs:label>
-        <rdfs:label xml:lang="it">MODULO DI INTERFACCIA</rdfs:label>
-        <skos:prefLabel xml:lang="en">INTERFACE MODULE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MODULO DI INTERFACCIA</skos:prefLabel>
+        <rdfs:label xml:lang="en">interface module</rdfs:label>
+        <rdfs:label xml:lang="it">modulo di interfaccia</rdfs:label>
+        <skos:prefLabel xml:lang="en">interface module</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">modulo di interfaccia</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2434,13 +2429,13 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/jig">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">JIG</rdfs:label>
-        <rdfs:label xml:lang="it">JIG</rdfs:label>
-        <skos:altLabel xml:lang="it">DIMA</skos:altLabel>
-        <skos:altLabel xml:lang="en">MECHANICAL TEMPLATE</skos:altLabel>
-        <skos:altLabel xml:lang="it">MODELLO</skos:altLabel>
-        <skos:prefLabel xml:lang="en">JIG</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">JIG</skos:prefLabel>
+        <rdfs:label xml:lang="en">jig</rdfs:label>
+        <rdfs:label xml:lang="it">jig</rdfs:label>
+        <skos:altlabel xml:lang="it">dima</skos:altlabel>
+        <skos:altlabel xml:lang="en">mechanical template</skos:altlabel>
+        <skos:altlabel xml:lang="it">modello</skos:altlabel>
+        <skos:prefLabel xml:lang="en">jig</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">jig</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2450,10 +2445,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/joint">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">GIUNTO</rdfs:label>
-        <rdfs:label xml:lang="en">JOINT</rdfs:label>
-        <skos:prefLabel xml:lang="it">GIUNTO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">JOINT</skos:prefLabel>
+        <rdfs:label xml:lang="it">giunto</rdfs:label>
+        <rdfs:label xml:lang="en">joint</rdfs:label>
+        <skos:prefLabel xml:lang="it">giunto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">joint</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2463,10 +2458,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/key-switch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">INTERRUTTORE A CHIAVE</rdfs:label>
-        <rdfs:label xml:lang="en">KEY SWITCH</rdfs:label>
-        <skos:prefLabel xml:lang="it">INTERRUTTORE A CHIAVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">KEY SWITCH</skos:prefLabel>
+        <rdfs:label xml:lang="it">interruttore a chiave</rdfs:label>
+        <rdfs:label xml:lang="en">key switch</rdfs:label>
+        <skos:prefLabel xml:lang="it">interruttore a chiave</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">key switch</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2535,10 +2530,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/laser-sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">LASER</rdfs:label>
-        <rdfs:label xml:lang="en">LASER SENSOR</rdfs:label>
-        <skos:prefLabel xml:lang="it">LASER</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">LASER SENSOR</skos:prefLabel>
+        <rdfs:label xml:lang="it">laser</rdfs:label>
+        <rdfs:label xml:lang="en">laser sensor</rdfs:label>
+        <skos:prefLabel xml:lang="it">laser</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">laser sensor</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2548,12 +2543,12 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/led">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">LED</rdfs:label>
-        <rdfs:label xml:lang="it">LED</rdfs:label>
-        <skos:altLabel xml:lang="en">LCD DISPLAY</skos:altLabel>
-        <skos:altLabel xml:lang="it">LCD DISPLAY</skos:altLabel>
-        <skos:prefLabel xml:lang="en">LED</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">LED</skos:prefLabel>
+        <rdfs:label xml:lang="en">led</rdfs:label>
+        <rdfs:label xml:lang="it">led</rdfs:label>
+        <skos:altlabel xml:lang="en">lcd display</skos:altlabel>
+        <skos:altlabel xml:lang="it">lcd display</skos:altlabel>
+        <skos:prefLabel xml:lang="en">led</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">led</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2577,10 +2572,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/level-sensors">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">LEVEL SENSORS</rdfs:label>
-        <rdfs:label xml:lang="it">SENSORI DI LIVELLO</rdfs:label>
-        <skos:prefLabel xml:lang="en">LEVEL SENSORS</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SENSORI DI LIVELLO</skos:prefLabel>
+        <rdfs:label xml:lang="en">level sensors</rdfs:label>
+        <rdfs:label xml:lang="it">sensori di livello</rdfs:label>
+        <skos:prefLabel xml:lang="en">level sensors</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">sensori di livello</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2590,10 +2585,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/lighting-fittings">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ILLUMINAZIONE</rdfs:label>
-        <rdfs:label xml:lang="en">LIGHTING FITTINGS</rdfs:label>
-        <skos:prefLabel xml:lang="it">ILLUMINAZIONE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">LIGHTING FITTINGS</skos:prefLabel>
+        <rdfs:label xml:lang="it">illuminazione</rdfs:label>
+        <rdfs:label xml:lang="en">lighting fittings</rdfs:label>
+        <skos:prefLabel xml:lang="it">illuminazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">lighting fittings</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2603,10 +2598,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/limit-switch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">FINE CORSA</rdfs:label>
-        <rdfs:label xml:lang="en">LIMIT SWITCH</rdfs:label>
-        <skos:prefLabel xml:lang="it">FINE CORSA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">LIMIT SWITCH</skos:prefLabel>
+        <rdfs:label xml:lang="it">fine corsa</rdfs:label>
+        <rdfs:label xml:lang="en">limit switch</rdfs:label>
+        <skos:prefLabel xml:lang="it">fine corsa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">limit switch</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2616,10 +2611,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/linear-bearing">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CUSCINETTO LINEARE</rdfs:label>
-        <rdfs:label xml:lang="en">LINEAR BEARING</rdfs:label>
-        <skos:prefLabel xml:lang="it">CUSCINETTO LINEARE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">LINEAR BEARING</skos:prefLabel>
+        <rdfs:label xml:lang="it">cuscinetto lineare</rdfs:label>
+        <rdfs:label xml:lang="en">linear bearing</rdfs:label>
+        <skos:prefLabel xml:lang="it">cuscinetto lineare</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">linear bearing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2629,10 +2624,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/liquid-pump">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">LIQUID PUMP</rdfs:label>
-        <rdfs:label xml:lang="it">POMPA LIQUID</rdfs:label>
-        <skos:prefLabel xml:lang="en">LIQUID PUMP</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">POMPA LIQUID</skos:prefLabel>
+        <rdfs:label xml:lang="en">liquid pump</rdfs:label>
+        <rdfs:label xml:lang="it">pompa liquid</rdfs:label>
+        <skos:prefLabel xml:lang="en">liquid pump</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">pompa liquid</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2685,14 +2680,12 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/lock">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Action"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">LOCK</rdfs:label>
-        <rdfs:label xml:lang="it">SERRATURA</rdfs:label>
         <rdfs:label xml:lang="it">bloccare</rdfs:label>
         <rdfs:label xml:lang="en">lock</rdfs:label>
-        <skos:prefLabel xml:lang="en">LOCK</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SERRATURA</skos:prefLabel>
+        <rdfs:label xml:lang="it">serratura</rdfs:label>
         <skos:prefLabel xml:lang="it">bloccare</skos:prefLabel>
         <skos:prefLabel xml:lang="en">lock</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">serratura</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2716,10 +2709,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/lubricator">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">LUBRICATOR</rdfs:label>
-        <rdfs:label xml:lang="it">LUBRIFICATORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">LUBRICATOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">LUBRIFICATORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">lubricator</rdfs:label>
+        <rdfs:label xml:lang="it">lubrificatore</rdfs:label>
+        <skos:prefLabel xml:lang="en">lubricator</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">lubrificatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2729,10 +2722,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/lubrificant">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">LUBRIFICANT</rdfs:label>
-        <rdfs:label xml:lang="it">LUBRIFICANTE</rdfs:label>
-        <skos:prefLabel xml:lang="en">LUBRIFICANT</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">LUBRIFICANTE</skos:prefLabel>
+        <rdfs:label xml:lang="en">lubrificant</rdfs:label>
+        <rdfs:label xml:lang="it">lubrificante</rdfs:label>
+        <skos:prefLabel xml:lang="en">lubrificant</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">lubrificante</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2755,10 +2748,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/magnetic-sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">MAGNETIC SENSOR</rdfs:label>
-        <rdfs:label xml:lang="it">SENSORE MAGNETICO</rdfs:label>
-        <skos:prefLabel xml:lang="en">MAGNETIC SENSOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SENSORE MAGNETICO</skos:prefLabel>
+        <rdfs:label xml:lang="en">magnetic sensor</rdfs:label>
+        <rdfs:label xml:lang="it">sensore magnetico</rdfs:label>
+        <skos:prefLabel xml:lang="en">magnetic sensor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">sensore magnetico</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2768,10 +2761,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/main-switch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">INTERRUTTORE PRINCIPALE</rdfs:label>
-        <rdfs:label xml:lang="en">MAIN SWITCH</rdfs:label>
-        <skos:prefLabel xml:lang="it">INTERRUTTORE PRINCIPALE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">MAIN SWITCH</skos:prefLabel>
+        <rdfs:label xml:lang="it">interruttore principale</rdfs:label>
+        <rdfs:label xml:lang="en">main switch</rdfs:label>
+        <skos:prefLabel xml:lang="it">interruttore principale</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">main switch</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2807,10 +2800,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/manifold">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">COLLETTORE</rdfs:label>
-        <rdfs:label xml:lang="en">MANIFOLD</rdfs:label>
-        <skos:prefLabel xml:lang="it">COLLETTORE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">MANIFOLD</skos:prefLabel>
+        <rdfs:label xml:lang="it">collettore</rdfs:label>
+        <rdfs:label xml:lang="en">manifold</rdfs:label>
+        <skos:prefLabel xml:lang="it">collettore</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">manifold</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2820,10 +2813,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/manometer">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">MANOMETER</rdfs:label>
-        <rdfs:label xml:lang="it">MANOMETRO</rdfs:label>
-        <skos:prefLabel xml:lang="en">MANOMETER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MANOMETRO</skos:prefLabel>
+        <rdfs:label xml:lang="en">manometer</rdfs:label>
+        <rdfs:label xml:lang="it">manometro</rdfs:label>
+        <skos:prefLabel xml:lang="en">manometer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">manometro</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2833,10 +2826,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/manual-valves">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">MANUAL VALVES</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLE MANUALI</rdfs:label>
-        <skos:prefLabel xml:lang="en">MANUAL VALVES</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLE MANUALI</skos:prefLabel>
+        <rdfs:label xml:lang="en">manual valves</rdfs:label>
+        <rdfs:label xml:lang="it">valvole manuali</rdfs:label>
+        <skos:prefLabel xml:lang="en">manual valves</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvole manuali</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2846,10 +2839,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/measurement-device">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">DISPOSITIVO DI MISURAZIONE</rdfs:label>
-        <rdfs:label xml:lang="en">MEASUREMENT DEVICE</rdfs:label>
-        <skos:prefLabel xml:lang="it">DISPOSITIVO DI MISURAZIONE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">MEASUREMENT DEVICE</skos:prefLabel>
+        <rdfs:label xml:lang="it">dispositivo di misurazione</rdfs:label>
+        <rdfs:label xml:lang="en">measurement device</rdfs:label>
+        <skos:prefLabel xml:lang="it">dispositivo di misurazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">measurement device</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2872,10 +2865,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/memory-card">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">MEMORY CARD</rdfs:label>
-        <rdfs:label xml:lang="it">SCHEDA DI MEMORIA</rdfs:label>
-        <skos:prefLabel xml:lang="en">MEMORY CARD</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SCHEDA DI MEMORIA</skos:prefLabel>
+        <rdfs:label xml:lang="en">memory card</rdfs:label>
+        <rdfs:label xml:lang="it">scheda di memoria</rdfs:label>
+        <skos:prefLabel xml:lang="en">memory card</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">scheda di memoria</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2885,10 +2878,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/microswitch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">MICROINTERRUTTORE</rdfs:label>
-        <rdfs:label xml:lang="en">MICROSWITCH</rdfs:label>
-        <skos:prefLabel xml:lang="it">MICROINTERRUTTORE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">MICROSWITCH</skos:prefLabel>
+        <rdfs:label xml:lang="it">microinterruttore</rdfs:label>
+        <rdfs:label xml:lang="en">microswitch</rdfs:label>
+        <skos:prefLabel xml:lang="it">microinterruttore</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">microswitch</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2898,10 +2891,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/monometer">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">MONOMETER</rdfs:label>
         <rdfs:label xml:lang="it">manometro</rdfs:label>
-        <skos:prefLabel xml:lang="en">MONOMETER</skos:prefLabel>
+        <rdfs:label xml:lang="en">monometer</rdfs:label>
         <skos:prefLabel xml:lang="it">manometro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">monometer</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2911,9 +2904,9 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/motor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">MOTOR</rdfs:label>
+        <rdfs:label xml:lang="en">motor</rdfs:label>
         <rdfs:label xml:lang="it">motore</rdfs:label>
-        <skos:prefLabel xml:lang="en">MOTOR</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">motor</skos:prefLabel>
         <skos:prefLabel xml:lang="it">motore</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -2924,10 +2917,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/motor-switch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">MOTOR SWITCH</rdfs:label>
-        <rdfs:label xml:lang="it">MOTORE INTERRUTTORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">MOTOR SWITCH</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MOTORE INTERRUTTORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">motor switch</rdfs:label>
+        <rdfs:label xml:lang="it">motore interruttore</rdfs:label>
+        <skos:prefLabel xml:lang="en">motor switch</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">motore interruttore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2937,11 +2930,11 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/motoreducer">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">MOTOREDUCER</rdfs:label>
-        <rdfs:label xml:lang="it">MOTORIDUTTORE</rdfs:label>
-        <skos:altLabel xml:lang="en">GEARBOX</skos:altLabel>
-        <skos:prefLabel xml:lang="en">MOTOREDUCER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">MOTORIDUTTORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">motoreducer</rdfs:label>
+        <rdfs:label xml:lang="it">motoriduttore</rdfs:label>
+        <skos:altlabel xml:lang="en">gearbox</skos:altlabel>
+        <skos:prefLabel xml:lang="en">motoreducer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">motoriduttore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2951,10 +2944,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/mounting-element">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">MONTAGGIO ELEMENTO</rdfs:label>
-        <rdfs:label xml:lang="en">MOUNTING ELEMENT</rdfs:label>
-        <skos:prefLabel xml:lang="it">MONTAGGIO ELEMENTO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">MOUNTING ELEMENT</skos:prefLabel>
+        <rdfs:label xml:lang="it">montaggio elemento</rdfs:label>
+        <rdfs:label xml:lang="en">mounting element</rdfs:label>
+        <skos:prefLabel xml:lang="it">montaggio elemento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">mounting element</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2992,10 +2985,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/nozzle">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">NOZZLE</rdfs:label>
-        <rdfs:label xml:lang="it">UGELLO</rdfs:label>
-        <skos:prefLabel xml:lang="en">NOZZLE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">UGELLO</skos:prefLabel>
+        <rdfs:label xml:lang="en">nozzle</rdfs:label>
+        <rdfs:label xml:lang="it">ugello</rdfs:label>
+        <skos:prefLabel xml:lang="en">nozzle</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">ugello</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3005,9 +2998,9 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/o-ring">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">O-RING</rdfs:label>
+        <rdfs:label xml:lang="en">o-ring</rdfs:label>
         <rdfs:label xml:lang="it">o-ring</rdfs:label>
-        <skos:prefLabel xml:lang="en">O-RING</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">o-ring</skos:prefLabel>
         <skos:prefLabel xml:lang="it">o-ring</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -3032,10 +3025,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/oil">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">OIL</rdfs:label>
-        <rdfs:label xml:lang="it">OLIO</rdfs:label>
-        <skos:prefLabel xml:lang="en">OIL</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">OLIO</skos:prefLabel>
+        <rdfs:label xml:lang="en">oil</rdfs:label>
+        <rdfs:label xml:lang="it">olio</rdfs:label>
+        <skos:prefLabel xml:lang="en">oil</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">olio</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3045,10 +3038,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/oil-pump">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">OIL PUMP</rdfs:label>
-        <rdfs:label xml:lang="it">POMPA DELL&apos;OLIO</rdfs:label>
-        <skos:prefLabel xml:lang="en">OIL PUMP</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">POMPA DELL&apos;OLIO</skos:prefLabel>
+        <rdfs:label xml:lang="en">oil pump</rdfs:label>
+        <rdfs:label xml:lang="it">pompa dell&apos;olio</rdfs:label>
+        <skos:prefLabel xml:lang="en">oil pump</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">pompa dell&apos;olio</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3084,10 +3077,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/operating-panel-hmi">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">OPERATING PANEL-HMI</rdfs:label>
-        <rdfs:label xml:lang="it">PANNELLO OPERATIVO DI INTERFACCIA</rdfs:label>
-        <skos:prefLabel xml:lang="en">OPERATING PANEL-HMI</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">PANNELLO OPERATIVO DI INTERFACCIA</skos:prefLabel>
+        <rdfs:label xml:lang="en">operating panel-hmi</rdfs:label>
+        <rdfs:label xml:lang="it">pannello operativo di interfaccia</rdfs:label>
+        <skos:prefLabel xml:lang="en">operating panel-hmi</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">pannello operativo di interfaccia</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3097,10 +3090,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/other-assortment">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ALTRE ASSORTIMENTO</rdfs:label>
-        <rdfs:label xml:lang="en">OTHER ASSORTMENT</rdfs:label>
-        <skos:prefLabel xml:lang="it">ALTRE ASSORTIMENTO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">OTHER ASSORTMENT</skos:prefLabel>
+        <rdfs:label xml:lang="it">altre assortimento</rdfs:label>
+        <rdfs:label xml:lang="en">other assortment</rdfs:label>
+        <skos:prefLabel xml:lang="it">altre assortimento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">other assortment</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3124,10 +3117,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/overload-release-clutch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">FRIZIONE DI RILASCIO</rdfs:label>
-        <rdfs:label xml:lang="en">OVERLOAD RELEASE CLUTCH</rdfs:label>
-        <skos:prefLabel xml:lang="it">FRIZIONE DI RILASCIO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">OVERLOAD RELEASE CLUTCH</skos:prefLabel>
+        <rdfs:label xml:lang="it">frizione di rilascio</rdfs:label>
+        <rdfs:label xml:lang="en">overload release clutch</rdfs:label>
+        <skos:prefLabel xml:lang="it">frizione di rilascio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">overload release clutch</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3185,10 +3178,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/photoelectric">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PHOTOELECTRIC</rdfs:label>
-        <rdfs:label xml:lang="it">SENSORE FOTOELETTRICO</rdfs:label>
-        <skos:prefLabel xml:lang="en">PHOTOELECTRIC</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SENSORE FOTOELETTRICO</skos:prefLabel>
+        <rdfs:label xml:lang="en">photoelectric</rdfs:label>
+        <rdfs:label xml:lang="it">sensore fotoelettrico</rdfs:label>
+        <skos:prefLabel xml:lang="en">photoelectric</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">sensore fotoelettrico</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3226,10 +3219,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pipe">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PIPE</rdfs:label>
-        <rdfs:label xml:lang="it">TUBAZIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">PIPE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">TUBAZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">pipe</rdfs:label>
+        <rdfs:label xml:lang="it">tubazione</rdfs:label>
+        <skos:prefLabel xml:lang="en">pipe</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">tubazione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3239,10 +3232,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/piston-rod">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PISTON ROD</rdfs:label>
-        <rdfs:label xml:lang="it">STELO</rdfs:label>
-        <skos:prefLabel xml:lang="en">PISTON ROD</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">STELO</skos:prefLabel>
+        <rdfs:label xml:lang="en">piston rod</rdfs:label>
+        <rdfs:label xml:lang="it">stelo</rdfs:label>
+        <skos:prefLabel xml:lang="en">piston rod</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">stelo</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3252,10 +3245,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/planetary-gear">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">PLANETARIO</rdfs:label>
-        <rdfs:label xml:lang="en">PLANETARY GEAR</rdfs:label>
-        <skos:prefLabel xml:lang="it">PLANETARIO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PLANETARY GEAR</skos:prefLabel>
+        <rdfs:label xml:lang="it">planetario</rdfs:label>
+        <rdfs:label xml:lang="en">planetary gear</rdfs:label>
+        <skos:prefLabel xml:lang="it">planetario</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">planetary gear</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3293,10 +3286,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/plc-cpu">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PLC-CPU</rdfs:label>
-        <rdfs:label xml:lang="it">PLC-CPU</rdfs:label>
-        <skos:prefLabel xml:lang="en">PLC-CPU</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">PLC-CPU</skos:prefLabel>
+        <rdfs:label xml:lang="en">plc-cpu</rdfs:label>
+        <rdfs:label xml:lang="it">plc-cpu</rdfs:label>
+        <skos:prefLabel xml:lang="en">plc-cpu</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">plc-cpu</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3319,10 +3312,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pneumatic-cylinder">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CILINDRO PNEUMATICO</rdfs:label>
-        <rdfs:label xml:lang="en">PNEUMATIC CYLINDER</rdfs:label>
-        <skos:prefLabel xml:lang="it">CILINDRO PNEUMATICO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PNEUMATIC CYLINDER</skos:prefLabel>
+        <rdfs:label xml:lang="it">cilindro pneumatico</rdfs:label>
+        <rdfs:label xml:lang="en">pneumatic cylinder</rdfs:label>
+        <skos:prefLabel xml:lang="it">cilindro pneumatico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pneumatic cylinder</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3332,10 +3325,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pneumatic-pump">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PNEUMATIC PUMP</rdfs:label>
-        <rdfs:label xml:lang="it">POMPA PNEUMATICA</rdfs:label>
-        <skos:prefLabel xml:lang="en">PNEUMATIC PUMP</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">POMPA PNEUMATICA</skos:prefLabel>
+        <rdfs:label xml:lang="en">pneumatic pump</rdfs:label>
+        <rdfs:label xml:lang="it">pompa pneumatica</rdfs:label>
+        <skos:prefLabel xml:lang="en">pneumatic pump</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">pompa pneumatica</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3359,10 +3352,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pneumatic-valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PNEUMATIC VALVE</rdfs:label>
-        <rdfs:label xml:lang="it">PNEUMATICO VALVOLA</rdfs:label>
-        <skos:prefLabel xml:lang="en">PNEUMATIC VALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">PNEUMATICO VALVOLA</skos:prefLabel>
+        <rdfs:label xml:lang="en">pneumatic valve</rdfs:label>
+        <rdfs:label xml:lang="it">pneumatico valvola</rdfs:label>
+        <skos:prefLabel xml:lang="en">pneumatic valve</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">pneumatico valvola</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3386,10 +3379,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/potentiometer">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">POTENTIOMETER</rdfs:label>
-        <rdfs:label xml:lang="it">POTENZIOMETRO</rdfs:label>
-        <skos:prefLabel xml:lang="en">POTENTIOMETER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">POTENZIOMETRO</skos:prefLabel>
+        <rdfs:label xml:lang="en">potentiometer</rdfs:label>
+        <rdfs:label xml:lang="it">potenziometro</rdfs:label>
+        <skos:prefLabel xml:lang="en">potentiometer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">potenziometro</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3399,10 +3392,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/power-supply">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ALIMENTAZIONE ELETTRICA</rdfs:label>
-        <rdfs:label xml:lang="en">POWER SUPPLY</rdfs:label>
-        <skos:prefLabel xml:lang="it">ALIMENTAZIONE ELETTRICA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">POWER SUPPLY</skos:prefLabel>
+        <rdfs:label xml:lang="it">alimentazione elettrica</rdfs:label>
+        <rdfs:label xml:lang="en">power supply</rdfs:label>
+        <skos:prefLabel xml:lang="it">alimentazione elettrica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">power supply</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3412,10 +3405,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pressure-booster">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">PRESSIONE BOOSTER</rdfs:label>
-        <rdfs:label xml:lang="en">PRESSURE BOOSTER</rdfs:label>
-        <skos:prefLabel xml:lang="it">PRESSIONE BOOSTER</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PRESSURE BOOSTER</skos:prefLabel>
+        <rdfs:label xml:lang="it">pressione booster</rdfs:label>
+        <rdfs:label xml:lang="en">pressure booster</rdfs:label>
+        <skos:prefLabel xml:lang="it">pressione booster</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pressure booster</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3425,10 +3418,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pressure-regulator">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PRESSURE REGULATOR</rdfs:label>
-        <rdfs:label xml:lang="it">REGOLATORE DI PRESSIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">PRESSURE REGULATOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">REGOLATORE DI PRESSIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">pressure regulator</rdfs:label>
+        <rdfs:label xml:lang="it">regolatore di pressione</rdfs:label>
+        <skos:prefLabel xml:lang="en">pressure regulator</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">regolatore di pressione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3438,10 +3431,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pressure-sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PRESSURE SENSOR</rdfs:label>
-        <rdfs:label xml:lang="it">SENSORE DI PRESSIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">PRESSURE SENSOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SENSORE DI PRESSIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">pressure sensor</rdfs:label>
+        <rdfs:label xml:lang="it">sensore di pressione</rdfs:label>
+        <skos:prefLabel xml:lang="en">pressure sensor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">sensore di pressione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3451,10 +3444,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pressure-sensor-oil">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">OLIO SENSORE DI PRESSIONE</rdfs:label>
-        <rdfs:label xml:lang="en">PRESSURE SENSOR OIL</rdfs:label>
-        <skos:prefLabel xml:lang="it">OLIO SENSORE DI PRESSIONE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PRESSURE SENSOR OIL</skos:prefLabel>
+        <rdfs:label xml:lang="it">olio sensore di pressione</rdfs:label>
+        <rdfs:label xml:lang="en">pressure sensor oil</rdfs:label>
+        <skos:prefLabel xml:lang="it">olio sensore di pressione</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pressure sensor oil</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3464,10 +3457,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pressure-switch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">PRESSOSTATO</rdfs:label>
-        <rdfs:label xml:lang="en">PRESSURE SWITCH</rdfs:label>
-        <skos:prefLabel xml:lang="it">PRESSOSTATO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PRESSURE SWITCH</skos:prefLabel>
+        <rdfs:label xml:lang="it">pressostato</rdfs:label>
+        <rdfs:label xml:lang="en">pressure switch</rdfs:label>
+        <skos:prefLabel xml:lang="it">pressostato</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pressure switch</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3477,10 +3470,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/printing-head">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PRINTING HEAD</rdfs:label>
-        <rdfs:label xml:lang="it">TESTA DI STAMPA</rdfs:label>
-        <skos:prefLabel xml:lang="en">PRINTING HEAD</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">TESTA DI STAMPA</skos:prefLabel>
+        <rdfs:label xml:lang="en">printing head</rdfs:label>
+        <rdfs:label xml:lang="it">testa di stampa</rdfs:label>
+        <skos:prefLabel xml:lang="en">printing head</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">testa di stampa</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3490,10 +3483,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/production-tools">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PRODUCTION TOOLS</rdfs:label>
-        <rdfs:label xml:lang="it">STRUMENTI DI PRODUZIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">PRODUCTION TOOLS</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">STRUMENTI DI PRODUZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">production tools</rdfs:label>
+        <rdfs:label xml:lang="it">strumenti di produzione</rdfs:label>
+        <skos:prefLabel xml:lang="en">production tools</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">strumenti di produzione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3503,10 +3496,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/protection-device">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">PROTECTION DEVICE</rdfs:label>
-        <rdfs:label xml:lang="it">PROTEZIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">PROTECTION DEVICE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">PROTEZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">protection device</rdfs:label>
+        <rdfs:label xml:lang="it">protezione</rdfs:label>
+        <skos:prefLabel xml:lang="en">protection device</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">protezione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3516,10 +3509,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pulley">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">PULEGGIA</rdfs:label>
-        <rdfs:label xml:lang="en">PULLEY</rdfs:label>
-        <skos:prefLabel xml:lang="it">PULEGGIA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PULLEY</skos:prefLabel>
+        <rdfs:label xml:lang="it">puleggia</rdfs:label>
+        <rdfs:label xml:lang="en">pulley</rdfs:label>
+        <skos:prefLabel xml:lang="it">puleggia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pulley</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3529,10 +3522,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pump">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">PUMP</rdfs:label>
         <rdfs:label xml:lang="it">pompa</rdfs:label>
-        <skos:prefLabel xml:lang="en">PUMP</skos:prefLabel>
+        <rdfs:label xml:lang="en">pump</rdfs:label>
         <skos:prefLabel xml:lang="it">pompa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pump</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3542,10 +3535,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pump-cenrifughe">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">POMPA CENTRIFUGA</rdfs:label>
-        <rdfs:label xml:lang="en">PUMP CENRIFUGHE</rdfs:label>
-        <skos:prefLabel xml:lang="it">POMPA CENTRIFUGA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PUMP CENRIFUGHE</skos:prefLabel>
+        <rdfs:label xml:lang="it">pompa centrifuga</rdfs:label>
+        <rdfs:label xml:lang="en">pump cenrifughe</rdfs:label>
+        <skos:prefLabel xml:lang="it">pompa centrifuga</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pump cenrifughe</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3555,10 +3548,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/pump-hydraulic">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">POMPA IDRAULICA</rdfs:label>
-        <rdfs:label xml:lang="en">PUMP HYDRAULIC</rdfs:label>
-        <skos:prefLabel xml:lang="it">POMPA IDRAULICA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PUMP HYDRAULIC</skos:prefLabel>
+        <rdfs:label xml:lang="it">pompa idraulica</rdfs:label>
+        <rdfs:label xml:lang="en">pump hydraulic</rdfs:label>
+        <skos:prefLabel xml:lang="it">pompa idraulica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pump hydraulic</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3569,11 +3562,9 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/punch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">PUNCH</rdfs:label>
-        <rdfs:label xml:lang="it">PUNZONE</rdfs:label>
+        <rdfs:label xml:lang="en">punch</rdfs:label>
         <rdfs:label xml:lang="it">punzone</rdfs:label>
-        <skos:prefLabel xml:lang="en">PUNCH</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">PUNZONE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">punch</skos:prefLabel>
         <skos:prefLabel xml:lang="it">punzone</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -3584,14 +3575,14 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/push-button">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">PREMI IL BOTTONE</rdfs:label>
-        <rdfs:label xml:lang="en">PUSH-BUTTON</rdfs:label>
+        <rdfs:label xml:lang="it">premi il bottone</rdfs:label>
         <rdfs:label xml:lang="it">pulsante</rdfs:label>
         <rdfs:label xml:lang="en">push button</rdfs:label>
-        <skos:prefLabel xml:lang="it">PREMI IL BOTTONE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">PUSH-BUTTON</skos:prefLabel>
+        <rdfs:label xml:lang="en">push-button</rdfs:label>
+        <skos:prefLabel xml:lang="it">premi il bottone</skos:prefLabel>
         <skos:prefLabel xml:lang="it">pulsante</skos:prefLabel>
         <skos:prefLabel xml:lang="en">push button</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">push-button</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3645,11 +3636,11 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/relay">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">RELAY</rdfs:label>
-        <rdfs:label xml:lang="it">RELAY</rdfs:label>
+        <rdfs:label xml:lang="en">relay</rdfs:label>
+        <rdfs:label xml:lang="it">relay</rdfs:label>
         <rdfs:label xml:lang="it">relé</rdfs:label>
-        <skos:prefLabel xml:lang="en">RELAY</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">RELAY</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">relay</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">relay</skos:prefLabel>
         <skos:prefLabel xml:lang="it">relé</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -3748,12 +3739,12 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/resistor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">RESISTOR</rdfs:label>
-        <rdfs:label xml:lang="it">RESISTORE</rdfs:label>
         <rdfs:label xml:lang="it">resistenza</rdfs:label>
-        <skos:prefLabel xml:lang="en">RESISTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">RESISTORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">resistor</rdfs:label>
+        <rdfs:label xml:lang="it">resistore</rdfs:label>
         <skos:prefLabel xml:lang="it">resistenza</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">resistor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">resistore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3776,10 +3767,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/ring-gear">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CORONA DENTATA</rdfs:label>
-        <rdfs:label xml:lang="en">RING GEAR</rdfs:label>
-        <skos:prefLabel xml:lang="it">CORONA DENTATA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">RING GEAR</skos:prefLabel>
+        <rdfs:label xml:lang="it">corona dentata</rdfs:label>
+        <rdfs:label xml:lang="en">ring gear</rdfs:label>
+        <skos:prefLabel xml:lang="it">corona dentata</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ring gear</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3802,10 +3793,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/roller">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">ROLLER</rdfs:label>
-        <rdfs:label xml:lang="it">RULLO</rdfs:label>
-        <skos:prefLabel xml:lang="en">ROLLER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">RULLO</skos:prefLabel>
+        <rdfs:label xml:lang="en">roller</rdfs:label>
+        <rdfs:label xml:lang="it">rullo</rdfs:label>
+        <skos:prefLabel xml:lang="en">roller</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">rullo</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3815,10 +3806,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/safety-barrier">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">BARRIERA DI SICUREZZA</rdfs:label>
-        <rdfs:label xml:lang="en">SAFETY BARRIER</rdfs:label>
-        <skos:prefLabel xml:lang="it">BARRIERA DI SICUREZZA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SAFETY BARRIER</skos:prefLabel>
+        <rdfs:label xml:lang="it">barriera di sicurezza</rdfs:label>
+        <rdfs:label xml:lang="en">safety barrier</rdfs:label>
+        <skos:prefLabel xml:lang="it">barriera di sicurezza</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">safety barrier</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3828,10 +3819,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/safety-relay">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">RELE DI SICUREZZA</rdfs:label>
-        <rdfs:label xml:lang="en">SAFETY RELAY</rdfs:label>
-        <skos:prefLabel xml:lang="it">RELE DI SICUREZZA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SAFETY RELAY</skos:prefLabel>
+        <rdfs:label xml:lang="it">rele di sicurezza</rdfs:label>
+        <rdfs:label xml:lang="en">safety relay</rdfs:label>
+        <skos:prefLabel xml:lang="it">rele di sicurezza</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">safety relay</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3841,12 +3832,12 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/scanner">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">LETTORE SCANNER</rdfs:label>
-        <rdfs:label xml:lang="en">SCANNER</rdfs:label>
-        <skos:altLabel xml:lang="en">BARCODE READER</skos:altLabel>
-        <skos:altLabel xml:lang="it">LETTORE BARCODE</skos:altLabel>
-        <skos:prefLabel xml:lang="it">LETTORE SCANNER</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SCANNER</skos:prefLabel>
+        <rdfs:label xml:lang="it">lettore scanner</rdfs:label>
+        <rdfs:label xml:lang="en">scanner</rdfs:label>
+        <skos:altlabel xml:lang="en">barcode reader</skos:altlabel>
+        <skos:altlabel xml:lang="it">lettore barcode</skos:altlabel>
+        <skos:prefLabel xml:lang="it">lettore scanner</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">scanner</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3883,13 +3874,13 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/seal">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="it">GUARNIZIONE STRISCIANTE</rdfs:label>
-        <rdfs:label xml:lang="en">SEAL</rdfs:label>
         <rdfs:label xml:lang="it">guarnizione</rdfs:label>
-        <skos:altLabel xml:lang="en">GASKET</skos:altLabel>
-        <skos:prefLabel xml:lang="it">GUARNIZIONE STRISCIANTE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SEAL</skos:prefLabel>
+        <rdfs:label xml:lang="it">guarnizione strisciante</rdfs:label>
+        <rdfs:label xml:lang="en">seal</rdfs:label>
+        <skos:altlabel xml:lang="en">gasket</skos:altlabel>
         <skos:prefLabel xml:lang="it">guarnizione</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">guarnizione strisciante</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">seal</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3913,10 +3904,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/self-aligning-bearing">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">AUTOALLINEANTI</rdfs:label>
-        <rdfs:label xml:lang="en">SELF-ALIGNING BEARING</rdfs:label>
-        <skos:prefLabel xml:lang="it">AUTOALLINEANTI</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SELF-ALIGNING BEARING</skos:prefLabel>
+        <rdfs:label xml:lang="it">autoallineanti</rdfs:label>
+        <rdfs:label xml:lang="en">self-aligning bearing</rdfs:label>
+        <skos:prefLabel xml:lang="it">autoallineanti</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">self-aligning bearing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3926,9 +3917,9 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">SENSOR</rdfs:label>
+        <rdfs:label xml:lang="en">sensor</rdfs:label>
         <rdfs:label xml:lang="it">sensore</rdfs:label>
-        <skos:prefLabel xml:lang="en">SENSOR</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sensor</skos:prefLabel>
         <skos:prefLabel xml:lang="it">sensore</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -3952,10 +3943,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/servomotor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">SERVOMOTOR</rdfs:label>
-        <rdfs:label xml:lang="it">SERVOMOTORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">SERVOMOTOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SERVOMOTORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">servomotor</rdfs:label>
+        <rdfs:label xml:lang="it">servomotore</rdfs:label>
+        <skos:prefLabel xml:lang="en">servomotor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">servomotore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3965,10 +3956,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/set-of-wearing-parts">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">SET DI PARTI USURANTI</rdfs:label>
-        <rdfs:label xml:lang="en">SET OF WEARING PARTS</rdfs:label>
-        <skos:prefLabel xml:lang="it">SET DI PARTI USURANTI</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SET OF WEARING PARTS</skos:prefLabel>
+        <rdfs:label xml:lang="it">set di parti usuranti</rdfs:label>
+        <rdfs:label xml:lang="en">set of wearing parts</rdfs:label>
+        <skos:prefLabel xml:lang="it">set di parti usuranti</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">set of wearing parts</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3996,10 +3987,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/shock-absorber-brake-cylinder">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">AMMORTIZZATORE FRENO</rdfs:label>
-        <rdfs:label xml:lang="en">SHOCK-ABSORBER BRAKE CYLINDER</rdfs:label>
-        <skos:prefLabel xml:lang="it">AMMORTIZZATORE FRENO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SHOCK-ABSORBER BRAKE CYLINDER</skos:prefLabel>
+        <rdfs:label xml:lang="it">ammortizzatore freno</rdfs:label>
+        <rdfs:label xml:lang="en">shock-absorber brake cylinder</rdfs:label>
+        <skos:prefLabel xml:lang="it">ammortizzatore freno</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">shock-absorber brake cylinder</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4009,10 +4000,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/shoes">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CALZATURE</rdfs:label>
-        <rdfs:label xml:lang="en">SHOES</rdfs:label>
-        <skos:prefLabel xml:lang="it">CALZATURE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SHOES</skos:prefLabel>
+        <rdfs:label xml:lang="it">calzature</rdfs:label>
+        <rdfs:label xml:lang="en">shoes</rdfs:label>
+        <skos:prefLabel xml:lang="it">calzature</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">shoes</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4022,10 +4013,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/silencer">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">SILENCER</rdfs:label>
-        <rdfs:label xml:lang="it">SILENZIATORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">SILENCER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">SILENZIATORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">silencer</rdfs:label>
+        <rdfs:label xml:lang="it">silenziatore</rdfs:label>
+        <skos:prefLabel xml:lang="en">silencer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">silenziatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4048,10 +4039,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/socket-mounting">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ATTACCO DI MONTAGGIO</rdfs:label>
-        <rdfs:label xml:lang="en">SOCKET MOUNTING</rdfs:label>
-        <skos:prefLabel xml:lang="it">ATTACCO DI MONTAGGIO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SOCKET MOUNTING</skos:prefLabel>
+        <rdfs:label xml:lang="it">attacco di montaggio</rdfs:label>
+        <rdfs:label xml:lang="en">socket mounting</rdfs:label>
+        <skos:prefLabel xml:lang="it">attacco di montaggio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">socket mounting</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4061,10 +4052,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/softstarter">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">MOTORE TRIFASE</rdfs:label>
-        <rdfs:label xml:lang="en">SOFTSTARTER</rdfs:label>
-        <skos:prefLabel xml:lang="it">MOTORE TRIFASE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SOFTSTARTER</skos:prefLabel>
+        <rdfs:label xml:lang="it">motore trifase</rdfs:label>
+        <rdfs:label xml:lang="en">softstarter</rdfs:label>
+        <skos:prefLabel xml:lang="it">motore trifase</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">softstarter</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4074,10 +4065,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/solenoid-coil">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">SOLENIODE</rdfs:label>
-        <rdfs:label xml:lang="en">SOLENOID COIL</rdfs:label>
-        <skos:prefLabel xml:lang="it">SOLENIODE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SOLENOID COIL</skos:prefLabel>
+        <rdfs:label xml:lang="it">soleniode</rdfs:label>
+        <rdfs:label xml:lang="en">solenoid coil</rdfs:label>
+        <skos:prefLabel xml:lang="it">soleniode</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">solenoid coil</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4087,10 +4078,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/solenoid-valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">SOLENOID VALVE</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA SOLENOIDE</rdfs:label>
-        <skos:prefLabel xml:lang="en">SOLENOID VALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA SOLENOIDE</skos:prefLabel>
+        <rdfs:label xml:lang="en">solenoid valve</rdfs:label>
+        <rdfs:label xml:lang="it">valvola solenoide</rdfs:label>
+        <skos:prefLabel xml:lang="en">solenoid valve</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvola solenoide</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4113,10 +4104,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/special-material">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">MATERIALI SPECIALI</rdfs:label>
-        <rdfs:label xml:lang="en">SPECIAL MATERIAL</rdfs:label>
-        <skos:prefLabel xml:lang="it">MATERIALI SPECIALI</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SPECIAL MATERIAL</skos:prefLabel>
+        <rdfs:label xml:lang="it">materiali speciali</rdfs:label>
+        <rdfs:label xml:lang="en">special material</rdfs:label>
+        <skos:prefLabel xml:lang="it">materiali speciali</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">special material</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4126,10 +4117,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/special-screw">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">SPECIAL SCREW</rdfs:label>
-        <rdfs:label xml:lang="it">VITE SPECIALE</rdfs:label>
-        <skos:prefLabel xml:lang="en">SPECIAL SCREW</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VITE SPECIALE</skos:prefLabel>
+        <rdfs:label xml:lang="en">special screw</rdfs:label>
+        <rdfs:label xml:lang="it">vite speciale</rdfs:label>
+        <skos:prefLabel xml:lang="en">special screw</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">vite speciale</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4139,10 +4130,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/spring">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">MOLLA</rdfs:label>
-        <rdfs:label xml:lang="en">SPRING</rdfs:label>
-        <skos:prefLabel xml:lang="it">MOLLA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SPRING</skos:prefLabel>
+        <rdfs:label xml:lang="it">molla</rdfs:label>
+        <rdfs:label xml:lang="en">spring</rdfs:label>
+        <skos:prefLabel xml:lang="it">molla</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">spring</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4152,10 +4143,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/sprocket">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">PIGNONE</rdfs:label>
-        <rdfs:label xml:lang="en">SPROCKET</rdfs:label>
-        <skos:prefLabel xml:lang="it">PIGNONE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SPROCKET</skos:prefLabel>
+        <rdfs:label xml:lang="it">pignone</rdfs:label>
+        <rdfs:label xml:lang="en">sprocket</rdfs:label>
+        <skos:prefLabel xml:lang="it">pignone</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sprocket</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4165,10 +4156,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/sprue-bushing">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">BUSSOLA DI INIEZIONE</rdfs:label>
-        <rdfs:label xml:lang="en">SPRUE BUSHING</rdfs:label>
-        <skos:prefLabel xml:lang="it">BUSSOLA DI INIEZIONE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SPRUE BUSHING</skos:prefLabel>
+        <rdfs:label xml:lang="it">bussola di iniezione</rdfs:label>
+        <rdfs:label xml:lang="en">sprue bushing</rdfs:label>
+        <skos:prefLabel xml:lang="it">bussola di iniezione</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sprue bushing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4220,10 +4211,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/stop-valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">STOP VALVE</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA D&apos;INTERRUZIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">STOP VALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA D&apos;INTERRUZIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">stop valve</rdfs:label>
+        <rdfs:label xml:lang="it">valvola d&apos;interruzione</rdfs:label>
+        <skos:prefLabel xml:lang="en">stop valve</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvola d&apos;interruzione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4233,10 +4224,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/suction-cup">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">SUCTION CUP</rdfs:label>
-        <rdfs:label xml:lang="it">VENTOSA</rdfs:label>
-        <skos:prefLabel xml:lang="en">SUCTION CUP</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VENTOSA</skos:prefLabel>
+        <rdfs:label xml:lang="en">suction cup</rdfs:label>
+        <rdfs:label xml:lang="it">ventosa</rdfs:label>
+        <skos:prefLabel xml:lang="en">suction cup</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">ventosa</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4246,10 +4237,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/switch">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">SWITCH</rdfs:label>
         <rdfs:label xml:lang="it">interruttore</rdfs:label>
-        <skos:prefLabel xml:lang="en">SWITCH</skos:prefLabel>
+        <rdfs:label xml:lang="en">switch</rdfs:label>
         <skos:prefLabel xml:lang="it">interruttore</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">switch</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4259,10 +4250,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/switch-accessories">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">ACCESSORI INTERRUTTORE</rdfs:label>
-        <rdfs:label xml:lang="en">SWITCH ACCESSORIES</rdfs:label>
-        <skos:prefLabel xml:lang="it">ACCESSORI INTERRUTTORE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SWITCH ACCESSORIES</skos:prefLabel>
+        <rdfs:label xml:lang="it">accessori interruttore</rdfs:label>
+        <rdfs:label xml:lang="en">switch accessories</rdfs:label>
+        <skos:prefLabel xml:lang="it">accessori interruttore</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">switch accessories</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4298,10 +4289,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/sylicon-pump">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">POMPA DI SILICONE</rdfs:label>
-        <rdfs:label xml:lang="en">SYLICON PUMP</rdfs:label>
-        <skos:prefLabel xml:lang="it">POMPA DI SILICONE</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">SYLICON PUMP</skos:prefLabel>
+        <rdfs:label xml:lang="it">pompa di silicone</rdfs:label>
+        <rdfs:label xml:lang="en">sylicon pump</rdfs:label>
+        <skos:prefLabel xml:lang="it">pompa di silicone</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sylicon pump</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4324,10 +4315,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/tank">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CARRO ARMATO</rdfs:label>
-        <rdfs:label xml:lang="en">TANK</rdfs:label>
-        <skos:prefLabel xml:lang="it">CARRO ARMATO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">TANK</skos:prefLabel>
+        <rdfs:label xml:lang="it">carro armato</rdfs:label>
+        <rdfs:label xml:lang="en">tank</rdfs:label>
+        <skos:prefLabel xml:lang="it">carro armato</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">tank</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4350,10 +4341,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/temperature-sensor">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">TEMPERATURE SENSOR</rdfs:label>
-        <rdfs:label xml:lang="it">TERMOMETRO</rdfs:label>
-        <skos:prefLabel xml:lang="en">TEMPERATURE SENSOR</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">TERMOMETRO</skos:prefLabel>
+        <rdfs:label xml:lang="en">temperature sensor</rdfs:label>
+        <rdfs:label xml:lang="it">termometro</rdfs:label>
+        <skos:prefLabel xml:lang="en">temperature sensor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">termometro</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4363,10 +4354,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/terminal-block">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">MORSETTIERA</rdfs:label>
-        <rdfs:label xml:lang="en">TERMINAL BLOCK</rdfs:label>
-        <skos:prefLabel xml:lang="it">MORSETTIERA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">TERMINAL BLOCK</skos:prefLabel>
+        <rdfs:label xml:lang="it">morsettiera</rdfs:label>
+        <rdfs:label xml:lang="en">terminal block</rdfs:label>
+        <skos:prefLabel xml:lang="it">morsettiera</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">terminal block</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4390,10 +4381,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/thermocouple">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">TERMOCOPPIA</rdfs:label>
-        <rdfs:label xml:lang="en">THERMOCOUPLE</rdfs:label>
-        <skos:prefLabel xml:lang="it">TERMOCOPPIA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">THERMOCOUPLE</skos:prefLabel>
+        <rdfs:label xml:lang="it">termocoppia</rdfs:label>
+        <rdfs:label xml:lang="en">thermocouple</rdfs:label>
+        <skos:prefLabel xml:lang="it">termocoppia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">thermocouple</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4418,12 +4409,12 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/thermostat">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">TERMOSTATO</rdfs:label>
-        <rdfs:label xml:lang="en">THERMOSTAT</rdfs:label>
-        <skos:altLabel xml:lang="it">TERMOREGOLATORE</skos:altLabel>
-        <skos:altLabel xml:lang="en">THERMO-REGULATOR</skos:altLabel>
-        <skos:prefLabel xml:lang="it">TERMOSTATO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">THERMOSTAT</skos:prefLabel>
+        <rdfs:label xml:lang="it">termostato</rdfs:label>
+        <rdfs:label xml:lang="en">thermostat</rdfs:label>
+        <skos:altlabel xml:lang="it">termoregolatore</skos:altlabel>
+        <skos:altlabel xml:lang="en">thermo-regulator</skos:altlabel>
+        <skos:prefLabel xml:lang="it">termostato</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">thermostat</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4433,10 +4424,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/timer">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">TIMER</rdfs:label>
-        <rdfs:label xml:lang="it">TIMER</rdfs:label>
-        <skos:prefLabel xml:lang="en">TIMER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">TIMER</skos:prefLabel>
+        <rdfs:label xml:lang="en">timer</rdfs:label>
+        <rdfs:label xml:lang="it">timer</rdfs:label>
+        <skos:prefLabel xml:lang="en">timer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">timer</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4460,10 +4451,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/toothed-belt">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">CINGHIA DENTATA</rdfs:label>
-        <rdfs:label xml:lang="en">TOOTHED BELT</rdfs:label>
-        <skos:prefLabel xml:lang="it">CINGHIA DENTATA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">TOOTHED BELT</skos:prefLabel>
+        <rdfs:label xml:lang="it">cinghia dentata</rdfs:label>
+        <rdfs:label xml:lang="en">toothed belt</rdfs:label>
+        <skos:prefLabel xml:lang="it">cinghia dentata</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">toothed belt</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4473,10 +4464,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/toothed-wheel">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">RUOTA DENTATA</rdfs:label>
-        <rdfs:label xml:lang="en">TOOTHED WHEEL</rdfs:label>
-        <skos:prefLabel xml:lang="it">RUOTA DENTATA</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">TOOTHED WHEEL</skos:prefLabel>
+        <rdfs:label xml:lang="it">ruota dentata</rdfs:label>
+        <rdfs:label xml:lang="en">toothed wheel</rdfs:label>
+        <skos:prefLabel xml:lang="it">ruota dentata</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">toothed wheel</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4515,10 +4506,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/transformer">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">TRANSFORMER</rdfs:label>
-        <rdfs:label xml:lang="it">TRASFORMATORE</rdfs:label>
-        <skos:prefLabel xml:lang="en">TRANSFORMER</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">TRASFORMATORE</skos:prefLabel>
+        <rdfs:label xml:lang="en">transformer</rdfs:label>
+        <rdfs:label xml:lang="it">trasformatore</rdfs:label>
+        <skos:prefLabel xml:lang="en">transformer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">trasformatore</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4528,10 +4519,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/transport-tape-belt">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">TRANSPORT TAPE (BELT)</rdfs:label>
-        <rdfs:label xml:lang="it">TRASPORTO DEL NASTRO (CINGHIA)</rdfs:label>
-        <skos:prefLabel xml:lang="en">TRANSPORT TAPE (BELT)</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">TRASPORTO DEL NASTRO (CINGHIA)</skos:prefLabel>
+        <rdfs:label xml:lang="en">transport tape (belt)</rdfs:label>
+        <rdfs:label xml:lang="it">trasporto del nastro (cinghia)</rdfs:label>
+        <skos:prefLabel xml:lang="en">transport tape (belt)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">trasporto del nastro (cinghia)</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4702,10 +4693,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/vacuum-pump">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="it">POMPA A VUOTO</rdfs:label>
-        <rdfs:label xml:lang="en">VACUUM PUMP</rdfs:label>
-        <skos:prefLabel xml:lang="it">POMPA A VUOTO</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">VACUUM PUMP</skos:prefLabel>
+        <rdfs:label xml:lang="it">pompa a vuoto</rdfs:label>
+        <rdfs:label xml:lang="en">vacuum pump</rdfs:label>
+        <skos:prefLabel xml:lang="it">pompa a vuoto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">vacuum pump</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4716,11 +4707,9 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/valve">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/SparePart"/>
-        <rdfs:label xml:lang="en">VALVE</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA</rdfs:label>
+        <rdfs:label xml:lang="en">valve</rdfs:label>
         <rdfs:label xml:lang="it">valvola</rdfs:label>
-        <skos:prefLabel xml:lang="en">VALVE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">valve</skos:prefLabel>
         <skos:prefLabel xml:lang="it">valvola</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -4731,10 +4720,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/valve-pressure">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">VALVE PRESSURE</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA DI PRESSIONE</rdfs:label>
-        <skos:prefLabel xml:lang="en">VALVE PRESSURE</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA DI PRESSIONE</skos:prefLabel>
+        <rdfs:label xml:lang="en">valve pressure</rdfs:label>
+        <rdfs:label xml:lang="it">valvola di pressione</rdfs:label>
+        <skos:prefLabel xml:lang="en">valve pressure</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvola di pressione</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4744,10 +4733,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/valve-terminal">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">VALVE TERMINAL</rdfs:label>
-        <rdfs:label xml:lang="it">VALVOLA TERMINALE</rdfs:label>
-        <skos:prefLabel xml:lang="en">VALVE TERMINAL</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VALVOLA TERMINALE</skos:prefLabel>
+        <rdfs:label xml:lang="en">valve terminal</rdfs:label>
+        <rdfs:label xml:lang="it">valvola terminale</rdfs:label>
+        <skos:prefLabel xml:lang="en">valve terminal</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">valvola terminale</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4757,10 +4746,10 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/khub-onto/voltmeters">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/khub-onto/Component"/>
-        <rdfs:label xml:lang="en">VOLTMETERS</rdfs:label>
-        <rdfs:label xml:lang="it">VOLTMETRO</rdfs:label>
-        <skos:prefLabel xml:lang="en">VOLTMETERS</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">VOLTMETRO</skos:prefLabel>
+        <rdfs:label xml:lang="en">voltmeters</rdfs:label>
+        <rdfs:label xml:lang="it">voltmetro</rdfs:label>
+        <skos:prefLabel xml:lang="en">voltmeters</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">voltmetro</skos:prefLabel>
     </owl:NamedIndividual>
     
 

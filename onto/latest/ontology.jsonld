@@ -110,6 +110,9 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altlabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -377,17 +380,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "AMPERE METER"
+    "@value" : "ampere meter"
   }, {
     "@language" : "it",
-    "@value" : "AMPEROMETRO"
+    "@value" : "amperometro"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "AMPERE METER"
+    "@value" : "ampere meter"
   }, {
     "@language" : "it",
-    "@value" : "AMPEROMETRO"
+    "@value" : "amperometro"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/analog-module",
@@ -397,17 +400,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ANALOG MODULE"
+    "@value" : "analog module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO ANALOGICO"
+    "@value" : "modulo analogico"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ANALOG MODULE"
+    "@value" : "analog module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO ANALOGICO"
+    "@value" : "modulo analogico"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/asi-module",
@@ -417,17 +420,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ASI MODULE"
+    "@value" : "asi module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO ASI"
+    "@value" : "modulo asi"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ASI MODULE"
+    "@value" : "asi module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO ASI"
+    "@value" : "modulo asi"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/auxiliary-contact",
@@ -437,17 +440,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "AUXILIARY CONTACT"
+    "@value" : "auxiliary contact"
   }, {
     "@language" : "it",
-    "@value" : "CONTATTO AUSILIARIO"
+    "@value" : "contatto ausiliario"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "AUXILIARY CONTACT"
+    "@value" : "auxiliary contact"
   }, {
     "@language" : "it",
-    "@value" : "CONTATTO AUSILIARIO"
+    "@value" : "contatto ausiliario"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/back-end",
@@ -484,17 +487,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "BALL SHUT-OFF VALVE"
+    "@value" : "ball shut-off valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA A SFERA"
+    "@value" : "valvola a sfera"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "BALL SHUT-OFF VALVE"
+    "@value" : "ball shut-off valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA A SFERA"
+    "@value" : "valvola a sfera"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/base",
@@ -504,24 +507,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "BASE"
-  }, {
-    "@language" : "it",
-    "@value" : "BASE"
-  }, {
-    "@language" : "en",
     "@value" : "base"
   }, {
     "@language" : "it",
     "@value" : "base"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "BASE"
-  }, {
-    "@language" : "it",
-    "@value" : "BASE"
-  }, {
     "@language" : "en",
     "@value" : "base"
   }, {
@@ -536,24 +527,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "BATTERIA"
-  }, {
-    "@language" : "en",
-    "@value" : "BATTERY"
-  }, {
-    "@language" : "it",
     "@value" : "batteria"
   }, {
     "@language" : "en",
     "@value" : "battery"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "it",
-    "@value" : "BATTERIA"
-  }, {
-    "@language" : "en",
-    "@value" : "BATTERY"
-  }, {
     "@language" : "it",
     "@value" : "batteria"
   }, {
@@ -568,17 +547,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "BEARING"
+    "@value" : "bearing"
   }, {
     "@language" : "it",
-    "@value" : "CUSCINETTO"
+    "@value" : "cuscinetto"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "BEARING"
+    "@value" : "bearing"
   }, {
     "@language" : "it",
-    "@value" : "CUSCINETTO"
+    "@value" : "cuscinetto"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/bending",
@@ -608,12 +587,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "BOARD"
+    "@value" : "board"
   }, {
     "@language" : "it",
     "@value" : "scheda "
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "en",
     "@value" : "electronic board"
   }, {
@@ -622,7 +601,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "BOARD"
+    "@value" : "board"
   }, {
     "@language" : "it",
     "@value" : "scheda "
@@ -655,17 +634,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "BRIDGE-RECTIFIER"
+    "@value" : "bridge-rectifier"
   }, {
     "@language" : "it",
-    "@value" : "RADDRIZZATORE A PONTE"
+    "@value" : "raddrizzatore a ponte"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "BRIDGE-RECTIFIER"
+    "@value" : "bridge-rectifier"
   }, {
     "@language" : "it",
-    "@value" : "RADDRIZZATORE A PONTE"
+    "@value" : "raddrizzatore a ponte"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/bubbling",
@@ -719,17 +698,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "BOCCOLA"
+    "@value" : "boccola"
   }, {
     "@language" : "en",
-    "@value" : "BUSH"
+    "@value" : "bush"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "BOCCOLA"
+    "@value" : "boccola"
   }, {
     "@language" : "en",
-    "@value" : "BUSH"
+    "@value" : "bush"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/cabinet-foaming",
@@ -763,17 +742,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CABLE"
+    "@value" : "cable"
   }, {
     "@language" : "it",
-    "@value" : "CAVO"
+    "@value" : "cavo"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CABLE"
+    "@value" : "cable"
   }, {
     "@language" : "it",
-    "@value" : "CAVO"
+    "@value" : "cavo"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/cable-accessories",
@@ -783,17 +762,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ACCESSORI PER CAVI"
+    "@value" : "accessori per cavi"
   }, {
     "@language" : "en",
-    "@value" : "CABLE ACCESSORIES"
+    "@value" : "cable accessories"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ACCESSORI PER CAVI"
+    "@value" : "accessori per cavi"
   }, {
     "@language" : "en",
-    "@value" : "CABLE ACCESSORIES"
+    "@value" : "cable accessories"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/cable-guide",
@@ -803,17 +782,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CABLE GUIDE"
+    "@value" : "cable guide"
   }, {
     "@language" : "it",
-    "@value" : "GUIDA CAVO"
+    "@value" : "guida cavo"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CABLE GUIDE"
+    "@value" : "cable guide"
   }, {
     "@language" : "it",
-    "@value" : "GUIDA CAVO"
+    "@value" : "guida cavo"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/cables",
@@ -847,17 +826,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CAGE"
+    "@value" : "cage"
   }, {
     "@language" : "it",
-    "@value" : "GABBIA"
+    "@value" : "gabbia"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CAGE"
+    "@value" : "cage"
   }, {
     "@language" : "it",
-    "@value" : "GABBIA"
+    "@value" : "gabbia"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/capacitive-sensor",
@@ -867,17 +846,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CAPACITIVE SENSOR"
+    "@value" : "capacitive sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE CAPACITIVO"
+    "@value" : "sensore capacitivo"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CAPACITIVE SENSOR"
+    "@value" : "capacitive sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE CAPACITIVO"
+    "@value" : "sensore capacitivo"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/capacitor",
@@ -887,17 +866,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CAPACITOR"
+    "@value" : "capacitor"
   }, {
     "@language" : "it",
-    "@value" : "CONDENSATORE"
+    "@value" : "condensatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CAPACITOR"
+    "@value" : "capacitor"
   }, {
     "@language" : "it",
-    "@value" : "CONDENSATORE"
+    "@value" : "condensatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/cart",
@@ -954,17 +933,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CATENA"
+    "@value" : "catena"
   }, {
     "@language" : "en",
-    "@value" : "CHAIN"
+    "@value" : "chain"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CATENA"
+    "@value" : "catena"
   }, {
     "@language" : "en",
-    "@value" : "CHAIN"
+    "@value" : "chain"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/chain-wheel",
@@ -974,17 +953,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CATENA RUOTA"
+    "@value" : "catena ruota"
   }, {
     "@language" : "en",
-    "@value" : "CHAIN WHEEL"
+    "@value" : "chain wheel"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CATENA RUOTA"
+    "@value" : "catena ruota"
   }, {
     "@language" : "en",
-    "@value" : "CHAIN WHEEL"
+    "@value" : "chain wheel"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/check",
@@ -1052,17 +1031,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CIRCUIT BREAKER"
+    "@value" : "circuit breaker"
   }, {
     "@language" : "it",
-    "@value" : "INTERRUTTORE"
+    "@value" : "interruttore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CIRCUIT BREAKER"
+    "@value" : "circuit breaker"
   }, {
     "@language" : "it",
-    "@value" : "INTERRUTTORE"
+    "@value" : "interruttore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/clean",
@@ -1112,17 +1091,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ANELLO DI CHIUSURA"
+    "@value" : "anello di chiusura"
   }, {
     "@language" : "en",
-    "@value" : "CLOSING RING"
+    "@value" : "closing ring"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ANELLO DI CHIUSURA"
+    "@value" : "anello di chiusura"
   }, {
     "@language" : "en",
-    "@value" : "CLOSING RING"
+    "@value" : "closing ring"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/column",
@@ -1132,17 +1111,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "COLONNA"
+    "@value" : "colonna"
   }, {
     "@language" : "en",
-    "@value" : "COLUMN"
+    "@value" : "column"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "COLONNA"
+    "@value" : "colonna"
   }, {
     "@language" : "en",
-    "@value" : "COLUMN"
+    "@value" : "column"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/communication-module",
@@ -1152,17 +1131,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "COMMUNICATION MODULE"
+    "@value" : "communication module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DI COMUNICAZIONE"
+    "@value" : "modulo di comunicazione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "COMMUNICATION MODULE"
+    "@value" : "communication module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DI COMUNICAZIONE"
+    "@value" : "modulo di comunicazione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/compensator-suction-nozzle",
@@ -1172,17 +1151,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "COMPENSATOR SUCTION NOZZLE"
+    "@value" : "compensator suction nozzle"
   }, {
     "@language" : "it",
-    "@value" : "COMPENSATORE ASPIRAZIONE"
+    "@value" : "compensatore aspirazione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "COMPENSATOR SUCTION NOZZLE"
+    "@value" : "compensator suction nozzle"
   }, {
     "@language" : "it",
-    "@value" : "COMPENSATORE ASPIRAZIONE"
+    "@value" : "compensatore aspirazione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/compressor",
@@ -1192,17 +1171,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "COMPRESSOR"
+    "@value" : "compressor"
   }, {
     "@language" : "it",
-    "@value" : "COMPRESSORE"
+    "@value" : "compressore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "COMPRESSOR"
+    "@value" : "compressor"
   }, {
     "@language" : "it",
-    "@value" : "COMPRESSORE"
+    "@value" : "compressore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/connect",
@@ -1239,17 +1218,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CAVI DI COLLEGAMENTO"
+    "@value" : "cavi di collegamento"
   }, {
     "@language" : "en",
-    "@value" : "CONNECTING CABLES"
+    "@value" : "connecting cables"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CAVI DI COLLEGAMENTO"
+    "@value" : "cavi di collegamento"
   }, {
     "@language" : "en",
-    "@value" : "CONNECTING CABLES"
+    "@value" : "connecting cables"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/connecting-module",
@@ -1259,17 +1238,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CONNECTING MODULE"
+    "@value" : "connecting module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DI COLLEGAMENTO"
+    "@value" : "modulo di collegamento"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CONNECTING MODULE"
+    "@value" : "connecting module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DI COLLEGAMENTO"
+    "@value" : "modulo di collegamento"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/connector",
@@ -1279,17 +1258,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CONNECTOR"
+    "@value" : "connector"
   }, {
     "@language" : "it",
-    "@value" : "CONNETTORE"
+    "@value" : "connettore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CONNECTOR"
+    "@value" : "connector"
   }, {
     "@language" : "it",
-    "@value" : "CONNETTORE"
+    "@value" : "connettore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/contactor",
@@ -1301,24 +1280,24 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CONTACTOR"
+    "@value" : "contactor"
   }, {
     "@language" : "it",
-    "@value" : "CONTATTORE"
+    "@value" : "contattore"
   }, {
     "@language" : "it",
     "@value" : "teleruttore"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "en",
-    "@value" : "REMOTE CONTROL SWITCH"
+    "@value" : "remote control switch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CONTACTOR"
+    "@value" : "contactor"
   }, {
     "@language" : "it",
-    "@value" : "CONTATTORE"
+    "@value" : "contattore"
   }, {
     "@language" : "it",
     "@value" : "teleruttore"
@@ -1331,17 +1310,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CONVERTER"
+    "@value" : "converter"
   }, {
     "@language" : "it",
-    "@value" : "CONVERTER"
+    "@value" : "converter"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CONVERTER"
+    "@value" : "converter"
   }, {
     "@language" : "it",
-    "@value" : "CONVERTER"
+    "@value" : "converter"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/conveyer-belt",
@@ -1351,17 +1330,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CONVEYER BELT"
+    "@value" : "conveyer belt"
   }, {
     "@language" : "it",
-    "@value" : "NASTRO TRASPORTATORE"
+    "@value" : "nastro trasportatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CONVEYER BELT"
+    "@value" : "conveyer belt"
   }, {
     "@language" : "it",
-    "@value" : "NASTRO TRASPORTATORE"
+    "@value" : "nastro trasportatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/cooling-fan",
@@ -1371,17 +1350,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "COOLING FAN"
+    "@value" : "cooling fan"
   }, {
     "@language" : "it",
-    "@value" : "VENTILATORE"
+    "@value" : "ventilatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "COOLING FAN"
+    "@value" : "cooling fan"
   }, {
     "@language" : "it",
-    "@value" : "VENTILATORE"
+    "@value" : "ventilatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/counter",
@@ -1391,17 +1370,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CONTATORE"
+    "@value" : "contatore"
   }, {
     "@language" : "en",
-    "@value" : "COUNTER"
+    "@value" : "counter"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CONTATORE"
+    "@value" : "contatore"
   }, {
     "@language" : "en",
-    "@value" : "COUNTER"
+    "@value" : "counter"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/coupling",
@@ -1411,17 +1390,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ATTACCO"
+    "@value" : "attacco"
   }, {
     "@language" : "en",
-    "@value" : "COUPLING"
+    "@value" : "coupling"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ATTACCO"
+    "@value" : "attacco"
   }, {
     "@language" : "en",
-    "@value" : "COUPLING"
+    "@value" : "coupling"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/cup",
@@ -1431,18 +1410,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CUP"
+    "@value" : "cup"
   }, {
     "@language" : "it",
     "@value" : "ventosa"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "en",
-    "@value" : "SUCTION CUP"
+    "@value" : "suction cup"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "CUP"
+    "@value" : "cup"
   }, {
     "@language" : "it",
     "@value" : "ventosa"
@@ -1477,23 +1456,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CILINDRO"
+    "@value" : "cilindro"
   }, {
     "@language" : "en",
-    "@value" : "CYLINDER"
-  }, {
-    "@language" : "it",
-    "@value" : "cilindro"
+    "@value" : "cylinder"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CILINDRO"
+    "@value" : "cilindro"
   }, {
     "@language" : "en",
-    "@value" : "CYLINDER"
-  }, {
-    "@language" : "it",
-    "@value" : "cilindro"
+    "@value" : "cylinder"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/de-energize",
@@ -1587,17 +1560,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "DIGITAL I/O MODULE"
+    "@value" : "digital i/o module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DIGITALE I/O"
+    "@value" : "modulo digitale i/o"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "DIGITAL I/O MODULE"
+    "@value" : "digital i/o module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DIGITALE I/O"
+    "@value" : "modulo digitale i/o"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/diode",
@@ -1607,17 +1580,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "DIODE"
+    "@value" : "diode"
   }, {
     "@language" : "it",
-    "@value" : "DIODO"
+    "@value" : "diodo"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "DIODE"
+    "@value" : "diode"
   }, {
     "@language" : "it",
-    "@value" : "DIODO"
+    "@value" : "diodo"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/disable",
@@ -1697,17 +1670,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "DISPLAY"
+    "@value" : "display"
   }, {
     "@language" : "it",
-    "@value" : "DISPLAY"
+    "@value" : "display"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "DISPLAY"
+    "@value" : "display"
   }, {
     "@language" : "it",
-    "@value" : "DISPLAY"
+    "@value" : "display"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/door-foaming",
@@ -1741,17 +1714,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "DOOR SWITCH"
+    "@value" : "door switch"
   }, {
     "@language" : "it",
-    "@value" : "INTERRUTTORE PORTA"
+    "@value" : "interruttore porta"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "DOOR SWITCH"
+    "@value" : "door switch"
   }, {
     "@language" : "it",
-    "@value" : "INTERRUTTORE PORTA"
+    "@value" : "interruttore porta"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/downgrade",
@@ -1834,17 +1807,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "DIVISA"
+    "@value" : "divisa"
   }, {
     "@language" : "en",
-    "@value" : "DRESS"
+    "@value" : "dress"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "DIVISA"
+    "@value" : "divisa"
   }, {
     "@language" : "en",
-    "@value" : "DRESS"
+    "@value" : "dress"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/driver-manual",
@@ -2140,17 +2113,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "EJECTOR"
+    "@value" : "ejector"
   }, {
     "@language" : "it",
-    "@value" : "ESPULSORE"
+    "@value" : "espulsore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "EJECTOR"
+    "@value" : "ejector"
   }, {
     "@language" : "it",
-    "@value" : "ESPULSORE"
+    "@value" : "espulsore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/electical-schema",
@@ -2184,17 +2157,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CASE ELETTRICO"
+    "@value" : "case elettrico"
   }, {
     "@language" : "en",
-    "@value" : "ELECTRIC CASE"
+    "@value" : "electric case"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CASE ELETTRICO"
+    "@value" : "case elettrico"
   }, {
     "@language" : "en",
-    "@value" : "ELECTRIC CASE"
+    "@value" : "electric case"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/electric-motor",
@@ -2204,17 +2177,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ELECTRIC MOTOR"
+    "@value" : "electric motor"
   }, {
     "@language" : "it",
-    "@value" : "MOTORE ELETTRICO"
+    "@value" : "motore elettrico"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ELECTRIC MOTOR"
+    "@value" : "electric motor"
   }, {
     "@language" : "it",
-    "@value" : "MOTORE ELETTRICO"
+    "@value" : "motore elettrico"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/electric-pump",
@@ -2224,14 +2197,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ELECTRIC PUMP"
+    "@value" : "electric pump"
   }, {
     "@language" : "it",
     "@value" : "elettropompa"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ELECTRIC PUMP"
+    "@value" : "electric pump"
   }, {
     "@language" : "it",
     "@value" : "elettropompa"
@@ -2244,17 +2217,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ELECTRICAL INTERFACE"
+    "@value" : "electrical interface"
   }, {
     "@language" : "it",
-    "@value" : "INTERFACCIA ELETTRICCA"
+    "@value" : "interfaccia elettricca"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ELECTRICAL INTERFACE"
+    "@value" : "electrical interface"
   }, {
     "@language" : "it",
-    "@value" : "INTERFACCIA ELETTRICCA"
+    "@value" : "interfaccia elettricca"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/electrical-motor",
@@ -2264,14 +2237,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ELECTRICAL MOTOR"
+    "@value" : "electrical motor"
   }, {
     "@language" : "it",
     "@value" : "elettromotore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ELECTRICAL MOTOR"
+    "@value" : "electrical motor"
   }, {
     "@language" : "it",
     "@value" : "elettromotore"
@@ -2304,14 +2277,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ELETRICAL VALVE"
+    "@value" : "eletrical valve"
   }, {
     "@language" : "it",
     "@value" : "elettrovalvola"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ELETRICAL VALVE"
+    "@value" : "eletrical valve"
   }, {
     "@language" : "it",
     "@value" : "elettrovalvola"
@@ -2344,17 +2317,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ENCODER"
+    "@value" : "encoder"
   }, {
     "@language" : "it",
-    "@value" : "ENCODER"
+    "@value" : "encoder"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ENCODER"
+    "@value" : "encoder"
   }, {
     "@language" : "it",
-    "@value" : "ENCODER"
+    "@value" : "encoder"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/end-of-line",
@@ -2523,17 +2496,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FAST-SWITCHING VALVE"
+    "@value" : "fast-switching valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA DI COMMUTAZIONE"
+    "@value" : "valvola di commutazione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FAST-SWITCHING VALVE"
+    "@value" : "fast-switching valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA DI COMMUTAZIONE"
+    "@value" : "valvola di commutazione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/fasten",
@@ -2583,17 +2556,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FILTER"
+    "@value" : "filter"
   }, {
     "@language" : "it",
-    "@value" : "FILTRO"
+    "@value" : "filtro"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FILTER"
+    "@value" : "filter"
   }, {
     "@language" : "it",
-    "@value" : "FILTRO"
+    "@value" : "filtro"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/filter-regulator",
@@ -2603,17 +2576,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FILTER REGULATOR"
+    "@value" : "filter regulator"
   }, {
     "@language" : "it",
-    "@value" : "FILTRO REGOLATORE"
+    "@value" : "filtro regolatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FILTER REGULATOR"
+    "@value" : "filter regulator"
   }, {
     "@language" : "it",
-    "@value" : "FILTRO REGOLATORE"
+    "@value" : "filtro regolatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/find",
@@ -2769,17 +2742,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FLOW-METER"
+    "@value" : "flow-meter"
   }, {
     "@language" : "it",
-    "@value" : "FLUSSOMETRO"
+    "@value" : "flussometro"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FLOW-METER"
+    "@value" : "flow-meter"
   }, {
     "@language" : "it",
-    "@value" : "FLUSSOMETRO"
+    "@value" : "flussometro"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/frequency-inverter",
@@ -2789,17 +2762,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FREQUENCY INVERTER"
+    "@value" : "frequency inverter"
   }, {
     "@language" : "it",
-    "@value" : "INVERTER DI FREQUENZA"
+    "@value" : "inverter di frequenza"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FREQUENCY INVERTER"
+    "@value" : "frequency inverter"
   }, {
     "@language" : "it",
-    "@value" : "INVERTER DI FREQUENZA"
+    "@value" : "inverter di frequenza"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/fuse",
@@ -2809,17 +2782,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FUSE"
+    "@value" : "fuse"
   }, {
     "@language" : "it",
-    "@value" : "FUSIBILE"
+    "@value" : "fusibile"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FUSE"
+    "@value" : "fuse"
   }, {
     "@language" : "it",
-    "@value" : "FUSIBILE"
+    "@value" : "fusibile"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/fuse-holder",
@@ -2829,17 +2802,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "FUSE HOLDER"
+    "@value" : "fuse holder"
   }, {
     "@language" : "it",
-    "@value" : "PORTAFUSIBILE"
+    "@value" : "portafusibile"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FUSE HOLDER"
+    "@value" : "fuse holder"
   }, {
     "@language" : "it",
-    "@value" : "PORTAFUSIBILE"
+    "@value" : "portafusibile"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/gas-detector",
@@ -2849,17 +2822,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "GAS DETECTOR"
+    "@value" : "gas detector"
   }, {
     "@language" : "it",
-    "@value" : "RILEVATORE DI GAS"
+    "@value" : "rilevatore di gas"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "GAS DETECTOR"
+    "@value" : "gas detector"
   }, {
     "@language" : "it",
-    "@value" : "RILEVATORE DI GAS"
+    "@value" : "rilevatore di gas"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/gasket",
@@ -2869,24 +2842,24 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "GASKET"
+    "@value" : "gasket"
   }, {
     "@language" : "it",
-    "@value" : "GUARNIZIONE"
+    "@value" : "guarnizione"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "it",
-    "@value" : "GOMMA"
+    "@value" : "gomma"
   }, {
     "@language" : "en",
-    "@value" : "RUBBER"
+    "@value" : "rubber"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "GASKET"
+    "@value" : "gasket"
   }, {
     "@language" : "it",
-    "@value" : "GUARNIZIONE"
+    "@value" : "guarnizione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/glasses",
@@ -2896,17 +2869,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "GLASSES"
+    "@value" : "glasses"
   }, {
     "@language" : "it",
-    "@value" : "OCCHIALI"
+    "@value" : "occhiali"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "GLASSES"
+    "@value" : "glasses"
   }, {
     "@language" : "it",
-    "@value" : "OCCHIALI"
+    "@value" : "occhiali"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/glove",
@@ -2916,17 +2889,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "GLOVE"
+    "@value" : "glove"
   }, {
     "@language" : "it",
-    "@value" : "GUANTO"
+    "@value" : "guanto"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "GLOVE"
+    "@value" : "glove"
   }, {
     "@language" : "it",
-    "@value" : "GUANTO"
+    "@value" : "guanto"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/glue",
@@ -2936,17 +2909,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "COLLA"
+    "@value" : "colla"
   }, {
     "@language" : "en",
-    "@value" : "GLUE"
+    "@value" : "glue"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "COLLA"
+    "@value" : "colla"
   }, {
     "@language" : "en",
-    "@value" : "GLUE"
+    "@value" : "glue"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/grasper",
@@ -2956,24 +2929,24 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "GRASPER"
+    "@value" : "grasper"
   }, {
     "@language" : "it",
-    "@value" : "PINZA"
+    "@value" : "pinza"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "en",
-    "@value" : "GRIPPER"
+    "@value" : "gripper"
   }, {
     "@language" : "it",
-    "@value" : "MANO"
+    "@value" : "mano"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "GRASPER"
+    "@value" : "grasper"
   }, {
     "@language" : "it",
-    "@value" : "PINZA"
+    "@value" : "pinza"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/guide",
@@ -2983,17 +2956,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "GUIDA"
+    "@value" : "guida"
   }, {
     "@language" : "en",
-    "@value" : "GUIDE"
+    "@value" : "guide"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "GUIDA"
+    "@value" : "guida"
   }, {
     "@language" : "en",
-    "@value" : "GUIDE"
+    "@value" : "guide"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/handle",
@@ -3043,17 +3016,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "DISCO RIGIDO"
+    "@value" : "disco rigido"
   }, {
     "@language" : "en",
-    "@value" : "HARD DISK"
+    "@value" : "hard disk"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "DISCO RIGIDO"
+    "@value" : "disco rigido"
   }, {
     "@language" : "en",
-    "@value" : "HARD DISK"
+    "@value" : "hard disk"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/hasConfidenceScore",
@@ -3135,17 +3108,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "HEAT EXCHANGER"
+    "@value" : "heat exchanger"
   }, {
     "@language" : "it",
-    "@value" : "SCAMBIATORE DI CALORE"
+    "@value" : "scambiatore di calore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "HEAT EXCHANGER"
+    "@value" : "heat exchanger"
   }, {
     "@language" : "it",
-    "@value" : "SCAMBIATORE DI CALORE"
+    "@value" : "scambiatore di calore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/heater",
@@ -3156,30 +3129,24 @@
     "@id" : "https://knowledge.c-innovationhub.com/khub-onto/Workstation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "HEATER"
-  }, {
-    "@language" : "it",
-    "@value" : "SCALDATORE"
-  }, {
     "@language" : "it",
     "@value" : "forno "
   }, {
     "@language" : "en",
     "@value" : "heater"
+  }, {
+    "@language" : "it",
+    "@value" : "scaldatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "HEATER"
-  }, {
-    "@language" : "it",
-    "@value" : "SCALDATORE"
-  }, {
     "@language" : "it",
     "@value" : "forno "
   }, {
     "@language" : "en",
     "@value" : "heater"
+  }, {
+    "@language" : "it",
+    "@value" : "scaldatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/helmet",
@@ -3189,17 +3156,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CASCO"
+    "@value" : "casco"
   }, {
     "@language" : "en",
-    "@value" : "HELMET"
+    "@value" : "helmet"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CASCO"
+    "@value" : "casco"
   }, {
     "@language" : "en",
-    "@value" : "HELMET"
+    "@value" : "helmet"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/hydraulic-cylinder",
@@ -3209,17 +3176,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CILINDRO IDRAULICO"
+    "@value" : "cilindro idraulico"
   }, {
     "@language" : "en",
-    "@value" : "HYDRAULIC CYLINDER"
+    "@value" : "hydraulic cylinder"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CILINDRO IDRAULICO"
+    "@value" : "cilindro idraulico"
   }, {
     "@language" : "en",
-    "@value" : "HYDRAULIC CYLINDER"
+    "@value" : "hydraulic cylinder"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/hydraulic-electrovalve",
@@ -3229,17 +3196,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "HYDRAULIC ELECTROVALVE"
+    "@value" : "hydraulic electrovalve"
   }, {
     "@language" : "it",
-    "@value" : "IDRAULICO ELETTROVALVOLA"
+    "@value" : "idraulico elettrovalvola"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "HYDRAULIC ELECTROVALVE"
+    "@value" : "hydraulic electrovalve"
   }, {
     "@language" : "it",
-    "@value" : "IDRAULICO ELETTROVALVOLA"
+    "@value" : "idraulico elettrovalvola"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/hydraulic-motor",
@@ -3249,17 +3216,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "HYDRAULIC MOTOR"
+    "@value" : "hydraulic motor"
   }, {
     "@language" : "it",
-    "@value" : "MOTORE IDRAULICO"
+    "@value" : "motore idraulico"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "HYDRAULIC MOTOR"
+    "@value" : "hydraulic motor"
   }, {
     "@language" : "it",
-    "@value" : "MOTORE IDRAULICO"
+    "@value" : "motore idraulico"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/hydraulic-valve",
@@ -3269,17 +3236,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "HYDRAULIC VALVE"
+    "@value" : "hydraulic valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA IDRAULICA"
+    "@value" : "valvola idraulica"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "HYDRAULIC VALVE"
+    "@value" : "hydraulic valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA IDRAULICA"
+    "@value" : "valvola idraulica"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/identification-label",
@@ -3333,17 +3300,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "INDUCTIVE SENSOR"
+    "@value" : "inductive sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE INDUTTIVO"
+    "@value" : "sensore induttivo"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "INDUCTIVE SENSOR"
+    "@value" : "inductive sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE INDUTTIVO"
+    "@value" : "sensore induttivo"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/infrared-sensor",
@@ -3353,17 +3320,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "INFRARED SENSOR"
+    "@value" : "infrared sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE A INFRAROSSI"
+    "@value" : "sensore a infrarossi"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "INFRARED SENSOR"
+    "@value" : "infrared sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE A INFRAROSSI"
+    "@value" : "sensore a infrarossi"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/insert",
@@ -3450,17 +3417,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "INTERFACE MODULE"
+    "@value" : "interface module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DI INTERFACCIA"
+    "@value" : "modulo di interfaccia"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "INTERFACE MODULE"
+    "@value" : "interface module"
   }, {
     "@language" : "it",
-    "@value" : "MODULO DI INTERFACCIA"
+    "@value" : "modulo di interfaccia"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/jig",
@@ -3470,27 +3437,27 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "JIG"
+    "@value" : "jig"
   }, {
     "@language" : "it",
-    "@value" : "JIG"
+    "@value" : "jig"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "it",
-    "@value" : "DIMA"
+    "@value" : "dima"
   }, {
     "@language" : "en",
-    "@value" : "MECHANICAL TEMPLATE"
+    "@value" : "mechanical template"
   }, {
     "@language" : "it",
-    "@value" : "MODELLO"
+    "@value" : "modello"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "JIG"
+    "@value" : "jig"
   }, {
     "@language" : "it",
-    "@value" : "JIG"
+    "@value" : "jig"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/joint",
@@ -3500,17 +3467,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "GIUNTO"
+    "@value" : "giunto"
   }, {
     "@language" : "en",
-    "@value" : "JOINT"
+    "@value" : "joint"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "GIUNTO"
+    "@value" : "giunto"
   }, {
     "@language" : "en",
-    "@value" : "JOINT"
+    "@value" : "joint"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/key-switch",
@@ -3520,17 +3487,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "INTERRUTTORE A CHIAVE"
+    "@value" : "interruttore a chiave"
   }, {
     "@language" : "en",
-    "@value" : "KEY SWITCH"
+    "@value" : "key switch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "INTERRUTTORE A CHIAVE"
+    "@value" : "interruttore a chiave"
   }, {
     "@language" : "en",
-    "@value" : "KEY SWITCH"
+    "@value" : "key switch"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/lack-of-connectivity",
@@ -3645,17 +3612,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "LASER"
+    "@value" : "laser"
   }, {
     "@language" : "en",
-    "@value" : "LASER SENSOR"
+    "@value" : "laser sensor"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "LASER"
+    "@value" : "laser"
   }, {
     "@language" : "en",
-    "@value" : "LASER SENSOR"
+    "@value" : "laser sensor"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/led",
@@ -3665,24 +3632,24 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "LED"
+    "@value" : "led"
   }, {
     "@language" : "it",
-    "@value" : "LED"
+    "@value" : "led"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "en",
-    "@value" : "LCD DISPLAY"
+    "@value" : "lcd display"
   }, {
     "@language" : "it",
-    "@value" : "LCD DISPLAY"
+    "@value" : "lcd display"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "LED"
+    "@value" : "led"
   }, {
     "@language" : "it",
-    "@value" : "LED"
+    "@value" : "led"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/level-failure",
@@ -3716,17 +3683,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "LEVEL SENSORS"
+    "@value" : "level sensors"
   }, {
     "@language" : "it",
-    "@value" : "SENSORI DI LIVELLO"
+    "@value" : "sensori di livello"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "LEVEL SENSORS"
+    "@value" : "level sensors"
   }, {
     "@language" : "it",
-    "@value" : "SENSORI DI LIVELLO"
+    "@value" : "sensori di livello"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/lighting-fittings",
@@ -3736,17 +3703,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ILLUMINAZIONE"
+    "@value" : "illuminazione"
   }, {
     "@language" : "en",
-    "@value" : "LIGHTING FITTINGS"
+    "@value" : "lighting fittings"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ILLUMINAZIONE"
+    "@value" : "illuminazione"
   }, {
     "@language" : "en",
-    "@value" : "LIGHTING FITTINGS"
+    "@value" : "lighting fittings"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/limit-switch",
@@ -3756,17 +3723,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "FINE CORSA"
+    "@value" : "fine corsa"
   }, {
     "@language" : "en",
-    "@value" : "LIMIT SWITCH"
+    "@value" : "limit switch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "FINE CORSA"
+    "@value" : "fine corsa"
   }, {
     "@language" : "en",
-    "@value" : "LIMIT SWITCH"
+    "@value" : "limit switch"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/linear-bearing",
@@ -3776,17 +3743,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CUSCINETTO LINEARE"
+    "@value" : "cuscinetto lineare"
   }, {
     "@language" : "en",
-    "@value" : "LINEAR BEARING"
+    "@value" : "linear bearing"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CUSCINETTO LINEARE"
+    "@value" : "cuscinetto lineare"
   }, {
     "@language" : "en",
-    "@value" : "LINEAR BEARING"
+    "@value" : "linear bearing"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/liquid-pump",
@@ -3796,17 +3763,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "LIQUID PUMP"
+    "@value" : "liquid pump"
   }, {
     "@language" : "it",
-    "@value" : "POMPA LIQUID"
+    "@value" : "pompa liquid"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "LIQUID PUMP"
+    "@value" : "liquid pump"
   }, {
     "@language" : "it",
-    "@value" : "POMPA LIQUID"
+    "@value" : "pompa liquid"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/loading",
@@ -3888,30 +3855,24 @@
     "@id" : "https://knowledge.c-innovationhub.com/khub-onto/Component"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "LOCK"
-  }, {
-    "@language" : "it",
-    "@value" : "SERRATURA"
-  }, {
     "@language" : "it",
     "@value" : "bloccare"
   }, {
     "@language" : "en",
     "@value" : "lock"
+  }, {
+    "@language" : "it",
+    "@value" : "serratura"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "LOCK"
-  }, {
-    "@language" : "it",
-    "@value" : "SERRATURA"
-  }, {
     "@language" : "it",
     "@value" : "bloccare"
   }, {
     "@language" : "en",
     "@value" : "lock"
+  }, {
+    "@language" : "it",
+    "@value" : "serratura"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/lubricate",
@@ -3945,17 +3906,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "LUBRICATOR"
+    "@value" : "lubricator"
   }, {
     "@language" : "it",
-    "@value" : "LUBRIFICATORE"
+    "@value" : "lubrificatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "LUBRICATOR"
+    "@value" : "lubricator"
   }, {
     "@language" : "it",
-    "@value" : "LUBRIFICATORE"
+    "@value" : "lubrificatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/lubrificant",
@@ -3965,17 +3926,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "LUBRIFICANT"
+    "@value" : "lubrificant"
   }, {
     "@language" : "it",
-    "@value" : "LUBRIFICANTE"
+    "@value" : "lubrificante"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "LUBRIFICANT"
+    "@value" : "lubrificant"
   }, {
     "@language" : "it",
-    "@value" : "LUBRIFICANTE"
+    "@value" : "lubrificante"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/machine-ledger",
@@ -4005,17 +3966,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "MAGNETIC SENSOR"
+    "@value" : "magnetic sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE MAGNETICO"
+    "@value" : "sensore magnetico"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "MAGNETIC SENSOR"
+    "@value" : "magnetic sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE MAGNETICO"
+    "@value" : "sensore magnetico"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/main-switch",
@@ -4025,17 +3986,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "INTERRUTTORE PRINCIPALE"
+    "@value" : "interruttore principale"
   }, {
     "@language" : "en",
-    "@value" : "MAIN SWITCH"
+    "@value" : "main switch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "INTERRUTTORE PRINCIPALE"
+    "@value" : "interruttore principale"
   }, {
     "@language" : "en",
-    "@value" : "MAIN SWITCH"
+    "@value" : "main switch"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/maintenance-manual",
@@ -4085,17 +4046,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "COLLETTORE"
+    "@value" : "collettore"
   }, {
     "@language" : "en",
-    "@value" : "MANIFOLD"
+    "@value" : "manifold"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "COLLETTORE"
+    "@value" : "collettore"
   }, {
     "@language" : "en",
-    "@value" : "MANIFOLD"
+    "@value" : "manifold"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/manometer",
@@ -4105,17 +4066,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "MANOMETER"
+    "@value" : "manometer"
   }, {
     "@language" : "it",
-    "@value" : "MANOMETRO"
+    "@value" : "manometro"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "MANOMETER"
+    "@value" : "manometer"
   }, {
     "@language" : "it",
-    "@value" : "MANOMETRO"
+    "@value" : "manometro"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/manual-valves",
@@ -4125,17 +4086,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "MANUAL VALVES"
+    "@value" : "manual valves"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLE MANUALI"
+    "@value" : "valvole manuali"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "MANUAL VALVES"
+    "@value" : "manual valves"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLE MANUALI"
+    "@value" : "valvole manuali"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/measurement-device",
@@ -4145,17 +4106,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "DISPOSITIVO DI MISURAZIONE"
+    "@value" : "dispositivo di misurazione"
   }, {
     "@language" : "en",
-    "@value" : "MEASUREMENT DEVICE"
+    "@value" : "measurement device"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "DISPOSITIVO DI MISURAZIONE"
+    "@value" : "dispositivo di misurazione"
   }, {
     "@language" : "en",
-    "@value" : "MEASUREMENT DEVICE"
+    "@value" : "measurement device"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/mechanical-block",
@@ -4185,17 +4146,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "MEMORY CARD"
+    "@value" : "memory card"
   }, {
     "@language" : "it",
-    "@value" : "SCHEDA DI MEMORIA"
+    "@value" : "scheda di memoria"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "MEMORY CARD"
+    "@value" : "memory card"
   }, {
     "@language" : "it",
-    "@value" : "SCHEDA DI MEMORIA"
+    "@value" : "scheda di memoria"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/microswitch",
@@ -4205,17 +4166,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "MICROINTERRUTTORE"
+    "@value" : "microinterruttore"
   }, {
     "@language" : "en",
-    "@value" : "MICROSWITCH"
+    "@value" : "microswitch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "MICROINTERRUTTORE"
+    "@value" : "microinterruttore"
   }, {
     "@language" : "en",
-    "@value" : "MICROSWITCH"
+    "@value" : "microswitch"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/monometer",
@@ -4224,18 +4185,18 @@
     "@id" : "https://knowledge.c-innovationhub.com/khub-onto/SparePart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MONOMETER"
-  }, {
     "@language" : "it",
     "@value" : "manometro"
+  }, {
+    "@language" : "en",
+    "@value" : "monometer"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "MONOMETER"
-  }, {
     "@language" : "it",
     "@value" : "manometro"
+  }, {
+    "@language" : "en",
+    "@value" : "monometer"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/motor",
@@ -4245,14 +4206,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "MOTOR"
+    "@value" : "motor"
   }, {
     "@language" : "it",
     "@value" : "motore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "MOTOR"
+    "@value" : "motor"
   }, {
     "@language" : "it",
     "@value" : "motore"
@@ -4265,17 +4226,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "MOTOR SWITCH"
+    "@value" : "motor switch"
   }, {
     "@language" : "it",
-    "@value" : "MOTORE INTERRUTTORE"
+    "@value" : "motore interruttore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "MOTOR SWITCH"
+    "@value" : "motor switch"
   }, {
     "@language" : "it",
-    "@value" : "MOTORE INTERRUTTORE"
+    "@value" : "motore interruttore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/motoreducer",
@@ -4285,21 +4246,21 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "MOTOREDUCER"
+    "@value" : "motoreducer"
   }, {
     "@language" : "it",
-    "@value" : "MOTORIDUTTORE"
+    "@value" : "motoriduttore"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "en",
-    "@value" : "GEARBOX"
+    "@value" : "gearbox"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "MOTOREDUCER"
+    "@value" : "motoreducer"
   }, {
     "@language" : "it",
-    "@value" : "MOTORIDUTTORE"
+    "@value" : "motoriduttore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/mounting-element",
@@ -4309,17 +4270,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "MONTAGGIO ELEMENTO"
+    "@value" : "montaggio elemento"
   }, {
     "@language" : "en",
-    "@value" : "MOUNTING ELEMENT"
+    "@value" : "mounting element"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "MONTAGGIO ELEMENTO"
+    "@value" : "montaggio elemento"
   }, {
     "@language" : "en",
-    "@value" : "MOUNTING ELEMENT"
+    "@value" : "mounting element"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/nose-down-stand",
@@ -4377,17 +4338,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "NOZZLE"
+    "@value" : "nozzle"
   }, {
     "@language" : "it",
-    "@value" : "UGELLO"
+    "@value" : "ugello"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "NOZZLE"
+    "@value" : "nozzle"
   }, {
     "@language" : "it",
-    "@value" : "UGELLO"
+    "@value" : "ugello"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/o-ring",
@@ -4397,14 +4358,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "O-RING"
+    "@value" : "o-ring"
   }, {
     "@language" : "it",
     "@value" : "o-ring"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "O-RING"
+    "@value" : "o-ring"
   }, {
     "@language" : "it",
     "@value" : "o-ring"
@@ -4441,17 +4402,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "OIL"
+    "@value" : "oil"
   }, {
     "@language" : "it",
-    "@value" : "OLIO"
+    "@value" : "olio"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "OIL"
+    "@value" : "oil"
   }, {
     "@language" : "it",
-    "@value" : "OLIO"
+    "@value" : "olio"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/oil-pump",
@@ -4461,17 +4422,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "OIL PUMP"
+    "@value" : "oil pump"
   }, {
     "@language" : "it",
-    "@value" : "POMPA DELL'OLIO"
+    "@value" : "pompa dell'olio"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "OIL PUMP"
+    "@value" : "oil pump"
   }, {
     "@language" : "it",
-    "@value" : "POMPA DELL'OLIO"
+    "@value" : "pompa dell'olio"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/open",
@@ -4521,17 +4482,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "OPERATING PANEL-HMI"
+    "@value" : "operating panel-hmi"
   }, {
     "@language" : "it",
-    "@value" : "PANNELLO OPERATIVO DI INTERFACCIA"
+    "@value" : "pannello operativo di interfaccia"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "OPERATING PANEL-HMI"
+    "@value" : "operating panel-hmi"
   }, {
     "@language" : "it",
-    "@value" : "PANNELLO OPERATIVO DI INTERFACCIA"
+    "@value" : "pannello operativo di interfaccia"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/other-assortment",
@@ -4541,17 +4502,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ALTRE ASSORTIMENTO"
+    "@value" : "altre assortimento"
   }, {
     "@language" : "en",
-    "@value" : "OTHER ASSORTMENT"
+    "@value" : "other assortment"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ALTRE ASSORTIMENTO"
+    "@value" : "altre assortimento"
   }, {
     "@language" : "en",
-    "@value" : "OTHER ASSORTMENT"
+    "@value" : "other assortment"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/overheating",
@@ -4585,17 +4546,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "FRIZIONE DI RILASCIO"
+    "@value" : "frizione di rilascio"
   }, {
     "@language" : "en",
-    "@value" : "OVERLOAD RELEASE CLUTCH"
+    "@value" : "overload release clutch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "FRIZIONE DI RILASCIO"
+    "@value" : "frizione di rilascio"
   }, {
     "@language" : "en",
-    "@value" : "OVERLOAD RELEASE CLUTCH"
+    "@value" : "overload release clutch"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pair",
@@ -4693,17 +4654,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PHOTOELECTRIC"
+    "@value" : "photoelectric"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE FOTOELETTRICO"
+    "@value" : "sensore fotoelettrico"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PHOTOELECTRIC"
+    "@value" : "photoelectric"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE FOTOELETTRICO"
+    "@value" : "sensore fotoelettrico"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pick-and-place",
@@ -4761,17 +4722,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PIPE"
+    "@value" : "pipe"
   }, {
     "@language" : "it",
-    "@value" : "TUBAZIONE"
+    "@value" : "tubazione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PIPE"
+    "@value" : "pipe"
   }, {
     "@language" : "it",
-    "@value" : "TUBAZIONE"
+    "@value" : "tubazione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/piston-rod",
@@ -4781,17 +4742,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PISTON ROD"
+    "@value" : "piston rod"
   }, {
     "@language" : "it",
-    "@value" : "STELO"
+    "@value" : "stelo"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PISTON ROD"
+    "@value" : "piston rod"
   }, {
     "@language" : "it",
-    "@value" : "STELO"
+    "@value" : "stelo"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/planetary-gear",
@@ -4801,17 +4762,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "PLANETARIO"
+    "@value" : "planetario"
   }, {
     "@language" : "en",
-    "@value" : "PLANETARY GEAR"
+    "@value" : "planetary gear"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "PLANETARIO"
+    "@value" : "planetario"
   }, {
     "@language" : "en",
-    "@value" : "PLANETARY GEAR"
+    "@value" : "planetary gear"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/plastic-hand-grip-body",
@@ -4868,17 +4829,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PLC-CPU"
+    "@value" : "plc-cpu"
   }, {
     "@language" : "it",
-    "@value" : "PLC-CPU"
+    "@value" : "plc-cpu"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PLC-CPU"
+    "@value" : "plc-cpu"
   }, {
     "@language" : "it",
-    "@value" : "PLC-CPU"
+    "@value" : "plc-cpu"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pneumatic-block",
@@ -4908,17 +4869,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CILINDRO PNEUMATICO"
+    "@value" : "cilindro pneumatico"
   }, {
     "@language" : "en",
-    "@value" : "PNEUMATIC CYLINDER"
+    "@value" : "pneumatic cylinder"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CILINDRO PNEUMATICO"
+    "@value" : "cilindro pneumatico"
   }, {
     "@language" : "en",
-    "@value" : "PNEUMATIC CYLINDER"
+    "@value" : "pneumatic cylinder"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pneumatic-pump",
@@ -4928,17 +4889,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PNEUMATIC PUMP"
+    "@value" : "pneumatic pump"
   }, {
     "@language" : "it",
-    "@value" : "POMPA PNEUMATICA"
+    "@value" : "pompa pneumatica"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PNEUMATIC PUMP"
+    "@value" : "pneumatic pump"
   }, {
     "@language" : "it",
-    "@value" : "POMPA PNEUMATICA"
+    "@value" : "pompa pneumatica"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pneumatic-schema",
@@ -4972,17 +4933,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PNEUMATIC VALVE"
+    "@value" : "pneumatic valve"
   }, {
     "@language" : "it",
-    "@value" : "PNEUMATICO VALVOLA"
+    "@value" : "pneumatico valvola"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PNEUMATIC VALVE"
+    "@value" : "pneumatic valve"
   }, {
     "@language" : "it",
-    "@value" : "PNEUMATICO VALVOLA"
+    "@value" : "pneumatico valvola"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/posizioning-error",
@@ -5016,17 +4977,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "POTENTIOMETER"
+    "@value" : "potentiometer"
   }, {
     "@language" : "it",
-    "@value" : "POTENZIOMETRO"
+    "@value" : "potenziometro"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "POTENTIOMETER"
+    "@value" : "potentiometer"
   }, {
     "@language" : "it",
-    "@value" : "POTENZIOMETRO"
+    "@value" : "potenziometro"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/power-supply",
@@ -5036,17 +4997,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ALIMENTAZIONE ELETTRICA"
+    "@value" : "alimentazione elettrica"
   }, {
     "@language" : "en",
-    "@value" : "POWER SUPPLY"
+    "@value" : "power supply"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ALIMENTAZIONE ELETTRICA"
+    "@value" : "alimentazione elettrica"
   }, {
     "@language" : "en",
-    "@value" : "POWER SUPPLY"
+    "@value" : "power supply"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pressure-booster",
@@ -5056,17 +5017,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "PRESSIONE BOOSTER"
+    "@value" : "pressione booster"
   }, {
     "@language" : "en",
-    "@value" : "PRESSURE BOOSTER"
+    "@value" : "pressure booster"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "PRESSIONE BOOSTER"
+    "@value" : "pressione booster"
   }, {
     "@language" : "en",
-    "@value" : "PRESSURE BOOSTER"
+    "@value" : "pressure booster"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pressure-regulator",
@@ -5076,17 +5037,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PRESSURE REGULATOR"
+    "@value" : "pressure regulator"
   }, {
     "@language" : "it",
-    "@value" : "REGOLATORE DI PRESSIONE"
+    "@value" : "regolatore di pressione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PRESSURE REGULATOR"
+    "@value" : "pressure regulator"
   }, {
     "@language" : "it",
-    "@value" : "REGOLATORE DI PRESSIONE"
+    "@value" : "regolatore di pressione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pressure-sensor",
@@ -5096,17 +5057,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PRESSURE SENSOR"
+    "@value" : "pressure sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE DI PRESSIONE"
+    "@value" : "sensore di pressione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PRESSURE SENSOR"
+    "@value" : "pressure sensor"
   }, {
     "@language" : "it",
-    "@value" : "SENSORE DI PRESSIONE"
+    "@value" : "sensore di pressione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pressure-sensor-oil",
@@ -5116,17 +5077,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "OLIO SENSORE DI PRESSIONE"
+    "@value" : "olio sensore di pressione"
   }, {
     "@language" : "en",
-    "@value" : "PRESSURE SENSOR OIL"
+    "@value" : "pressure sensor oil"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "OLIO SENSORE DI PRESSIONE"
+    "@value" : "olio sensore di pressione"
   }, {
     "@language" : "en",
-    "@value" : "PRESSURE SENSOR OIL"
+    "@value" : "pressure sensor oil"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pressure-switch",
@@ -5136,17 +5097,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "PRESSOSTATO"
+    "@value" : "pressostato"
   }, {
     "@language" : "en",
-    "@value" : "PRESSURE SWITCH"
+    "@value" : "pressure switch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "PRESSOSTATO"
+    "@value" : "pressostato"
   }, {
     "@language" : "en",
-    "@value" : "PRESSURE SWITCH"
+    "@value" : "pressure switch"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/printing-head",
@@ -5156,17 +5117,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PRINTING HEAD"
+    "@value" : "printing head"
   }, {
     "@language" : "it",
-    "@value" : "TESTA DI STAMPA"
+    "@value" : "testa di stampa"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PRINTING HEAD"
+    "@value" : "printing head"
   }, {
     "@language" : "it",
-    "@value" : "TESTA DI STAMPA"
+    "@value" : "testa di stampa"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/production-tools",
@@ -5176,17 +5137,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PRODUCTION TOOLS"
+    "@value" : "production tools"
   }, {
     "@language" : "it",
-    "@value" : "STRUMENTI DI PRODUZIONE"
+    "@value" : "strumenti di produzione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PRODUCTION TOOLS"
+    "@value" : "production tools"
   }, {
     "@language" : "it",
-    "@value" : "STRUMENTI DI PRODUZIONE"
+    "@value" : "strumenti di produzione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/protection-device",
@@ -5196,17 +5157,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PROTECTION DEVICE"
+    "@value" : "protection device"
   }, {
     "@language" : "it",
-    "@value" : "PROTEZIONE"
+    "@value" : "protezione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PROTECTION DEVICE"
+    "@value" : "protection device"
   }, {
     "@language" : "it",
-    "@value" : "PROTEZIONE"
+    "@value" : "protezione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pulley",
@@ -5216,17 +5177,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "PULEGGIA"
+    "@value" : "puleggia"
   }, {
     "@language" : "en",
-    "@value" : "PULLEY"
+    "@value" : "pulley"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "PULEGGIA"
+    "@value" : "puleggia"
   }, {
     "@language" : "en",
-    "@value" : "PULLEY"
+    "@value" : "pulley"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pump",
@@ -5235,18 +5196,18 @@
     "@id" : "https://knowledge.c-innovationhub.com/khub-onto/SparePart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "PUMP"
-  }, {
     "@language" : "it",
     "@value" : "pompa"
+  }, {
+    "@language" : "en",
+    "@value" : "pump"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "PUMP"
-  }, {
     "@language" : "it",
     "@value" : "pompa"
+  }, {
+    "@language" : "en",
+    "@value" : "pump"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pump-cenrifughe",
@@ -5256,17 +5217,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "POMPA CENTRIFUGA"
+    "@value" : "pompa centrifuga"
   }, {
     "@language" : "en",
-    "@value" : "PUMP CENRIFUGHE"
+    "@value" : "pump cenrifughe"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "POMPA CENTRIFUGA"
+    "@value" : "pompa centrifuga"
   }, {
     "@language" : "en",
-    "@value" : "PUMP CENRIFUGHE"
+    "@value" : "pump cenrifughe"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/pump-hydraulic",
@@ -5276,17 +5237,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "POMPA IDRAULICA"
+    "@value" : "pompa idraulica"
   }, {
     "@language" : "en",
-    "@value" : "PUMP HYDRAULIC"
+    "@value" : "pump hydraulic"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "POMPA IDRAULICA"
+    "@value" : "pompa idraulica"
   }, {
     "@language" : "en",
-    "@value" : "PUMP HYDRAULIC"
+    "@value" : "pump hydraulic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/punch",
@@ -5298,20 +5259,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PUNCH"
-  }, {
-    "@language" : "it",
-    "@value" : "PUNZONE"
+    "@value" : "punch"
   }, {
     "@language" : "it",
     "@value" : "punzone"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "PUNCH"
-  }, {
-    "@language" : "it",
-    "@value" : "PUNZONE"
+    "@value" : "punch"
   }, {
     "@language" : "it",
     "@value" : "punzone"
@@ -5324,29 +5279,29 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "PREMI IL BOTTONE"
-  }, {
-    "@language" : "en",
-    "@value" : "PUSH-BUTTON"
+    "@value" : "premi il bottone"
   }, {
     "@language" : "it",
     "@value" : "pulsante"
   }, {
     "@language" : "en",
     "@value" : "push button"
+  }, {
+    "@language" : "en",
+    "@value" : "push-button"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "PREMI IL BOTTONE"
-  }, {
-    "@language" : "en",
-    "@value" : "PUSH-BUTTON"
+    "@value" : "premi il bottone"
   }, {
     "@language" : "it",
     "@value" : "pulsante"
   }, {
     "@language" : "en",
     "@value" : "push button"
+  }, {
+    "@language" : "en",
+    "@value" : "push-button"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/put",
@@ -5432,20 +5387,20 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "RELAY"
+    "@value" : "relay"
   }, {
     "@language" : "it",
-    "@value" : "RELAY"
+    "@value" : "relay"
   }, {
     "@language" : "it",
     "@value" : "relé"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "RELAY"
+    "@value" : "relay"
   }, {
     "@language" : "it",
-    "@value" : "RELAY"
+    "@value" : "relay"
   }, {
     "@language" : "it",
     "@value" : "relé"
@@ -5629,24 +5584,24 @@
     "@id" : "https://knowledge.c-innovationhub.com/khub-onto/SparePart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "RESISTOR"
-  }, {
-    "@language" : "it",
-    "@value" : "RESISTORE"
-  }, {
     "@language" : "it",
     "@value" : "resistenza"
+  }, {
+    "@language" : "en",
+    "@value" : "resistor"
+  }, {
+    "@language" : "it",
+    "@value" : "resistore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "RESISTOR"
-  }, {
-    "@language" : "it",
-    "@value" : "RESISTORE"
-  }, {
     "@language" : "it",
     "@value" : "resistenza"
+  }, {
+    "@language" : "en",
+    "@value" : "resistor"
+  }, {
+    "@language" : "it",
+    "@value" : "resistore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/resolution",
@@ -5676,17 +5631,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CORONA DENTATA"
+    "@value" : "corona dentata"
   }, {
     "@language" : "en",
-    "@value" : "RING GEAR"
+    "@value" : "ring gear"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CORONA DENTATA"
+    "@value" : "corona dentata"
   }, {
     "@language" : "en",
-    "@value" : "RING GEAR"
+    "@value" : "ring gear"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/robot",
@@ -5716,17 +5671,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ROLLER"
+    "@value" : "roller"
   }, {
     "@language" : "it",
-    "@value" : "RULLO"
+    "@value" : "rullo"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "ROLLER"
+    "@value" : "roller"
   }, {
     "@language" : "it",
-    "@value" : "RULLO"
+    "@value" : "rullo"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/safety-barrier",
@@ -5736,17 +5691,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "BARRIERA DI SICUREZZA"
+    "@value" : "barriera di sicurezza"
   }, {
     "@language" : "en",
-    "@value" : "SAFETY BARRIER"
+    "@value" : "safety barrier"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "BARRIERA DI SICUREZZA"
+    "@value" : "barriera di sicurezza"
   }, {
     "@language" : "en",
-    "@value" : "SAFETY BARRIER"
+    "@value" : "safety barrier"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/safety-relay",
@@ -5756,17 +5711,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "RELE DI SICUREZZA"
+    "@value" : "rele di sicurezza"
   }, {
     "@language" : "en",
-    "@value" : "SAFETY RELAY"
+    "@value" : "safety relay"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "RELE DI SICUREZZA"
+    "@value" : "rele di sicurezza"
   }, {
     "@language" : "en",
-    "@value" : "SAFETY RELAY"
+    "@value" : "safety relay"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/scanner",
@@ -5776,24 +5731,24 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "LETTORE SCANNER"
+    "@value" : "lettore scanner"
   }, {
     "@language" : "en",
-    "@value" : "SCANNER"
+    "@value" : "scanner"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "en",
-    "@value" : "BARCODE READER"
+    "@value" : "barcode reader"
   }, {
     "@language" : "it",
-    "@value" : "LETTORE BARCODE"
+    "@value" : "lettore barcode"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "LETTORE SCANNER"
+    "@value" : "lettore scanner"
   }, {
     "@language" : "en",
-    "@value" : "SCANNER"
+    "@value" : "scanner"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/screen-brightness",
@@ -5845,27 +5800,27 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "GUARNIZIONE STRISCIANTE"
-  }, {
-    "@language" : "en",
-    "@value" : "SEAL"
+    "@value" : "guarnizione"
   }, {
     "@language" : "it",
-    "@value" : "guarnizione"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "guarnizione strisciante"
+  }, {
     "@language" : "en",
-    "@value" : "GASKET"
+    "@value" : "seal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+    "@language" : "en",
+    "@value" : "gasket"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "GUARNIZIONE STRISCIANTE"
-  }, {
-    "@language" : "en",
-    "@value" : "SEAL"
+    "@value" : "guarnizione"
   }, {
     "@language" : "it",
-    "@value" : "guarnizione"
+    "@value" : "guarnizione strisciante"
+  }, {
+    "@language" : "en",
+    "@value" : "seal"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/select",
@@ -5899,17 +5854,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "AUTOALLINEANTI"
+    "@value" : "autoallineanti"
   }, {
     "@language" : "en",
-    "@value" : "SELF-ALIGNING BEARING"
+    "@value" : "self-aligning bearing"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "AUTOALLINEANTI"
+    "@value" : "autoallineanti"
   }, {
     "@language" : "en",
-    "@value" : "SELF-ALIGNING BEARING"
+    "@value" : "self-aligning bearing"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/sensor",
@@ -5919,14 +5874,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "SENSOR"
+    "@value" : "sensor"
   }, {
     "@language" : "it",
     "@value" : "sensore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "SENSOR"
+    "@value" : "sensor"
   }, {
     "@language" : "it",
     "@value" : "sensore"
@@ -5959,17 +5914,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "SERVOMOTOR"
+    "@value" : "servomotor"
   }, {
     "@language" : "it",
-    "@value" : "SERVOMOTORE"
+    "@value" : "servomotore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "SERVOMOTOR"
+    "@value" : "servomotor"
   }, {
     "@language" : "it",
-    "@value" : "SERVOMOTORE"
+    "@value" : "servomotore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/set-of-wearing-parts",
@@ -5979,17 +5934,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "SET DI PARTI USURANTI"
+    "@value" : "set di parti usuranti"
   }, {
     "@language" : "en",
-    "@value" : "SET OF WEARING PARTS"
+    "@value" : "set of wearing parts"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "SET DI PARTI USURANTI"
+    "@value" : "set di parti usuranti"
   }, {
     "@language" : "en",
-    "@value" : "SET OF WEARING PARTS"
+    "@value" : "set of wearing parts"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/set-up",
@@ -6035,17 +5990,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "AMMORTIZZATORE FRENO"
+    "@value" : "ammortizzatore freno"
   }, {
     "@language" : "en",
-    "@value" : "SHOCK-ABSORBER BRAKE CYLINDER"
+    "@value" : "shock-absorber brake cylinder"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "AMMORTIZZATORE FRENO"
+    "@value" : "ammortizzatore freno"
   }, {
     "@language" : "en",
-    "@value" : "SHOCK-ABSORBER BRAKE CYLINDER"
+    "@value" : "shock-absorber brake cylinder"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/shoes",
@@ -6055,17 +6010,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CALZATURE"
+    "@value" : "calzature"
   }, {
     "@language" : "en",
-    "@value" : "SHOES"
+    "@value" : "shoes"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CALZATURE"
+    "@value" : "calzature"
   }, {
     "@language" : "en",
-    "@value" : "SHOES"
+    "@value" : "shoes"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/silencer",
@@ -6075,17 +6030,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "SILENCER"
+    "@value" : "silencer"
   }, {
     "@language" : "it",
-    "@value" : "SILENZIATORE"
+    "@value" : "silenziatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "SILENCER"
+    "@value" : "silencer"
   }, {
     "@language" : "it",
-    "@value" : "SILENZIATORE"
+    "@value" : "silenziatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/sleep-mode",
@@ -6115,17 +6070,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ATTACCO DI MONTAGGIO"
+    "@value" : "attacco di montaggio"
   }, {
     "@language" : "en",
-    "@value" : "SOCKET MOUNTING"
+    "@value" : "socket mounting"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ATTACCO DI MONTAGGIO"
+    "@value" : "attacco di montaggio"
   }, {
     "@language" : "en",
-    "@value" : "SOCKET MOUNTING"
+    "@value" : "socket mounting"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/softstarter",
@@ -6135,17 +6090,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "MOTORE TRIFASE"
+    "@value" : "motore trifase"
   }, {
     "@language" : "en",
-    "@value" : "SOFTSTARTER"
+    "@value" : "softstarter"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "MOTORE TRIFASE"
+    "@value" : "motore trifase"
   }, {
     "@language" : "en",
-    "@value" : "SOFTSTARTER"
+    "@value" : "softstarter"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/solenoid-coil",
@@ -6155,17 +6110,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "SOLENIODE"
+    "@value" : "soleniode"
   }, {
     "@language" : "en",
-    "@value" : "SOLENOID COIL"
+    "@value" : "solenoid coil"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "SOLENIODE"
+    "@value" : "soleniode"
   }, {
     "@language" : "en",
-    "@value" : "SOLENOID COIL"
+    "@value" : "solenoid coil"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/solenoid-valve",
@@ -6175,17 +6130,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "SOLENOID VALVE"
+    "@value" : "solenoid valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA SOLENOIDE"
+    "@value" : "valvola solenoide"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "SOLENOID VALVE"
+    "@value" : "solenoid valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA SOLENOIDE"
+    "@value" : "valvola solenoide"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/sound-level",
@@ -6215,17 +6170,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "MATERIALI SPECIALI"
+    "@value" : "materiali speciali"
   }, {
     "@language" : "en",
-    "@value" : "SPECIAL MATERIAL"
+    "@value" : "special material"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "MATERIALI SPECIALI"
+    "@value" : "materiali speciali"
   }, {
     "@language" : "en",
-    "@value" : "SPECIAL MATERIAL"
+    "@value" : "special material"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/special-screw",
@@ -6235,17 +6190,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "SPECIAL SCREW"
+    "@value" : "special screw"
   }, {
     "@language" : "it",
-    "@value" : "VITE SPECIALE"
+    "@value" : "vite speciale"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "SPECIAL SCREW"
+    "@value" : "special screw"
   }, {
     "@language" : "it",
-    "@value" : "VITE SPECIALE"
+    "@value" : "vite speciale"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/spring",
@@ -6255,17 +6210,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "MOLLA"
+    "@value" : "molla"
   }, {
     "@language" : "en",
-    "@value" : "SPRING"
+    "@value" : "spring"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "MOLLA"
+    "@value" : "molla"
   }, {
     "@language" : "en",
-    "@value" : "SPRING"
+    "@value" : "spring"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/sprocket",
@@ -6275,17 +6230,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "PIGNONE"
+    "@value" : "pignone"
   }, {
     "@language" : "en",
-    "@value" : "SPROCKET"
+    "@value" : "sprocket"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "PIGNONE"
+    "@value" : "pignone"
   }, {
     "@language" : "en",
-    "@value" : "SPROCKET"
+    "@value" : "sprocket"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/sprue-bushing",
@@ -6295,17 +6250,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "BUSSOLA DI INIEZIONE"
+    "@value" : "bussola di iniezione"
   }, {
     "@language" : "en",
-    "@value" : "SPRUE BUSHING"
+    "@value" : "sprue bushing"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "BUSSOLA DI INIEZIONE"
+    "@value" : "bussola di iniezione"
   }, {
     "@language" : "en",
-    "@value" : "SPRUE BUSHING"
+    "@value" : "sprue bushing"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/stamping",
@@ -6386,17 +6341,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "STOP VALVE"
+    "@value" : "stop valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA D'INTERRUZIONE"
+    "@value" : "valvola d'interruzione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "STOP VALVE"
+    "@value" : "stop valve"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA D'INTERRUZIONE"
+    "@value" : "valvola d'interruzione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/suction-cup",
@@ -6406,17 +6361,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "SUCTION CUP"
+    "@value" : "suction cup"
   }, {
     "@language" : "it",
-    "@value" : "VENTOSA"
+    "@value" : "ventosa"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "SUCTION CUP"
+    "@value" : "suction cup"
   }, {
     "@language" : "it",
-    "@value" : "VENTOSA"
+    "@value" : "ventosa"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/switch",
@@ -6425,18 +6380,18 @@
     "@id" : "https://knowledge.c-innovationhub.com/khub-onto/SparePart"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "SWITCH"
-  }, {
     "@language" : "it",
     "@value" : "interruttore"
+  }, {
+    "@language" : "en",
+    "@value" : "switch"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "SWITCH"
-  }, {
     "@language" : "it",
     "@value" : "interruttore"
+  }, {
+    "@language" : "en",
+    "@value" : "switch"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/switch-accessories",
@@ -6446,17 +6401,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "ACCESSORI INTERRUTTORE"
+    "@value" : "accessori interruttore"
   }, {
     "@language" : "en",
-    "@value" : "SWITCH ACCESSORIES"
+    "@value" : "switch accessories"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "ACCESSORI INTERRUTTORE"
+    "@value" : "accessori interruttore"
   }, {
     "@language" : "en",
-    "@value" : "SWITCH ACCESSORIES"
+    "@value" : "switch accessories"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/switch-off",
@@ -6506,17 +6461,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "POMPA DI SILICONE"
+    "@value" : "pompa di silicone"
   }, {
     "@language" : "en",
-    "@value" : "SYLICON PUMP"
+    "@value" : "sylicon pump"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "POMPA DI SILICONE"
+    "@value" : "pompa di silicone"
   }, {
     "@language" : "en",
-    "@value" : "SYLICON PUMP"
+    "@value" : "sylicon pump"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/system-fault",
@@ -6546,17 +6501,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CARRO ARMATO"
+    "@value" : "carro armato"
   }, {
     "@language" : "en",
-    "@value" : "TANK"
+    "@value" : "tank"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CARRO ARMATO"
+    "@value" : "carro armato"
   }, {
     "@language" : "en",
-    "@value" : "TANK"
+    "@value" : "tank"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/temperature",
@@ -6586,17 +6541,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "TEMPERATURE SENSOR"
+    "@value" : "temperature sensor"
   }, {
     "@language" : "it",
-    "@value" : "TERMOMETRO"
+    "@value" : "termometro"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "TEMPERATURE SENSOR"
+    "@value" : "temperature sensor"
   }, {
     "@language" : "it",
-    "@value" : "TERMOMETRO"
+    "@value" : "termometro"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/terminal-block",
@@ -6606,17 +6561,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "MORSETTIERA"
+    "@value" : "morsettiera"
   }, {
     "@language" : "en",
-    "@value" : "TERMINAL BLOCK"
+    "@value" : "terminal block"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "MORSETTIERA"
+    "@value" : "morsettiera"
   }, {
     "@language" : "en",
-    "@value" : "TERMINAL BLOCK"
+    "@value" : "terminal block"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/testing",
@@ -6650,17 +6605,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "TERMOCOPPIA"
+    "@value" : "termocoppia"
   }, {
     "@language" : "en",
-    "@value" : "THERMOCOUPLE"
+    "@value" : "thermocouple"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "TERMOCOPPIA"
+    "@value" : "termocoppia"
   }, {
     "@language" : "en",
-    "@value" : "THERMOCOUPLE"
+    "@value" : "thermocouple"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/thermoforming",
@@ -6697,24 +6652,24 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "TERMOSTATO"
+    "@value" : "termostato"
   }, {
     "@language" : "en",
-    "@value" : "THERMOSTAT"
+    "@value" : "thermostat"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
     "@language" : "it",
-    "@value" : "TERMOREGOLATORE"
+    "@value" : "termoregolatore"
   }, {
     "@language" : "en",
-    "@value" : "THERMO-REGULATOR"
+    "@value" : "thermo-regulator"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "TERMOSTATO"
+    "@value" : "termostato"
   }, {
     "@language" : "en",
-    "@value" : "THERMOSTAT"
+    "@value" : "thermostat"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/timer",
@@ -6724,17 +6679,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "TIMER"
+    "@value" : "timer"
   }, {
     "@language" : "it",
-    "@value" : "TIMER"
+    "@value" : "timer"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "TIMER"
+    "@value" : "timer"
   }, {
     "@language" : "it",
-    "@value" : "TIMER"
+    "@value" : "timer"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/tipper",
@@ -6768,17 +6723,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "CINGHIA DENTATA"
+    "@value" : "cinghia dentata"
   }, {
     "@language" : "en",
-    "@value" : "TOOTHED BELT"
+    "@value" : "toothed belt"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "CINGHIA DENTATA"
+    "@value" : "cinghia dentata"
   }, {
     "@language" : "en",
-    "@value" : "TOOTHED BELT"
+    "@value" : "toothed belt"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/toothed-wheel",
@@ -6788,17 +6743,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "RUOTA DENTATA"
+    "@value" : "ruota dentata"
   }, {
     "@language" : "en",
-    "@value" : "TOOTHED WHEEL"
+    "@value" : "toothed wheel"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "RUOTA DENTATA"
+    "@value" : "ruota dentata"
   }, {
     "@language" : "en",
-    "@value" : "TOOTHED WHEEL"
+    "@value" : "toothed wheel"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/toxing",
@@ -6858,17 +6813,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "TRANSFORMER"
+    "@value" : "transformer"
   }, {
     "@language" : "it",
-    "@value" : "TRASFORMATORE"
+    "@value" : "trasformatore"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "TRANSFORMER"
+    "@value" : "transformer"
   }, {
     "@language" : "it",
-    "@value" : "TRASFORMATORE"
+    "@value" : "trasformatore"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/transport-tape-belt",
@@ -6878,17 +6833,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "TRANSPORT TAPE (BELT)"
+    "@value" : "transport tape (belt)"
   }, {
     "@language" : "it",
-    "@value" : "TRASPORTO DEL NASTRO (CINGHIA)"
+    "@value" : "trasporto del nastro (cinghia)"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "TRANSPORT TAPE (BELT)"
+    "@value" : "transport tape (belt)"
   }, {
     "@language" : "it",
-    "@value" : "TRASPORTO DEL NASTRO (CINGHIA)"
+    "@value" : "trasporto del nastro (cinghia)"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/underheating",
@@ -7156,17 +7111,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
-    "@value" : "POMPA A VUOTO"
+    "@value" : "pompa a vuoto"
   }, {
     "@language" : "en",
-    "@value" : "VACUUM PUMP"
+    "@value" : "vacuum pump"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "it",
-    "@value" : "POMPA A VUOTO"
+    "@value" : "pompa a vuoto"
   }, {
     "@language" : "en",
-    "@value" : "VACUUM PUMP"
+    "@value" : "vacuum pump"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/valve",
@@ -7178,20 +7133,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "VALVE"
-  }, {
-    "@language" : "it",
-    "@value" : "VALVOLA"
+    "@value" : "valve"
   }, {
     "@language" : "it",
     "@value" : "valvola"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "VALVE"
-  }, {
-    "@language" : "it",
-    "@value" : "VALVOLA"
+    "@value" : "valve"
   }, {
     "@language" : "it",
     "@value" : "valvola"
@@ -7204,17 +7153,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "VALVE PRESSURE"
+    "@value" : "valve pressure"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA DI PRESSIONE"
+    "@value" : "valvola di pressione"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "VALVE PRESSURE"
+    "@value" : "valve pressure"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA DI PRESSIONE"
+    "@value" : "valvola di pressione"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/valve-terminal",
@@ -7224,17 +7173,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "VALVE TERMINAL"
+    "@value" : "valve terminal"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA TERMINALE"
+    "@value" : "valvola terminale"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "VALVE TERMINAL"
+    "@value" : "valve terminal"
   }, {
     "@language" : "it",
-    "@value" : "VALVOLA TERMINALE"
+    "@value" : "valvola terminale"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/voltmeters",
@@ -7244,17 +7193,17 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "VOLTMETERS"
+    "@value" : "voltmeters"
   }, {
     "@language" : "it",
-    "@value" : "VOLTMETRO"
+    "@value" : "voltmetro"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "VOLTMETERS"
+    "@value" : "voltmeters"
   }, {
     "@language" : "it",
-    "@value" : "VOLTMETRO"
+    "@value" : "voltmetro"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/khub-onto/warning",
