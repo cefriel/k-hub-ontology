@@ -3,7 +3,8 @@ K-Hub Ontology
 The Manufacturing Knowledge Hub Ontology is published at ADD LINK
 
 ### Purpose and scope of the vocabulary
-The Manufacturing Knowledge Hub Ontology was developed to support the retrieval of information from the manufacturing companies' documents by the shopfloor workers during the maintenance activities. 
+The Manufacturing Knowledge Hub Ontology defines the main concepts and properties that are used by the manufacturing companies for the knowledge management and retrieval processes in the maintenance domain.
+The ontology aims to support the retrieval of information from the companies' documents by the shopfloor workers during the maintenance activities. 
 The ontology models the relashionship between a document and the topics it is about. All the relevant topics for the maintenance field were collected with the help of domain experts and were modelled in the ontology.
 
 ### License
