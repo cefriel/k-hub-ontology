@@ -1,6 +1,6 @@
 K-Hub Ontology 
 ===================
-The Manufacturing Knowledge Hub Ontology is published [https://knowledge.c-innovationhub.com/khub-onto#] (https://knowledge.c-innovationhub.com/khub-onto#).
+The Manufacturing Knowledge Hub Ontology is published [https://knowledge.c-innovationhub.com/khub-onto] (https://knowledge.c-innovationhub.com/khub-onto).
 
 ### Purpose and scope of the vocabulary
 The Manufacturing Knowledge Hub Ontology defines the main concepts and properties that are used by the manufacturing companies for the knowledge management and retrieval processes in the maintenance domain.
