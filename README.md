@@ -1,11 +1,22 @@
-K-Hub Ontology 
+The Knowledge Hub Ontology 
 ===================
-The Manufacturing Knowledge Hub Ontology is published [https://knowledge.c-innovationhub.com/khub-onto](https://knowledge.c-innovationhub.com/khub-onto).
+The Knowledge Hub Ontology is composed of 3 modules, published at:
+- Annotation module: [https://knowledge.c-innovationhub.com/khub/annotation](https://knowledge.c-innovationhub.com/khub/annotation)
+- Manufacturing module: [https://knowledge.c-innovationhub.com/khub/manufacturing](https://knowledge.c-innovationhub.com/khub/manufacturing)
+- Procedure module: [https://knowledge.c-innovationhub.com/khub/procedure](https://knowledge.c-innovationhub.com/khub/procedure)
 
-### Purpose and scope of the vocabulary
-The Manufacturing Knowledge Hub Ontology defines the main concepts and properties that are used by the manufacturing companies for the knowledge management and retrieval processes in the maintenance domain.
-The ontology aims to support the retrieval of information from the companies' documents by the shopfloor workers during the maintenance activities. 
-The ontology models the relashionship between a document and the topics it is about. All the relevant topics for the maintenance field were collected with the help of domain experts and were modelled in the ontology.
+### Purpose and scope of the ontology
+The Knowledge Hub Ontology defines the main concepts and properties that are used by the manufacturing companies for the knowledge management and retrieval processes in the maintenance domain.
+The ontology aims to support the retrieval of information and procedures from the companies' documents by the shopfloor workers during the maintenance activities. 
+
+The ontology is composed of thre modules:
+- The Annotation module represents the core of the ontology describing the general characteristics of annotated documents and models the relashionship between a document and the topics it is about.
+- The Manufacturing module defines the specific topics for the domain of interest of the documents, identified with the help of domain experts.
+- The Procedure module defines the main concepts and the properties that are used for describing procedures for performing maintenance activities in manufacturing companies.
+
+The schema of the ontology is the following:
+ ![KHUB ontology modules](/ontology-all.png)
+
 
 ### License
 
