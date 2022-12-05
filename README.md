@@ -10,9 +10,9 @@ The Knowledge Hub Ontology defines the main concepts and properties that are use
 The ontology aims to support the retrieval of information and procedures from the companies' documents by the shopfloor workers during the maintenance activities. 
 
 The ontology is composed of thre modules:
-- The Annotation module represents the core of the ontology describing the general characteristics of annotated documents and models the relashionship between a document and the topics it is about.
-- The Manufacturing module defines the specific topics for the domain of interest of the documents, identified with the help of domain experts.
-- The Procedure module defines the main concepts and the properties that are used for describing procedures for performing maintenance activities in manufacturing companies.
+- The __Annotation__ module represents the core of the ontology describing the general characteristics of annotated documents and models the relashionship between a document and the topics it is about.
+- The __Manufacturing__ module defines the specific topics for the domain of interest of the documents, identified with the help of domain experts.
+- The __Procedure__ module defines the main concepts and the properties that are used for describing procedures for performing maintenance activities in manufacturing companies.
 
 The schema of the ontology is the following:
  ![KHUB ontology modules](/ontology-all.png)
