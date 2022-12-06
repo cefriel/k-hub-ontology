@@ -1,0 +1,116 @@
+<h2 id="desc" class="list">The Knowledge Hub Ontology - Annotation: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This section describes the classes and properties in detail through a textual description and a diagram of the ontology and the expected usage methods. </span>
+
+<h3 id="examples" class="list">Diagram</h3>
+
+<span class="markdown">
+The diagram in this section is modeled using the notation presented below.
+</span>
+
+<p align="center"><img src="img/kh-legend.png" alt="Legend" height="150"></p>
+
+<span class="markdown">
+The Annotation module consists of 3 main classes: _Document_, _Topic_ and _TopicAnnotation_. 
+
+The _Document_ class is modelled by the [foaf:Document](http://xmlns.com/foaf/0.1/#term_Document) class and it describes the document’s general information (title of the document, author, format, language, url, total numebr of pages and edit date) reusing some properties of the [Dublin Core  ontology](https://www.dublincore.org/resources/glossary/ontology/). 
+
+The _Topic_ class represents the topics that the final user is interested to search in the documents. 
+
+The _TopicAnnotation_ class describes the semantic annotations created on the documents starting from the list of topics defined the [Manufacturing module](https://knowledge.c-innovationhub.com/khub/manufacturing) of the ontology ; the information associated to an annotation are the page of the document containing the annotation, the snippet of the text containing the information, the creator of the annotation, the creation date, and, if present, the annotation’s confidence score. The provenance information about the annotations is modelled by the [prov:Agent](https://www.w3.org/TR/prov-o/#Agent) class.  
+
+</span>
+
+<p align="center"><img src="img/ontology-module-1.png" alt="Core" height="300"></p>
+
+<h3 id="examples" class="list">Usage example</h3>
+<span class="markdown">
+The example of use of the Knowledge Hub Ontology is provided in [JSON-LD](https://json-ld.org/) format. This example shows how the ontology is used to describe a document and the topic annotations associated to it. 
+
+```
+{
+	"@graph": [
+		{
+			"@id": "kh-a:Service%20Manual",
+			"@type": "foaf:Document",
+			"dc:format": "pdf",
+			"dc:language": "en",
+			"dc:title": "Service Manual",
+			"dc:source": "http://example.org/Service%20Manual.pdf",
+			"kh-a:hasTotalNumberOfPages": 20,
+			"dc:modified" : "2022-02-01",
+			"kh-a:hasTopicAnnotation": [ 
+			    "kh-a:annotation50",
+			    "kh-a:annotation51"
+			]
+		},		
+		{
+			"@id": "kh-a:spixIndexerAgent",
+			"@type": "provo:Agent"
+		},
+		{
+			"@id": "kh-a:annotation51",
+			"@type": "kh-a:TopicAnnotation",
+			"dc:created": "2022-06-01",
+			"kh-a:hasPage": 1,
+			"provo:wasAttributedTo": "kh-a:spixIndexerAgent",
+			"kh-a:hasTopic": [
+				"kh-m:push-button",
+				"kh-m:identification-label",
+				"kh-m:rear-cover",
+				"kh-m:battery",
+				"kh-m:base",
+				"kh-m:update"
+			]
+		}
+	],
+	"@context": {
+		"kh-a": "https://knowledge.c-innovationhub.com/khub/annotation#",
+		"kh-a:hasPage": {
+			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasPage",
+			"@type": "http://www.w3.org/2001/XMLSchema#integer"
+		},
+		"kh-a:hasTopic": {
+			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasTopic",
+			"@type": "@id"
+		},
+		"kh-a:hasTotalNumberOfPages" : {
+			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasTotalNumberOfPages",
+			"@type": "http://www.w3.org/2001/XMLSchema#integer"
+		},
+		"kh-a:hasTopicAnnotation": {
+			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasTopicAnnotation",
+			"@type": "@id"
+		},
+		"kh-a": "https://knowledge.c-innovationhub.com/khub/annotation#/,
+		"kh-m": "https://knowledge.c-innovationhub.com/khub/manufacturing#/,
+		"foaf": "http://xmlns.com/foaf/0.1/",
+      	"dc": "http://purl.org/dc/terms/",
+		"dc:title": {
+			"@id": "http://purl.org/dc/terms/title"
+		},
+		"dc:format": {
+			"@id": "http://purl.org/dc/terms/format"
+		},
+		"dc:language": {
+			"@id": "http://purl.org/dc/terms/language"
+		},
+		"dc:source": {
+			"@id": "http://purl.org/dc/terms/source",
+			"@type": "@id"
+		},
+		"dc:created": {
+			"@id": "http://purl.org/dc/terms/created"
+		},
+		"dc:modified": {
+			"@id": "http://purl.org/dc/terms/modified"
+		},
+      	"provo": "http://www.w3.org/ns/prov#",
+		"provo:wasAttributedTo" : {
+			"@id": "http://www.w3.org/ns/prov#wasAttributedTo",
+			"@type": "@id"
+		}		
+	}
+}
+```
+</span>

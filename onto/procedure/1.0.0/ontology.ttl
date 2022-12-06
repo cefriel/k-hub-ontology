@@ -1,0 +1,172 @@
+@prefix : <https://knowledge.c-innovationhub.com/khub/procedure#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://knowledge.c-innovationhub.com/khub/procedure#> .
+
+<https://knowledge.c-innovationhub.com/khub/procedure#> rdf:type owl:Ontology ;
+                                                         owl:versionIRI <https://knowledge.c-innovationhub.com/khub/procedure/1.0.0> ;
+                                                         <http://purl.org/dc/elements/1.1/contributor> "Marposs" ;
+                                                         <http://purl.org/dc/elements/1.1/creator> "Antonia Azzini (Cefriel)" ,
+                                                                                                   "Gloria Re Calegari (Cefriel)" ,
+                                                                                                   "Irene Celino (Cefriel)" ;
+                                                         <http://purl.org/dc/elements/1.1/publisher> "Cefriel" ;
+                                                         <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Procedure" ;
+                                                         <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                         <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-p" ;
+                                                         <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/khub/procedure#" ;
+                                                         owl:versionInfo "1.0.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/net/p-plan#isStepOfPlan
+<http://purl.org/net/p-plan#isStepOfPlan> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://purl.org/net/p-plan#Step> ;
+                                          rdfs:range <http://purl.org/net/p-plan#Plan> ;
+                                          rdfs:label "is step of plan" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/annotation#hasTopic
+<https://knowledge.c-innovationhub.com/khub/annotation#hasTopic> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:domain <https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation> ;
+                                                                 rdfs:range <https://knowledge.c-innovationhub.com/khub/annotation#Topic> ;
+                                                                 rdfs:label "has topic" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent
+:appliedToComponent rdf:type owl:ObjectProperty ;
+                    rdfs:domain <http://purl.org/net/p-plan#Plan> ;
+                    rdfs:range <https://knowledge.c-innovationhub.com/khub/manufacturing#Component> ;
+                    rdfs:comment "Associates a Plan with the Component involved in the Plan" ;
+                    rdfs:label "applied to component" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/procedure#endsWith
+:endsWith rdf:type owl:ObjectProperty ;
+          rdfs:domain <http://purl.org/net/p-plan#Plan> ;
+          rdfs:range <http://purl.org/net/p-plan#Step> ;
+          rdfs:comment "Associates a Plan with the last Step of the Plan" ;
+          rdfs:label "ends with" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/procedure#implementsAction
+:implementsAction rdf:type owl:ObjectProperty ;
+                  rdfs:domain <http://purl.org/net/p-plan#Plan> ;
+                  rdfs:range <https://knowledge.c-innovationhub.com/khub/manufacturing#Action> ;
+                  rdfs:comment "Associates a Plan with the main Action performed in the Plan" ;
+                  rdfs:label "implements action" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan
+:isDecomposedAsPlan rdf:type owl:ObjectProperty ;
+                    rdfs:domain <http://purl.org/net/p-plan#Step> ;
+                    rdfs:range <http://purl.org/net/p-plan#Plan> ;
+                    rdfs:comment "Associates a Step of Plan A with Plan B that must be entirely executed as a step of Plan A" ;
+                    rdfs:label "is decomposed as plan" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/procedure#nextStep
+:nextStep rdf:type owl:ObjectProperty ;
+          rdfs:domain <http://purl.org/net/p-plan#Step> ;
+          rdfs:range <http://purl.org/net/p-plan#Step> ;
+          rdfs:comment "Associates a Step with another Step that must be performed after" ;
+          rdfs:label "next step" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/procedure#requiresTools
+:requiresTools rdf:type owl:ObjectProperty ;
+               rdfs:domain <http://purl.org/net/p-plan#Plan> ;
+               rdfs:range <https://knowledge.c-innovationhub.com/khub/manufacturing#Tool> ;
+               rdfs:comment "Associates a Plan with the Tool required to perform the Plan" ;
+               rdfs:label "requires tools" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/procedure#startsWith
+:startsWith rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://purl.org/net/p-plan#Plan> ;
+            rdfs:range <http://purl.org/net/p-plan#Step> ;
+            rdfs:comment "Associates a Plan with the first Step of the Plan" ;
+            rdfs:label "starts with" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/net/p-plan#Plan
+<http://purl.org/net/p-plan#Plan> rdf:type owl:Class ;
+                                  rdfs:subClassOf <https://knowledge.c-innovationhub.com/khub/annotation#Topic> ;
+                                  rdfs:label "Plan" .
+
+
+###  http://purl.org/net/p-plan#Step
+<http://purl.org/net/p-plan#Step> rdf:type owl:Class ;
+                                  rdfs:subClassOf <https://knowledge.c-innovationhub.com/khub/annotation#Topic> ;
+                                  rdfs:label "Step" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/annotation#Topic
+<https://knowledge.c-innovationhub.com/khub/annotation#Topic> rdf:type owl:Class ;
+                                                              rdfs:label "Topic" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation
+<https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation> rdf:type owl:Class ;
+                                                                        rdfs:label "Topic Annotation" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/manufacturing#Action
+<https://knowledge.c-innovationhub.com/khub/manufacturing#Action> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://knowledge.c-innovationhub.com/khub/annotation#Topic> ;
+                                                                  rdfs:label "Action" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/manufacturing#Component
+<https://knowledge.c-innovationhub.com/khub/manufacturing#Component> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://knowledge.c-innovationhub.com/khub/annotation#Topic> ;
+                                                                     rdfs:label "Component" .
+
+
+###  https://knowledge.c-innovationhub.com/khub/manufacturing#Tool
+<https://knowledge.c-innovationhub.com/khub/manufacturing#Tool> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://knowledge.c-innovationhub.com/khub/annotation#Topic> ;
+                                                                rdfs:label "Tool" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
