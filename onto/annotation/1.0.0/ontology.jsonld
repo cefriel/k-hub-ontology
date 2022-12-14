@@ -14,7 +14,7 @@
   "@id" : "http://purl.org/dc/terms/created",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "created"
@@ -116,7 +116,7 @@
   "@id" : "http://www.w3.org/ns/prov#wasAttributedTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "was attributed to"
@@ -131,7 +131,7 @@
     "@value" : "Document"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
     "@value" : "Marposs"
@@ -158,31 +158,31 @@
     "@value" : "kh-a"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "https://knowledge.c-innovationhub.com/khub/annotation#"
+    "@value" : "https://knowledge.c-innovationhub.com/k-hub/annotation#"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/1.0.0"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "1.0.0"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/Topic",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Topic"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Topic Annotation"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/hasConfidenceScore",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has confidence score"
@@ -191,10 +191,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/hasPage",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has page"
@@ -203,10 +203,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/hasSnippet",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has snippet"
@@ -215,19 +215,19 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/hasTopic",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has topic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/hasTopicAnnotation",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Document"
@@ -236,10 +236,10 @@
     "@value" : "has topic annotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation/hasTotalNumberOfPages",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Document"

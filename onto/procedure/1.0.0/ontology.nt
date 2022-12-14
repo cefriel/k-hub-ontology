@@ -1,15 +1,15 @@
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://www.w3.org/2002/07/owl#versionIRI> <https://knowledge.c-innovationhub.com/khub/procedure/1.0.0> .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/dc/elements/1.1/contributor> "Marposs" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/dc/elements/1.1/creator> "Antonia Azzini (Cefriel)" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/dc/elements/1.1/creator> "Gloria Re Calegari (Cefriel)" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/dc/elements/1.1/creator> "Irene Celino (Cefriel)" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/dc/elements/1.1/publisher> "Cefriel" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Procedure" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-p" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/khub/procedure#" .
-<https://knowledge.c-innovationhub.com/khub/procedure#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://www.w3.org/2002/07/owl#versionIRI> <https://knowledge.c-innovationhub.com/k-hub/procedure/1.0.0> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/dc/elements/1.1/contributor> "Marposs" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/dc/elements/1.1/creator> "Antonia Azzini (Cefriel)" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/dc/elements/1.1/creator> "Gloria Re Calegari (Cefriel)" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/dc/elements/1.1/creator> "Irene Celino (Cefriel)" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/dc/elements/1.1/publisher> "Cefriel" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Procedure" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-p" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/k-hub/procedure#" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
 # 
 # 
 # #################################################################
@@ -55,60 +55,60 @@
 <http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Plan> .
 <http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/2000/01/rdf-schema#label> "is step of plan" .
 # 
-# https://knowledge.c-innovationhub.com/khub/annotation#hasTopic
-<https://knowledge.c-innovationhub.com/khub/annotation#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation> .
-<https://knowledge.c-innovationhub.com/khub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/khub/annotation#Topic> .
-<https://knowledge.c-innovationhub.com/khub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic" .
 # 
-# https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent
-<https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
-<https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/khub/manufacturing#Component> .
-<https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the Component involved in the Plan" .
-<https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#label> "applied to component" .
+# https://knowledge.c-innovationhub.com/k-hub/procedure#appliedToComponent
+<https://knowledge.c-innovationhub.com/k-hub/procedure#appliedToComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the Component involved in the Plan" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#appliedToComponent> <http://www.w3.org/2000/01/rdf-schema#label> "applied to component" .
 # 
-# https://knowledge.c-innovationhub.com/khub/procedure#endsWith
-<https://knowledge.c-innovationhub.com/khub/procedure#endsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
-<https://knowledge.c-innovationhub.com/khub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
-<https://knowledge.c-innovationhub.com/khub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the last Step of the Plan" .
-<https://knowledge.c-innovationhub.com/khub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#label> "ends with" .
+# https://knowledge.c-innovationhub.com/k-hub/procedure#endsWith
+<https://knowledge.c-innovationhub.com/k-hub/procedure#endsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the last Step of the Plan" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#endsWith> <http://www.w3.org/2000/01/rdf-schema#label> "ends with" .
 # 
-# https://knowledge.c-innovationhub.com/khub/procedure#implementsAction
-<https://knowledge.c-innovationhub.com/khub/procedure#implementsAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
-<https://knowledge.c-innovationhub.com/khub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/khub/manufacturing#Action> .
-<https://knowledge.c-innovationhub.com/khub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the main Action performed in the Plan" .
-<https://knowledge.c-innovationhub.com/khub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#label> "implements action" .
+# https://knowledge.c-innovationhub.com/k-hub/procedure#implementsAction
+<https://knowledge.c-innovationhub.com/k-hub/procedure#implementsAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the main Action performed in the Plan" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#implementsAction> <http://www.w3.org/2000/01/rdf-schema#label> "implements action" .
 # 
-# https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan
-<https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
-<https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Plan> .
-<https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Step of Plan A with Plan B that must be entirely executed as a step of Plan A" .
-<https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#label> "is decomposed as plan" .
+# https://knowledge.c-innovationhub.com/k-hub/procedure#isDecomposedAsPlan
+<https://knowledge.c-innovationhub.com/k-hub/procedure#isDecomposedAsPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Plan> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Step of Plan A with Plan B that must be entirely executed as a step of Plan A" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#label> "is decomposed as plan" .
 # 
-# https://knowledge.c-innovationhub.com/khub/procedure#nextStep
-<https://knowledge.c-innovationhub.com/khub/procedure#nextStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
-<https://knowledge.c-innovationhub.com/khub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
-<https://knowledge.c-innovationhub.com/khub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Step with another Step that must be performed after" .
-<https://knowledge.c-innovationhub.com/khub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#label> "next step" .
+# https://knowledge.c-innovationhub.com/k-hub/procedure#nextStep
+<https://knowledge.c-innovationhub.com/k-hub/procedure#nextStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Step with another Step that must be performed after" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#nextStep> <http://www.w3.org/2000/01/rdf-schema#label> "next step" .
 # 
-# https://knowledge.c-innovationhub.com/khub/procedure#requiresTools
-<https://knowledge.c-innovationhub.com/khub/procedure#requiresTools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
-<https://knowledge.c-innovationhub.com/khub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/khub/manufacturing#Tool> .
-<https://knowledge.c-innovationhub.com/khub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the Tool required to perform the Plan" .
-<https://knowledge.c-innovationhub.com/khub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#label> "requires tools" .
+# https://knowledge.c-innovationhub.com/k-hub/procedure#requiresTools
+<https://knowledge.c-innovationhub.com/k-hub/procedure#requiresTools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the Tool required to perform the Plan" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#requiresTools> <http://www.w3.org/2000/01/rdf-schema#label> "requires tools" .
 # 
-# https://knowledge.c-innovationhub.com/khub/procedure#startsWith
-<https://knowledge.c-innovationhub.com/khub/procedure#startsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/khub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
-<https://knowledge.c-innovationhub.com/khub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
-<https://knowledge.c-innovationhub.com/khub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the first Step of the Plan" .
-<https://knowledge.c-innovationhub.com/khub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#label> "starts with" .
+# https://knowledge.c-innovationhub.com/k-hub/procedure#startsWith
+<https://knowledge.c-innovationhub.com/k-hub/procedure#startsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Plan with the first Step of the Plan" .
+<https://knowledge.c-innovationhub.com/k-hub/procedure#startsWith> <http://www.w3.org/2000/01/rdf-schema#label> "starts with" .
 # 
 # 
 # 
@@ -121,35 +121,35 @@
 # 
 # http://purl.org/net/p-plan#Plan
 <http://purl.org/net/p-plan#Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/net/p-plan#Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/khub/annotation#Topic> .
+<http://purl.org/net/p-plan#Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <http://purl.org/net/p-plan#Plan> <http://www.w3.org/2000/01/rdf-schema#label> "Plan" .
 # 
 # http://purl.org/net/p-plan#Step
 <http://purl.org/net/p-plan#Step> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/net/p-plan#Step> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/khub/annotation#Topic> .
+<http://purl.org/net/p-plan#Step> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <http://purl.org/net/p-plan#Step> <http://www.w3.org/2000/01/rdf-schema#label> "Step" .
 # 
-# https://knowledge.c-innovationhub.com/khub/annotation#Topic
-<https://knowledge.c-innovationhub.com/khub/annotation#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/khub/annotation#Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#Topic
+<https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic" .
 # 
-# https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation
-<https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "Topic Annotation" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation
+<https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "Topic Annotation" .
 # 
-# https://knowledge.c-innovationhub.com/khub/manufacturing#Action
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/khub/annotation#Topic> .
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#label> "Action" .
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#label> "Action" .
 # 
-# https://knowledge.c-innovationhub.com/khub/manufacturing#Component
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/khub/annotation#Topic> .
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Component" .
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Component" .
 # 
-# https://knowledge.c-innovationhub.com/khub/manufacturing#Tool
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Tool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/khub/annotation#Topic> .
-<https://knowledge.c-innovationhub.com/khub/manufacturing#Tool> <http://www.w3.org/2000/01/rdf-schema#label> "Tool" .
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> <http://www.w3.org/2000/01/rdf-schema#label> "Tool" .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

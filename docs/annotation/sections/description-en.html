@@ -17,7 +17,7 @@ The _Document_ class is modelled by the [foaf:Document](http://xmlns.com/foaf/0.
 
 The _Topic_ class represents the topics that the final user is interested to search in the documents. 
 
-The _TopicAnnotation_ class describes the semantic annotations created on the documents starting from the list of topics defined the [Manufacturing module](https://knowledge.c-innovationhub.com/khub/manufacturing) of the ontology ; the information associated to an annotation are the page of the document containing the annotation, the snippet of the text containing the information, the creator of the annotation, the creation date, and, if present, the annotation’s confidence score. The provenance information about the annotations is modelled by the [prov:Agent](https://www.w3.org/TR/prov-o/#Agent) class.  
+The _TopicAnnotation_ class describes the semantic annotations created on the documents starting from the list of topics defined the [Manufacturing module](https://knowledge.c-innovationhub.com/k-hub/manufacturing) of the ontology ; the information associated to an annotation are the page of the document containing the annotation, the snippet of the text containing the information, the creator of the annotation, the creation date, and, if present, the annotation’s confidence score. The provenance information about the annotations is modelled by the [prov:Agent](https://www.w3.org/TR/prov-o/#Agent) class.  
 
 </span>
 
@@ -65,25 +65,25 @@ The example of use of the Knowledge Hub Ontology is provided in [JSON-LD](https:
 		}
 	],
 	"@context": {
-		"kh-a": "https://knowledge.c-innovationhub.com/khub/annotation#",
+		"kh-a": "https://knowledge.c-innovationhub.com/k-hub/annotation#",
 		"kh-a:hasPage": {
-			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasPage",
+			"@id": "https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage",
 			"@type": "http://www.w3.org/2001/XMLSchema#integer"
 		},
 		"kh-a:hasTopic": {
-			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasTopic",
+			"@id": "https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic",
 			"@type": "@id"
 		},
 		"kh-a:hasTotalNumberOfPages" : {
-			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasTotalNumberOfPages",
+			"@id": "https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages",
 			"@type": "http://www.w3.org/2001/XMLSchema#integer"
 		},
 		"kh-a:hasTopicAnnotation": {
-			"@id": "https://knowledge.c-innovationhub.com/khub/annotation#hasTopicAnnotation",
+			"@id": "https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation",
 			"@type": "@id"
 		},
-		"kh-a": "https://knowledge.c-innovationhub.com/khub/annotation#/,
-		"kh-m": "https://knowledge.c-innovationhub.com/khub/manufacturing#/,
+		"kh-a": "https://knowledge.c-innovationhub.com/k-hub/annotation#/,
+		"kh-m": "https://knowledge.c-innovationhub.com/k-hub/manufacturing#/,
 		"foaf": "http://xmlns.com/foaf/0.1/",
       	"dc": "http://purl.org/dc/terms/",
 		"dc:title": {

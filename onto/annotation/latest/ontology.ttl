@@ -1,13 +1,13 @@
-@prefix : <https://knowledge.c-innovationhub.com/khub/annotation/> .
+@prefix : <https://knowledge.c-innovationhub.com/k-hub/annotation/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://knowledge.c-innovationhub.com/khub/annotation/> .
+@base <https://knowledge.c-innovationhub.com/k-hub/annotation/> .
 
-<https://knowledge.c-innovationhub.com/khub/annotation/> rdf:type owl:Ontology ;
-                                                          owl:versionIRI <https://knowledge.c-innovationhub.com/khub/annotation/1.0.0> ;
+<https://knowledge.c-innovationhub.com/k-hub/annotation/> rdf:type owl:Ontology ;
+                                                          owl:versionIRI <https://knowledge.c-innovationhub.com/k-hub/annotation/1.0.0> ;
                                                           <http://purl.org/dc/elements/1.1/contributor> "Marposs" ,
                                                                                                         "Whirlpool EMEA" ;
                                                           <http://purl.org/dc/elements/1.1/creator> "Antonia Azzini (Cefriel)" ,
@@ -17,7 +17,7 @@
                                                           <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Annotation" ;
                                                           <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-a" ;
-                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/khub/annotation#" ;
+                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/k-hub/annotation#" ;
                                                           owl:versionInfo "1.0.0" .
 
 #################################################################
@@ -71,14 +71,14 @@ xsd:date rdf:type rdfs:Datatype .
                                             rdfs:label "was attributed to" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/hasTopic
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic
 :hasTopic rdf:type owl:ObjectProperty ;
           rdfs:domain :TopicAnnotation ;
           rdfs:range :Topic ;
           rdfs:label "has topic" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/hasTopicAnnotation
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation
 :hasTopicAnnotation rdf:type owl:ObjectProperty ;
                     rdfs:domain <http://xmlns.com/foaf/0.1/Document> ;
                     rdfs:range :TopicAnnotation ;
@@ -138,28 +138,28 @@ xsd:date rdf:type rdfs:Datatype .
                                  rdfs:label "title" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/hasConfidenceScore
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore
 :hasConfidenceScore rdf:type owl:DatatypeProperty ;
                     rdfs:domain :TopicAnnotation ;
                     rdfs:range xsd:float ;
                     rdfs:label "has confidence score" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/hasPage
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage
 :hasPage rdf:type owl:DatatypeProperty ;
          rdfs:domain :TopicAnnotation ;
          rdfs:range xsd:integer ;
          rdfs:label "has page" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/hasSnippet
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet
 :hasSnippet rdf:type owl:DatatypeProperty ;
             rdfs:domain :TopicAnnotation ;
             rdfs:range xsd:string ;
             rdfs:label "has snippet" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/hasTotalNumberOfPages
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages
 :hasTotalNumberOfPages rdf:type owl:DatatypeProperty ;
                        rdfs:domain <http://xmlns.com/foaf/0.1/Document> ;
                        rdfs:range xsd:integer ;
@@ -180,12 +180,12 @@ xsd:date rdf:type rdfs:Datatype .
                                      rdfs:label "Document" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/Topic
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/Topic
 :Topic rdf:type owl:Class ;
        rdfs:label "Topic" .
 
 
-###  https://knowledge.c-innovationhub.com/khub/annotation/TopicAnnotation
+###  https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation
 :TopicAnnotation rdf:type owl:Class ;
                  rdfs:label "Topic Annotation" .
 

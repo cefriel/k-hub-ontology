@@ -20,7 +20,7 @@
     "@value" : "Plan"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "http://purl.org/net/p-plan#Step",
@@ -29,7 +29,7 @@
     "@value" : "Step"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "http://purl.org/net/p-plan#isStepOfPlan",
@@ -50,58 +50,58 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#Topic",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Topic"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Topic Annotation"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#hasTopic",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#TopicAnnotation"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has topic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/manufacturing#Action",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Action"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/manufacturing#Component",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Component"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/manufacturing#Tool",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Tool"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/annotation#Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
     "@value" : "Marposs"
@@ -126,16 +126,16 @@
     "@value" : "kh-p"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "https://knowledge.c-innovationhub.com/khub/procedure#"
+    "@value" : "https://knowledge.c-innovationhub.com/k-hub/procedure#"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/procedure/1.0.0"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "1.0.0"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#appliedToComponent",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#appliedToComponent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Associates a Plan with the Component involved in the Plan"
@@ -147,10 +147,10 @@
     "@value" : "applied to component"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/manufacturing#Component"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#endsWith",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#endsWith",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Associates a Plan with the last Step of the Plan"
@@ -165,7 +165,7 @@
     "@id" : "http://purl.org/net/p-plan#Step"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#implementsAction",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#implementsAction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Associates a Plan with the main Action performed in the Plan"
@@ -177,10 +177,10 @@
     "@value" : "implements action"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/manufacturing#Action"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#isDecomposedAsPlan",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#isDecomposedAsPlan",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Associates a Step of Plan A with Plan B that must be entirely executed as a step of Plan A"
@@ -195,7 +195,7 @@
     "@id" : "http://purl.org/net/p-plan#Plan"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#nextStep",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#nextStep",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Associates a Step with another Step that must be performed after"
@@ -210,7 +210,7 @@
     "@id" : "http://purl.org/net/p-plan#Step"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#requiresTools",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#requiresTools",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Associates a Plan with the Tool required to perform the Plan"
@@ -222,10 +222,10 @@
     "@value" : "requires tools"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/khub/manufacturing#Tool"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/khub/procedure#startsWith",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/procedure#startsWith",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Associates a Plan with the first Step of the Plan"
