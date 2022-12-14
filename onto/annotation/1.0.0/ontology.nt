@@ -64,21 +64,21 @@
 # 
 # http://www.w3.org/ns/prov#wasAttributedTo
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> .
+<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#label> "was attributed to" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Document> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "has topic annotation" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Document> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "has topic annotation" .
 # 
 # 
 # 
@@ -91,7 +91,7 @@
 # 
 # http://purl.org/dc/terms/created
 <http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
 <http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
 <http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#label> "created" .
 # 
@@ -131,29 +131,29 @@
 <http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore> <http://www.w3.org/2000/01/rdf-schema#label> "has confidence score" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore> <http://www.w3.org/2000/01/rdf-schema#label> "has confidence score" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage> <http://www.w3.org/2000/01/rdf-schema#label> "has page" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage> <http://www.w3.org/2000/01/rdf-schema#label> "has page" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet> <http://www.w3.org/2000/01/rdf-schema#label> "has snippet" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet> <http://www.w3.org/2000/01/rdf-schema#label> "has snippet" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Document> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages> <http://www.w3.org/2000/01/rdf-schema#label> "has total number of pages" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Document> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages> <http://www.w3.org/2000/01/rdf-schema#label> "has total number of pages" .
 # 
 # 
 # 
@@ -172,12 +172,12 @@
 <http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/Topic
-<https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#Topic
+<https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic" .
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation
-<https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "Topic Annotation" .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation
+<https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "Topic Annotation" .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

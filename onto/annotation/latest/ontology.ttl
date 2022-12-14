@@ -71,14 +71,14 @@ xsd:date rdf:type rdfs:Datatype .
                                             rdfs:label "was attributed to" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic
 :hasTopic rdf:type owl:ObjectProperty ;
           rdfs:domain :TopicAnnotation ;
           rdfs:range :Topic ;
           rdfs:label "has topic" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation
 :hasTopicAnnotation rdf:type owl:ObjectProperty ;
                     rdfs:domain <http://xmlns.com/foaf/0.1/Document> ;
                     rdfs:range :TopicAnnotation ;
@@ -138,28 +138,28 @@ xsd:date rdf:type rdfs:Datatype .
                                  rdfs:label "title" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore
 :hasConfidenceScore rdf:type owl:DatatypeProperty ;
                     rdfs:domain :TopicAnnotation ;
                     rdfs:range xsd:float ;
                     rdfs:label "has confidence score" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage
 :hasPage rdf:type owl:DatatypeProperty ;
          rdfs:domain :TopicAnnotation ;
          rdfs:range xsd:integer ;
          rdfs:label "has page" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet
 :hasSnippet rdf:type owl:DatatypeProperty ;
             rdfs:domain :TopicAnnotation ;
             rdfs:range xsd:string ;
             rdfs:label "has snippet" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages
 :hasTotalNumberOfPages rdf:type owl:DatatypeProperty ;
                        rdfs:domain <http://xmlns.com/foaf/0.1/Document> ;
                        rdfs:range xsd:integer ;
@@ -180,12 +180,12 @@ xsd:date rdf:type rdfs:Datatype .
                                      rdfs:label "Document" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/Topic
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#Topic
 :Topic rdf:type owl:Class ;
        rdfs:label "Topic" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation
+###  https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation
 :TopicAnnotation rdf:type owl:Class ;
                  rdfs:label "Topic Annotation" .
 

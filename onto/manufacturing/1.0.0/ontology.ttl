@@ -72,75 +72,75 @@
 <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> rdf:type owl:Class .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Action
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action
 :Action rdf:type owl:Class ;
         rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
         rdfs:comment "An activity performed during the maintenace process" ;
         rdfs:label "Action" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Component
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component
 :Component rdf:type owl:Class ;
            rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
            rdfs:comment "One of the parts of a Product or Machine" ;
            rdfs:label "Component" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Configuration
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration
 :Configuration rdf:type owl:Class ;
                rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
                rdfs:comment "A parameter or mode which can be set or configured on a Product" ;
                rdfs:label "Configuration" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/DocumentType
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType
 :DocumentType rdf:type owl:Class ;
               rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
               rdfs:comment "The type of the document, for example: service manual, user manual, schema, drawings..." ;
               rdfs:label "Document Type" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Error
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error
 :Error rdf:type owl:Class ;
        rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Machine
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine
 :Machine rdf:type owl:Class ;
          rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
          rdfs:comment "A production line composed of one or more Workstations" ;
          rdfs:label "Machine" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Product
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product
 :Product rdf:type owl:Class ;
          rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
          rdfs:comment "Something that is produced by an industrial process" ;
          rdfs:label "Product" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/SparePart
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart
 :SparePart rdf:type owl:Class ;
            rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
            rdfs:comment "An extra piece that can be used to replace a piece that breaks in a Machine, Workstation or Product" ;
            rdfs:label "Spare Part" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Supplier
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier
 :Supplier rdf:type owl:Class ;
           rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
           rdfs:comment "The name of a company, person, etc. that provides Machines or Components to a manufacturing company" ;
           rdfs:label "Supplier" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Trouble
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble
 :Trouble rdf:type owl:Class ;
          rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
          rdfs:comment "A situation in which a shopfloor worker experiences problems that may occour on a Product or Machine" ;
          rdfs:label "Trouble" .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Workstation
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation
 :Workstation rdf:type owl:Class ;
              rdfs:subClassOf <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> ;
              rdfs:comment "A part of a production line that execute a specific task" ;
@@ -151,12 +151,12 @@
 #    Individuals
 #################################################################
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Error
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error
 :Error rdf:type owl:NamedIndividual ,
                 :Error .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/Machine-ledger
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine-ledger
 :Machine-ledger rdf:type owl:NamedIndividual ,
                          :DocumentType ;
                 rdfs:label "machine ledger"@en ,
@@ -165,7 +165,7 @@
                                                                 "machine ledger"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/alarm
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#alarm
 :alarm rdf:type owl:NamedIndividual ,
                 :Error ;
        rdfs:label "alarm"@en ,
@@ -174,7 +174,7 @@
                                                        "allarme"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/align
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#align
 :align rdf:type owl:NamedIndividual ,
                 :Action ;
        rdfs:label "align"@en ,
@@ -185,7 +185,7 @@
                                                        "allineare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/ampere-meter
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#ampere-meter
 :ampere-meter rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "ampere meter"@en ,
@@ -194,7 +194,7 @@
                                                               "amperometro"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/analog-module
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#analog-module
 :analog-module rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "analog module"@en ,
@@ -203,7 +203,7 @@
                                                                "modulo analogico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/asi-module
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#asi-module
 :asi-module rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "asi module"@en ,
@@ -212,7 +212,7 @@
                                                             "modulo asi"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/auxiliary-contact
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#auxiliary-contact
 :auxiliary-contact rdf:type owl:NamedIndividual ,
                             :Component ;
                    rdfs:label "auxiliary contact"@en ,
@@ -221,7 +221,7 @@
                                                                    "contatto ausiliario"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/back-end
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#back-end
 :back-end rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "back-end"@en ,
@@ -232,7 +232,7 @@
                                                           "back-end"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/ball-shut-off-valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#ball-shut-off-valve
 :ball-shut-off-valve rdf:type owl:NamedIndividual ,
                               :Component ;
                      rdfs:label "ball shut-off valve"@en ,
@@ -241,7 +241,7 @@
                                                                      "valvola a sfera"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/base
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#base
 :base rdf:type owl:NamedIndividual ,
                :Component ;
       rdfs:label "base"@en ,
@@ -250,7 +250,7 @@
                                                       "base"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/battery
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#battery
 :battery rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "batteria"@it ,
@@ -259,7 +259,7 @@
                                                          "battery"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/bearing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#bearing
 :bearing rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "bearing"@en ,
@@ -268,7 +268,7 @@
                                                          "cuscinetto"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/bending
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#bending
 :bending rdf:type owl:NamedIndividual ,
                   :Workstation ;
          rdfs:label "bending"@en ,
@@ -277,7 +277,7 @@
                                                          "piega"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/board
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#board
 :board rdf:type owl:NamedIndividual ,
                 :SparePart ;
        rdfs:label "board"@en ,
@@ -288,7 +288,7 @@
                                                        "scheda "@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/boards
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#boards
 :boards rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "boards"@en ,
@@ -297,7 +297,7 @@
                                                         "circuito"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/bridge-rectifier
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#bridge-rectifier
 :bridge-rectifier rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "bridge-rectifier"@en ,
@@ -306,7 +306,7 @@
                                                                   "raddrizzatore a ponte"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/bubbling
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#bubbling
 :bubbling rdf:type owl:NamedIndividual ,
                    :Workstation ;
           rdfs:label "bubbling"@en ,
@@ -316,7 +316,7 @@
                                                           "campana"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/bus-fault
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#bus-fault
 :bus-fault rdf:type owl:NamedIndividual ,
                     :Error ;
            rdfs:label "bus fault"@en ,
@@ -325,7 +325,7 @@
                                                            "errore di bus"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/bush
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#bush
 :bush rdf:type owl:NamedIndividual ,
                :Component ;
       rdfs:label "boccola"@it ,
@@ -334,7 +334,7 @@
                                                       "bush"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cabinet-foaming
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cabinet-foaming
 :cabinet-foaming rdf:type owl:NamedIndividual ,
                           :Machine ;
                  rdfs:label "cabinet foaming"@en ,
@@ -344,7 +344,7 @@
                                                                  "espanso mobili"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cable
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cable
 :cable rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "cable"@en ,
@@ -353,7 +353,7 @@
                                                        "cavo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cable-accessories
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cable-accessories
 :cable-accessories rdf:type owl:NamedIndividual ,
                             :Component ;
                    rdfs:label "accessori per cavi"@it ,
@@ -362,7 +362,7 @@
                                                                    "cable accessories"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cable-guide
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cable-guide
 :cable-guide rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "cable guide"@en ,
@@ -371,7 +371,7 @@
                                                              "guida cavo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cables
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cables
 :cables rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "cables"@en ,
@@ -381,7 +381,7 @@
                                                         "cavi"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cage
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cage
 :cage rdf:type owl:NamedIndividual ,
                :Component ;
       rdfs:label "cage"@en ,
@@ -390,7 +390,7 @@
                                                       "gabbia"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/capacitive-sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#capacitive-sensor
 :capacitive-sensor rdf:type owl:NamedIndividual ,
                             :Component ;
                    rdfs:label "capacitive sensor"@en ,
@@ -399,7 +399,7 @@
                                                                    "sensore capacitivo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/capacitor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#capacitor
 :capacitor rdf:type owl:NamedIndividual ,
                     :Component ;
            rdfs:label "capacitor"@en ,
@@ -408,7 +408,7 @@
                                                            "condensatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cart
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cart
 :cart rdf:type owl:NamedIndividual ,
                :Workstation ;
       rdfs:label "carro"@it ,
@@ -417,7 +417,7 @@
                                                       "cart"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/ce-certification
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#ce-certification
 :ce-certification rdf:type owl:NamedIndividual ,
                            :DocumentType ;
                   rdfs:label "CE certification"@en ,
@@ -428,7 +428,7 @@
                                                                   "certificazione CE"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/chain
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#chain
 :chain rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "catena"@it ,
@@ -437,7 +437,7 @@
                                                        "chain"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/chain-wheel
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#chain-wheel
 :chain-wheel rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "catena ruota"@it ,
@@ -446,7 +446,7 @@
                                                              "chain wheel"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/check
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#check
 :check rdf:type owl:NamedIndividual ,
                 :Action ;
        rdfs:label "check"@en ,
@@ -460,7 +460,7 @@
                                                        "verificare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/chiller
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#chiller
 :chiller rdf:type owl:NamedIndividual ,
                   :Machine ,
                   :Workstation ;
@@ -470,7 +470,7 @@
                                                          "chiller"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/circuit-breaker
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#circuit-breaker
 :circuit-breaker rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "circuit breaker"@en ,
@@ -479,7 +479,7 @@
                                                                  "interruttore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/clean
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#clean
 :clean rdf:type owl:NamedIndividual ,
                 :Action ;
        rdfs:label "clean"@en ,
@@ -488,7 +488,7 @@
                                                        "pulire"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/close
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#close
 :close rdf:type owl:NamedIndividual ,
                 :Action ;
        rdfs:label "chiudere"@it ,
@@ -497,7 +497,7 @@
                                                        "close"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/closing-ring
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#closing-ring
 :closing-ring rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "anello di chiusura"@it ,
@@ -506,7 +506,7 @@
                                                               "closing ring"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/column
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#column
 :column rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "colonna"@it ,
@@ -515,7 +515,7 @@
                                                         "column"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/communication-module
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#communication-module
 :communication-module rdf:type owl:NamedIndividual ,
                                :Component ;
                       rdfs:label "communication module"@en ,
@@ -524,7 +524,7 @@
                                                                       "modulo di comunicazione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/compensator-suction-nozzle
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#compensator-suction-nozzle
 :compensator-suction-nozzle rdf:type owl:NamedIndividual ,
                                      :Component ;
                             rdfs:label "compensator suction nozzle"@en ,
@@ -533,7 +533,7 @@
                                                                             "compensatore aspirazione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/compressor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#compressor
 :compressor rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "compressor"@en ,
@@ -542,7 +542,7 @@
                                                             "compressore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/connect
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#connect
 :connect rdf:type owl:NamedIndividual ,
                   :Action ;
          rdfs:label "collegare"@it ,
@@ -553,7 +553,7 @@
                                                          "connect"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/connecting-cables
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#connecting-cables
 :connecting-cables rdf:type owl:NamedIndividual ,
                             :Component ;
                    rdfs:label "cavi di collegamento"@it ,
@@ -562,7 +562,7 @@
                                                                    "connecting cables"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/connecting-module
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#connecting-module
 :connecting-module rdf:type owl:NamedIndividual ,
                             :Component ;
                    rdfs:label "connecting module"@en ,
@@ -571,7 +571,7 @@
                                                                    "modulo di collegamento"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/connector
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#connector
 :connector rdf:type owl:NamedIndividual ,
                     :Component ;
            rdfs:label "connector"@en ,
@@ -580,7 +580,7 @@
                                                            "connettore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/contactor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor
 :contactor rdf:type owl:NamedIndividual ,
                     :Component ,
                     :SparePart ;
@@ -593,7 +593,7 @@
                                                            "teleruttore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/converter
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#converter
 :converter rdf:type owl:NamedIndividual ,
                     :Component ;
            rdfs:label "converter"@en ,
@@ -602,7 +602,7 @@
                                                            "converter"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/conveyer-belt
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#conveyer-belt
 :conveyer-belt rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "conveyer belt"@en ,
@@ -611,7 +611,7 @@
                                                                "nastro trasportatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cooling-fan
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cooling-fan
 :cooling-fan rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "cooling fan"@en ,
@@ -620,7 +620,7 @@
                                                              "ventilatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/counter
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#counter
 :counter rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "contatore"@it ,
@@ -629,7 +629,7 @@
                                                          "counter"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/coupling
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#coupling
 :coupling rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "attacco"@it ,
@@ -638,7 +638,7 @@
                                                           "coupling"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cup
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup
 :cup rdf:type owl:NamedIndividual ,
               :SparePart ;
      rdfs:label "cup"@en ,
@@ -648,7 +648,7 @@
                                                      "ventosa"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cutting
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cutting
 :cutting rdf:type owl:NamedIndividual ,
                   :Workstation ;
          rdfs:label "cutting"@en ,
@@ -657,7 +657,7 @@
                                                          "taglio"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/cylinder
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#cylinder
 :cylinder rdf:type owl:NamedIndividual ,
                    :Component ,
                    :SparePart ;
@@ -667,7 +667,7 @@
                                                           "cylinder"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/de-energize
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#de-energize
 :de-energize rdf:type owl:NamedIndividual ,
                       :Action ;
              rdfs:label "de-energize"@en ,
@@ -677,7 +677,7 @@
                                                              "de-energizzare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/decoiler
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#decoiler
 :decoiler rdf:type owl:NamedIndividual ,
                    :Workstation ;
           rdfs:label "decoiler"@en ,
@@ -686,7 +686,7 @@
                                                           "svolgitore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/diagnosys
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#diagnosys
 :diagnosys rdf:type owl:NamedIndividual ,
                     :Action ;
            rdfs:label "diagnosticare"@it ,
@@ -695,7 +695,7 @@
                                                            "diagnosys"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/die-plate
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#die-plate
 :die-plate rdf:type owl:NamedIndividual ,
                     :Workstation ;
            rdfs:label "die plate"@en ,
@@ -704,7 +704,7 @@
                                                            "piano stampo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/digital-i-o-module
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#digital-i-o-module
 :digital-i-o-module rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "digital i/o module"@en ,
@@ -713,7 +713,7 @@
                                                                     "modulo digitale i/o"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/diode
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#diode
 :diode rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "diode"@en ,
@@ -722,7 +722,7 @@
                                                        "diodo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/disable
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#disable
 :disable rdf:type owl:NamedIndividual ,
                   :Action ;
          rdfs:label "disable"@en ,
@@ -731,7 +731,7 @@
                                                          "disattivare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/disconnect
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#disconnect
 :disconnect rdf:type owl:NamedIndividual ,
                      :Action ;
             rdfs:label "disconnect"@en ,
@@ -743,7 +743,7 @@
                                                             "scollegare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/discovery-mode
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#discovery-mode
 :discovery-mode rdf:type owl:NamedIndividual ,
                          :Configuration ;
                 rdfs:label "discovery mode"@en ,
@@ -752,7 +752,7 @@
                                                                 "modalità visibile"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/display
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#display
 :display rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "display"@en ,
@@ -761,7 +761,7 @@
                                                          "display"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/door-foaming
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#door-foaming
 :door-foaming rdf:type owl:NamedIndividual ,
                        :Machine ;
               rdfs:label "door foaming"@en ,
@@ -771,7 +771,7 @@
                                                               "espanso porte"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/door-switch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#door-switch
 :door-switch rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "door switch"@en ,
@@ -780,7 +780,7 @@
                                                              "interruttore porta"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/downgrade
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#downgrade
 :downgrade rdf:type owl:NamedIndividual ,
                     :Action ;
            rdfs:label "downgrade"@en ,
@@ -789,7 +789,7 @@
                                                            "downgrade"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/download
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#download
 :download rdf:type owl:NamedIndividual ,
                    :Action ;
           rdfs:label "download"@en ,
@@ -798,7 +798,7 @@
                                                           "scaricare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/drawing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#drawing
 :drawing rdf:type owl:NamedIndividual ,
                   :DocumentType ;
          rdfs:label "disegno"@it ,
@@ -811,7 +811,7 @@
                                                          "drawing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/dress
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#dress
 :dress rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "divisa"@it ,
@@ -820,7 +820,7 @@
                                                        "dress"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/driver-manual
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#driver-manual
 :driver-manual rdf:type owl:NamedIndividual ,
                         :DocumentType ;
                rdfs:label "driver manual"@en ,
@@ -829,140 +829,140 @@
                                                                "manuale del driver"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e001
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e001
 :e001 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E001"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E001"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e002
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e002
 :e002 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E002"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E002"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e003
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e003
 :e003 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E003"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E003"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e004
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e004
 :e004 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E004"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E004"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e005
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e005
 :e005 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E005"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E005"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e006
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e006
 :e006 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E006"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E006"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e009
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e009
 :e009 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E009"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E009"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e016
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e016
 :e016 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E016"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E016"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e033
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e033
 :e033 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E033"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E033"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e034
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e034
 :e034 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E034"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E034"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e035
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e035
 :e035 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E035"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E035"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e036
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e036
 :e036 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E036"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E036"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e037
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e037
 :e037 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E037"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E037"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e038
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e038
 :e038 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E038"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E038"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e040
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e040
 :e040 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E040"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E040"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e041
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e041
 :e041 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E041"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E041"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e901
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e901
 :e901 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E901"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E901"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e902
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e902
 :e902 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E902"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E902"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/e999
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#e999
 :e999 rdf:type owl:NamedIndividual ,
                :Error ;
       rdfs:label "E999"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "E999"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/ejector
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#ejector
 :ejector rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "ejector"@en ,
@@ -971,7 +971,7 @@
                                                          "espulsore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/electical-schema
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#electical-schema
 :electical-schema rdf:type owl:NamedIndividual ,
                            :DocumentType ;
                   rdfs:label "electical schema"@en ,
@@ -981,7 +981,7 @@
                                                                   "schema elettrico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/electric-case
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#electric-case
 :electric-case rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "case elettrico"@it ,
@@ -990,7 +990,7 @@
                                                                "electric case"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/electric-motor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#electric-motor
 :electric-motor rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "electric motor"@en ,
@@ -999,7 +999,7 @@
                                                                 "motore elettrico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/electric-pump
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#electric-pump
 :electric-pump rdf:type owl:NamedIndividual ,
                         :SparePart ;
                rdfs:label "electric pump"@en ,
@@ -1008,7 +1008,7 @@
                                                                "elettropompa"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/electrical-interface
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#electrical-interface
 :electrical-interface rdf:type owl:NamedIndividual ,
                                :Component ;
                       rdfs:label "electrical interface"@en ,
@@ -1017,7 +1017,7 @@
                                                                       "interfaccia elettricca"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/electrical-motor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#electrical-motor
 :electrical-motor rdf:type owl:NamedIndividual ,
                            :SparePart ;
                   rdfs:label "electrical motor"@en ,
@@ -1026,7 +1026,7 @@
                                                                   "elettromotore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/electronics
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#electronics
 :electronics rdf:type owl:NamedIndividual ,
                       :Configuration ;
              rdfs:label "electronics"@en ,
@@ -1035,7 +1035,7 @@
                                                              "elettronica"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/eletrical-valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#eletrical-valve
 :eletrical-valve rdf:type owl:NamedIndividual ,
                           :SparePart ;
                  rdfs:label "eletrical valve"@en ,
@@ -1044,7 +1044,7 @@
                                                                  "elettrovalvola"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/enable
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#enable
 :enable rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "attivare"@it ,
@@ -1053,7 +1053,7 @@
                                                         "enable"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/encoder
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#encoder
 :encoder rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "encoder"@en ,
@@ -1062,7 +1062,7 @@
                                                          "encoder"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/end-of-line
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#end-of-line
 :end-of-line rdf:type owl:NamedIndividual ,
                       :Machine ;
              rdfs:label "EOL"@it ,
@@ -1072,7 +1072,7 @@
                                                              "end of line"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/energize
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#energize
 :energize rdf:type owl:NamedIndividual ,
                    :Action ;
           rdfs:label "energize"@en ,
@@ -1082,7 +1082,7 @@
                                                           "energizzare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/exit
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#exit
 :exit rdf:type owl:NamedIndividual ,
                :Action ;
       rdfs:label "exit"@en ,
@@ -1093,7 +1093,7 @@
                                                       "uscire"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/extract
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#extract
 :extract rdf:type owl:NamedIndividual ,
                   :Action ;
          rdfs:label "estrarre"@it ,
@@ -1102,7 +1102,7 @@
                                                          "extract"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/face
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#face
 :face rdf:type owl:NamedIndividual ,
                :Action ;
       rdfs:label ""@it ,
@@ -1111,7 +1111,7 @@
                                                       "face"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/failure
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#failure
 :failure rdf:type owl:NamedIndividual ,
                   :Trouble ;
          rdfs:label "failure"@en ,
@@ -1121,7 +1121,7 @@
                                                          "malfunzionamento"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/fast-switching-valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#fast-switching-valve
 :fast-switching-valve rdf:type owl:NamedIndividual ,
                                :Component ;
                       rdfs:label "fast-switching valve"@en ,
@@ -1130,7 +1130,7 @@
                                                                       "valvola di commutazione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/fasten
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#fasten
 :fasten rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "fasten"@en ,
@@ -1139,7 +1139,7 @@
                                                         "fissare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/fault
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#fault
 :fault rdf:type owl:NamedIndividual ,
                 :Error ;
        rdfs:label "anomalia"@it ,
@@ -1148,7 +1148,7 @@
                                                        "fault"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/filter
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#filter
 :filter rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "filter"@en ,
@@ -1157,7 +1157,7 @@
                                                         "filtro"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/filter-regulator
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#filter-regulator
 :filter-regulator rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "filter regulator"@en ,
@@ -1166,7 +1166,7 @@
                                                                   "filtro regolatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/find
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#find
 :find rdf:type owl:NamedIndividual ,
                :Action ;
       rdfs:label "find"@en ,
@@ -1182,7 +1182,7 @@
                                                       "trovare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/firmware
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#firmware
 :firmware rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "firmware"@en ,
@@ -1191,7 +1191,7 @@
                                                           "firmware"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/fix
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#fix
 :fix rdf:type owl:NamedIndividual ,
               :Action ;
      rdfs:label "fix"@en ,
@@ -1200,7 +1200,7 @@
                                                      "riparare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/flashing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#flashing
 :flashing rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "flashing"@en ,
@@ -1209,7 +1209,7 @@
                                                           "lampeggiante"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/flashing-leds
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#flashing-leds
 :flashing-leds rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "LED lampeggianti"@it ,
@@ -1218,7 +1218,7 @@
                                                                "flashing leds"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/flat-cables
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-cables
 :flat-cables rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "flat"@it ,
@@ -1228,7 +1228,7 @@
                                                              "flat cables"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/flow-meter
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#flow-meter
 :flow-meter rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "flow-meter"@en ,
@@ -1237,7 +1237,7 @@
                                                             "flussometro"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/frequency-inverter
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#frequency-inverter
 :frequency-inverter rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "frequency inverter"@en ,
@@ -1246,7 +1246,7 @@
                                                                     "inverter di frequenza"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/fuse
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#fuse
 :fuse rdf:type owl:NamedIndividual ,
                :Component ;
       rdfs:label "fuse"@en ,
@@ -1255,7 +1255,7 @@
                                                       "fusibile"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/fuse-holder
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#fuse-holder
 :fuse-holder rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "fuse holder"@en ,
@@ -1264,7 +1264,7 @@
                                                              "portafusibile"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/gas-detector
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#gas-detector
 :gas-detector rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "gas detector"@en ,
@@ -1273,7 +1273,7 @@
                                                               "rilevatore di gas"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/gasket
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket
 :gasket rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "gasket"@en ,
@@ -1284,7 +1284,7 @@
                                                         "guarnizione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/glasses
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#glasses
 :glasses rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "glasses"@en ,
@@ -1293,7 +1293,7 @@
                                                          "occhiali"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/glove
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#glove
 :glove rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "glove"@en ,
@@ -1302,7 +1302,7 @@
                                                        "guanto"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/glue
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#glue
 :glue rdf:type owl:NamedIndividual ,
                :Component ;
       rdfs:label "colla"@it ,
@@ -1311,7 +1311,7 @@
                                                       "glue"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/grasper
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper
 :grasper rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "grasper"@en ,
@@ -1322,7 +1322,7 @@
                                                          "pinza"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/guide
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#guide
 :guide rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "guida"@it ,
@@ -1331,7 +1331,7 @@
                                                        "guide"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/handle
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#handle
 :handle rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "handle"@en ,
@@ -1340,7 +1340,7 @@
                                                         "manico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/handler
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#handler
 :handler rdf:type owl:NamedIndividual ,
                   :Workstation ;
          rdfs:label "handler"@en ,
@@ -1349,7 +1349,7 @@
                                                          "manipolatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/hard-disk
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#hard-disk
 :hard-disk rdf:type owl:NamedIndividual ,
                     :Component ;
            rdfs:label "disco rigido"@it ,
@@ -1358,7 +1358,7 @@
                                                            "hard disk"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/heat-exchanger
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#heat-exchanger
 :heat-exchanger rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "heat exchanger"@en ,
@@ -1367,7 +1367,7 @@
                                                                 "scambiatore di calore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/heater
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#heater
 :heater rdf:type owl:NamedIndividual ,
                  :Component ,
                  :Workstation ;
@@ -1379,7 +1379,7 @@
                                                         "scaldatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/helmet
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#helmet
 :helmet rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "casco"@it ,
@@ -1388,7 +1388,7 @@
                                                         "helmet"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/hydraulic-cylinder
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#hydraulic-cylinder
 :hydraulic-cylinder rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "cilindro idraulico"@it ,
@@ -1397,7 +1397,7 @@
                                                                     "hydraulic cylinder"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/hydraulic-electrovalve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#hydraulic-electrovalve
 :hydraulic-electrovalve rdf:type owl:NamedIndividual ,
                                  :Component ;
                         rdfs:label "hydraulic electrovalve"@en ,
@@ -1406,7 +1406,7 @@
                                                                         "idraulico elettrovalvola"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/hydraulic-motor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#hydraulic-motor
 :hydraulic-motor rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "hydraulic motor"@en ,
@@ -1415,7 +1415,7 @@
                                                                  "motore idraulico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/hydraulic-valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#hydraulic-valve
 :hydraulic-valve rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "hydraulic valve"@en ,
@@ -1424,7 +1424,7 @@
                                                                  "valvola idraulica"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/identification-label
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#identification-label
 :identification-label rdf:type owl:NamedIndividual ,
                                :Component ;
                       rdfs:label "etichetta identificativa"@it ,
@@ -1433,7 +1433,7 @@
                                                                       "identification label"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/idraulic-schema
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#idraulic-schema
 :idraulic-schema rdf:type owl:NamedIndividual ,
                           :DocumentType ;
                  rdfs:label "idraulic schema"@en ,
@@ -1443,7 +1443,7 @@
                                                                  "schema idraulico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/inductive-sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#inductive-sensor
 :inductive-sensor rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "inductive sensor"@en ,
@@ -1452,7 +1452,7 @@
                                                                   "sensore induttivo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/infrared-sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#infrared-sensor
 :infrared-sensor rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "infrared sensor"@en ,
@@ -1461,7 +1461,7 @@
                                                                  "sensore a infrarossi"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/insert
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#insert
 :insert rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "inserire"@it ,
@@ -1470,7 +1470,7 @@
                                                         "insert"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/install
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#install
 :install rdf:type owl:NamedIndividual ,
                   :Action ;
          rdfs:label "install"@en ,
@@ -1491,7 +1491,7 @@
                                                          "installare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/interface-module
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#interface-module
 :interface-module rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "interface module"@en ,
@@ -1500,7 +1500,7 @@
                                                                   "modulo di interfaccia"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/jig
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig
 :jig rdf:type owl:NamedIndividual ,
               :Component ;
      rdfs:label "jig"@en ,
@@ -1512,7 +1512,7 @@
                                                      "jig"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/joint
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#joint
 :joint rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "giunto"@it ,
@@ -1521,7 +1521,7 @@
                                                        "joint"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/key-switch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#key-switch
 :key-switch rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "interruttore a chiave"@it ,
@@ -1530,7 +1530,7 @@
                                                             "key switch"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lack-of-connectivity
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lack-of-connectivity
 :lack-of-connectivity rdf:type owl:NamedIndividual ,
                                :Trouble ;
                       rdfs:label "lack of connectivity"@en ,
@@ -1541,7 +1541,7 @@
                                                                       "mancanza connessione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lack-of-energy
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lack-of-energy
 :lack-of-energy rdf:type owl:NamedIndividual ,
                          :Trouble ;
                 rdfs:label "lack of energy"@en ,
@@ -1552,7 +1552,7 @@
                                                                 "mancanza alimentazione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lack-of-pressure
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lack-of-pressure
 :lack-of-pressure rdf:type owl:NamedIndividual ,
                            :Trouble ;
                   rdfs:label "lack of pressure"@en ,
@@ -1562,7 +1562,7 @@
                                                                   "mancanza pressione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lack-of-signal
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lack-of-signal
 :lack-of-signal rdf:type owl:NamedIndividual ,
                          :Trouble ;
                 rdfs:label "lack of signal"@en ,
@@ -1573,7 +1573,7 @@
                                                                 "mancanza segnale"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/laser-sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#laser-sensor
 :laser-sensor rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "laser"@it ,
@@ -1582,7 +1582,7 @@
                                                               "laser sensor"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/led
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#led
 :led rdf:type owl:NamedIndividual ,
               :Component ;
      rdfs:label "led"@en ,
@@ -1593,7 +1593,7 @@
                                                      "led"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/level-failure
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#level-failure
 :level-failure rdf:type owl:NamedIndividual ,
                         :Trouble ;
                rdfs:label "errore livello"@it ,
@@ -1603,7 +1603,7 @@
                                                                "level failure"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/level-sensors
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#level-sensors
 :level-sensors rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "level sensors"@en ,
@@ -1612,7 +1612,7 @@
                                                                "sensori di livello"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lighting-fittings
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lighting-fittings
 :lighting-fittings rdf:type owl:NamedIndividual ,
                             :Component ;
                    rdfs:label "illuminazione"@it ,
@@ -1621,7 +1621,7 @@
                                                                    "lighting fittings"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/limit-switch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#limit-switch
 :limit-switch rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "fine corsa"@it ,
@@ -1630,7 +1630,7 @@
                                                               "limit switch"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/linear-bearing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#linear-bearing
 :linear-bearing rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "cuscinetto lineare"@it ,
@@ -1639,7 +1639,7 @@
                                                                 "linear bearing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/liquid-pump
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#liquid-pump
 :liquid-pump rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "liquid pump"@en ,
@@ -1648,7 +1648,7 @@
                                                              "pompa liquid"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/loading
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#loading
 :loading rdf:type owl:NamedIndividual ,
                   :Workstation ;
          rdfs:label "loading"@en ,
@@ -1657,7 +1657,7 @@
                                                          "scarico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/loading-block
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#loading-block
 :loading-block rdf:type owl:NamedIndividual ,
                         :Trouble ;
                rdfs:label "blocco carico"@it ,
@@ -1667,7 +1667,7 @@
                                                                "loading block"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/loading-screw
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#loading-screw
 :loading-screw rdf:type owl:NamedIndividual ,
                         :Workstation ;
                rdfs:label "loading screw"@en ,
@@ -1678,7 +1678,7 @@
                                                                "vite di carico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lock
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lock
 :lock rdf:type owl:NamedIndividual ,
                :Action ,
                :Component ;
@@ -1690,7 +1690,7 @@
                                                       "serratura"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lubricate
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lubricate
 :lubricate rdf:type owl:NamedIndividual ,
                     :Action ;
            rdfs:label "lubricate"@en ,
@@ -1700,7 +1700,7 @@
                                                            "lubrificare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lubricator
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lubricator
 :lubricator rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "lubricator"@en ,
@@ -1709,7 +1709,7 @@
                                                             "lubrificatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/lubrificant
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#lubrificant
 :lubrificant rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "lubrificant"@en ,
@@ -1718,7 +1718,7 @@
                                                              "lubrificante"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/magnetic-sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#magnetic-sensor
 :magnetic-sensor rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "magnetic sensor"@en ,
@@ -1727,7 +1727,7 @@
                                                                  "sensore magnetico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/main-switch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#main-switch
 :main-switch rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "interruttore principale"@it ,
@@ -1736,7 +1736,7 @@
                                                              "main switch"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/maintenance-manual
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#maintenance-manual
 :maintenance-manual rdf:type owl:NamedIndividual ,
                              :DocumentType ;
                     rdfs:label "maintenance manual"@en ,
@@ -1745,7 +1745,7 @@
                                                                     "manuale di manutenzione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/manage
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#manage
 :manage rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "gestire"@it ,
@@ -1754,7 +1754,7 @@
                                                         "manage"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/manifold
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#manifold
 :manifold rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "collettore"@it ,
@@ -1763,7 +1763,7 @@
                                                           "manifold"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/manometer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#manometer
 :manometer rdf:type owl:NamedIndividual ,
                     :Component ;
            rdfs:label "manometer"@en ,
@@ -1772,7 +1772,7 @@
                                                            "manometro"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/manual-valves
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#manual-valves
 :manual-valves rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "manual valves"@en ,
@@ -1781,7 +1781,7 @@
                                                                "valvole manuali"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/measurement-device
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#measurement-device
 :measurement-device rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "dispositivo di misurazione"@it ,
@@ -1790,7 +1790,7 @@
                                                                     "measurement device"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/mechanical-block
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#mechanical-block
 :mechanical-block rdf:type owl:NamedIndividual ,
                            :Trouble ;
                   rdfs:label "blocco meccanico"@it ,
@@ -1799,7 +1799,7 @@
                                                                   "mechanical block"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/memory-card
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#memory-card
 :memory-card rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "memory card"@en ,
@@ -1808,7 +1808,7 @@
                                                              "scheda di memoria"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/microswitch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#microswitch
 :microswitch rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "microinterruttore"@it ,
@@ -1817,7 +1817,7 @@
                                                              "microswitch"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/monometer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#monometer
 :monometer rdf:type owl:NamedIndividual ,
                     :SparePart ;
            rdfs:label "manometro"@it ,
@@ -1826,7 +1826,7 @@
                                                            "monometer"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/motor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#motor
 :motor rdf:type owl:NamedIndividual ,
                 :SparePart ;
        rdfs:label "motor"@en ,
@@ -1835,7 +1835,7 @@
                                                        "motore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/motor-switch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#motor-switch
 :motor-switch rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "motor switch"@en ,
@@ -1844,7 +1844,7 @@
                                                               "motore interruttore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/motoreducer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer
 :motoreducer rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "motoreducer"@en ,
@@ -1854,7 +1854,7 @@
                                                              "motoriduttore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/mounting-element
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#mounting-element
 :mounting-element rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "montaggio elemento"@it ,
@@ -1863,7 +1863,7 @@
                                                                   "mounting element"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/nose-down-stand
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#nose-down-stand
 :nose-down-stand rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "base nose-down"@it ,
@@ -1873,7 +1873,7 @@
                                                                  "nose-down stand"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/nose-up-stand
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#nose-up-stand
 :nose-up-stand rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "base nose-up"@it ,
@@ -1883,7 +1883,7 @@
                                                                "nose-up stand"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/nozzle
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#nozzle
 :nozzle rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "nozzle"@en ,
@@ -1892,7 +1892,7 @@
                                                         "ugello"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/o-ring
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#o-ring
 :o-ring rdf:type owl:NamedIndividual ,
                  :SparePart ;
         rdfs:label "o-ring"@en ,
@@ -1901,7 +1901,7 @@
                                                         "o-ring"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/off-track
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#off-track
 :off-track rdf:type owl:NamedIndividual ,
                     :Trouble ;
            rdfs:label "assi extra corsa"@it ,
@@ -1911,7 +1911,7 @@
                                                            "off track"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/oil
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#oil
 :oil rdf:type owl:NamedIndividual ,
               :Component ;
      rdfs:label "oil"@en ,
@@ -1920,7 +1920,7 @@
                                                      "olio"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/oil-pump
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#oil-pump
 :oil-pump rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "oil pump"@en ,
@@ -1929,7 +1929,7 @@
                                                           "pompa dell'olio"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/open
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#open
 :open rdf:type owl:NamedIndividual ,
                :Action ;
       rdfs:label "aprire"@it ,
@@ -1938,7 +1938,7 @@
                                                       "open"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/operating-mode
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#operating-mode
 :operating-mode rdf:type owl:NamedIndividual ,
                          :Configuration ;
                 rdfs:label "modalità operativa"@it ,
@@ -1947,7 +1947,7 @@
                                                                 "operating mode"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/operating-panel-hmi
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#operating-panel-hmi
 :operating-panel-hmi rdf:type owl:NamedIndividual ,
                               :Component ;
                      rdfs:label "operating panel-hmi"@en ,
@@ -1956,7 +1956,7 @@
                                                                      "pannello operativo di interfaccia"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/other-assortment
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#other-assortment
 :other-assortment rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "altre assortimento"@it ,
@@ -1965,7 +1965,7 @@
                                                                   "other assortment"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/overheating
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#overheating
 :overheating rdf:type owl:NamedIndividual ,
                       :Trouble ;
              rdfs:label "overheating"@en ,
@@ -1975,7 +1975,7 @@
                                                              "surriscaldamento"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/overload-release-clutch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#overload-release-clutch
 :overload-release-clutch rdf:type owl:NamedIndividual ,
                                   :Component ;
                          rdfs:label "frizione di rilascio"@it ,
@@ -1984,7 +1984,7 @@
                                                                          "overload release clutch"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pair
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pair
 :pair rdf:type owl:NamedIndividual ,
                :Action ;
       rdfs:label "accoppiare"@it ,
@@ -2002,7 +2002,7 @@
                                                       "pair"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/parameters
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#parameters
 :parameters rdf:type owl:NamedIndividual ,
                      :Configuration ;
             rdfs:label "parameters"@en ,
@@ -2011,7 +2011,7 @@
                                                             "parametri"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/part-breakege
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#part-breakege
 :part-breakege rdf:type owl:NamedIndividual ,
                         :Trouble ;
                rdfs:label "part breakege"@en ,
@@ -2020,7 +2020,7 @@
                                                                "rottura componente"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/photoelectric
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#photoelectric
 :photoelectric rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "photoelectric"@en ,
@@ -2029,7 +2029,7 @@
                                                                "sensore fotoelettrico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pick-and-place
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pick-and-place
 :pick-and-place rdf:type owl:NamedIndividual ,
                          :Workstation ;
                 rdfs:label "pick and place"@en ,
@@ -2039,7 +2039,7 @@
                                                                 "prelevatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/piece-missing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#piece-missing
 :piece-missing rdf:type owl:NamedIndividual ,
                         :Trouble ;
                rdfs:label "assenza pezzo"@it ,
@@ -2049,7 +2049,7 @@
                                                                "piece missing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pipe
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pipe
 :pipe rdf:type owl:NamedIndividual ,
                :Component ;
       rdfs:label "pipe"@en ,
@@ -2058,7 +2058,7 @@
                                                       "tubazione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/piston-rod
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#piston-rod
 :piston-rod rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "piston rod"@en ,
@@ -2067,7 +2067,7 @@
                                                             "stelo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/planetary-gear
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#planetary-gear
 :planetary-gear rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "planetario"@it ,
@@ -2076,7 +2076,7 @@
                                                                 "planetary gear"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/plastic-hand-grip-body
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#plastic-hand-grip-body
 :plastic-hand-grip-body rdf:type owl:NamedIndividual ,
                                  :Component ;
                         rdfs:label "corpo plastico"@it ,
@@ -2085,7 +2085,7 @@
                                                                         "plastic hand-grip body"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/plastic-injection
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#plastic-injection
 :plastic-injection rdf:type owl:NamedIndividual ,
                             :Machine ;
                    rdfs:label "iniezione"@it ,
@@ -2096,7 +2096,7 @@
                                                                    "plastic injection"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/plc-cpu
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#plc-cpu
 :plc-cpu rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "plc-cpu"@en ,
@@ -2105,7 +2105,7 @@
                                                          "plc-cpu"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pneumatic-block
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pneumatic-block
 :pneumatic-block rdf:type owl:NamedIndividual ,
                           :Trouble ;
                  rdfs:label "blocco pneumatico"@it ,
@@ -2114,7 +2114,7 @@
                                                                  "pneumatic block"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pneumatic-cylinder
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pneumatic-cylinder
 :pneumatic-cylinder rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "cilindro pneumatico"@it ,
@@ -2123,7 +2123,7 @@
                                                                     "pneumatic cylinder"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pneumatic-pump
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pneumatic-pump
 :pneumatic-pump rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "pneumatic pump"@en ,
@@ -2132,7 +2132,7 @@
                                                                 "pompa pneumatica"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pneumatic-schema
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pneumatic-schema
 :pneumatic-schema rdf:type owl:NamedIndividual ,
                            :DocumentType ;
                   rdfs:label "pneumatic schema"@en ,
@@ -2142,7 +2142,7 @@
                                                                   "schema pneumatico"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pneumatic-valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pneumatic-valve
 :pneumatic-valve rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "pneumatic valve"@en ,
@@ -2151,7 +2151,7 @@
                                                                  "pneumatico valvola"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/posizioning-error
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#posizioning-error
 :posizioning-error rdf:type owl:NamedIndividual ,
                             :Trouble ;
                    rdfs:label "posizioning error"@en ,
@@ -2161,7 +2161,7 @@
                                                                    "quota errata"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/potentiometer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#potentiometer
 :potentiometer rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "potentiometer"@en ,
@@ -2170,7 +2170,7 @@
                                                                "potenziometro"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/power-supply
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#power-supply
 :power-supply rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "alimentazione elettrica"@it ,
@@ -2179,7 +2179,7 @@
                                                               "power supply"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pressure-booster
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pressure-booster
 :pressure-booster rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "pressione booster"@it ,
@@ -2188,7 +2188,7 @@
                                                                   "pressure booster"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pressure-regulator
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pressure-regulator
 :pressure-regulator rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "pressure regulator"@en ,
@@ -2197,7 +2197,7 @@
                                                                     "regolatore di pressione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pressure-sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pressure-sensor
 :pressure-sensor rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "pressure sensor"@en ,
@@ -2206,7 +2206,7 @@
                                                                  "sensore di pressione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pressure-sensor-oil
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pressure-sensor-oil
 :pressure-sensor-oil rdf:type owl:NamedIndividual ,
                               :Component ;
                      rdfs:label "olio sensore di pressione"@it ,
@@ -2215,7 +2215,7 @@
                                                                      "pressure sensor oil"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pressure-switch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pressure-switch
 :pressure-switch rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "pressostato"@it ,
@@ -2224,7 +2224,7 @@
                                                                  "pressure switch"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/printing-head
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#printing-head
 :printing-head rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "printing head"@en ,
@@ -2233,7 +2233,7 @@
                                                                "testa di stampa"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/production-tools
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#production-tools
 :production-tools rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "production tools"@en ,
@@ -2242,7 +2242,7 @@
                                                                   "strumenti di produzione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/protection-device
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#protection-device
 :protection-device rdf:type owl:NamedIndividual ,
                             :Component ;
                    rdfs:label "protection device"@en ,
@@ -2251,7 +2251,7 @@
                                                                    "protezione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pulley
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pulley
 :pulley rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "puleggia"@it ,
@@ -2260,7 +2260,7 @@
                                                         "pulley"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pump
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pump
 :pump rdf:type owl:NamedIndividual ,
                :SparePart ;
       rdfs:label "pompa"@it ,
@@ -2269,7 +2269,7 @@
                                                       "pump"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pump-cenrifughe
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pump-cenrifughe
 :pump-cenrifughe rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "pompa centrifuga"@it ,
@@ -2278,7 +2278,7 @@
                                                                  "pump cenrifughe"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/pump-hydraulic
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#pump-hydraulic
 :pump-hydraulic rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "pompa idraulica"@it ,
@@ -2287,7 +2287,7 @@
                                                                 "pump hydraulic"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/punch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#punch
 :punch rdf:type owl:NamedIndividual ,
                 :Component ,
                 :SparePart ;
@@ -2297,7 +2297,7 @@
                                                        "punzone"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/push-button
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#push-button
 :push-button rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "premi il bottone"@it ,
@@ -2310,7 +2310,7 @@
                                                              "push-button"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/put
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#put
 :put rdf:type owl:NamedIndividual ,
               :Action ;
      rdfs:label "inserire"@it ,
@@ -2321,7 +2321,7 @@
                                                      "put"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/rear-cover
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#rear-cover
 :rear-cover rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "coperchio posteriore"@it ,
@@ -2330,7 +2330,7 @@
                                                             "rear cover"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/reboot
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#reboot
 :reboot rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "reboot"@en ,
@@ -2341,7 +2341,7 @@
                                                         "riavviare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/relay
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#relay
 :relay rdf:type owl:NamedIndividual ,
                 :Component ,
                 :SparePart ;
@@ -2353,7 +2353,7 @@
                                                        "relé"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/remove
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#remove
 :remove rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "remove"@en ,
@@ -2374,7 +2374,7 @@
                                                         "rimuovere"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/repair
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#repair
 :repair rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "repair"@en ,
@@ -2383,7 +2383,7 @@
                                                         "riparare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/replace
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#replace
 :replace rdf:type owl:NamedIndividual ,
                   :Action ;
          rdfs:label "replace"@en ,
@@ -2399,7 +2399,7 @@
                                                          "sostituire"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/report
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#report
 :report rdf:type owl:NamedIndividual ,
                  :Error ;
         rdfs:label "report"@en ,
@@ -2409,7 +2409,7 @@
                                                         "segnalazione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/reset
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#reset
 :reset rdf:type owl:NamedIndividual ,
                 :Action ;
        rdfs:label "azzerare"@it ,
@@ -2420,7 +2420,7 @@
                                                        "reset"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/resistor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#resistor
 :resistor rdf:type owl:NamedIndividual ,
                    :Component ,
                    :SparePart ;
@@ -2432,7 +2432,7 @@
                                                           "resistore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/resolution
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#resolution
 :resolution rdf:type owl:NamedIndividual ,
                      :Configuration ;
             rdfs:label "resolution"@en ,
@@ -2441,7 +2441,7 @@
                                                             "risoluzione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/ring-gear
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#ring-gear
 :ring-gear rdf:type owl:NamedIndividual ,
                     :Component ;
            rdfs:label "corona dentata"@it ,
@@ -2450,7 +2450,7 @@
                                                            "ring gear"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/robot
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#robot
 :robot rdf:type owl:NamedIndividual ,
                 :Workstation ;
        rdfs:label "robot"@en ,
@@ -2459,7 +2459,7 @@
                                                        "robot"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/roller
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#roller
 :roller rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "roller"@en ,
@@ -2468,7 +2468,7 @@
                                                         "rullo"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/safety-barrier
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#safety-barrier
 :safety-barrier rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "barriera di sicurezza"@it ,
@@ -2477,7 +2477,7 @@
                                                                 "safety barrier"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/safety-relay
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#safety-relay
 :safety-relay rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "rele di sicurezza"@it ,
@@ -2486,7 +2486,7 @@
                                                               "safety relay"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/scanner
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner
 :scanner rdf:type owl:NamedIndividual ,
                   :Component ;
          rdfs:label "lettore scanner"@it ,
@@ -2497,7 +2497,7 @@
                                                          "scanner"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/screen-brightness
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#screen-brightness
 :screen-brightness rdf:type owl:NamedIndividual ,
                             :Configuration ;
                    rdfs:label "luminosità schermo"@it ,
@@ -2506,7 +2506,7 @@
                                                                    "screen brightness"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/screwing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#screwing
 :screwing rdf:type owl:NamedIndividual ,
                    :Workstation ;
           rdfs:label "avvitatura"@it ,
@@ -2515,7 +2515,7 @@
                                                           "screwing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/seal
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal
 :seal rdf:type owl:NamedIndividual ,
                :Component ,
                :SparePart ;
@@ -2528,7 +2528,7 @@
                                                       "seal"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/select
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#select
 :select rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "select"@en ,
@@ -2538,7 +2538,7 @@
                                                         "selezionare"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/self-aligning-bearing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#self-aligning-bearing
 :self-aligning-bearing rdf:type owl:NamedIndividual ,
                                 :Component ;
                        rdfs:label "autoallineanti"@it ,
@@ -2547,7 +2547,7 @@
                                                                        "self-aligning bearing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#sensor
 :sensor rdf:type owl:NamedIndividual ,
                  :SparePart ;
         rdfs:label "sensor"@en ,
@@ -2556,7 +2556,7 @@
                                                         "sensore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/service-manual
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#service-manual
 :service-manual rdf:type owl:NamedIndividual ,
                          :DocumentType ;
                 rdfs:label "manuale di servizio"@it ,
@@ -2565,7 +2565,7 @@
                                                                 "service manual"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/servomotor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#servomotor
 :servomotor rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "servomotor"@en ,
@@ -2574,7 +2574,7 @@
                                                             "servomotore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/set-of-wearing-parts
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#set-of-wearing-parts
 :set-of-wearing-parts rdf:type owl:NamedIndividual ,
                                :Component ;
                       rdfs:label "set di parti usuranti"@it ,
@@ -2583,7 +2583,7 @@
                                                                       "set of wearing parts"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/set-up
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#set-up
 :set-up rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "programmare"@it ,
@@ -2597,7 +2597,7 @@
                                                         "set-up"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/shock-absorber-brake-cylinder
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#shock-absorber-brake-cylinder
 :shock-absorber-brake-cylinder rdf:type owl:NamedIndividual ,
                                         :Component ;
                                rdfs:label "ammortizzatore freno"@it ,
@@ -2606,7 +2606,7 @@
                                                                                "shock-absorber brake cylinder"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/shoes
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#shoes
 :shoes rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "calzature"@it ,
@@ -2615,7 +2615,7 @@
                                                        "shoes"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/silencer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#silencer
 :silencer rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "silencer"@en ,
@@ -2624,7 +2624,7 @@
                                                           "silenziatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/sleep-mode
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#sleep-mode
 :sleep-mode rdf:type owl:NamedIndividual ,
                      :Configuration ;
             rdfs:label "sleep mode"@en ,
@@ -2633,7 +2633,7 @@
                                                             "sleep mode"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/socket-mounting
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#socket-mounting
 :socket-mounting rdf:type owl:NamedIndividual ,
                           :Component ;
                  rdfs:label "attacco di montaggio"@it ,
@@ -2642,7 +2642,7 @@
                                                                  "socket mounting"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/softstarter
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#softstarter
 :softstarter rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "motore trifase"@it ,
@@ -2651,7 +2651,7 @@
                                                              "softstarter"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/solenoid-coil
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#solenoid-coil
 :solenoid-coil rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "soleniode"@it ,
@@ -2660,7 +2660,7 @@
                                                                "solenoid coil"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/solenoid-valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#solenoid-valve
 :solenoid-valve rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "solenoid valve"@en ,
@@ -2669,7 +2669,7 @@
                                                                 "valvola solenoide"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/sound-level
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#sound-level
 :sound-level rdf:type owl:NamedIndividual ,
                       :Configuration ;
              rdfs:label "livello audio"@it ,
@@ -2678,7 +2678,7 @@
                                                              "sound level"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/special-material
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-material
 :special-material rdf:type owl:NamedIndividual ,
                            :Component ;
                   rdfs:label "materiali speciali"@it ,
@@ -2687,7 +2687,7 @@
                                                                   "special material"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/special-screw
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-screw
 :special-screw rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "special screw"@en ,
@@ -2696,7 +2696,7 @@
                                                                "vite speciale"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/spring
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#spring
 :spring rdf:type owl:NamedIndividual ,
                  :Component ;
         rdfs:label "molla"@it ,
@@ -2705,7 +2705,7 @@
                                                         "spring"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/sprocket
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#sprocket
 :sprocket rdf:type owl:NamedIndividual ,
                    :Component ;
           rdfs:label "pignone"@it ,
@@ -2714,7 +2714,7 @@
                                                           "sprocket"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/sprue-bushing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#sprue-bushing
 :sprue-bushing rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "bussola di iniezione"@it ,
@@ -2723,7 +2723,7 @@
                                                                "sprue bushing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/stamping
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#stamping
 :stamping rdf:type owl:NamedIndividual ,
                    :Machine ;
           rdfs:label "pressa"@it ,
@@ -2733,7 +2733,7 @@
                                                           "stamping"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/stand
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#stand
 :stand rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "caricatore"@it ,
@@ -2744,7 +2744,7 @@
                                                        "stand"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/stand-alone-mode
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#stand-alone-mode
 :stand-alone-mode rdf:type owl:NamedIndividual ,
                            :Configuration ;
                   rdfs:label "modalità stand-alone"@it ,
@@ -2753,7 +2753,7 @@
                                                                   "stand alone mode"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/stop-valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#stop-valve
 :stop-valve rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "stop valve"@en ,
@@ -2762,7 +2762,7 @@
                                                             "valvola d'interruzione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/suction-cup
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#suction-cup
 :suction-cup rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "suction cup"@en ,
@@ -2771,7 +2771,7 @@
                                                              "ventosa"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/switch
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#switch
 :switch rdf:type owl:NamedIndividual ,
                  :SparePart ;
         rdfs:label "interruttore"@it ,
@@ -2780,7 +2780,7 @@
                                                         "switch"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/switch-accessories
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#switch-accessories
 :switch-accessories rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "accessori interruttore"@it ,
@@ -2789,7 +2789,7 @@
                                                                     "switch accessories"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/switch-off
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#switch-off
 :switch-off rdf:type owl:NamedIndividual ,
                      :Action ;
             rdfs:label "spegnere"@it ,
@@ -2798,7 +2798,7 @@
                                                             "switch off"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/switch-on
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#switch-on
 :switch-on rdf:type owl:NamedIndividual ,
                     :Action ;
            rdfs:label "accendere"@it ,
@@ -2807,7 +2807,7 @@
                                                            "switch on"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/sylicon-pump
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#sylicon-pump
 :sylicon-pump rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "pompa di silicone"@it ,
@@ -2816,7 +2816,7 @@
                                                               "sylicon pump"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/system-fault
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#system-fault
 :system-fault rdf:type owl:NamedIndividual ,
                        :Error ;
               rdfs:label "errore di sistema"@it ,
@@ -2825,7 +2825,7 @@
                                                               "system fault"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/tank
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#tank
 :tank rdf:type owl:NamedIndividual ,
                :Component ;
       rdfs:label "carro armato"@it ,
@@ -2834,7 +2834,7 @@
                                                       "tank"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/temperature
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#temperature
 :temperature rdf:type owl:NamedIndividual ,
                       :Configuration ;
              rdfs:label "temperatura"@it ,
@@ -2843,7 +2843,7 @@
                                                              "temperature"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/temperature-sensor
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#temperature-sensor
 :temperature-sensor rdf:type owl:NamedIndividual ,
                              :Component ;
                     rdfs:label "temperature sensor"@en ,
@@ -2852,7 +2852,7 @@
                                                                     "termometro"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/terminal-block
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#terminal-block
 :terminal-block rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "morsettiera"@it ,
@@ -2861,7 +2861,7 @@
                                                                 "terminal block"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/testing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#testing
 :testing rdf:type owl:NamedIndividual ,
                   :Workstation ;
          rdfs:label "collaudo"@it ,
@@ -2871,7 +2871,7 @@
                                                          "testing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/thermocouple
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermocouple
 :thermocouple rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "termocoppia"@it ,
@@ -2880,7 +2880,7 @@
                                                               "thermocouple"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/thermoforming
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermoforming
 :thermoforming rdf:type owl:NamedIndividual ,
                         :Machine ;
                rdfs:label "thermoforming"@en ,
@@ -2891,7 +2891,7 @@
                                                                "vacumatrice"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/thermostat
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat
 :thermostat rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "termostato"@it ,
@@ -2902,7 +2902,7 @@
                                                             "thermostat"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/timer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#timer
 :timer rdf:type owl:NamedIndividual ,
                 :Component ;
        rdfs:label "timer"@en ,
@@ -2911,7 +2911,7 @@
                                                        "timer"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/tipper
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#tipper
 :tipper rdf:type owl:NamedIndividual ,
                  :Workstation ;
         rdfs:label "ribaltatore"@it ,
@@ -2921,7 +2921,7 @@
                                                         "tipper"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/toothed-belt
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#toothed-belt
 :toothed-belt rdf:type owl:NamedIndividual ,
                        :Component ;
               rdfs:label "cinghia dentata"@it ,
@@ -2930,7 +2930,7 @@
                                                               "toothed belt"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/toothed-wheel
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#toothed-wheel
 :toothed-wheel rdf:type owl:NamedIndividual ,
                         :Component ;
                rdfs:label "ruota dentata"@it ,
@@ -2939,7 +2939,7 @@
                                                                "toothed wheel"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/toxing
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#toxing
 :toxing rdf:type owl:NamedIndividual ,
                  :Workstation ;
         rdfs:label "punzonatrice"@it ,
@@ -2949,7 +2949,7 @@
                                                         "toxing"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/transfer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#transfer
 :transfer rdf:type owl:NamedIndividual ,
                    :Workstation ;
           rdfs:label "transfer"@en ,
@@ -2960,7 +2960,7 @@
                                                           "trasporto"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/transformer
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#transformer
 :transformer rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "transformer"@en ,
@@ -2969,7 +2969,7 @@
                                                              "trasformatore"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/transport-tape-belt
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#transport-tape-belt
 :transport-tape-belt rdf:type owl:NamedIndividual ,
                               :Component ;
                      rdfs:label "transport tape (belt)"@en ,
@@ -2978,7 +2978,7 @@
                                                                      "trasporto del nastro (cinghia)"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/underheating
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#underheating
 :underheating rdf:type owl:NamedIndividual ,
                        :Trouble ;
               rdfs:label "bassa temperatura"@it ,
@@ -2987,7 +2987,7 @@
                                                               "underheating"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/uninstall
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#uninstall
 :uninstall rdf:type owl:NamedIndividual ,
                     :Action ;
            rdfs:label "disinstallare"@it ,
@@ -2999,7 +2999,7 @@
                                                            "uninstall"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/unit-of-measure
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#unit-of-measure
 :unit-of-measure rdf:type owl:NamedIndividual ,
                           :Configuration ;
                  rdfs:label "unit of measure"@en ,
@@ -3008,7 +3008,7 @@
                                                                  "unità di misura"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/unloading
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#unloading
 :unloading rdf:type owl:NamedIndividual ,
                     :Workstation ;
            rdfs:label "carico"@it ,
@@ -3017,7 +3017,7 @@
                                                            "unloading"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/unloading-block
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#unloading-block
 :unloading-block rdf:type owl:NamedIndividual ,
                           :Trouble ;
                  rdfs:label "blocco scarico"@it ,
@@ -3026,7 +3026,7 @@
                                                                  "unloading block"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/unlock
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#unlock
 :unlock rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "sbloccare"@it ,
@@ -3035,7 +3035,7 @@
                                                         "unlock"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/update
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#update
 :update rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "aggiornare"@it ,
@@ -3045,7 +3045,7 @@
                                                         "update"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/upload
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#upload
 :upload rdf:type owl:NamedIndividual ,
                  :Action ;
         rdfs:label "caricare"@it ,
@@ -3054,7 +3054,7 @@
                                                         "upload"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/use-manual
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#use-manual
 :use-manual rdf:type owl:NamedIndividual ,
                      :DocumentType ;
             rdfs:label "manuale d'uso"@it ,
@@ -3064,7 +3064,7 @@
                                                             "use manual"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/user-manual
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#user-manual
 :user-manual rdf:type owl:NamedIndividual ,
                       :DocumentType ;
              rdfs:label "manuale utente"@it ,
@@ -3073,7 +3073,7 @@
                                                              "user manual"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/vaccum-error
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#vaccum-error
 :vaccum-error rdf:type owl:NamedIndividual ,
                        :Trouble ;
               rdfs:label "mancanza di vuoto"@it ,
@@ -3082,7 +3082,7 @@
                                                               "vaccum error"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/vacuum-cup-error
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#vacuum-cup-error
 :vacuum-cup-error rdf:type owl:NamedIndividual ,
                            :Trouble ;
                   rdfs:label "blocco sistemi di presa"@it ,
@@ -3091,7 +3091,7 @@
                                                                   "vacuum cup error"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/vacuum-pump
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#vacuum-pump
 :vacuum-pump rdf:type owl:NamedIndividual ,
                       :Component ;
              rdfs:label "pompa a vuoto"@it ,
@@ -3100,7 +3100,7 @@
                                                              "vacuum pump"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/valve
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#valve
 :valve rdf:type owl:NamedIndividual ,
                 :Component ,
                 :SparePart ;
@@ -3110,7 +3110,7 @@
                                                        "valvola"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/valve-pressure
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#valve-pressure
 :valve-pressure rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "valve pressure"@en ,
@@ -3119,7 +3119,7 @@
                                                                 "valvola di pressione"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/valve-terminal
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#valve-terminal
 :valve-terminal rdf:type owl:NamedIndividual ,
                          :Component ;
                 rdfs:label "valve terminal"@en ,
@@ -3128,7 +3128,7 @@
                                                                 "valvola terminale"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/voltmeters
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#voltmeters
 :voltmeters rdf:type owl:NamedIndividual ,
                      :Component ;
             rdfs:label "voltmeters"@en ,
@@ -3137,7 +3137,7 @@
                                                             "voltmetro"@it .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/warning
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#warning
 :warning rdf:type owl:NamedIndividual ,
                   :Error ;
          rdfs:label "attenzione"@it ,
@@ -3147,7 +3147,7 @@
                                                          "warning"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/welding
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#welding
 :welding rdf:type owl:NamedIndividual ,
                   :Workstation ;
          rdfs:label "saldatura"@it ,
@@ -3156,7 +3156,7 @@
                                                          "welding"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/winder
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#winder
 :winder rdf:type owl:NamedIndividual ,
                  :Machine ;
         rdfs:label "avvolgitore"@it ,
@@ -3166,7 +3166,7 @@
                                                         "winder"@en .
 
 
-###  https://knowledge.c-innovationhub.com/k-hub/manufacturing/workplace
+###  https://knowledge.c-innovationhub.com/k-hub/manufacturing#workplace
 :workplace rdf:type owl:NamedIndividual ,
                     :Workstation ;
            rdfs:label "stazione"@it ,

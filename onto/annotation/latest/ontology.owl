@@ -122,30 +122,30 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAttributedTo">
-        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"/>
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdfs:label>was attributed to</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic -->
 
 
-    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopic">
-        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"/>
-        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopic">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:label>has topic</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation -->
 
 
-    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/hasTopicAnnotation">
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#hasTopicAnnotation">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"/>
         <rdfs:label>has topic annotation</rdfs:label>
     </owl:ObjectProperty>
     
@@ -167,7 +167,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/created">
-        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"/>
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:label>created</rdfs:label>
     </owl:DatatypeProperty>
@@ -240,43 +240,43 @@
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore -->
 
 
-    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/hasConfidenceScore">
-        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"/>
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#hasConfidenceScore">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label>has confidence score</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage -->
 
 
-    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/hasPage">
-        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"/>
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#hasPage">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>has page</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet -->
 
 
-    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/hasSnippet">
-        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation"/>
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#hasSnippet">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>has snippet</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages -->
 
 
-    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/hasTotalNumberOfPages">
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#hasTotalNumberOfPages">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>has total number of pages</rdfs:label>
@@ -314,19 +314,19 @@
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/Topic -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#Topic -->
 
 
-    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic">
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic">
         <rdfs:label>Topic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation -->
 
 
-    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/TopicAnnotation">
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation">
         <rdfs:label>Topic Annotation</rdfs:label>
     </owl:Class>
 </rdf:RDF>
