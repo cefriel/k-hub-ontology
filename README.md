@@ -1,9 +1,9 @@
 The Knowledge Hub Ontology 
 ===================
 The Knowledge Hub Ontology is composed of 3 modules, published at:
-- Annotation module: [https://knowledge.c-innovationhub.com/khub/annotation](https://knowledge.c-innovationhub.com/khub/annotation/)
-- Manufacturing module: [https://knowledge.c-innovationhub.com/khub/manufacturing](https://knowledge.c-innovationhub.com/khub/manufacturing/)
-- Procedure module: [https://knowledge.c-innovationhub.com/khub/procedure](https://knowledge.c-innovationhub.com/khub/procedure/)
+- Annotation module: [https://knowledge.c-innovationhub.com/k-hub/annotation](https://knowledge.c-innovationhub.com/k-hub/annotation/)
+- Manufacturing module: [https://knowledge.c-innovationhub.com/k-hub/manufacturing](https://knowledge.c-innovationhub.com/k-hub/manufacturing/)
+- Procedure module: [https://knowledge.c-innovationhub.com/k-hub/procedure](https://knowledge.c-innovationhub.com/k-hub/procedure/)
 
 ### Purpose and scope of the ontology
 The Knowledge Hub Ontology defines the main concepts and properties that are used by the manufacturing companies for the knowledge management and retrieval processes in the maintenance domain.
