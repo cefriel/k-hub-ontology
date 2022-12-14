@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://knowledge.c-innovationhub.com/k-hub/annotation/"
-     xml:base="https://knowledge.c-innovationhub.com/k-hub/annotation/"
+<rdf:RDF xmlns="https://knowledge.c-innovationhub.com/k-hub/annotation#"
+     xml:base="https://knowledge.c-innovationhub.com/k-hub/annotation"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/">
+    <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#">
         <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/1.0.0"/>
         <dc:contributor>Marposs</dc:contributor>
         <dc:contributor>Whirlpool EMEA</dc:contributor>
