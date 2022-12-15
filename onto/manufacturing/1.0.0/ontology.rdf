@@ -121,10 +121,10 @@
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation/Topic -->
+    <!-- https://knowledge.c-innovationhub.com/k-hub/annotation#Topic -->
 
 
-    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
     
 
 
@@ -132,7 +132,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>An activity performed during the maintenace process</rdfs:comment>
         <rdfs:label>Action</rdfs:label>
     </owl:Class>
@@ -143,7 +143,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>One of the parts of a Product or Machine</rdfs:comment>
         <rdfs:label>Component</rdfs:label>
     </owl:Class>
@@ -154,7 +154,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>A parameter or mode which can be set or configured on a Product</rdfs:comment>
         <rdfs:label>Configuration</rdfs:label>
     </owl:Class>
@@ -165,7 +165,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>The type of the document, for example: service manual, user manual, schema, drawings...</rdfs:comment>
         <rdfs:label>Document Type</rdfs:label>
     </owl:Class>
@@ -176,7 +176,9 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
+        <rdfs:comment>A code or description of errors that may occour on a Product or Machine</rdfs:comment>
+        <rdfs:label>Error</rdfs:label>
     </owl:Class>
     
 
@@ -185,7 +187,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>A production line composed of one or more Workstations</rdfs:comment>
         <rdfs:label>Machine</rdfs:label>
     </owl:Class>
@@ -196,7 +198,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>Something that is produced by an industrial process</rdfs:comment>
         <rdfs:label>Product</rdfs:label>
     </owl:Class>
@@ -207,7 +209,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>An extra piece that can be used to replace a piece that breaks in a Machine, Workstation or Product</rdfs:comment>
         <rdfs:label>Spare Part</rdfs:label>
     </owl:Class>
@@ -218,9 +220,20 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>The name of a company, person, etc. that provides Machines or Components to a manufacturing company</rdfs:comment>
         <rdfs:label>Supplier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool">
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
+        <rdfs:comment>A utensil or device needed for the execution of a maintenance task or porcedure</rdfs:comment>
+        <rdfs:label>Tool</rdfs:label>
     </owl:Class>
     
 
@@ -229,7 +242,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>A situation in which a shopfloor worker experiences problems that may occour on a Product or Machine</rdfs:comment>
         <rdfs:label>Trouble</rdfs:label>
     </owl:Class>
@@ -240,7 +253,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation">
-        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"/>
         <rdfs:comment>A part of a production line that execute a specific task</rdfs:comment>
         <rdfs:label>Workstation</rdfs:label>
     </owl:Class>
@@ -256,15 +269,6 @@
      -->
 
 
-    
-
-
-    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error -->
-
-
-    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error">
-        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error"/>
-    </owl:NamedIndividual>
     
 
 
@@ -305,6 +309,45 @@
         <skos:altLabel xml:lang="en">match</skos:altLabel>
         <skos:prefLabel xml:lang="en">align</skos:prefLabel>
         <skos:prefLabel xml:lang="it">allineare</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch&#45;&#45;1-27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="en">allen key Ch. 1,27</rdfs:label>
+        <rdfs:label xml:lang="it">chiave Allen Ch. 1,27</rdfs:label>
+        <skos:prefLabel xml:lang="en">allen key Ch. 1,27</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">chiave Allen Ch. 1,27</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="en">allen Key Ch 2</rdfs:label>
+        <rdfs:label xml:lang="it">chiave Allen Ch 2</rdfs:label>
+        <skos:prefLabel xml:lang="en">allen Key Ch 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">chiave Allen Ch 2</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="en">allen Key ch.2.5</rdfs:label>
+        <rdfs:label xml:lang="it">chiave Allen Ch 2,5</rdfs:label>
+        <skos:prefLabel xml:lang="en">allen Key ch.2.5</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">chiave Allen Ch 2,5</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -954,6 +997,19 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="it">cacciavite a croce</rdfs:label>
+        <rdfs:label xml:lang="en">cross-head screwdriver</rdfs:label>
+        <skos:prefLabel xml:lang="it">cacciavite a croce</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">cross-head screwdriver</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup -->
 
 
@@ -964,6 +1020,19 @@
         <skos:altlabel xml:lang="en">suction cup</skos:altlabel>
         <skos:prefLabel xml:lang="en">cup</skos:prefLabel>
         <skos:prefLabel xml:lang="it">ventosa</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="en">cut-out</rdfs:label>
+        <rdfs:label xml:lang="it">dima</rdfs:label>
+        <skos:prefLabel xml:lang="en">cut-out</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">dima</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1794,6 +1863,19 @@
         <rdfs:label xml:lang="en">flashing leds</rdfs:label>
         <skos:prefLabel xml:lang="it">LED lampeggianti</skos:prefLabel>
         <skos:prefLabel xml:lang="en">flashing leds</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="it">cacciavite a lama piatta</rdfs:label>
+        <rdfs:label xml:lang="en">flat-blade screwdriver</rdfs:label>
+        <skos:prefLabel xml:lang="it">cacciavite a lama piatta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">flat-blade screwdriver</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3884,6 +3966,19 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260 -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="it">chiave inglese speciale codice 1348608260</rdfs:label>
+        <rdfs:label xml:lang="en">special wrench code 1348608260</rdfs:label>
+        <skos:prefLabel xml:lang="it">chiave inglese speciale codice 1348608260</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">special wrench code 1348608260</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#spring -->
 
 
@@ -4231,6 +4326,32 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench&#45;&#45;13-cn- -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="en">Torque wrench (13 cN)</rdfs:label>
+        <rdfs:label xml:lang="it">chiave dinamometrica (13 cN)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Torque wrench (13 cN)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">chiave dinamometrica (13 cN)</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="it">chiave dinamometrica Ch 2</rdfs:label>
+        <rdfs:label xml:lang="en">torque wrench Ch 2</rdfs:label>
+        <skos:prefLabel xml:lang="it">chiave dinamometrica Ch 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">torque wrench Ch 2</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#toxing -->
 
 
@@ -4390,6 +4511,19 @@
         <rdfs:label xml:lang="en">upload</rdfs:label>
         <skos:prefLabel xml:lang="it">caricare</skos:prefLabel>
         <skos:prefLabel xml:lang="en">upload</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"/>
+        <rdfs:label xml:lang="en">USB cable</rdfs:label>
+        <rdfs:label xml:lang="it">cavo USB</rdfs:label>
+        <skos:prefLabel xml:lang="en">USB cable</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">cavo USB</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4564,26 +4698,6 @@
         <skos:prefLabel xml:lang="it">stazione</skos:prefLabel>
         <skos:prefLabel xml:lang="en">workplace</skos:prefLabel>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <rdf:Description rdf:about="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error">
-        <rdfs:comment>A code or description of errors that may occour on a Product or Machine</rdfs:comment>
-        <rdfs:label xml:lang="en">error</rdfs:label>
-        <rdfs:label xml:lang="it">errore</rdfs:label>
-        <rdfs:label>Error</rdfs:label>
-        <skos:prefLabel xml:lang="en">error</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">errore</skos:prefLabel>
-    </rdf:Description>
 </rdf:RDF>
 
 

@@ -1,16 +1,16 @@
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://www.w3.org/2002/07/owl#versionIRI> <https://knowledge.c-innovationhub.com/k-hub/manufacturing/1.0.0> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/elements/1.1/contributor> "Marposs" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/elements/1.1/contributor> "Whirlpool EMEA" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/elements/1.1/creator> "Antonia Azzini (Cefriel)" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/elements/1.1/creator> "Gloria Re Calegari (Cefriel)" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/elements/1.1/creator> "Irene Celino (Cefriel)" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/elements/1.1/publisher> "Cefriel" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Manufacturing" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-m" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/k-hub/manufacturing#" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing/> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://www.w3.org/2002/07/owl#versionIRI> <https://knowledge.c-innovationhub.com/k-hub/manufacturing/1.0.0> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/contributor> "Marposs" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/contributor> "Whirlpool EMEA" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/creator> "Antonia Azzini (Cefriel)" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/creator> "Gloria Re Calegari (Cefriel)" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/creator> "Irene Celino (Cefriel)" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/publisher> "Cefriel" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Manufacturing" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-m" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/k-hub/manufacturing#" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
 # 
 # 
 # #################################################################
@@ -59,70 +59,78 @@
 # #################################################################
 # 
 # 
-# https://knowledge.c-innovationhub.com/k-hub/annotation/Topic
-<https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://knowledge.c-innovationhub.com/k-hub/annotation#Topic
+<https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity performed during the maintenace process" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Action> <http://www.w3.org/2000/01/rdf-schema#label> "Action" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#comment> "One of the parts of a Product or Machine" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Component" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration> <http://www.w3.org/2000/01/rdf-schema#comment> "A parameter or mode which can be set or configured on a Product" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of the document, for example: service manual, user manual, schema, drawings..." .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType> <http://www.w3.org/2000/01/rdf-schema#label> "Document Type" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#comment> "A code or description of errors that may occour on a Product or Machine" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#label> "Error" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine> <http://www.w3.org/2000/01/rdf-schema#comment> "A production line composed of one or more Workstations" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine> <http://www.w3.org/2000/01/rdf-schema#label> "Machine" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "Something that is produced by an industrial process" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Product> <http://www.w3.org/2000/01/rdf-schema#label> "Product" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> <http://www.w3.org/2000/01/rdf-schema#comment> "An extra piece that can be used to replace a piece that breaks in a Machine, Workstation or Product" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> <http://www.w3.org/2000/01/rdf-schema#label> "Spare Part" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a company, person, etc. that provides Machines or Components to a manufacturing company" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier> <http://www.w3.org/2000/01/rdf-schema#label> "Supplier" .
 # 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> <http://www.w3.org/2000/01/rdf-schema#comment> "A utensil or device needed for the execution of a maintenance task or porcedure" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> <http://www.w3.org/2000/01/rdf-schema#label> "Tool" .
+# 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble> <http://www.w3.org/2000/01/rdf-schema#comment> "A situation in which a shopfloor worker experiences problems that may occour on a Product or Machine" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble> <http://www.w3.org/2000/01/rdf-schema#label> "Trouble" .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation/Topic> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/k-hub/annotation#Topic> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of a production line that execute a specific task" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation> <http://www.w3.org/2000/01/rdf-schema#label> "Workstation" .
 # 
@@ -134,10 +142,6 @@
 # #
 # #################################################################
 # 
-# 
-# https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine-ledger
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine-ledger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -164,6 +168,30 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#align> <http://www.w3.org/2004/02/skos/core#altLabel> "match"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#align> <http://www.w3.org/2004/02/skos/core#prefLabel> "align"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#align> <http://www.w3.org/2004/02/skos/core#prefLabel> "allineare"@it .
+# 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27> <http://www.w3.org/2000/01/rdf-schema#label> "allen key Ch. 1,27"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27> <http://www.w3.org/2000/01/rdf-schema#label> "chiave Allen Ch. 1,27"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27> <http://www.w3.org/2004/02/skos/core#prefLabel> "allen key Ch. 1,27"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27> <http://www.w3.org/2004/02/skos/core#prefLabel> "chiave Allen Ch. 1,27"@it .
+# 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2> <http://www.w3.org/2000/01/rdf-schema#label> "allen Key Ch 2"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2> <http://www.w3.org/2000/01/rdf-schema#label> "chiave Allen Ch 2"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2> <http://www.w3.org/2004/02/skos/core#prefLabel> "allen Key Ch 2"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2> <http://www.w3.org/2004/02/skos/core#prefLabel> "chiave Allen Ch 2"@it .
+# 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5> <http://www.w3.org/2000/01/rdf-schema#label> "allen Key ch.2.5"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5> <http://www.w3.org/2000/01/rdf-schema#label> "chiave Allen Ch 2,5"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5> <http://www.w3.org/2004/02/skos/core#prefLabel> "allen Key ch.2.5"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5> <http://www.w3.org/2004/02/skos/core#prefLabel> "chiave Allen Ch 2,5"@it .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#ampere-meter
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#ampere-meter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -570,6 +598,14 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#coupling> <http://www.w3.org/2004/02/skos/core#prefLabel> "attacco"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#coupling> <http://www.w3.org/2004/02/skos/core#prefLabel> "coupling"@en .
 # 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver> <http://www.w3.org/2000/01/rdf-schema#label> "cacciavite a croce"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver> <http://www.w3.org/2000/01/rdf-schema#label> "cross-head screwdriver"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver> <http://www.w3.org/2004/02/skos/core#prefLabel> "cacciavite a croce"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver> <http://www.w3.org/2004/02/skos/core#prefLabel> "cross-head screwdriver"@en .
+# 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> .
@@ -578,6 +614,14 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2004/02/skos/core#altlabel> "suction cup"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2004/02/skos/core#prefLabel> "cup"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2004/02/skos/core#prefLabel> "ventosa"@it .
+# 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out> <http://www.w3.org/2000/01/rdf-schema#label> "cut-out"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out> <http://www.w3.org/2000/01/rdf-schema#label> "dima"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out> <http://www.w3.org/2004/02/skos/core#prefLabel> "cut-out"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out> <http://www.w3.org/2004/02/skos/core#prefLabel> "dima"@it .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#cutting
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cutting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1083,6 +1127,14 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#flashing-leds> <http://www.w3.org/2000/01/rdf-schema#label> "flashing leds"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#flashing-leds> <http://www.w3.org/2004/02/skos/core#prefLabel> "LED lampeggianti"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#flashing-leds> <http://www.w3.org/2004/02/skos/core#prefLabel> "flashing leds"@en .
+# 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver> <http://www.w3.org/2000/01/rdf-schema#label> "cacciavite a lama piatta"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver> <http://www.w3.org/2000/01/rdf-schema#label> "flat-blade screwdriver"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver> <http://www.w3.org/2004/02/skos/core#prefLabel> "cacciavite a lama piatta"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver> <http://www.w3.org/2004/02/skos/core#prefLabel> "flat-blade screwdriver"@en .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-cables
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-cables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2410,6 +2462,14 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-screw> <http://www.w3.org/2004/02/skos/core#prefLabel> "special screw"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-screw> <http://www.w3.org/2004/02/skos/core#prefLabel> "vite speciale"@it .
 # 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260> <http://www.w3.org/2000/01/rdf-schema#label> "chiave inglese speciale codice 1348608260"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260> <http://www.w3.org/2000/01/rdf-schema#label> "special wrench code 1348608260"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260> <http://www.w3.org/2004/02/skos/core#prefLabel> "chiave inglese speciale codice 1348608260"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260> <http://www.w3.org/2004/02/skos/core#prefLabel> "special wrench code 1348608260"@en .
+# 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#spring
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#spring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#spring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
@@ -2627,6 +2687,22 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#toothed-wheel> <http://www.w3.org/2004/02/skos/core#prefLabel> "ruota dentata"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#toothed-wheel> <http://www.w3.org/2004/02/skos/core#prefLabel> "toothed wheel"@en .
 # 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-> <http://www.w3.org/2000/01/rdf-schema#label> "Torque wrench (13 cN)"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-> <http://www.w3.org/2000/01/rdf-schema#label> "chiave dinamometrica (13 cN)"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-> <http://www.w3.org/2004/02/skos/core#prefLabel> "Torque wrench (13 cN)"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-> <http://www.w3.org/2004/02/skos/core#prefLabel> "chiave dinamometrica (13 cN)"@it .
+# 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2> <http://www.w3.org/2000/01/rdf-schema#label> "chiave dinamometrica Ch 2"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2> <http://www.w3.org/2000/01/rdf-schema#label> "torque wrench Ch 2"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2> <http://www.w3.org/2004/02/skos/core#prefLabel> "chiave dinamometrica Ch 2"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2> <http://www.w3.org/2004/02/skos/core#prefLabel> "torque wrench Ch 2"@en .
+# 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#toxing
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#toxing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#toxing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation> .
@@ -2729,6 +2805,14 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#upload> <http://www.w3.org/2000/01/rdf-schema#label> "upload"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#upload> <http://www.w3.org/2004/02/skos/core#prefLabel> "caricare"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#upload> <http://www.w3.org/2004/02/skos/core#prefLabel> "upload"@en .
+# 
+# https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable> <http://www.w3.org/2000/01/rdf-schema#label> "USB cable"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable> <http://www.w3.org/2000/01/rdf-schema#label> "cavo USB"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable> <http://www.w3.org/2004/02/skos/core#prefLabel> "USB cable"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable> <http://www.w3.org/2004/02/skos/core#prefLabel> "cavo USB"@it .
 # 
 # https://knowledge.c-innovationhub.com/k-hub/manufacturing#use-manual
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#use-manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2837,21 +2921,5 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#workplace> <http://www.w3.org/2000/01/rdf-schema#label> "workplace"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#workplace> <http://www.w3.org/2004/02/skos/core#prefLabel> "stazione"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#workplace> <http://www.w3.org/2004/02/skos/core#prefLabel> "workplace"@en .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Annotations
-# #
-# #################################################################
-# 
-# 
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#comment> "A code or description of errors that may occour on a Product or Machine" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#label> "error"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#label> "errore"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2000/01/rdf-schema#label> "Error" .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2004/02/skos/core#prefLabel> "error"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error> <http://www.w3.org/2004/02/skos/core#prefLabel> "errore"@it .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

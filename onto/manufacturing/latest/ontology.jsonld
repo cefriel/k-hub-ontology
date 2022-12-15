@@ -29,10 +29,10 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing/",
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
     "@value" : "Marposs"
@@ -77,7 +77,7 @@
     "@value" : "Action"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component",
@@ -89,7 +89,7 @@
     "@value" : "Component"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Configuration",
@@ -101,7 +101,7 @@
     "@value" : "Configuration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#DocumentType",
@@ -113,35 +113,19 @@
     "@value" : "Document Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Error"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A code or description of errors that may occour on a Product or Machine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "error"
-  }, {
-    "@language" : "it",
-    "@value" : "errore"
-  }, {
     "@value" : "Error"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "error"
-  }, {
-    "@language" : "it",
-    "@value" : "errore"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine",
@@ -153,7 +137,7 @@
     "@value" : "Machine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Machine-ledger",
@@ -185,7 +169,7 @@
     "@value" : "Product"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart",
@@ -197,7 +181,7 @@
     "@value" : "Spare Part"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Supplier",
@@ -209,7 +193,19 @@
     "@value" : "Supplier"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A utensil or device needed for the execution of a maintenance task or porcedure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Trouble",
@@ -221,7 +217,7 @@
     "@value" : "Trouble"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Workstation",
@@ -233,7 +229,7 @@
     "@value" : "Workstation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/Topic"
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#alarm",
@@ -281,6 +277,66 @@
   }, {
     "@language" : "it",
     "@value" : "allineare"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch--1-27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "allen key Ch. 1,27"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave Allen Ch. 1,27"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "allen key Ch. 1,27"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave Allen Ch. 1,27"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "allen Key Ch 2"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave Allen Ch 2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "allen Key Ch 2"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave Allen Ch 2"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#allen-key-ch-2-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "allen Key ch.2.5"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave Allen Ch 2,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "allen Key ch.2.5"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave Allen Ch 2,5"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#ampere-meter",
@@ -1313,6 +1369,26 @@
     "@value" : "coupling"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#cross-head-screwdriver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "cacciavite a croce"
+  }, {
+    "@language" : "en",
+    "@value" : "cross-head screwdriver"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "it",
+    "@value" : "cacciavite a croce"
+  }, {
+    "@language" : "en",
+    "@value" : "cross-head screwdriver"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1335,6 +1411,26 @@
   }, {
     "@language" : "it",
     "@value" : "ventosa"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#cut-out",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cut-out"
+  }, {
+    "@language" : "it",
+    "@value" : "dima"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "cut-out"
+  }, {
+    "@language" : "it",
+    "@value" : "dima"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#cutting",
@@ -2599,6 +2695,26 @@
   }, {
     "@language" : "en",
     "@value" : "flashing leds"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-blade-screwdriver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "cacciavite a lama piatta"
+  }, {
+    "@language" : "en",
+    "@value" : "flat-blade screwdriver"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "it",
+    "@value" : "cacciavite a lama piatta"
+  }, {
+    "@language" : "en",
+    "@value" : "flat-blade screwdriver"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#flat-cables",
@@ -6001,6 +6117,26 @@
     "@value" : "vite speciale"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#special-wrench-code-1348608260",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "chiave inglese speciale codice 1348608260"
+  }, {
+    "@language" : "en",
+    "@value" : "special wrench code 1348608260"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "it",
+    "@value" : "chiave inglese speciale codice 1348608260"
+  }, {
+    "@language" : "en",
+    "@value" : "special wrench code 1348608260"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#spring",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -6554,6 +6690,46 @@
     "@value" : "toothed wheel"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench--13-cn-",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Torque wrench (13 cN)"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave dinamometrica (13 cN)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Torque wrench (13 cN)"
+  }, {
+    "@language" : "it",
+    "@value" : "chiave dinamometrica (13 cN)"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#torque-wrench-ch-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "chiave dinamometrica Ch 2"
+  }, {
+    "@language" : "en",
+    "@value" : "torque wrench Ch 2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "it",
+    "@value" : "chiave dinamometrica Ch 2"
+  }, {
+    "@language" : "en",
+    "@value" : "torque wrench Ch 2"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#toxing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -6816,6 +6992,26 @@
   }, {
     "@language" : "en",
     "@value" : "upload"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#usb-cable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "USB cable"
+  }, {
+    "@language" : "it",
+    "@value" : "cavo USB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "USB cable"
+  }, {
+    "@language" : "it",
+    "@value" : "cavo USB"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/manufacturing#use-manual",
