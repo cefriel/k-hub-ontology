@@ -1,5 +1,7 @@
 The Knowledge Hub Ontology 
 ===================
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7443000.svg)](https://doi.org/10.5281/zenodo.7443000)
+
 The Knowledge Hub Ontology is composed of 3 modules, published at:
 - Annotation module: [https://knowledge.c-innovationhub.com/k-hub/annotation](https://knowledge.c-innovationhub.com/k-hub/annotation/)
 - Manufacturing module: [https://knowledge.c-innovationhub.com/k-hub/manufacturing](https://knowledge.c-innovationhub.com/k-hub/manufacturing/)
