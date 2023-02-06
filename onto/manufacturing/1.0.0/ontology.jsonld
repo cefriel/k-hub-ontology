@@ -23,9 +23,6 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.w3.org/2004/02/skos/core#altlabel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -558,7 +555,7 @@
     "@language" : "it",
     "@value" : "scheda "
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "electronic board"
   }, {
@@ -1254,7 +1251,7 @@
     "@language" : "it",
     "@value" : "teleruttore"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "remote control switch"
   } ],
@@ -1401,7 +1398,7 @@
     "@language" : "it",
     "@value" : "ventosa"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "suction cup"
   } ],
@@ -2853,7 +2850,7 @@
     "@language" : "it",
     "@value" : "guarnizione"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "it",
     "@value" : "gomma"
   }, {
@@ -2940,7 +2937,7 @@
     "@language" : "it",
     "@value" : "pinza"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "gripper"
   }, {
@@ -3376,7 +3373,7 @@
     "@language" : "it",
     "@value" : "jig"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "it",
     "@value" : "dima"
   }, {
@@ -3571,7 +3568,7 @@
     "@language" : "it",
     "@value" : "led"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "lcd display"
   }, {
@@ -4165,7 +4162,7 @@
     "@language" : "it",
     "@value" : "motoriduttore"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "gearbox"
   } ],
@@ -5650,7 +5647,7 @@
     "@language" : "en",
     "@value" : "scanner"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "barcode reader"
   }, {
@@ -5722,7 +5719,7 @@
     "@language" : "en",
     "@value" : "seal"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "en",
     "@value" : "gasket"
   } ],
@@ -6591,7 +6588,7 @@
     "@language" : "en",
     "@value" : "thermostat"
   } ],
-  "http://www.w3.org/2004/02/skos/core#altlabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@language" : "it",
     "@value" : "termoregolatore"
   }, {

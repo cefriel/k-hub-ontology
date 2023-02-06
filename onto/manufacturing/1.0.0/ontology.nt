@@ -44,9 +44,6 @@
 # http://www.w3.org/2004/02/skos/core#altLabel
 <http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://www.w3.org/2004/02/skos/core#altlabel
-<http://www.w3.org/2004/02/skos/core#altlabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # http://www.w3.org/2004/02/skos/core#prefLabel
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -280,8 +277,8 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2000/01/rdf-schema#label> "board"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2000/01/rdf-schema#label> "scheda "@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2004/02/skos/core#altlabel> "electronic board"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2004/02/skos/core#altlabel> "scheda elettronica"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2004/02/skos/core#altLabel> "electronic board"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2004/02/skos/core#altLabel> "scheda elettronica"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2004/02/skos/core#prefLabel> "board"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#board> <http://www.w3.org/2004/02/skos/core#prefLabel> "scheda "@it .
 # 
@@ -553,7 +550,7 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2000/01/rdf-schema#label> "contactor"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2000/01/rdf-schema#label> "contattore"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2000/01/rdf-schema#label> "teleruttore"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2004/02/skos/core#altlabel> "remote control switch"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2004/02/skos/core#altLabel> "remote control switch"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2004/02/skos/core#prefLabel> "contactor"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2004/02/skos/core#prefLabel> "contattore"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#contactor> <http://www.w3.org/2004/02/skos/core#prefLabel> "teleruttore"@it .
@@ -611,7 +608,7 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2000/01/rdf-schema#label> "cup"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2000/01/rdf-schema#label> "ventosa"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2004/02/skos/core#altlabel> "suction cup"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2004/02/skos/core#altLabel> "suction cup"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2004/02/skos/core#prefLabel> "cup"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#cup> <http://www.w3.org/2004/02/skos/core#prefLabel> "ventosa"@it .
 # 
@@ -1190,8 +1187,8 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2000/01/rdf-schema#label> "gasket"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2000/01/rdf-schema#label> "guarnizione"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2004/02/skos/core#altlabel> "gomma"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2004/02/skos/core#altlabel> "rubber"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2004/02/skos/core#altLabel> "gomma"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2004/02/skos/core#altLabel> "rubber"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2004/02/skos/core#prefLabel> "gasket"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#gasket> <http://www.w3.org/2004/02/skos/core#prefLabel> "guarnizione"@it .
 # 
@@ -1224,8 +1221,8 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2000/01/rdf-schema#label> "grasper"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2000/01/rdf-schema#label> "pinza"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2004/02/skos/core#altlabel> "gripper"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2004/02/skos/core#altlabel> "mano"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2004/02/skos/core#altLabel> "gripper"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2004/02/skos/core#altLabel> "mano"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2004/02/skos/core#prefLabel> "grasper"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#grasper> <http://www.w3.org/2004/02/skos/core#prefLabel> "pinza"@it .
 # 
@@ -1394,9 +1391,9 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2000/01/rdf-schema#label> "jig"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2000/01/rdf-schema#label> "jig"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#altlabel> "dima"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#altlabel> "mechanical template"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#altlabel> "modello"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#altLabel> "dima"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#altLabel> "mechanical template"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#altLabel> "modello"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#prefLabel> "jig"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#jig> <http://www.w3.org/2004/02/skos/core#prefLabel> "jig"@it .
 # 
@@ -1468,8 +1465,8 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2000/01/rdf-schema#label> "led"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2000/01/rdf-schema#label> "led"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2004/02/skos/core#altlabel> "lcd display"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2004/02/skos/core#altlabel> "lcd display"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2004/02/skos/core#altLabel> "lcd display"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2004/02/skos/core#altLabel> "lcd display"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2004/02/skos/core#prefLabel> "led"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#led> <http://www.w3.org/2004/02/skos/core#prefLabel> "led"@it .
 # 
@@ -1702,7 +1699,7 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer> <http://www.w3.org/2000/01/rdf-schema#label> "motoreducer"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer> <http://www.w3.org/2000/01/rdf-schema#label> "motoriduttore"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer> <http://www.w3.org/2004/02/skos/core#altlabel> "gearbox"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer> <http://www.w3.org/2004/02/skos/core#altLabel> "gearbox"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer> <http://www.w3.org/2004/02/skos/core#prefLabel> "motoreducer"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#motoreducer> <http://www.w3.org/2004/02/skos/core#prefLabel> "motoriduttore"@it .
 # 
@@ -2279,8 +2276,8 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2000/01/rdf-schema#label> "lettore scanner"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2000/01/rdf-schema#label> "scanner"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2004/02/skos/core#altlabel> "barcode reader"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2004/02/skos/core#altlabel> "lettore barcode"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2004/02/skos/core#altLabel> "barcode reader"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2004/02/skos/core#altLabel> "lettore barcode"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2004/02/skos/core#prefLabel> "lettore scanner"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#scanner> <http://www.w3.org/2004/02/skos/core#prefLabel> "scanner"@en .
 # 
@@ -2307,7 +2304,7 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2000/01/rdf-schema#label> "guarnizione"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2000/01/rdf-schema#label> "guarnizione strisciante"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2000/01/rdf-schema#label> "seal"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2004/02/skos/core#altlabel> "gasket"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2004/02/skos/core#altLabel> "gasket"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2004/02/skos/core#prefLabel> "guarnizione"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2004/02/skos/core#prefLabel> "guarnizione strisciante"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#seal> <http://www.w3.org/2004/02/skos/core#prefLabel> "seal"@en .
@@ -2649,8 +2646,8 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component> .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2000/01/rdf-schema#label> "termostato"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2000/01/rdf-schema#label> "thermostat"@en .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2004/02/skos/core#altlabel> "termoregolatore"@it .
-<https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2004/02/skos/core#altlabel> "thermo-regulator"@en .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2004/02/skos/core#altLabel> "termoregolatore"@it .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2004/02/skos/core#altLabel> "thermo-regulator"@en .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2004/02/skos/core#prefLabel> "termostato"@it .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#thermostat> <http://www.w3.org/2004/02/skos/core#prefLabel> "thermostat"@en .
 # 

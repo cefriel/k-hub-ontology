@@ -95,13 +95,6 @@
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#altlabel -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altlabel"/>
-    
-
-
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
 
@@ -491,8 +484,8 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart"/>
         <rdfs:label xml:lang="en">board</rdfs:label>
         <rdfs:label xml:lang="it">scheda </rdfs:label>
-        <skos:altlabel xml:lang="en">electronic board</skos:altlabel>
-        <skos:altlabel xml:lang="it">scheda elettronica</skos:altlabel>
+        <skos:altLabel xml:lang="en">electronic board</skos:altLabel>
+        <skos:altLabel xml:lang="it">scheda elettronica</skos:altLabel>
         <skos:prefLabel xml:lang="en">board</skos:prefLabel>
         <skos:prefLabel xml:lang="it">scheda </skos:prefLabel>
     </owl:NamedIndividual>
@@ -924,7 +917,7 @@
         <rdfs:label xml:lang="en">contactor</rdfs:label>
         <rdfs:label xml:lang="it">contattore</rdfs:label>
         <rdfs:label xml:lang="it">teleruttore</rdfs:label>
-        <skos:altlabel xml:lang="en">remote control switch</skos:altlabel>
+        <skos:altLabel xml:lang="en">remote control switch</skos:altLabel>
         <skos:prefLabel xml:lang="en">contactor</skos:prefLabel>
         <skos:prefLabel xml:lang="it">contattore</skos:prefLabel>
         <skos:prefLabel xml:lang="it">teleruttore</skos:prefLabel>
@@ -1017,7 +1010,7 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#SparePart"/>
         <rdfs:label xml:lang="en">cup</rdfs:label>
         <rdfs:label xml:lang="it">ventosa</rdfs:label>
-        <skos:altlabel xml:lang="en">suction cup</skos:altlabel>
+        <skos:altLabel xml:lang="en">suction cup</skos:altLabel>
         <skos:prefLabel xml:lang="en">cup</skos:prefLabel>
         <skos:prefLabel xml:lang="it">ventosa</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1966,8 +1959,8 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"/>
         <rdfs:label xml:lang="en">gasket</rdfs:label>
         <rdfs:label xml:lang="it">guarnizione</rdfs:label>
-        <skos:altlabel xml:lang="it">gomma</skos:altlabel>
-        <skos:altlabel xml:lang="en">rubber</skos:altlabel>
+        <skos:altLabel xml:lang="it">gomma</skos:altLabel>
+        <skos:altLabel xml:lang="en">rubber</skos:altLabel>
         <skos:prefLabel xml:lang="en">gasket</skos:prefLabel>
         <skos:prefLabel xml:lang="it">guarnizione</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2020,8 +2013,8 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"/>
         <rdfs:label xml:lang="en">grasper</rdfs:label>
         <rdfs:label xml:lang="it">pinza</rdfs:label>
-        <skos:altlabel xml:lang="en">gripper</skos:altlabel>
-        <skos:altlabel xml:lang="it">mano</skos:altlabel>
+        <skos:altLabel xml:lang="en">gripper</skos:altLabel>
+        <skos:altLabel xml:lang="it">mano</skos:altLabel>
         <skos:prefLabel xml:lang="en">grasper</skos:prefLabel>
         <skos:prefLabel xml:lang="it">pinza</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2285,9 +2278,9 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"/>
         <rdfs:label xml:lang="en">jig</rdfs:label>
         <rdfs:label xml:lang="it">jig</rdfs:label>
-        <skos:altlabel xml:lang="it">dima</skos:altlabel>
-        <skos:altlabel xml:lang="en">mechanical template</skos:altlabel>
-        <skos:altlabel xml:lang="it">modello</skos:altlabel>
+        <skos:altLabel xml:lang="it">dima</skos:altLabel>
+        <skos:altLabel xml:lang="en">mechanical template</skos:altLabel>
+        <skos:altLabel xml:lang="it">modello</skos:altLabel>
         <skos:prefLabel xml:lang="en">jig</skos:prefLabel>
         <skos:prefLabel xml:lang="it">jig</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2399,8 +2392,8 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"/>
         <rdfs:label xml:lang="en">led</rdfs:label>
         <rdfs:label xml:lang="it">led</rdfs:label>
-        <skos:altlabel xml:lang="en">lcd display</skos:altlabel>
-        <skos:altlabel xml:lang="it">lcd display</skos:altlabel>
+        <skos:altLabel xml:lang="en">lcd display</skos:altLabel>
+        <skos:altLabel xml:lang="it">lcd display</skos:altLabel>
         <skos:prefLabel xml:lang="en">led</skos:prefLabel>
         <skos:prefLabel xml:lang="it">led</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2773,7 +2766,7 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"/>
         <rdfs:label xml:lang="en">motoreducer</rdfs:label>
         <rdfs:label xml:lang="it">motoriduttore</rdfs:label>
-        <skos:altlabel xml:lang="en">gearbox</skos:altlabel>
+        <skos:altLabel xml:lang="en">gearbox</skos:altLabel>
         <skos:prefLabel xml:lang="en">motoreducer</skos:prefLabel>
         <skos:prefLabel xml:lang="it">motoriduttore</skos:prefLabel>
     </owl:NamedIndividual>
@@ -3675,8 +3668,8 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"/>
         <rdfs:label xml:lang="it">lettore scanner</rdfs:label>
         <rdfs:label xml:lang="en">scanner</rdfs:label>
-        <skos:altlabel xml:lang="en">barcode reader</skos:altlabel>
-        <skos:altlabel xml:lang="it">lettore barcode</skos:altlabel>
+        <skos:altLabel xml:lang="en">barcode reader</skos:altLabel>
+        <skos:altLabel xml:lang="it">lettore barcode</skos:altLabel>
         <skos:prefLabel xml:lang="it">lettore scanner</skos:prefLabel>
         <skos:prefLabel xml:lang="en">scanner</skos:prefLabel>
     </owl:NamedIndividual>
@@ -3718,7 +3711,7 @@
         <rdfs:label xml:lang="it">guarnizione</rdfs:label>
         <rdfs:label xml:lang="it">guarnizione strisciante</rdfs:label>
         <rdfs:label xml:lang="en">seal</rdfs:label>
-        <skos:altlabel xml:lang="en">gasket</skos:altlabel>
+        <skos:altLabel xml:lang="en">gasket</skos:altLabel>
         <skos:prefLabel xml:lang="it">guarnizione</skos:prefLabel>
         <skos:prefLabel xml:lang="it">guarnizione strisciante</skos:prefLabel>
         <skos:prefLabel xml:lang="en">seal</skos:prefLabel>
@@ -4265,8 +4258,8 @@
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/k-hub/manufacturing#Component"/>
         <rdfs:label xml:lang="it">termostato</rdfs:label>
         <rdfs:label xml:lang="en">thermostat</rdfs:label>
-        <skos:altlabel xml:lang="it">termoregolatore</skos:altlabel>
-        <skos:altlabel xml:lang="en">thermo-regulator</skos:altlabel>
+        <skos:altLabel xml:lang="it">termoregolatore</skos:altLabel>
+        <skos:altLabel xml:lang="en">thermo-regulator</skos:altLabel>
         <skos:prefLabel xml:lang="it">termostato</skos:prefLabel>
         <skos:prefLabel xml:lang="en">thermostat</skos:prefLabel>
     </owl:NamedIndividual>

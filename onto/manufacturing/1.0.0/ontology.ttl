@@ -56,10 +56,6 @@
 <http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
 
 
-###  http://www.w3.org/2004/02/skos/core#altlabel
-<http://www.w3.org/2004/02/skos/core#altlabel> rdf:type owl:AnnotationProperty .
-
-
 ###  http://www.w3.org/2004/02/skos/core#prefLabel
 <http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
 
@@ -313,7 +309,7 @@
                 :SparePart ;
        rdfs:label "board"@en ,
                   "scheda "@it ;
-       <http://www.w3.org/2004/02/skos/core#altlabel> "electronic board"@en ,
+       <http://www.w3.org/2004/02/skos/core#altLabel> "electronic board"@en ,
                                                       "scheda elettronica"@it ;
        <http://www.w3.org/2004/02/skos/core#prefLabel> "board"@en ,
                                                        "scheda "@it .
@@ -618,7 +614,7 @@
            rdfs:label "contactor"@en ,
                       "contattore"@it ,
                       "teleruttore"@it ;
-           <http://www.w3.org/2004/02/skos/core#altlabel> "remote control switch"@en ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "remote control switch"@en ;
            <http://www.w3.org/2004/02/skos/core#prefLabel> "contactor"@en ,
                                                            "contattore"@it ,
                                                            "teleruttore"@it .
@@ -683,7 +679,7 @@
               :SparePart ;
      rdfs:label "cup"@en ,
                 "ventosa"@it ;
-     <http://www.w3.org/2004/02/skos/core#altlabel> "suction cup"@en ;
+     <http://www.w3.org/2004/02/skos/core#altLabel> "suction cup"@en ;
      <http://www.w3.org/2004/02/skos/core#prefLabel> "cup"@en ,
                                                      "ventosa"@it .
 
@@ -1336,7 +1332,7 @@
                  :Component ;
         rdfs:label "gasket"@en ,
                    "guarnizione"@it ;
-        <http://www.w3.org/2004/02/skos/core#altlabel> "gomma"@it ,
+        <http://www.w3.org/2004/02/skos/core#altLabel> "gomma"@it ,
                                                        "rubber"@en ;
         <http://www.w3.org/2004/02/skos/core#prefLabel> "gasket"@en ,
                                                         "guarnizione"@it .
@@ -1374,7 +1370,7 @@
                   :Component ;
          rdfs:label "grasper"@en ,
                     "pinza"@it ;
-         <http://www.w3.org/2004/02/skos/core#altlabel> "gripper"@en ,
+         <http://www.w3.org/2004/02/skos/core#altLabel> "gripper"@en ,
                                                         "mano"@it ;
          <http://www.w3.org/2004/02/skos/core#prefLabel> "grasper"@en ,
                                                          "pinza"@it .
@@ -1563,7 +1559,7 @@
               :Component ;
      rdfs:label "jig"@en ,
                 "jig"@it ;
-     <http://www.w3.org/2004/02/skos/core#altlabel> "dima"@it ,
+     <http://www.w3.org/2004/02/skos/core#altLabel> "dima"@it ,
                                                     "mechanical template"@en ,
                                                     "modello"@it ;
      <http://www.w3.org/2004/02/skos/core#prefLabel> "jig"@en ,
@@ -1645,7 +1641,7 @@
               :Component ;
      rdfs:label "led"@en ,
                 "led"@it ;
-     <http://www.w3.org/2004/02/skos/core#altlabel> "lcd display"@en ,
+     <http://www.w3.org/2004/02/skos/core#altLabel> "lcd display"@en ,
                                                     "lcd display"@it ;
      <http://www.w3.org/2004/02/skos/core#prefLabel> "led"@en ,
                                                      "led"@it .
@@ -1907,7 +1903,7 @@
                       :Component ;
              rdfs:label "motoreducer"@en ,
                         "motoriduttore"@it ;
-             <http://www.w3.org/2004/02/skos/core#altlabel> "gearbox"@en ;
+             <http://www.w3.org/2004/02/skos/core#altLabel> "gearbox"@en ;
              <http://www.w3.org/2004/02/skos/core#prefLabel> "motoreducer"@en ,
                                                              "motoriduttore"@it .
 
@@ -2549,7 +2545,7 @@
                   :Component ;
          rdfs:label "lettore scanner"@it ,
                     "scanner"@en ;
-         <http://www.w3.org/2004/02/skos/core#altlabel> "barcode reader"@en ,
+         <http://www.w3.org/2004/02/skos/core#altLabel> "barcode reader"@en ,
                                                         "lettore barcode"@it ;
          <http://www.w3.org/2004/02/skos/core#prefLabel> "lettore scanner"@it ,
                                                          "scanner"@en .
@@ -2580,7 +2576,7 @@
       rdfs:label "guarnizione"@it ,
                  "guarnizione strisciante"@it ,
                  "seal"@en ;
-      <http://www.w3.org/2004/02/skos/core#altlabel> "gasket"@en ;
+      <http://www.w3.org/2004/02/skos/core#altLabel> "gasket"@en ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "guarnizione"@it ,
                                                       "guarnizione strisciante"@it ,
                                                       "seal"@en .
@@ -2963,7 +2959,7 @@
                      :Component ;
             rdfs:label "termostato"@it ,
                        "thermostat"@en ;
-            <http://www.w3.org/2004/02/skos/core#altlabel> "termoregolatore"@it ,
+            <http://www.w3.org/2004/02/skos/core#altLabel> "termoregolatore"@it ,
                                                            "thermo-regulator"@en ;
             <http://www.w3.org/2004/02/skos/core#prefLabel> "termostato"@it ,
                                                             "thermostat"@en .
