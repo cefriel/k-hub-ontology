@@ -6,6 +6,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
@@ -19,7 +20,12 @@
         <dc:creator>Irene Celino (Cefriel)</dc:creator>
         <dc:publisher>Cefriel</dc:publisher>
         <dc:title>The Knowledge Hub Ontology - Manufacturing</dc:title>
+        <terms:bibliographicCitation>https://doi.org/10.5281/zenodo.7443000</terms:bibliographicCitation>
+        <terms:created>2022-12-01</terms:created>
+        <terms:description>It defines the specific topics for the domain of interest of the documents, identified with the help of domain experts</terms:description>
+        <terms:issued>2022-12-01</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <bibo:doi>https://doi.org/10.5281/zenodo.7443000</bibo:doi>
         <vann:preferredNamespacePrefix>kh-m</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://knowledge.c-innovationhub.com/k-hub/manufacturing#</vann:preferredNamespaceUri>
         <owl:versionInfo>1.0.0</owl:versionInfo>
@@ -67,10 +73,45 @@
     
 
 
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
     
 
 

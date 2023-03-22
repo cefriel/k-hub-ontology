@@ -6,6 +6,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
@@ -18,7 +19,11 @@
         <dc:creator>Irene Celino (Cefriel)</dc:creator>
         <dc:publisher>Cefriel</dc:publisher>
         <dc:title>The Knowledge Hub Ontology - Annotation</dc:title>
+        <terms:bibliographicCitation>https://doi.org/10.5281/zenodo.7443000</terms:bibliographicCitation>
+        <terms:description>It describes the general characteristics of annotated documents and models the relashionship between a document and the topics it is about</terms:description>
+        <terms:issued>2022-12-01</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <bibo:doi>https://doi.org/10.5281/zenodo.7443000</bibo:doi>
         <vann:preferredNamespacePrefix>kh-a</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://knowledge.c-innovationhub.com/k-hub/annotation#</vann:preferredNamespaceUri>
         <owl:versionInfo>1.0.0</owl:versionInfo>
@@ -66,10 +71,38 @@
     
 
 
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
     
 
 
@@ -300,6 +333,7 @@
 
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
+        <rdfs:comment>Agent</rdfs:comment>
         <rdfs:label>Agent</rdfs:label>
     </owl:Class>
     
@@ -309,6 +343,7 @@
 
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <rdfs:comment>Document</rdfs:comment>
         <rdfs:label>Document</rdfs:label>
     </owl:Class>
     
@@ -318,6 +353,7 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#Topic">
+        <rdfs:comment>Topic</rdfs:comment>
         <rdfs:label>Topic</rdfs:label>
     </owl:Class>
     
@@ -327,8 +363,13 @@
 
 
     <owl:Class rdf:about="https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation">
+        <rdfs:comment>Topic Annotation</rdfs:comment>
         <rdfs:label>Topic Annotation</rdfs:label>
     </owl:Class>
+    
+
+
+  
 </rdf:RDF>
 
 

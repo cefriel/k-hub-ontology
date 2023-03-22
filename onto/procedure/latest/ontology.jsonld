@@ -11,6 +11,18 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -43,6 +55,9 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://purl.org/net/p-plan#Plan"
   } ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/doi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -119,8 +134,23 @@
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@value" : "The Knowledge Hub Ontology - Procedure"
   } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@value" : "https://doi.org/10.5281/zenodo.7443000"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2022-12-01"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "It  defines the main concepts and the properties that are used for describing procedures for performing maintenance activities in manufacturing companies"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2022-12-01"
+  } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/ontology/bibo/doi" : [ {
+    "@value" : "https://doi.org/10.5281/zenodo.7443000"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "kh-p"

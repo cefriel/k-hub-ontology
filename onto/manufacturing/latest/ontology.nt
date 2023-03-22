@@ -7,7 +7,12 @@
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/creator> "Irene Celino (Cefriel)" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/publisher> "Cefriel" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Manufacturing" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/terms/bibliographicCitation> "https://doi.org/10.5281/zenodo.7443000" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/terms/created> "2022-12-01" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/terms/description> "It defines the specific topics for the domain of interest of the documents, identified with the help of domain experts" .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/terms/issued> "2022-12-01" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/ontology/bibo/doi> "https://doi.org/10.5281/zenodo.7443000" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-m" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/k-hub/manufacturing#" .
 <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
@@ -32,8 +37,23 @@
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

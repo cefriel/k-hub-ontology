@@ -11,6 +11,9 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/created",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -35,6 +38,9 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/format",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -46,6 +52,9 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/language",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
@@ -98,6 +107,9 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "http://purl.org/ontology/bibo/doi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -109,6 +121,9 @@
 }, {
   "@id" : "http://www.w3.org/ns/prov#Agent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Agent"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Agent"
   } ]
@@ -127,54 +142,27 @@
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/Document",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Document"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Document"
   } ]
 }, {
-  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/contributor" : [ {
-    "@value" : "Marposs"
-  }, {
-    "@value" : "Whirlpool EMEA"
-  } ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "Antonia Azzini (Cefriel)"
-  }, {
-    "@value" : "Gloria Re Calegari (Cefriel)"
-  }, {
-    "@value" : "Irene Celino (Cefriel)"
-  } ],
-  "http://purl.org/dc/elements/1.1/publisher" : [ {
-    "@value" : "Cefriel"
-  } ],
-  "http://purl.org/dc/elements/1.1/title" : [ {
-    "@value" : "The Knowledge Hub Ontology - Annotation"
-  } ],
-  "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
-    "@value" : "kh-a"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "https://knowledge.c-innovationhub.com/k-hub/annotation#"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/1.0.0"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "1.0.0"
-  } ]
-}, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#Topic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Topic"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Topic"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation#TopicAnnotation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Topic Annotation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Topic Annotation"
   } ]
@@ -249,5 +237,56 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Marposs"
+  }, {
+    "@value" : "Whirlpool EMEA"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Antonia Azzini (Cefriel)"
+  }, {
+    "@value" : "Gloria Re Calegari (Cefriel)"
+  }, {
+    "@value" : "Irene Celino (Cefriel)"
+  } ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@value" : "Cefriel"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "The Knowledge Hub Ontology - Annotation"
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@value" : "https://doi.org/10.5281/zenodo.7443000"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2022-12-01"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "It describes the general characteristics of annotated documents and models the relashionship between a document and the topics it is about"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2022-12-01"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/ontology/bibo/doi" : [ {
+    "@value" : "https://doi.org/10.5281/zenodo.7443000"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "kh-a"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://knowledge.c-innovationhub.com/k-hub/annotation#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/k-hub/annotation/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
   } ]
 } ]

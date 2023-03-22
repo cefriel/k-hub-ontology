@@ -16,6 +16,11 @@
                                                               <http://purl.org/dc/elements/1.1/publisher> "Cefriel" ;
                                                               <http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Manufacturing" ;
                                                               <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+															  <http://purl.org/dc/terms/description> "It defines the specific topics for the domain of interest of the documents, identified with the help of domain experts" ; 
+															  <http://purl.org/dc/terms/bibliographicCitation> "https://doi.org/10.5281/zenodo.7443000";
+															  <http://purl.org/ontology/bibo/doi> "https://doi.org/10.5281/zenodo.7443000";
+															  <http://purl.org/dc/terms/issued> "2022-12-01";
+															  <http://purl.org/dc/terms/created> "2022-12-01";
                                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-m" ;
                                                               <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/k-hub/manufacturing#" ;
                                                               owl:versionInfo "1.0.0" .
